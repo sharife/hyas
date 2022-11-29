@@ -1,0 +1,11 @@
+{{ define "main" }}
+
+{{ with .Site.GetPage "_index.md"}} 
+{{.Content}} 
+{{end}}
+
+
+<div class="mw7 center ph3 pv4">
+	<p class="cms f6">Golden Thread is a resident company of <a href="http://potrerostage.org/">Potrero Stage</a>, operated by <a href="http://playground-sf.org/">PlayGround</a>.</p>
+</div>
+{{ end }}
