@@ -1,0 +1,31 @@
+{{ define "main" }}
+
+
+{{ range (where .Site.Pages "Section" "testdata") }}
+   {{ range .Pages }}
+      <div id="{{ .Title }}" style="display:none;" class="story">
+         {{ .Title   }}
+         {{ .Content }}
+         {{ $temp := .Title }}
+      </div>
+      
+      <button onclick="myFunction({{$temp}})">Toggle {{.Title}} </button>
+      <script>
+         function myFunction(temp) {
+            var x = document.getElementById(temp);
+            var arrayOfElements= document.getElementsByClassName("story")
+            for (var i=0; i<arrayOfElements.length;i++){
+               arrayOfElements[i].style.display='none';
+            }
+            if (x.style.display === "none") {
+              x.style.display = "block";
+            } else {
+              x.style.display = "none";
+            }
+          }
+      </script>
+   {{ end }}
+{{ end }}
+{{ end }}
+
+
