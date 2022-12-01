@@ -6,9 +6,13 @@
       <div id="{{ .Title }}" style="display:none;" class="story">
          {{ .Title   }}
          {{ .Content }}
-         {{ $temp := .Title }}
       </div>
-      
+   {{ end }}
+{{ end }}
+
+{{ range (where .Site.Pages "Section" "testdata") }}
+   {{ range .Pages }}
+      {{ $temp := .Title }}
       <button onclick="myFunction({{$temp}})">Toggle {{.Title}} </button>
       <script>
          function myFunction(temp) {
@@ -18,14 +22,16 @@
                arrayOfElements[i].style.display='none';
             }
             if (x.style.display === "none") {
-              x.style.display = "block";
+            x.style.display = "block";
             } else {
-              x.style.display = "none";
+            x.style.display = "none";
             }
-          }
+         }
       </script>
    {{ end }}
 {{ end }}
+
+
 {{ end }}
 
 
