@@ -2,9 +2,9 @@
 console.log("AH");
 
 
-window.myFunction = myFunction;
+window.showText = showText;
 
-function myFunction(temp) {
+function showText(temp) {
       var x = document.getElementById(temp);
       var arrayOfElements= document.getElementsByClassName("story")
       for (var i=0; i<arrayOfElements.length;i++){

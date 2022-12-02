@@ -12,7 +12,7 @@
 {{ range (where .Site.Pages "Section" "testdata") }}
    {{ range .Pages }}
       {{ $temp := .Title }}
-      <button onclick="myFunction({{$temp}})">Toggle {{.Title}} </button>
+      <button onclick="showText({{$temp}})">Toggle {{.Title}} </button>
    {{ end }}
 {{ end }}
 

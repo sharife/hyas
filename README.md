@@ -62,3 +62,18 @@ npm create hyas@latest
 Support this project by becoming a backer. Your avatar will show up here.
 
 [![Backers](https://opencollective.com/hyas/tiers/backer.svg)](https://opencollective.com/hyas)
+
+
+
+
+Build js webpack
+
+```bash
+npm start
+```
+
+Run server
+
+```bash
+npm run dev
+```

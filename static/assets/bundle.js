@@ -15,7 +15,7 @@
   \***********************/
 /***/ (function() {
 
-eval("\nconsole.log(\"AH\");\n\n\nwindow.myFunction = myFunction;\n\nfunction myFunction(temp) {\n      var x = document.getElementById(temp);\n      var arrayOfElements= document.getElementsByClassName(\"story\")\n      for (var i=0; i<arrayOfElements.length;i++){\n         arrayOfElements[i].style.display='none';\n      }\n      if (x.style.display === \"none\") {\n      x.style.display = \"block\";\n      } else {\n      x.style.display = \"none\";\n      }\n}\n\n//# sourceURL=webpack://gethyas/./src/js/app.js?");
+eval("\nconsole.log(\"AH\");\n\n\nwindow.showText = showText;\n\nfunction showText(temp) {\n      var x = document.getElementById(temp);\n      var arrayOfElements= document.getElementsByClassName(\"story\")\n      for (var i=0; i<arrayOfElements.length;i++){\n         arrayOfElements[i].style.display='none';\n      }\n      if (x.style.display === \"none\") {\n      x.style.display = \"block\";\n      } else {\n      x.style.display = \"none\";\n      }\n}\n\n//# sourceURL=webpack://gethyas/./src/js/app.js?");
 
 /***/ })
 
