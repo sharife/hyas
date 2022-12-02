@@ -15,6 +15,7 @@
   },
   "license": "MIT",
   "scripts": {
+    "start": "webpack --mode=development --watch",
     "predev": "npm run clean:build",
     "dev": "exec-bin node_modules/.bin/hugo/hugo server --gc --bind=0.0.0.0 --disableFastRender --baseURL=http://localhost",
     "create": "exec-bin node_modules/.bin/hugo/hugo new",
@@ -62,5 +63,9 @@
   },
   "otherDependencies": {
     "hugo": "0.105.0"
+  },
+  "devDependencies": {
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.0"
   }
 }
