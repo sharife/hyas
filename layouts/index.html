@@ -2,7 +2,7 @@
 
 {{ range (where .Site.Pages "Section" "testdata") }}
    {{ range .Pages }}
-      <div id="{{ .Title }}" style="display:none;" class="story">
+      <div id="{{ .Title }}" class="story">
          {{ .Title   }}
          {{ .Content }}
       </div>
@@ -17,7 +17,11 @@
 {{ end }}
 
 
-
+<style>
+   .story {
+      display: none;
+   }
+</style>
 {{ end }}
 
 
