@@ -1,18 +1,656 @@
 backend:
   name: git-gateway
-  branch: master # Branch to update (optional; defaults to master)
-media_folder: static/img
-public_folder: /img
-collections:
-  - name: 'blog'
-    label: 'Blog'
-    folder: 'content/blog'
-    create: true
-    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+display_url: https://goldenthread.org
+publish_mode: editorial_workflow
+media_library:
+  name: uploadcare
+  config:
+    publicKey: 27bd1f32452db346e082
+    imageShrink: 1600x1600 95%
+    tabs: "file url gdrive dropbox facebook"
+media_folder: "site/static/img" # Folder where user uploaded files should go
+public_folder: "img"
+
+collections: # A list of collections the CMS should be able to edit
+  - name: "production" # Used in routes, ie.: /admin/collections/:slug/edit
+    label: "Productions" # Used in the UI, ie.: "New Post"
+    label_singular: "Production"
+    folder: "site/content/productions" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
     editor:
       preview: false
-    fields:
-      - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
-      - { label: 'Description', name: 'description', widget: 'string' }
-      - { label: 'Body', name: 'body', widget: 'markdown' }
+    fields: # The fields each document in this collection have
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Eyebrow", name: "pre", widget: "string", required: false}
+      - {label: "Season", name: "season", widget: "number", required: false}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Start Date", name: "start", widget: "datetime", required: false}
+      - {label: "End Date", name: "end", widget: "datetime", required: false}
+      - {label: "Heading", name: "heading", widget: "string", required: false}
+      - {label: "Intro", name: "description", widget: "markdown", required: false}
+      - {label: "Header Image", name: "background", widget: "image", required: false}
+      - {label: "Title Image", name: "titleimage", widget: "image", required: false}
+      - {label: "Program Label", name: "programlabel", widget: "string", required: false}
+      - {label: "Program Upload", name: "program", widget: "file", required: false}
+      - {label: "PDF Label", name: "pdflabel", widget: "string", required: false}
+      - {label: "PDF Upload", name: "pdf", widget: "file", required: false}
+      - label: Videos
+        name: videos
+        widget: list
+        fields:
+          - {label: YouTube ID, name: id, widget: string, required: false}
+      - {label: "Writer", name: "writer", widget: "string", required: false}
+      - {label: "Director", name: "director", widget: "string", required: false}
+      - {label: "Featuring", name: "featuring", widget: "string", required: false}
+      - {label: "Design Team", name: "designteam", widget: "string", required: false}
+      - {label: "Translator", name: "translator", widget: "string", required: false}
+      - {label: "Dramaturg", name: "dramaturg", widget: "string", required: false}
+      - {label: "Music by", name: "musicaldirector", widget: "string", required: false}
+      - {label: "Additional Credit", name: "additional", widget: "string", required: false}
+      - {label: "Stage", name: "stage", widget: "string", required: false}
+      - {label: "Address", name: "address", widget: "string", required: false}
+      - {label: "Visit Link", name: "visitlink", widget: "string", required: false}
+      - {label: "Ticket Link", name: "ticketlink", widget: "string", required: false}
+      - {label: "Ticket Info", name: "ticketinfo", widget: "string", required: false}
+      - {label: "Awards Image", name: "awardsimage", widget: "image", required: false}
+      - {label: "Awards Text", name: "awards", widget: "string", required: false}
+      - {label: "External Link", name: "externallink", widget: "string", required: false}
+      - {label: "External Link Label", name: "externallinklabel", widget: "string", required: false}
+      - {label: "Misc. Text", name: "misc", widget: "text", required: false}
+      - label: "Lists"
+        name: "lists"
+        widget: "list"
+        fields:
+          - {label: "Heading", name: "heading", widget: "string", required: false}
+          - label: Items
+            name: items
+            widget: list
+            fields:
+              - {label: "Title", name: "title", widget: "string", required: false}
+              - {label: "Eyebrow", name: "pre", widget: "string", required: false}
+              - {label: "Subtitle", name: "subtitle", widget: "markdown", required: false}
+              - {label: "Image", name: "image", widget: "image", required: false}
+              - {label: "Start Date", name: "itemstart", widget: "datetime", required: false}
+              - {label: "End Date", name: "itemend", widget: "datetime", required: false}
+              - {label: "Text", name: "text", widget: "markdown", required: false}
+              - {label: "Call to action", name: "cta", widget: "string", required: false}
+              - {label: "Link", name: "link", widget: "string", required: false}
+      - label: "Grids"
+        name: "grids"
+        widget: "list"
+        fields:
+          - {label: "Heading", name: "heading", widget: "string", required: false}
+          - label: Items
+            name: items
+            widget: list
+            fields:
+              - {label: "Title", name: "title", widget: "string", required: false}
+              - {label: "Eyebrow", name: "pre", widget: "string", required: false}
+              - {label: "Subtitle", name: "subtitle", widget: "markdown", required: false}
+              - {label: "Image", name: "image", widget: "image", required: false}
+              - {label: "Start Date", name: "itemstart", widget: "datetime", required: false}
+              - {label: "End Date", name: "itemend", widget: "datetime", required: false}
+              - {label: "Text", name: "text", widget: "markdown", required: false}
+              - {label: "Call to action", name: "cta", widget: "string", required: false}
+              - {label: "Link", name: "link", widget: "string", required: false}
+      - {label: "Body", name: "body", widget: "markdown"}
+      - label: Cast and Crew
+        name: cast
+        widget: object
+        required: false
+        fields:
+          - {label: "Heading", name: "heading", widget: "string", required: false}
+          - label: Bios
+            name: items
+            widget: list
+            fields:
+              - {label: "Name", name: "name", widget: "string", required: false}
+              - {label: "Credit", name: "credit", widget: "string", required: false}
+              - {label: Image, name: image, widget: image, required: false}
+              - {label: "Bio", name: "bio", widget: "markdown", required: false}
+              - {label: "Link", name: "link", widget: "string", required: false}
+              - {label: "Alt. Text", name: "text", widget: "markdown", required: false}
+      - label: More Information
+        name: mentions
+        widget: object
+        fields:
+          - {label: "Heading", name: "heading", widget: "string", required: false}
+          - {label: "Text", name: "text", widget: "markdown", required: false}
+      - label: Photo Gallery 1
+        name: photos
+        widget: object
+        required: false
+        fields: 
+          - {label: "Heading", name: "heading", widget: "string", required: false}
+          - label: Images
+            name: items
+            widget: list
+            fields:
+              - {label: Image, name: image, widget: image, required: false}
+      - label: Photo Gallery 2
+        name: photos2
+        widget: object
+        required: false
+        fields: 
+          - {label: "Heading", name: "heading", widget: "string", required: false}
+          - label: Images
+            name: items
+            widget: list
+            fields:
+              - {label: Image, name: image, widget: image, required: false}
+      - label: Photo Gallery 3
+        name: photos3
+        widget: object
+        required: false
+        fields: 
+          - {label: "Heading", name: "heading", widget: "string", required: false}
+          - label: Images
+            name: items
+            widget: list
+            fields:
+              - {label: Image, name: image, widget: image, required: false}
+      - {label: Archival video 1 (YouTube ID), name: archivevideo, widget: string, required: false}
+      - {label: Archival video 2 (YouTube ID), name: archivevideo2, widget: string, required: false}
+      - {label: Archival video 3 (YouTube ID), name: archivevideo3, widget: string, required: false}
+      - label: Sponsors/Bottom
+        name: bottom
+        widget: object
+        fields:
+          - {label: "Heading", name: "heading", widget: "string", required: false}
+          - {label: "Text", name: "text", widget: "markdown", required: false}
+          - label: Logos
+            name: logos
+            widget: list
+            fields:
+              - {label: Image, name: image, widget: image, required: false}
+  - name: "post" # Used in routes, ie.: /admin/collections/:slug/edit
+    label: "Posts" # Used in the UI, ie.: "New Post"
+    label_singular: "Post"
+    folder: "site/content/posts" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    editor:
+      preview: false
+    fields: # The fields each document in this collection have
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Intro Blurb", name: "description", widget: "text", required: false}
+      - {label: "Header Image", name: "background", widget: "image", required: false}
+      - {label: "Body", name: "body", widget: "markdown"}
+  - name: "pages"
+    label: "Pages"
+    editor:
+      preview: false
+    files:
+      - file: "site/content/_index.md"
+        label: "Home Page"
+        name: "home"
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: Headline, name: headline, widget: string}
+          - {label: Subtitle, name: subtitle, widget: string, required: false}
+          - {label: Image, name: background, widget: image}
+          - {label: Call to action, name: cta, widget: string}
+          - {label: Link, name: link, widget: string}
+          - label: Blurbs
+            name: items
+            widget: list
+            fields:
+              - {label: Title, name: subtitle, widget: markdown}
+              - {label: Text, name: text, widget: markdown}
+              - {label: Image, name: image, widget: image}
+              - {label: Call to action, name: cta, widget: string}
+              - {label: Link, name: link, widget: string}
+      - file: "site/content/tickets/_index.md"
+        label: "Tickets"
+        name: "tickets"
+        fields:
+          - {label: Title, name: title, widget: string}
+          - label: "Lists"
+            name: "lists"
+            widget: "list"
+            fields:
+              - {label: "Heading", name: "heading", widget: "string", required: false}
+              - label: Items
+                name: items
+                widget: list
+                fields:
+                  - {label: "Title", name: "title", widget: "string", required: false}
+                  - {label: "Eyebrow", name: "pre", widget: "string", required: false}
+                  - {label: "Subtitle", name: "subtitle", widget: "markdown", required: false}
+                  - {label: "Image", name: "image", widget: "image", required: false}
+                  - {label: "Text", name: "text", widget: "markdown", required: false}
+                  - {label: "Call to action", name: "cta", widget: "string", required: false}
+                  - {label: "Link", name: "link", widget: "string", required: false}
+          - {label: Body, name: body, widget: markdown}
+      - file: "site/content/about/people/_index.md"
+        label: "People"
+        name: "people"
+        fields:
+          - {label: Title, name: title, widget: string}
+          - label: Staff
+            name: staff
+            widget: object
+            fields: 
+              - {label: Heading, name: heading, widget: string}
+              - {label: Text, name: text, widget: text, required: false}
+              - label: items
+                name: items
+                widget: list
+                fields:
+                  - {label: "Name", name: "name", widget: "string", required: false}
+                  - {label: "Credit", name: "credit", widget: "string", required: false}
+                  - {label: Image, name: image, widget: image, required: false}
+                  - {label: "Bio", name: "bio", widget: "markdown", required: false}
+                  - {label: "Link", name: "link", widget: "string", required: false}
+          - label: Board of Trustees
+            name: board
+            widget: object
+            fields: 
+              - {label: Heading, name: heading, widget: string}
+              - {label: Text, name: text, widget: text, required: false}
+              - label: items
+                name: items
+                widget: list
+                fields:
+                  - {label: "Name", name: "name", widget: "string", required: false}
+                  - {label: "Credit", name: "credit", widget: "string", required: false}
+                  - {label: Image, name: image, widget: image, required: false}
+                  - {label: "Bio", name: "bio", widget: "markdown", required: false}
+                  - {label: "Link", name: "link", widget: "string", required: false}
+          - label: Artists
+            name: artists
+            widget: object
+            fields: 
+              - {label: Heading, name: heading, widget: string}
+              - {label: Text, name: text, widget: text, required: false}
+              - label: items
+                name: items
+                widget: list
+                fields:
+                  - {label: "Name", name: "name", widget: "string", required: false}
+                  - {label: "Credit", name: "credit", widget: "string", required: false}
+                  - {label: Image, name: image, widget: image, required: false}
+                  - {label: "Bio", name: "bio", widget: "markdown", required: false}
+                  - {label: "Link", name: "link", widget: "string", required: false}
+          - label: Advisory Board
+            name: advisors
+            widget: object
+            fields: 
+              - {label: Heading, name: heading, widget: string}
+              - {label: Text, name: text, widget: text, required: false}
+              - label: items
+                name: items
+                widget: list
+                fields:
+                  - {label: "Name", name: "name", widget: "string", required: false}
+                  - {label: "Credit", name: "credit", widget: "string", required: false}
+                  - {label: Image, name: image, widget: image, required: false}
+                  - {label: "Bio", name: "bio", widget: "markdown", required: false}
+                  - {label: "Link", name: "link", widget: "string", required: false}
+      - file: "site/content/season/_index.md"
+        label: "Season"
+        name: "season"
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: Current Season, name: currentseason, widget: string}
+          - {label: Intro, name: intro, widget: text, required: false}
+          - {label: "Header Image", name: "background", widget: "image", required: false}
+          - label: "Lists"
+            name: "lists"
+            widget: "list"
+            fields:
+              - {label: "Heading", name: "heading", widget: "string", required: false}
+              - label: Items
+                name: items
+                widget: list
+                fields:
+                  - {label: "Title", name: "title", widget: "string", required: false}
+                  - {label: "Eyebrow", name: "pre", widget: "string", required: false}
+                  - {label: "Subtitle", name: "subtitle", widget: "markdown", required: false}
+                  - {label: "Image", name: "image", widget: "image", required: false}
+                  - {label: "Text", name: "text", widget: "markdown", required: false}
+                  - {label: "Call to action", name: "cta", widget: "string", required: false}
+                  - {label: "Link", name: "link", widget: "string", required: false}
+      - file: "site/content/season/upcoming/_index.md"
+        label: "Upcoming Season"
+        name: "upcoming"
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: Season, name: currentseason, widget: string}
+          - {label: Intro, name: intro, widget: text, required: false}
+          - {label: "Header Image", name: "background", widget: "image", required: false}
+          - label: "Lists"
+            name: "lists"
+            widget: "list"
+            fields:
+              - {label: "Heading", name: "heading", widget: "string", required: false}
+              - label: Items
+                name: items
+                widget: list
+                fields:
+                  - {label: "Title", name: "title", widget: "string", required: false}
+                  - {label: "Eyebrow", name: "pre", widget: "string", required: false}
+                  - {label: "Subtitle", name: "subtitle", widget: "markdown", required: false}
+                  - {label: "Image", name: "image", widget: "image", required: false}
+                  - {label: "Text", name: "text", widget: "markdown", required: false}
+                  - {label: "Call to action", name: "cta", widget: "string", required: false}
+                  - {label: "Link", name: "link", widget: "string", required: false}
+      - file: "site/content/programs/_index.md"
+        label: "Programs"
+        name: "programs"
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: Body, name: body, widget: markdown}
+          - label: Programs list
+            name: programs
+            widget: list
+            fields:
+              - {label: "Heading", name: "heading", widget: "string", required: false}
+              - {label: "Image", name: "imageUrl", widget: "image", required: false}
+              - {label: "Text", name: "text", widget: "markdown", required: false}
+              - {label: "Call to action", name: "cta", widget: "string", required: false}
+              - {label: "Link", name: "link", widget: "string", required: false}
+      - file: "site/content/programs/fairytale-players/_index.md"
+        label: "Fairytale Players"
+        name: "fairytale-players"
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: Header Image, name: background, widget: image, required: false}
+          - {label: Heading, name: heading, widget: string, required: false}
+          - {label: Intro, name: intro, widget: text, required: false}
+          - {label: Description, name: description, widget: markdown, required: false}
+          - {label: Body, name: body, widget: markdown}
+          - label: "Sidebar"
+            name: sidebar
+            widget: object
+            fields: 
+              - {label: "Heading", name: "heading", widget: "string", required: false}
+              - {label: "Text", name: "text", widget: "markdown", required: false}
+          - label: "Lists"
+            name: "lists"
+            widget: "list"
+            fields:
+              - {label: "Heading", name: "heading", widget: "string", required: false}
+              - label: Items
+                name: items
+                widget: list
+                fields:
+                  - {label: "Title", name: "title", widget: "string", required: false}
+                  - {label: "Eyebrow", name: "pre", widget: "string", required: false}
+                  - {label: "Subtitle", name: "subtitle", widget: "markdown", required: false}
+                  - {label: "Image", name: "image", widget: "image", required: false}
+                  - {label: "Text", name: "text", widget: "markdown", required: false}
+                  - {label: "Call to action", name: "cta", widget: "string", required: false}
+                  - {label: "Link", name: "link", widget: "string", required: false}
+          - label: "Grids"
+            name: "grids"
+            widget: "list"
+            fields:
+              - {label: "Heading", name: "heading", widget: "string", required: false}
+              - label: Items
+                name: items
+                widget: list
+                fields:
+                  - {label: "Title", name: "title", widget: "string", required: false}
+                  - {label: "Eyebrow", name: "pre", widget: "string", required: false}
+                  - {label: "Subtitle", name: "subtitle", widget: "markdown", required: false}
+                  - {label: "Image", name: "image", widget: "image", required: false}
+                  - {label: "Text", name: "text", widget: "markdown", required: false}
+                  - {label: "Call to action", name: "cta", widget: "string", required: false}
+                  - {label: "Link", name: "link", widget: "string", required: false}
+                  - {label: YouTube ID, name: id, widget: string, required: false}
+          - label: Photo Gallery
+            name: photos
+            widget: object
+            fields: 
+              - {label: "Heading", name: "heading", widget: "string"}
+              - label: Images
+                name: items
+                widget: list
+                fields:
+                  - {label: Image, name: image, widget: image, required: false}
+      - file: "site/content/programs/new-threads/_index.md"
+        label: "New Threads Reading Series"
+        name: "new-threads"
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: Header Image, name: background, widget: image, required: false}
+          - {label: Heading, name: heading, widget: string, required: false}
+          - {label: Title Image, name: titleimage, widget: image, required: false}
+          - {label: Intro, name: intro, widget: text, required: false}
+          - {label: Description, name: description, widget: markdown, required: false}
+          - {label: Body, name: body, widget: markdown}
+          - label: "Sidebar"
+            name: sidebar
+            widget: object
+            fields: 
+              - {label: "Heading", name: "heading", widget: "string", required: false}
+              - {label: "Text", name: "text", widget: "markdown", required: false}
+          - label: "Lists"
+            name: "lists"
+            widget: "list"
+            fields:
+              - {label: "Heading", name: "heading", widget: "string", required: false}
+              - label: Items
+                name: items
+                widget: list
+                fields:
+                  - {label: "Title", name: "title", widget: "string", required: false}
+                  - {label: "Eyebrow", name: "pre", widget: "string", required: false}
+                  - {label: "Subtitle", name: "subtitle", widget: "markdown", required: false}
+                  - {label: "Image", name: "image", widget: "image", required: false}
+                  - {label: "Text", name: "text", widget: "markdown", required: false}
+                  - {label: "Call to action", name: "cta", widget: "string", required: false}
+                  - {label: "Link", name: "link", widget: "string", required: false}
+          - label: "Grids"
+            name: "grids"
+            widget: "list"
+            fields:
+              - {label: "Heading", name: "heading", widget: "string", required: false}
+              - label: Items
+                name: items
+                widget: list
+                fields:
+                  - {label: "Title", name: "title", widget: "string", required: false}
+                  - {label: "Eyebrow", name: "pre", widget: "string", required: false}
+                  - {label: "Subtitle", name: "subtitle", widget: "markdown", required: false}
+                  - {label: "Image", name: "image", widget: "image", required: false}
+                  - {label: "Text", name: "text", widget: "markdown", required: false}
+                  - {label: "Call to action", name: "cta", widget: "string", required: false}
+                  - {label: "Link", name: "link", widget: "string", required: false}
+                  - {label: YouTube ID, name: id, widget: string, required: false}
+          - label: Photo Gallery
+            name: photos
+            widget: object
+            fields: 
+              - {label: "Heading", name: "heading", widget: "string"}
+              - label: Images
+                name: items
+                widget: list
+                fields:
+                  - {label: Image, name: image, widget: image, required: false}
+      - file: "site/content/programs/reorient/_index.md"
+        label: "ReOrient Festival"
+        name: "reorient"
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: Header Image, name: background, widget: image, required: false}
+          - {label: Heading, name: heading, widget: string, required: false}
+          - {label: Title Image, name: titleimage, widget: image, required: false}
+          - {label: Intro, name: intro, widget: text, required: false}
+          - {label: Description, name: description, widget: markdown, required: false}
+          - {label: Body, name: body, widget: markdown}
+          - label: "Sidebar"
+            name: sidebar
+            widget: object
+            fields: 
+              - {label: "Heading", name: "heading", widget: "string", required: false}
+              - {label: "Text", name: "text", widget: "markdown", required: false}
+          - label: "Lists"
+            name: "lists"
+            widget: "list"
+            fields:
+              - {label: "Heading", name: "heading", widget: "string", required: false}
+              - label: Items
+                name: items
+                widget: list
+                fields:
+                  - {label: "Title", name: "title", widget: "string", required: false}
+                  - {label: "Eyebrow", name: "pre", widget: "string", required: false}
+                  - {label: "Subtitle", name: "subtitle", widget: "markdown", required: false}
+                  - {label: "Image", name: "image", widget: "image", required: false}
+                  - {label: "Text", name: "text", widget: "markdown", required: false}
+                  - {label: "Call to action", name: "cta", widget: "string", required: false}
+                  - {label: "Link", name: "link", widget: "string", required: false}
+          - label: "Grids"
+            name: "grids"
+            widget: "list"
+            fields:
+              - {label: "Heading", name: "heading", widget: "string", required: false}
+              - label: Items
+                name: items
+                widget: list
+                fields:
+                  - {label: "Title", name: "title", widget: "string", required: false}
+                  - {label: "Eyebrow", name: "pre", widget: "string", required: false}
+                  - {label: "Subtitle", name: "subtitle", widget: "markdown", required: false}
+                  - {label: "Image", name: "image", widget: "image", required: false}
+                  - {label: "Text", name: "text", widget: "markdown", required: false}
+                  - {label: "Call to action", name: "cta", widget: "string", required: false}
+                  - {label: "Link", name: "link", widget: "string", required: false}
+                  - {label: YouTube ID, name: id, widget: string, required: false}
+          - label: Photo Gallery
+            name: photos
+            widget: object
+            fields: 
+              - {label: "Heading", name: "heading", widget: "string"}
+              - label: Images
+                name: items
+                widget: list
+                fields:
+                  - {label: Image, name: image, widget: image, required: false}
+      - file: "site/content/programs/what-do-the-women-say/_index.md"
+        label: "What Do the Women Say"
+        name: "what-do-the-women-say"
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: Image, name: "titleimage", widget: "image", required: false}
+          - {label: Intro, name: intro, widget: text, required: false}
+          - {label: Description, name: description, widget: markdown, required: false}
+          - {label: Body, name: body, widget: markdown}
+      - file: "site/content/about/donors/_index.md"
+        label: "Donors"
+        name: "donors"
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: Intro, name: intro, widget: text, required: false}
+          - {label: Body, name: body, widget: markdown, required: false}
+          - label: "Sidebar"
+            name: sidebar
+            widget: object
+            fields: 
+              - {label: "Heading", name: "heading", widget: "string", required: false}
+              - {label: "Text", name: "text", widget: "markdown", required: false}
+      - file: "site/content/about/equity/_index.md"
+        label: "Equity and Social Justice"
+        name: "equity"
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: Intro, name: intro, widget: text, required: false}
+          - {label: Body, name: body, widget: markdown}
+      - file: "site/content/get-involved/_index.md"
+        label: "Get Involved"
+        name: "get-involved"
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: Intro, name: intro, widget: text, required: false}
+          - {label: Body, name: body, widget: markdown, required: false}
+      - file: "site/content/get-involved/jobs/_index.md"
+        label: "Jobs"
+        name: "jobs"
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: Body, name: body, widget: markdown, required: false}
+          - label: "Sidebar"
+            name: sidebar
+            widget: object
+            fields: 
+              - {label: "Heading", name: "heading", widget: "string", required: false}
+              - {label: "Text", name: "text", widget: "markdown", required: false}
+      - file: "site/content/get-involved/volunteer/_index.md"
+        label: "Volunteer"
+        name: "volunteer"
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: Body, name: body, widget: markdown, required: false}
+          - label: "Sidebar"
+            name: sidebar
+            widget: object
+            fields: 
+              - {label: "Heading", name: "heading", widget: "string", required: false}
+              - {label: "Text", name: "text", widget: "markdown", required: false}
+      - file: "site/content/get-involved/casting/_index.md"
+        label: "Casting"
+        name: "casting"
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: Body, name: body, widget: markdown, required: false}
+          - label: "Sidebar"
+            name: sidebar
+            widget: object
+            fields: 
+              - {label: "Heading", name: "heading", widget: "string", required: false}
+              - {label: "Text", name: "text", widget: "markdown", required: false}
+      - file: "site/content/get-involved/submissions/_index.md"
+        label: "Submissions"
+        name: "submissions"
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: Body, name: body, widget: markdown, required: false}
+          - label: "Sidebar"
+            name: sidebar
+            widget: object
+            fields: 
+              - {label: "Heading", name: "heading", widget: "string", required: false}
+              - {label: "Text", name: "text", widget: "markdown", required: false}
+      - file: "site/content/get-involved/internships/_index.md"
+        label: "Internships"
+        name: "internships"
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: Body, name: body, widget: markdown, required: false}
+          - label: "Sidebar"
+            name: sidebar
+            widget: object
+            fields: 
+              - {label: "Heading", name: "heading", widget: "string", required: false}
+              - {label: "Text", name: "text", widget: "markdown", required: false}
+      - file: "site/content/donate/_index.md"
+        label: "Donate"
+        name: "donate"
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: Body, name: body, widget: markdown}
+          - label: "Sidebar"
+            name: sidebar
+            widget: object
+            fields: 
+              - {label: "Heading", name: "heading", widget: "string", required: false}
+              - {label: "Text", name: "text", widget: "markdown", required: false}
+      - file: "site/content/contact/_index.md"
+        label: "Contact"
+        name: "contact"
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: Logo, name: logo, widget: image}
+          - {label: Body, name: body, widget: markdown}
+          - label: Contact Entries
+            name: contact_entries
+            widget: list
+            fields:
+              - label: Heading
+                name: heading
+                widget: string
+              - label: Text
+                name: text
+                widget: text
