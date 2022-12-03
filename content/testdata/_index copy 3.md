@@ -1,11 +1,11 @@
 ---
-title : "Future"
+title : "Past"
 description: "Hyas is a Hugo-powered Jamstack framework for building production-ready websites faster."
 lead: "Hyas is a Hugo-powered Jamstack framework for building production-ready websites faster."
-date: 2020-04-17T12:18:10+00:00
+date: 2020-08-17T12:18:10+00:00
 lastmod: 2020-04-17T12:18:10+00:00
 draft: false
-category: "past"
+category: "present"
 images: []
 ---
 

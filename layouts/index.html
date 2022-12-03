@@ -1,28 +1,32 @@
 {{ define "main" }}
 
-{{ range (where .Site.Pages "Section" "testdata") }}
-   {{ range .Pages }}
-      <div id="{{ .Title }}" class="story">
-         {{ .Title   }}
-         {{ .Content }}
+
+<div style="display: flex;height:100%;">
+   <div style="width: 30%; height:93vh; overflow:auto; margin-right:0%">
+         {{ range (where .Site.Pages "Section" "testdata") }}
+            {{ range .Pages }}
+            <div id="{{ .Title }}" class="story">
+               <h2>
+                  {{ .Title   }}
+               </h2>
+               {{ .Content }}
+            </div>
+            {{ end }}
+      {{ end }}
+   </div>
+
+   <div style="width: 70%; height:90vh;">
+      <div style="display:flex; width:100%; justify-content:space-between; margin-top:45vh;">
+         {{ range (where .Site.Pages "Section" "testdata") }}
+         {{ range .Pages }}
+            {{ $temp := .Title }}
+            <button id="{{$temp}}" class="content-button" onclick="showText({{$temp}})"> Time  </button>
+         {{ end }}
+      {{ end }}
       </div>
-   {{ end }}
-{{ end }}
-
-
-
-
-
-
-{{ range (where .Site.Pages "Section" "testdata") }}
-   {{ range .Pages }}
-      {{ $temp := .Title }}
-      {{$temp := printf "%s*" $temp | printf "%s"}}
-      <button id="{{$temp}}" class="content-button">Toggle {{.Title}} </button>
-   {{ end }}
-{{ end }}
-
-
+   
+   </div>
+</div>
 <style>
    .story {
       display: none;
