@@ -9,10 +9,16 @@
    {{ end }}
 {{ end }}
 
+
+
+
+
+
 {{ range (where .Site.Pages "Section" "testdata") }}
    {{ range .Pages }}
       {{ $temp := .Title }}
-      <button onclick="showText({{$temp}})">Toggle {{.Title}} </button>
+      {{$temp := printf "%s*" $temp | printf "%s"}}
+      <button id="{{$temp}}" class="content-button">Toggle {{.Title}} </button>
    {{ end }}
 {{ end }}
 
