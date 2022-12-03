@@ -1,7 +1,4 @@
 
-console.log("AH");
-
-
 window.showText = showText;
 
 function showText(temp) {
