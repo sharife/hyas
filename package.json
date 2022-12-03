@@ -16,6 +16,7 @@
   "license": "MIT",
   "scripts": {
     "start": "webpack --mode=development --watch",
+    "prod": "webpack --mode=production --watch",
     "predev": "npm run clean:build",
     "dev": "exec-bin node_modules/.bin/hugo/hugo server --gc --bind=0.0.0.0 --disableFastRender --baseURL=http://localhost",
     "create": "exec-bin node_modules/.bin/hugo/hugo new",
