@@ -2,11 +2,6 @@
 window.showText = showText;
 
 
-// var collection1 = document.getElementById("Index one*").addEventListener("click", showText("Index one"))
-// var collection2 = document.getElementById("Index 2*").addEventListener("click", showText("Index 2"))
-
-
-
 // var collection = document.getElementsByClassName("content-button");
 
 // console.log(collection)
