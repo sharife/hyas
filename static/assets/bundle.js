@@ -1,1 +1,32 @@
-window.showText=function(n){for(var e=document.getElementById(n),t=document.getElementsByClassName("story"),i=0;i<t.length;i++)t[i].style.display="none";"none"===e.style.display?e.style.display="block":e.style.display="none"},window.netlifyIdentity&&window.netlifyIdentity.on("init",(n=>{n||window.netlifyIdentity.on("login",(()=>{document.location.href="/admin/"}))}));
+/*
+ * ATTENTION: The "eval" devtool has been used (maybe by default in mode: "development").
+ * This devtool is neither made for production nor for readable output files.
+ * It uses "eval()" calls to create a separate source file in the browser devtools.
+ * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
+ * or disable the default devtool with "devtool: false".
+ * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
+ */
+/******/ (function() { // webpackBootstrap
+/******/ 	var __webpack_modules__ = ({
+
+/***/ "./src/js/app.js":
+/*!***********************!*\
+  !*** ./src/js/app.js ***!
+  \***********************/
+/***/ (function() {
+
+eval("\nwindow.showText = showText;\nwindow.selectTime = selectTime;\n\n\nfunction selectTime(time) {\n  var btnRow = document.getElementById(\"button-time-row\"); // move buttons down\n  btnRow.style.marginTop = \"90vh\";\n  var background = document.getElementById(\"background-img\");\n\n  background.style.backgroundImage = \"url(/images/chicago-river-map-\" + time +\".svg)\";\n  // change landing page\n\n  showText(time + \"-landing\")\n\n  // show buttons\n}\n\n\n\nfunction showText(temp) {\n      var x = document.getElementById(temp);\n      var arrayOfElements= document.getElementsByClassName(\"story\")\n      for (var i=0; i<arrayOfElements.length;i++){\n         arrayOfElements[i].style.display='none';\n      }\n      if (x.style.display === \"none\") {\n      x.style.display = \"block\";\n      } else {\n      x.style.display = \"none\";\n      }\n}\n\n// JS Goes here - ES6 supported\nif (window.netlifyIdentity) {\n      window.netlifyIdentity.on(\"init\", (user) => {\n        if (!user) {\n          window.netlifyIdentity.on(\"login\", () => {\n            document.location.href = \"/admin/\";\n          });\n        }\n      });\n    }\n    \n\n//# sourceURL=webpack://gethyas/./src/js/app.js?");
+
+/***/ })
+
+/******/ 	});
+/************************************************************************/
+/******/ 	
+/******/ 	// startup
+/******/ 	// Load entry module and return exports
+/******/ 	// This entry module can't be inlined because the eval devtool is used.
+/******/ 	var __webpack_exports__ = {};
+/******/ 	__webpack_modules__["./src/js/app.js"]();
+/******/ 	
+/******/ })()
+;

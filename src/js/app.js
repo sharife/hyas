@@ -1,17 +1,21 @@
 
 window.showText = showText;
+window.selectTime = selectTime;
 
 
-// var collection = document.getElementsByClassName("content-button");
+function selectTime(time) {
+  var btnRow = document.getElementById("button-time-row"); // move buttons down
+  btnRow.style.marginTop = "90vh";
+  var background = document.getElementById("background-img");
 
-// console.log(collection)
+  background.style.backgroundImage = "url(/images/chicago-river-map-" + time +".svg)";
+  // change landing page
 
-// for (var i=0; i<collection.length;i++){
+  showText(time + "-landing")
 
-//       // collection[i].addEventListener("click", showText(collection[i].id.slice(0,-1)))
-//       collection[i].onclick = showText(collection[i].id.slice(0,-1))
-// }
-// console.log(collection)
+  // show buttons
+}
+
 
 
 function showText(temp) {

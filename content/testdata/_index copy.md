@@ -5,7 +5,7 @@ lead: "Hyas is a Hugo-powered Jamstack framework for building production-ready w
 date: 2020-06-17T12:18:10+00:00
 lastmod: 2020-04-17T12:18:10+00:00
 draft: false
-category: "past"
+category: "present-landing"
 images: []
 ---
 

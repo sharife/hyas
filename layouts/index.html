@@ -5,12 +5,14 @@
    <div style="width: 30%; height:93vh; overflow:auto; margin-right:0%">
          {{ range (where .Site.Pages "Section" "testdata") }}
             {{ range .Pages }}
-            <div id="{{ .Title }}" class="story">
+            {{ if .Params.category }}
+            <div id="{{ .Params.category }}" class="story">
                <h2>
                   {{ .Title   }}
                </h2>
                {{ .Content }}
             </div>
+            {{ end }}
             {{ end }}
       {{ end }}
 
@@ -25,8 +27,6 @@ Compelling on its own, our story also dramatizes a widespread scenario of crumbl
 
 <button class="content-button" onclick="showText('water-acknowledgement')"> Water Acknowledgement  </button>
       </div>
-
-
       <div id="water-acknowledgement" class="story">
          The Chicago River flows through the traditional homelands of the Three fires: the Ojibwe, Odawa and Potawatomi Nations. The Fox, Ho-Chunk, Menominee, Miami and Sac tribes also call this region home. These communities have been targets of erasure by settler colonialism. The Backward River aims to highlight the histories, cultures and practices of Indigenous peoples who have a right to this land. Today, Chicago’s American Indian presence constitutes one of the country’s largest urban Indigenous communities. 
 
@@ -39,27 +39,28 @@ Indigenous communities have historically viewed the relationship between water a
       </div>
       
    </div>
+   
+   <div style="width: 70%; height:90vh;" class="river" id="background-img">
+      <div style="display:flex; width:75%; justify-content:space-between; margin-top:45vh; margin-left:10vh;" id="button-time-row">
 
-   <div style="width: 70%; height:90vh;" class="river">
-      <div style="display:flex; width:75%; justify-content:space-between; margin-top:45vh; margin-left:10vh;" >
-         {{ range (where .Site.Pages "Section" "testdata") }}
-         {{ range .Pages }}
-            {{ $temp := .Title }}
-            <button id="{{$temp}}" class="content-button" onclick="showText({{ $temp }})"> Time  </button>
-         {{ end }}
-      {{ end }}
+      <button class="content-button" onclick="selectTime('past')"> Past  </button>
+      <button class="content-button" onclick="selectTime('present')"> Present  </button>
+      <button class="content-button" onclick="selectTime('future')"> Future  </button>
       </div>
    </div>
 </div>
+
 <style>
    .story {
       display: none;
    }
+
    .river {
       background-image: url("/images/river.png");
       background-repeat: no-repeat;
       background-size: cover;
    }
+
 </style>
 {{ end }}
 
