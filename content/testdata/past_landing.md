@@ -1,12 +1,15 @@
 ---
-title : "How the Chicago River Resembles a Pipeline"
+title : "Past: How the Chicago River Resembles  a Pipeline"
 description: "Hyas is a Hugo-powered Jamstack framework for building production-ready websites faster."
 lead: "Hyas is a Hugo-powered Jamstack framework for building production-ready websites faster."
-date: 2020-06-17T12:18:10+00:00
+date: 2020-08-17T12:18:10+00:00
 lastmod: 2020-04-17T12:18:10+00:00
 draft: false
+category: "past-landing"
 images: []
 ---
+Map Heading
+Learn how the river became what it is today through politics, power, and public funding. 
 Overview
 Introduction
 The Chicago River once flowed gently into Lake Michigan, meandering through a spongy wetland that sprouted the shikaakwa, the pungent wild garlic rooted in the city’s name. 
