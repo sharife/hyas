@@ -14,7 +14,39 @@
             </div>
             {{ end }}
             {{ end }}
+         {{ end }}
+         {{ range (where .Site.Pages "Section" "past") }}
+            {{ range .Pages }}
+            <div id="{{ .Title }}" class="story">
+               <h2>
+                  {{ .Title   }}
+               </h2>
+               {{ .Content }}
+            </div>
+            {{ end }}
+         {{ end }}
+
+         {{ range (where .Site.Pages "Section" "present") }}
+         {{ range .Pages }}
+         <div id="{{ .Title }}" class="story">
+            <h2>
+               {{ .Title   }}
+            </h2>
+            {{ .Content }}
+         </div>
+         {{ end }}
       {{ end }}
+      {{ range (where .Site.Pages "Section" "future") }}
+         {{ range .Pages }}
+         <div id="{{ .Title }}" class="story">
+            <h2>
+               {{ .Title }}
+            </h2>
+            {{ .Content }}
+         </div>
+         {{ end }}
+      {{ end }}
+
 
       <div id="landing-page" class="story" style="display: block;">
          Overview
@@ -41,6 +73,24 @@ Indigenous communities have historically viewed the relationship between water a
    </div>
    
    <div style="width: 70%; height:90vh;" class="river" id="background-img">
+   {{/*  have for loop here for rendering buttons and text  */}}
+   <div style="display: inline-flex;">
+         {{ range (where .Site.Pages "Section" "past") }}
+         {{ range .Pages }}
+         <button class="content-past" onclick="showText({{.Title}})"> {{.Title}}  </button>
+         {{ end }}
+      {{ end }}
+      {{ range (where .Site.Pages "Section" "present") }}
+         {{ range .Pages }}
+         <button class="content-present" onclick="showText({{.Title}})" > {{.Title}}  </button>
+         {{ end }}
+      {{ end }}
+      {{ range (where .Site.Pages "Section" "future") }}
+      {{ range .Pages }}
+      <button class="content-future" onclick="showText({{.Title}})" > {{.Title}}  </button>
+      {{ end }}
+      {{ end }}
+   </div>
       <div style="display:flex; width:75%; justify-content:space-between; margin-top:45vh; margin-left:10vh;" id="button-time-row">
 
       <button class="content-button" onclick="selectTime('past')"> Past  </button>
@@ -60,6 +110,15 @@ Indigenous communities have historically viewed the relationship between water a
       background-repeat: no-repeat;
       background-size: cover;
    }
+   .content-past{
+      display: none;
+   }
+   .content-present{
+      display: none;
+   }
+   .content-future{
+      display: none;
+   } 
 
 </style>
 {{ end }}

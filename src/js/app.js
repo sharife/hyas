@@ -4,16 +4,39 @@ window.selectTime = selectTime;
 
 
 function selectTime(time) {
+
+
+
+  hideButtons();
+
   var btnRow = document.getElementById("button-time-row"); // move buttons down
   btnRow.style.marginTop = "90vh";
   var background = document.getElementById("background-img");
 
   background.style.backgroundImage = "url(/images/chicago-river-map-" + time +".svg)";
-  // change landing page
 
-  showText(time + "-landing")
+  showText(time + "-landing") // show time landing page
 
-  // show buttons
+
+  // show time specific buttons
+
+  var elements = document.getElementsByClassName("content-" + time);
+
+  for(var i=0; i < elements.length; i++) { 
+    elements[i].style.display = "block";
+  }
+}
+
+
+function hideButtons() {
+
+  var temp = ["content-past", "content-future", "content-present"]
+  for(var i = 0; i< temp.length; i++){
+    var elements = document.getElementsByClassName(temp[i]);
+    for(var j=0; j < elements.length; j++) { 
+      elements[j].style.display = "none";
+    }
+  }
 }
 
 
