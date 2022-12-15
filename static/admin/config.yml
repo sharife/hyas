@@ -4,6 +4,22 @@ backend:
 media_folder: static/img
 public_folder: /img
 collections:
+  - name: 'water-agreement'
+    label: 'Water Agreement'
+    folder: 'content/water'
+    create: true
+    fields:
+    - { label: 'Title', name: 'title', widget: 'string' }
+    - { label: 'Body', name: 'body', widget: 'markdown' }
+  - name: 'story'
+    label: 'Story'
+    folder: 'content/stories'
+    create: true
+    fields:
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Category', name: 'category', widget: 'string' }
+      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
   - name: 'blog'
     label: 'Blog'
     folder: 'content/blog'
