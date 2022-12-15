@@ -7,7 +7,7 @@ collections:
   - name: 'water-agreement'
     label: 'Water Agreement'
     folder: 'content/water'
-    create: true
+    create: false
     fields:
     - { label: 'Title', name: 'title', widget: 'string' }
     - { label: 'Body', name: 'body', widget: 'markdown' }
