@@ -1,5 +1,5 @@
 {{ define "main" }}
-<div style="display: flex;height:100%;">
+<div style="display: flex;">
    <div style="width: 30%; height:93vh; overflow:auto; margin-right:0%">
          {{ range (where .Site.Pages "Section" "testdata") }}
             {{ range .Pages }}
@@ -97,7 +97,16 @@ Indigenous communities have historically viewed the relationship between water a
       </div>
    </div>
 </div>
-
+<div style="display: none;">
+   {{ $image := resources.Get "/images/chicago-river-map-past.svg" }}
+   <img src="{{ $image.RelPermalink }}" />
+   {{ $image := resources.Get "/images/chicago-river-map-present.svg" }}
+   <img src="{{ $image.RelPermalink }}" />
+   {{ $image := resources.Get "/images/chicago-river-map-future.svg" }}
+   <img src="{{ $image.RelPermalink }}" />
+   {{ $image := resources.Get "/images/river.png" }}
+   <img src="{{ $image.RelPermalink }}" />
+</div>
 
 <style>
    .story {
