@@ -1,6 +1,6 @@
 ---
-x-coord: "20"
-y-coord: "70"
+x: "20"
+y: "70"
 draft: false
 lastmod: 2020-04-17T12:18:10+00:00
 title: Why a Pipeline?

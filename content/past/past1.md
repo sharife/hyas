@@ -1,6 +1,6 @@
 ---
-x-coord: "50"
-y-coord: "50"
+x: "38"
+y: "50"
 draft: false
 lastmod: 2020-04-17T12:18:10+00:00
 title: How the Chicago River Resembles a Pipeline

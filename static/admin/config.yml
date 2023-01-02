@@ -18,8 +18,30 @@ collections:
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Category', name: 'category', widget: 'string' }
-      - { label: 'X-Coord', name: 'x-coord', widget: 'string' }
-      - { label: 'Y-Coord', name: 'y-coord', widget: 'string' }
+      - { label: 'X', name: 'x', widget: 'string' }
+      - { label: 'Y', name: 'y', widget: 'string' }
+      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
+  - name: 'present'
+    label: 'Present'
+    folder: 'content/present'
+    create: true
+    fields:
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Category', name: 'category', widget: 'string' }
+      - { label: 'X', name: 'x', widget: 'string' }
+      - { label: 'Y', name: 'y', widget: 'string' }
+      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
+  - name: 'future'
+    label: 'Future'
+    folder: 'content/future'
+    create: true
+    fields:
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Category', name: 'category', widget: 'string' }
+      - { label: 'X', name: 'x', widget: 'string' }
+      - { label: 'Y', name: 'y', widget: 'string' }
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
   - name: 'blog'

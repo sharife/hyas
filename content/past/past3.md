@@ -1,6 +1,6 @@
 ---
-x-coord: "80"
-y-coord: "27"
+x: "80"
+y: "27"
 draft: false
 lastmod: 2020-04-17T12:18:10+00:00
 title: Before the Canal
