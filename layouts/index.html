@@ -8,7 +8,7 @@
                <h2>
                   {{ .Title   }}
                </h2>
-               {{ .Content }}
+               {{ .Content | markdownify }}
             </div>
             {{ end }}
             {{ end }}
@@ -19,7 +19,7 @@
                <h2>
                   {{ .Title   }}
                </h2>
-               {{ .Content }}
+               {{ .Content | markdownify}}
             </div>
             {{ end }}
          {{ end }}
@@ -28,9 +28,9 @@
          {{ range .Pages }}
          <div id="{{ .Title }}" class="story">
             <h2>
-               {{ .Title   }}
+               {{ .Title}}
             </h2>
-            {{ .Content }}
+            {{ .Content  | markdownify}}
          </div>
          {{ end }}
       {{ end }}
@@ -40,7 +40,7 @@
             <h2>
                {{ .Title }}
             </h2>
-            {{ .Content }}
+            {{ markdownify .Content }}
          </div>
          {{ end }}
       {{ end }}
@@ -70,34 +70,29 @@ Indigenous communities have historically viewed the relationship between water a
       
    </div>
    
-   <div style="width: 70%; height:90vh;" class="river" id="background-img">
-      
-      <div style="position:relative; display:flex; width:75%; justify-content:space-between; margin-top:45vh; margin-left:10vh;" id="button-time-row">
+   <div style="width: 70%; height:90vh; position:relative;" class="river" id="background-img">
+      <div style="position:absolute; display:flex; width:75%; justify-content:space-between; margin-top:45vh; margin-left:10vh;" id="button-time-row">
       <button class="content-button" onclick="selectTime('past')"> Past  </button>
       <button class="content-button" onclick="selectTime('present')"> Present  </button>
       <button class="content-button" onclick="selectTime('future')"> Future  </button>
       </div>
-
+      
       {{/*  category buttons below content buttons  */}}
-
-
-      {{ range (where .Site.Pages "Section" "past") }}
-         {{ range .Pages }}
-      <button class="content-past" onclick="showText({{.Title}})" style="position:relative; bottom:{{.Params.x}}%; left:{{.Params.y}}%;"> {{.Title}}  </button>
+         {{ range (where .Site.Pages "Section" "past") }}
+            {{ range .Pages }}
+         <button class="content-past" onclick="showText({{.Title}})" style="position:absolute; bottom:{{.Params.x}}%; left:{{.Params.y}}%;"> {{.Title}}  </button>
+            {{ end }}
          {{ end }}
-      {{ end }}
-
-
-      {{ range (where .Site.Pages "Section" "present") }}
-         {{ range .Pages }}
-         <button class="content-present" onclick="showText({{.Title}})" style="position:relative; bottom:{{.Params.x}}%; left:{{.Params.y}}%;"> {{.Title}}  </button>
+         {{ range (where .Site.Pages "Section" "present") }}
+            {{ range .Pages }}
+            <button class="content-present" onclick="showText({{.Title}})" style="position:absolute; bottom:{{.Params.x}}%; left:{{.Params.y}}%;"> {{.Title}}  </button>
+            {{ end }}
          {{ end }}
-      {{ end }}
-      {{ range (where .Site.Pages "Section" "future") }}
-         {{ range .Pages }}
-      <button class="content-future" onclick="showText({{.Title}})" style="position:relative; bottom:{{.Params.x}}%; left:{{.Params.y}}%;"> {{.Title}}  </button>
+         {{ range (where .Site.Pages "Section" "future") }}
+            {{ range .Pages }}
+         <button class="content-future" onclick="showText({{.Title}})" style="position:absolute; bottom:{{.Params.x}}%; left:{{.Params.y}}%;"> {{.Title}}  </button>
+            {{ end }}
          {{ end }}
-      {{ end }}
    </div>
 </div>
 <div style="display: none;">
