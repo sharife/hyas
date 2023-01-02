@@ -71,13 +71,21 @@ Indigenous communities have historically viewed the relationship between water a
    </div>
    
    <div style="width: 70%; height:90vh; position:relative;" class="river" id="background-img">
+
+      <div style="position: absolute;">
+         <h1>
+            Text Heading here
+         </h1>
+         <h2>
+            Subheading HERE
+         </h2>
+      </div>
+
       <div style="position:absolute; display:flex; width:75%; justify-content:space-between; margin-top:45vh; margin-left:10vh;" id="button-time-row">
       <button class="content-button" onclick="selectTime('past')"> Past  </button>
       <button class="content-button" onclick="selectTime('present')"> Present  </button>
       <button class="content-button" onclick="selectTime('future')"> Future  </button>
       </div>
-      
-      {{/*  category buttons below content buttons  */}}
          {{ range (where .Site.Pages "Section" "past") }}
             {{ range .Pages }}
          <button class="content-past" onclick="showText({{.Title}})" style="position:absolute; bottom:{{.Params.x}}%; left:{{.Params.y}}%;"> {{.Title}}  </button>
@@ -102,7 +110,7 @@ Indigenous communities have historically viewed the relationship between water a
    <img src="{{ $image.RelPermalink }}" />
    {{ $image := resources.Get "/images/chicago-river-map-future.svg" }}
    <img src="{{ $image.RelPermalink }}" />
-   {{ $image := resources.Get "/images/river.png" }}
+   {{ $image := resources.Get "/images/allriver.png" }}
    <img src="{{ $image.RelPermalink }}" />
 </div>
 
@@ -110,9 +118,8 @@ Indigenous communities have historically viewed the relationship between water a
    .story {
       display: none;
    }
-
    .river {
-      background-image: url("/images/river.png");
+      background-image: url("/images/allriver.png");
       background-repeat: no-repeat;
       background-size: cover;
    }
