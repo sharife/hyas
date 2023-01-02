@@ -1,11 +1,16 @@
 ---
-title : "Why a Pipeline?"
-description: "Hyas is a Hugo-powered Jamstack framework for building production-ready websites faster."
-lead: "Hyas is a Hugo-powered Jamstack framework for building production-ready websites faster."
-date: 2020-08-17T12:18:10+00:00
-lastmod: 2020-04-17T12:18:10+00:00
+x-coord: "20"
+y-coord: "70"
 draft: false
+lastmod: 2020-04-17T12:18:10+00:00
+title: Why a Pipeline?
+date: 2020-08-17T12:18:10+00:00
 images: []
+lead: Hyas is a Hugo-powered Jamstack framework for building production-ready
+  websites faster.
+description: Hyas is a Hugo-powered Jamstack framework for building
+  production-ready websites faster.
+category: Past
 ---
 Introduction
 Why do we call a river, a waterbody known for turns and bends, a pipeline?
