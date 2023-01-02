@@ -1,7 +1,7 @@
 {{ define "main" }}
 <div style="display: flex; height: 30vh;">
    <div style="width: 30%; height:93vh; overflow:auto; margin-right:0%">
-         {{ range (where .Site.Pages "Section" "testdata") }}
+         {{ range (where .Site.Pages "Section" "landing") }}
             {{ range .Pages }}
             {{ if .Params.category }}
             <div id="{{ .Params.category }}" class="story">
