@@ -1,11 +1,16 @@
 ---
-title : "How the Chicago River Resembles a Pipeline"
-description: "Hyas is a Hugo-powered Jamstack framework for building production-ready websites faster."
-lead: "Hyas is a Hugo-powered Jamstack framework for building production-ready websites faster."
-date: 2020-06-17T12:18:10+00:00
-lastmod: 2020-04-17T12:18:10+00:00
+x-coord: "50"
+y-coord: "50"
 draft: false
+lastmod: 2020-04-17T12:18:10+00:00
+title: How the Chicago River Resembles a Pipeline
+date: 2020-06-17T12:18:10+00:00
 images: []
+lead: Hyas is a Hugo-powered Jamstack framework for building production-ready
+  websites faster.
+description: Hyas is a Hugo-powered Jamstack framework for building
+  production-ready websites faster.
+category: Past
 ---
 Overview
 Introduction
