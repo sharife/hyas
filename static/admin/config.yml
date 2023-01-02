@@ -11,13 +11,15 @@ collections:
     fields:
     - { label: 'Title', name: 'title', widget: 'string' }
     - { label: 'Body', name: 'body', widget: 'markdown' }
-  - name: 'story'
-    label: 'Story'
-    folder: 'content/stories'
+  - name: 'past'
+    label: 'Past'
+    folder: 'content/past'
     create: true
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Category', name: 'category', widget: 'string' }
+      - { label: 'X-Coord', name: 'x-coord', widget: 'string' }
+      - { label: 'Y-Coord', name: 'y-coord', widget: 'string' }
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
   - name: 'blog'
