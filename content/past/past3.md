@@ -1,11 +1,16 @@
 ---
-title : "Before the Canal"
-description: "Hyas is a Hugo-powered Jamstack framework for building production-ready websites faster."
-lead: "Hyas is a Hugo-powered Jamstack framework for building production-ready websites faster."
-date: 2020-04-17T12:18:10+00:00
-lastmod: 2020-04-17T12:18:10+00:00
+x-coord: "80"
+y-coord: "27"
 draft: false
+lastmod: 2020-04-17T12:18:10+00:00
+title: Before the Canal
+date: 2020-04-17T12:18:10+00:00
 images: []
+lead: Hyas is a Hugo-powered Jamstack framework for building production-ready
+  websites faster.
+description: Hyas is a Hugo-powered Jamstack framework for building
+  production-ready websites faster.
+category: Past
 ---
 Introduction
 
