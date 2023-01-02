@@ -1,4 +1,6 @@
 ---
+x: "68"
+y: "59"
 title : "River as Person"
 description: "Hyas is a Hugo-powered Jamstack framework for building production-ready websites faster."
 lead: "Hyas is a Hugo-powered Jamstack framework for building production-ready websites faster."

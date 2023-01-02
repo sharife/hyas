@@ -1,4 +1,6 @@
 ---
+x: "38"
+y: "50"
 title : "River to Table"
 description: "Hyas is a Hugo-powered Jamstack framework for building production-ready websites faster."
 lead: "Hyas is a Hugo-powered Jamstack framework for building production-ready websites faster."
