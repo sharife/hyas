@@ -44,6 +44,15 @@ collections:
       - { label: 'Y', name: 'y', widget: 'string' }
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
+  - name: 'landing'
+    label: 'Landing'
+    folder: 'content/landing'
+    create: false
+    fields:
+    - { label: 'Title', name: 'title', widget: 'string' }
+    - { label: 'Category', name: 'category', widget: 'string' }
+    - { label: 'MapText', name: 'maptext', widget: 'string' }
+    - { label: 'Body', name: 'body', widget: 'markdown' }
   - name: 'blog'
     label: 'Blog'
     folder: 'content/blog'
