@@ -5,7 +5,8 @@ lead: "Hyas is a Hugo-powered Jamstack framework for building production-ready w
 date: 2020-04-17T12:18:10+00:00
 lastmod: 2020-04-17T12:18:10+00:00
 draft: false
-category: "future-landing"
+category: "future"
+maptext: "Discover what the future may hold for the water and the communities who depend on it."
 images: []
 ---
 Map Heading

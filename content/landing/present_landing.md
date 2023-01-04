@@ -5,7 +5,8 @@ lead: "Hyas is a Hugo-powered Jamstack framework for building production-ready w
 date: 2020-06-17T12:18:10+00:00
 lastmod: 2020-04-17T12:18:10+00:00
 draft: false
-category: "present-landing"
+category: "present"
+maptext: "Listen to each branch of the Chicago River speak candidly about their experience."
 images: []
 ---
 Map Heading

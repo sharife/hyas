@@ -4,7 +4,7 @@
          {{ range (where .Site.Pages "Section" "landing") }}
             {{ range .Pages }}
             {{ if .Params.category }}
-            <div id="{{ .Params.category }}" class="story">
+            <div id="{{ .Params.category }}-landing" class="story">
                <h2>
                   {{ .Title   }}
                </h2>
@@ -55,7 +55,7 @@ Before 1900, the winding Chicago River flowed into Lake Michigan. Since 1900, th
 
 Compelling on its own, our story also dramatizes a widespread scenario of crumbling American infrastructure. At its heart rests a basic denial of malfunction, public harm and the disproportionate burdens placed on communities of color. In telling the story of The Backward River, we aim to cut through this denial and speak plainly.
 
-<button class="content-button" onclick="showText('water-acknowledgement')"> Water Acknowledgement  </button>
+<button class="content-button" onclick="showStoryText('water-acknowledgement')"> Water Acknowledgement  </button>
       </div>
       <div id="water-acknowledgement" class="story">
          The Chicago River flows through the traditional homelands of the Three fires: the Ojibwe, Odawa and Potawatomi Nations. The Fox, Ho-Chunk, Menominee, Miami and Sac tribes also call this region home. These communities have been targets of erasure by settler colonialism. The Backward River aims to highlight the histories, cultures and practices of Indigenous peoples who have a right to this land. Today, Chicago’s American Indian presence constitutes one of the country’s largest urban Indigenous communities. 
@@ -72,13 +72,19 @@ Indigenous communities have historically viewed the relationship between water a
    
    <div style="width: 70%; height:90vh; position:relative;" class="river" id="background-img">
 
-      <div style="position: absolute;">
-         <h1>
-            Text Heading here
-         </h1>
-         <h2>
-            Subheading HERE
-         </h2>
+      <div style="position: absolute; margin-left:5vh; margin-top:5vh; font-size:4vh; max-width:40%; font-weight: bold;">
+
+         <div id="landing-map" class="maptext" style="display: block;">
+            Learn how the river became what is it today through politics, power, and public funding.
+         </div>
+
+         {{ range (where .Site.Pages "Section" "landing") }}
+            {{ range .Pages }}
+            <div id="{{.Params.category}}-map" class="maptext">
+               {{ .Params.maptext }}
+            </div>
+            {{ end }}
+         {{ end }}
       </div>
 
       <div style="position:absolute; display:flex; width:75%; justify-content:space-between; margin-top:45vh; margin-left:10vh;" id="button-time-row">
@@ -88,17 +94,17 @@ Indigenous communities have historically viewed the relationship between water a
       </div>
          {{ range (where .Site.Pages "Section" "past") }}
             {{ range .Pages }}
-         <button class="content-past" onclick="showText({{.Title}})" style="position:absolute; bottom:{{.Params.x}}%; left:{{.Params.y}}%;"> {{.Title}}  </button>
+         <button class="content-past" onclick="showStoryText({{.Title}})" style="position:absolute; bottom:{{.Params.x}}%; left:{{.Params.y}}%;"> {{.Title}}  </button>
             {{ end }}
          {{ end }}
          {{ range (where .Site.Pages "Section" "present") }}
             {{ range .Pages }}
-            <button class="content-present" onclick="showText({{.Title}})" style="position:absolute; bottom:{{.Params.x}}%; left:{{.Params.y}}%;"> {{.Title}}  </button>
+            <button class="content-present" onclick="showStoryText({{.Title}})" style="position:absolute; bottom:{{.Params.x}}%; left:{{.Params.y}}%;"> {{.Title}}  </button>
             {{ end }}
          {{ end }}
          {{ range (where .Site.Pages "Section" "future") }}
             {{ range .Pages }}
-         <button class="content-future" onclick="showText({{.Title}})" style="position:absolute; bottom:{{.Params.x}}%; left:{{.Params.y}}%;"> {{.Title}}  </button>
+         <button class="content-future" onclick="showStoryText({{.Title}})" style="position:absolute; bottom:{{.Params.x}}%; left:{{.Params.y}}%;"> {{.Title}}  </button>
             {{ end }}
          {{ end }}
    </div>
@@ -115,6 +121,9 @@ Indigenous communities have historically viewed the relationship between water a
 </div>
 
 <style>
+   .maptext{
+      display: none;
+   }
    .story {
       display: none;
    }

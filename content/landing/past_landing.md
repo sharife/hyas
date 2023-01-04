@@ -5,7 +5,8 @@ lead: "Hyas is a Hugo-powered Jamstack framework for building production-ready w
 date: 2020-08-17T12:18:10+00:00
 lastmod: 2020-04-17T12:18:10+00:00
 draft: false
-category: "past-landing"
+category: "past"
+maptext: "Learn how the river became what is it today through politics, power, and public funding. "
 images: []
 ---
 Map Heading

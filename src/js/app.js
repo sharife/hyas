@@ -1,11 +1,10 @@
 
-window.showText = showText;
+window.showStoryText = showStoryText;
 window.selectTime = selectTime;
+window.showMapText = showMapText;
 
 
 function selectTime(time) {
-
-
 
   hideButtons();
 
@@ -15,10 +14,9 @@ function selectTime(time) {
 
   background.style.backgroundImage = "url(/images/chicago-river-map-" + time +".svg)";
 
-  showText(time + "-landing") // show time landing page
+  showStoryText(time + "-landing") // show time landing page
+  showMapText(time + "-map")
 
-
-  // show time specific buttons
 
   var elements = document.getElementsByClassName("content-" + time);
 
@@ -39,19 +37,35 @@ function hideButtons() {
   }
 }
 
+function showMapText(temp) {
+
+  console.log(temp);
+  var x = document.getElementById(temp);
+  var arrayOfElements= document.getElementsByClassName("maptext")
+  for (var i=0; i<arrayOfElements.length;i++){
+      arrayOfElements[i].style.display='none';
+  }
+  if (x.style.display === "none") {
+  x.style.display = "block";
+  } else {
+  x.style.display = "none";
+  }
+
+}
 
 
-function showText(temp) {
-      var x = document.getElementById(temp);
-      var arrayOfElements= document.getElementsByClassName("story")
-      for (var i=0; i<arrayOfElements.length;i++){
-         arrayOfElements[i].style.display='none';
-      }
-      if (x.style.display === "none") {
-      x.style.display = "block";
-      } else {
-      x.style.display = "none";
-      }
+function showStoryText(temp) {
+  console.log(temp)
+  var x = document.getElementById(temp);
+  var arrayOfElements= document.getElementsByClassName("story")
+  for (var i=0; i<arrayOfElements.length;i++){
+      arrayOfElements[i].style.display='none';
+  }
+  if (x.style.display === "none") {
+  x.style.display = "block";
+  } else {
+  x.style.display = "none";
+  }
 }
 
 // JS Goes here - ES6 supported
