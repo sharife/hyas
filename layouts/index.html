@@ -70,6 +70,7 @@ Before 1900, the winding Chicago River flowed into Lake Michigan. Since 1900, th
 
 Compelling on its own, our story also dramatizes a widespread scenario of crumbling American infrastructure. At its heart rests a basic denial of malfunction, public harm and the disproportionate burdens placed on communities of color. In telling the story of The Backward River, we aim to cut through this denial and speak plainly.
 
+
 <button class="content-button" onclick="showStoryText('water-acknowledgement')"> Water Acknowledgement  </button>
       </div>
       <div id="water-acknowledgement" class="story">
@@ -90,7 +91,7 @@ Indigenous communities have historically viewed the relationship between water a
       <div style="position: absolute; margin-left:5vh; margin-top:5vh; font-size:4vh; max-width:40%; font-weight: bold;">
 
          <div id="landing-map" class="maptext" style="display: block;">
-            Learn how the river became what is it today through politics, power, and public funding.
+            What will the river tell you? Select a choice below to begin.
          </div>
 
          {{ range (where .Site.Pages "Section" "landing") }}
@@ -133,16 +134,7 @@ Indigenous communities have historically viewed the relationship between water a
          {{ end }}
    </div>
 </div>
-<div style="display: none;">
-   {{ $image := resources.Get "/images/chicago-river-map-past.svg" }}
-   <img src="{{ $image.RelPermalink }}" />
-   {{ $image := resources.Get "/images/chicago-river-map-present.svg" }}
-   <img src="{{ $image.RelPermalink }}" />
-   {{ $image := resources.Get "/images/chicago-river-map-future.svg" }}
-   <img src="{{ $image.RelPermalink }}" />
-   {{ $image := resources.Get "/images/allriver.png" }}
-   <img src="{{ $image.RelPermalink }}" />
-</div>
+
 
 <style>
 .maptext{
@@ -186,7 +178,6 @@ Indigenous communities have historically viewed the relationship between water a
    padding: 0.5vh;
    font-size: 1.6vh;
 }
-
 
 .content-past{
    display: none;
