@@ -9,7 +9,7 @@ function selectTime(time) {
   hideButtons();
 
   var btnRow = document.getElementById("button-time-row"); // move buttons down
-  btnRow.style.marginTop = "90vh";
+  btnRow.style.bottom = "0";
   var background = document.getElementById("background-img");
 
   background.style.backgroundImage = "url(/images/chicago-river-map-" + time +".svg)";
@@ -24,7 +24,6 @@ function selectTime(time) {
     elements[i].style.display = "block";
   }
 }
-
 
 function hideButtons() {
 
