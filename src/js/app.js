@@ -10,6 +10,7 @@ function selectTime(time) {
 
   var btnRow = document.getElementById("button-time-row"); // move buttons down
   btnRow.style.bottom = "0";
+  btnRow.style.marginBottom = "1vh";
   var background = document.getElementById("background-img");
 
   background.style.backgroundImage = "url(/images/chicago-river-map-" + time +".svg)";

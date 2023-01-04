@@ -11,7 +11,6 @@ lead: Hyas is a Hugo-powered Jamstack framework for building production-ready
 description: Hyas is a Hugo-powered Jamstack framework for building
   production-ready websites faster.
 category: Past
-audio: test.mp3
 ---
 Overview
 Introduction

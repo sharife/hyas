@@ -1,0 +1,25 @@
+
+{{ $x:= .time }}
+{{ range (where .context.Site.Pages "Section" .time ) }}
+    {{ range .Pages }}
+    <div id="{{ .Title }}" class="story">
+        <h2 style="display: flex; justify-content:space-between;">
+            <div style="font-size:2.5vh;">
+                {{ .Title   }}
+            </div>
+            <button style="margin-right: 1vh; font-size:2.5vh" onclick="selectTime({{$x}})">
+                X
+            </button>
+        </h2>
+        
+        {{ if isset .Params "audio" }}
+            <audio controls src="/audio/{{.Params.audio}}" style="width: 100%;">
+            </audio>
+        {{ end }}
+        <div class="story-content">
+            {{ .Content | markdownify}}
+        </div>
+        
+    </div>
+    {{ end }}
+{{ end }}
