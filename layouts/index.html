@@ -1,15 +1,16 @@
 {{ define "main" }}
 <div style="display: flex; height: 30vh;">
-   <div style="width: 30%; height:93vh; overflow:auto; margin-right:0%">
-      
+   <div class="story-display" >
          {{ range (where .Site.Pages "Section" "landing" ) }}
             {{ range .Pages }}
             {{ if .Params.category }}
             <div id="{{ .Params.category }}-landing" class="story">
-               <h2>
+               <h2 class ="story-title">
                   {{ .Title   }}
                </h2>
-               {{ .Content | markdownify }}
+               <div class="story-content">
+                  {{ .Content | markdownify }}
+               </div>
             </div>
             {{ end }}
             {{ end }}
@@ -17,14 +18,16 @@
          {{ partial "stories.html" (dict "context" . "time" "past")}}
          {{ partial "stories.html" (dict "context" . "time" "present")}}
          {{ partial "stories.html" (dict "context" . "time" "future")}}
-         
+
       <div id="landing-page" class="story" style="display: block; position:relative;">
          <div>
             {{ with .Site.GetPage "/landing/landing.md" }}
-            <h2>
-               {{ .Title   }}
-            </h2>
-            {{ .Content | markdownify }}
+            <h2 class ="story-title">
+                  {{ .Title   }}
+               </h2>
+               <div class="story-content">
+                  {{ .Content | markdownify }}
+               </div>
             {{ end }}
          </div>
          <div style="display: flex; justify-content: center;">
@@ -33,10 +36,12 @@
       </div>
       <div id="water-acknowledgement" class="story">
          {{ with .Site.GetPage "/water/water-agreement.md" }}
-         <h2>
+         <h2 class ="story-title">
             {{ .Title   }}
          </h2>
-         {{ .Content | markdownify }}
+         <div class="story-content">
+            {{ .Content | markdownify }}
+         </div>
          {{ end }}
       </div>
       
@@ -64,35 +69,17 @@
       <button class="time-button" onclick="selectTime('present')"> Present  </button>
       <button class="time-button" onclick="selectTime('future')"> Future  </button>
       </div>
-         {{ range (where .Site.Pages "Section" "past") }}
-            {{ range .Pages }}
-            <div class="content-past" style="position:absolute; bottom:{{.Params.x}}%; left:{{.Params.y}}%;">
-               <button class="story-button" onclick="showStoryText({{.Title}})" > {{.Title}} </button>
-               <div class="arrow-down"></div>
-            </div>
-            {{ end }}
-         {{ end }}
-         {{ range (where .Site.Pages "Section" "present") }}
-            {{ range .Pages }}
-            <div class="content-present" style="position:absolute; bottom:{{.Params.x}}%; left:{{.Params.y}}%;">
-               <button class="story-button" onclick="showStoryText({{.Title}})" > {{.Title}} </button>
-               <div class="arrow-down"></div>
-            </div>
-            {{ end }}
-         {{ end }}
-         {{ range (where .Site.Pages "Section" "future") }}
-            {{ range .Pages }}
-            <div class="content-future" style="position:absolute; bottom:{{.Params.x}}%; left:{{.Params.y}}%;">
-               <button class="story-button" onclick="showStoryText({{.Title}})" > {{.Title}} </button>
-               <div class="arrow-down"></div>
-            </div>
-            {{ end }}
-         {{ end }}
+         {{ partial "buttons.html" (dict "context" . "time" "past")}}
+         {{ partial "buttons.html" (dict "context" . "time" "present")}}
+         {{ partial "buttons.html" (dict "context" . "time" "future")}}
    </div>
 </div>
 
 
 <style>
+.body {
+   font-family: helvetica, sans-serif;
+}
 .maptext{
    display: none;
 }
@@ -134,10 +121,36 @@
    padding: 0.5vh;
    font-size: 1.6vh;
 }
-.story-content {
-   font-size: 3vh;
+.story-display {
+   width: 30%; 
+   height:90vh; 
+   overflow:auto; 
+   margin-right:0%;
+   padding-right: 1vh;
 }
 
+.story-title{
+   font-size: 3vh;
+   color: #707070;
+}
+.story-content {
+   font-size: 2.5vh;
+   color: #707070;
+}
+::-webkit-scrollbar {
+   width: 12px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+   -webkit-box-shadow: inset 0 0 6px rgba(82, 82, 82, 0.3); 
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+   background: #acacac; 
+   -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
 .content-past{
    display: none;
 }

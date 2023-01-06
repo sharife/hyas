@@ -1,6 +1,6 @@
 ---
-x: "18"
-y: "90"
+x: "30"
+y: "60"
 title : "North Branch"
 description: "Hyas is a Hugo-powered Jamstack framework for building production-ready websites faster."
 lead: "Hyas is a Hugo-powered Jamstack framework for building production-ready websites faster."
