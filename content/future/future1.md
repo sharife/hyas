@@ -9,7 +9,7 @@ lastmod: 2020-04-17T12:18:10+00:00
 draft: false
 images: []
 ---
-Map Location 
+Map Location
 [describe map location or nearby feature]
 Introduction
 Chicago’s wastewater is pumped at great cost into the Gulf of Mexico.   We propose recycling the water and piping it for industrial uses to water insecure communities.  This will increase the total amount of available water while protecting Lake Michigan from combined sewer overflow.

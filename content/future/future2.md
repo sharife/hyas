@@ -9,7 +9,7 @@ lastmod: 2020-04-17T12:18:10+00:00
 draft: false
 images: []
 ---
-Map Location 
+Map Location
 [describe map location or nearby feature]
 Introduction
 In a world increasingly saturated in petrochemicals, there is no longer an away where we can send our waste.  Currently, we treat precious rain like garbage, hurting humans and their ecosystems all along the way.  In the City of Big Shoulders and gargantuan water infrastructure, we cannot stay focused on narrow, antiquated plans.  We need to pioneer new systems that allow us to survive and thrive.  Chicago should be the capital of the Water Belt.

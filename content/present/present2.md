@@ -10,7 +10,7 @@ draft: false
 images: []
 audio: test.mp3
 ---
-Map Location 
+Map Location
 [describe map location or nearby feature]
 Introduction
 Aspirations of luxury blend with commercial utility along the North Branch.
