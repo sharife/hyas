@@ -1,6 +1,6 @@
 {{ define "main" }}
 <div style="display: flex; height: 30vh;">
-   <div class="story-display" >
+   <div class="story-display">
          {{ range (where .Site.Pages "Section" "landing" ) }}
             {{ range .Pages }}
             {{ if .Params.category }}
