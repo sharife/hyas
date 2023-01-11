@@ -2,8 +2,8 @@
 
 {{ range (where .context.Site.Pages "Section" .time ) }}
     {{ range .Pages }}
-    <div class="content-{{ $x }}" style="position:absolute; bottom:{{.Params.x}}%; left:{{.Params.y}}%;">
-        <button class="story-button" onclick="showStoryText({{.Title}})" > {{.Title}} 
+    <div id="{{$x}}-{{.Title}}" class="content-{{ $x }}" style="position:absolute; bottom:{{.Params.x}}%; left:{{.Params.y}}%;">
+        <button class="story-button" onclick="showStoryText({{.Title}}, {{$x}})" > {{.Title}} 
             {{ if isset .Params "audio" }}
             🔊
             {{ end }}
