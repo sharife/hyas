@@ -1,8 +1,6 @@
-
 window.showStoryText = showStoryText;
 window.selectTime = selectTime;
 window.showMapText = showMapText;
-
 
 function selectTime(time) {
 
@@ -18,8 +16,11 @@ function selectTime(time) {
 
   background.style.backgroundImage = "url(/images/chicago-river-map-" + time +".png)";
 
-  showStoryText(time + "-landing") // show time landing page
-  showMapText(time + "-map")
+  showStoryText(time + "-landing", time, true) // show time landing page
+
+  resetStoryButtons(time);
+
+  showMapText(time + "-map");
 
   var elements = document.getElementsByClassName("content-" + time);
 
@@ -67,10 +68,9 @@ function showMapText(temp) {
 }
 
 
-function showStoryText(storyId, time) {
+function showStoryText(storyId, time, isLanding) {
 
-
-  // selectStoryButton(storyId, time);
+  selectStoryButton(storyId, time, isLanding);
 
 
   var x = document.getElementById(storyId);
@@ -88,15 +88,15 @@ function showStoryText(storyId, time) {
 }
 
 
-function selectStoryButton(storyId, time) {
+function selectStoryButton(storyId, time, isLanding) {
 
-  if(time === undefined) return;
+  if(isLanding == true) {
+    return;
+  }
 
   resetStoryButtons(time);
-  
-  var element = document.getElementById(time + "-" + storyId);
 
-  // if(element === undefined) return;
+  var element = document.getElementById(time + "-" + storyId);
 
   element.children[0].style.backgroundColor = "white";
   element.children[0].style.color = "#707070";
@@ -109,6 +109,8 @@ function resetStoryButtons(time){
   var arrayOfElements = document.getElementsByClassName("content-" + time);
 
   for (var i=0; i<arrayOfElements.length;i++){
+    console.log(arrayOfElements[i].children[0]);
+
     arrayOfElements[i].children[0].style.backgroundColor = "#707070";
     arrayOfElements[i].children[0].style.color = "white";
     arrayOfElements[i].children[1].style.borderTop = "20px solid #707070";
