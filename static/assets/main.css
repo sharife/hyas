@@ -9,7 +9,9 @@ p {
 
 .maptext{
    display: none;
-   font-size:1.5rem;
+   font-size:1.6rem;
+   background-color: rgba(255, 255, 255, 0.6);
+   padding: 0.5rem;
 }
 
 .story {
@@ -22,9 +24,9 @@ p {
 }
 .time-button {
    background-color: #fefefe; /* Green */
-   color: #707070;
-   border-color: #707070;
-   padding: 15px 32px;
+   color: #575e63;
+   border-color: #575e63;
+   padding: 15px;
    text-align: center;
    font-size: 1.8vh;
    width: 20vh;
@@ -55,7 +57,7 @@ p {
 }
 .story-display {
    width: 30%; 
-   height:90vh; 
+   height:85vh; 
    overflow:auto; 
    margin-right:0%;
    padding-right: 1vh;
