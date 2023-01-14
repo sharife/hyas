@@ -1,9 +1,16 @@
-.body {
-   font-family: helvetica, sans-serif;
+body {
+   font-family: 'Rubik', sans-serif;
 }
+
+p {
+   font-size: 1.2rem;
+}
+
 .maptext{
    display: none;
+   font-size:1.5rem;
 }
+
 .story {
    display: none;
 }
@@ -54,11 +61,11 @@
 }
 
 .story-title{
-   font-size: 3vh;
+   font-size: 2rem;
    color: #707070;
 }
 .story-content {
-   font-size: 2.5vh;
+   font-size: 1.2rem;
    color: #707070;
 }
 .close-story{
@@ -93,3 +100,14 @@
 .content-future{
    display: none;
 } 
+
+.nav-item {
+   padding: 1rem;
+   font-weight: bold;
+   font-size: 1.4rem;
+}
+
+.nav-item a {
+   text-decoration: none;
+   color: black;
+}
