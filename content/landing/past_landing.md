@@ -1,5 +1,5 @@
 ---
-title : "Past: The Chicago River Resembles a Pipeline"
+title : "The Chicago River Resembles a Pipeline"
 description: ""
 lead: ""
 date: 2020-08-17T12:18:10+00:00

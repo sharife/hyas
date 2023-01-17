@@ -1,7 +1,7 @@
 ---
-title : "Future: Backward to the Future"
-description: "Hyas is a Hugo-powered Jamstack framework for building production-ready websites faster."
-lead: "Hyas is a Hugo-powered Jamstack framework for building production-ready websites faster."
+title : "Backward to the Future"
+description: ""
+lead: ""
 date: 2020-04-17T12:18:10+00:00
 lastmod: 2020-04-17T12:18:10+00:00
 draft: false
@@ -10,10 +10,18 @@ maptext: "Discover what the future may hold for the water and the communities wh
 images: []
 ---
 
-### We can address problems of flooding and drought by building systems that reflect 21st century knowledge as they facilitate economic growth and more widespread financial stability. 
+### The good news is that we are in the Great Lakes watershed that encompasses over 20% of the world’s freshwater.
 
-We can revitalize our rivers as corridors of clean industry and innovation. The perfect place to begin the transformation is along America’s most engineered waterway: the backward Chicago River.
+Due to our auspicious location and inheritance of stewardship, Great Lakes people have the chance to survive and thrive amidst accelerated climate change. The secret rests in honoring the water as a generous life giver whose existence we must also preserve.
 
-With over 20% of the world’s freshwater, the Great Lakes watershed can survive and thrive in the era of accelerated climate change.  Like the oasis that it is, the watershed can support the arrival of people and development of new businesses and forms of production.  Such trend reversing change from the Rust Belt to the Water Belt portends a stable future, but it cannot occur without some important upgrades. Vitally, water must remain under public oversight rather than being diverted by corporations for private profit.  In tandem, basic water bills must become affordable for every household.  Pulling oil pipelines out of the Great Lakes and their tributary rivers marks another necessary safeguard.  The Freshwater Lab’s contribution to The Water Belt future are plans for recycling water that is currently treated like waste.  Rather than paying to dispose of water across the continent, we propose its reuse in industrial processes.
+Great Lakes history includes mass migrations and outpouring of labor power. More recently, the region has been known as the Rust Belt where industry sputtered before the challenge of innovation and segregation turned our cities into battlegrounds. Not even the great waters can dissolve legacies of pollution and trauma. They must be commemorated and healed as we face the future.  
 
-Water recycling plants can anchor industrial complexes that simultaneously capture biogas and harvest minerals for new products.  Along with the jobs in building these systems, water recycling complexes can anchor  permanent green jobs and contribute to a closed loop economy.
+Manifesting a blue future in the Great Lakes region requires imagination and adaptation. It also takes coordinated effort across urban, rural and suburban communities.  Luckily, a love of the lakes is widely shared and the region has a long history of cutting edge binational and bipartisan legislation. The outcomes of recent elections have pivoted on Great Lake states.
+
+We can become the world’s Water Belt where genius infrastructure balances problems of flooding and drought as it supports economic growth and widespread stability. Waterfront Superfund sites can become corridors of clean industry and regeneration. The perfect place to begin the transformation is along America’s most engineered waterway: the backward Chicago River.  
+
+In order for the Great Lakes watershed to become a climate change oasis, many fundamental systems need to be rebuilt. The overabundance of lead service lines must be traded out immediately. Water must be affordable and accessible for every resident and take priority over subsidizing private enterprise. Infrastructure of water treatment and distribution needs to make the most of every single drop. Vitally, money made from the local water supply must be reinvested in its preservation and advancement.
+
+Like the oasis that it is, the watershed can support the arrival of people and development of new businesses and forms of production. Such trend reversing change from the Rust Belt to the Water Belt portends a stable future, but it cannot occur without some important upgrades. 
+
+The necessary upgrades are both technical and social.  Because they impact all life in the watershed, they must adhere to principles.  We propose three basic principles to guide the transformation: keep water public, keep water clean, and keep water here.
