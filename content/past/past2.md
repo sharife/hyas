@@ -6,17 +6,14 @@ lastmod: 2020-04-17T12:18:10+00:00
 title: Why a Pipeline?
 date: 2020-08-17T12:18:10+00:00
 images: []
-lead: Hyas is a Hugo-powered Jamstack framework for building production-ready
-  websites faster.
-description: Hyas is a Hugo-powered Jamstack framework for building
-  production-ready websites faster.
+lead: 
+description: 
 category: Past
 ---
-Introduction
-Why do we call a river, a waterbody known for turns and bends, a pipeline?
+### Why do we call a river, a waterbody known for turns and bends, a pipeline?
 
 Everything that courses through a pipeline is introduced. Such things enter a pipeline through a set of decisions made by the pipeline operator.  When a corporation wants to move oil toward a market, they push it through a pipeline.  When a factory wants to get rid of chemical byproducts, they pipe it outside the plant.  After we have used water, we send it down the drain. When Chicago could no longer confront its waste, it built the canal. Pipes reflect intention in their very direction.
-Body
+
 We think of rivers coursing in a natural path, whereas pipelines direct flows according to human will. The Chicago River was harnessed, straightened into a canal and pressed into the service of conveying coal, oil and petroleum coke, and other products.  It was even reversed in order to carry unwanted water away from the city through the Chicago Sanitary and Ship Canal.  Although it is not covered like a pipe, the river functions like a pipeline.  Oil and gas pipelines become known for their breaches and their damages.  The river can also overflow with sewage.
 In this way, the river resembles the main trunk of a pipeline system with smaller inflow pipes.  These smaller pipes drain effluent into the Chicago River during a rainstorm.
 

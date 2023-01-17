@@ -5,7 +5,8 @@
     <div id="{{$x}}-{{.Title}}" class="content-{{ $x }}" style="position:absolute; bottom:{{.Params.x}}%; left:{{.Params.y}}%;">
         <button class="story-button" onclick="showStoryText({{.Title}}, {{$x}}, false)" > {{.Title}} 
             {{ if isset .Params "audio" }}
-            🔊
+            <!-- 🔊 -->
+            &#9835;
             {{ end }}
         </button>
         <div class="arrow-down"></div>

@@ -7,6 +7,10 @@ p {
    font-size: 1.1rem;
 }
 
+p img {
+   width:100%;
+}
+
 .maptext{
    display: none;
    font-size:1.6rem;
@@ -79,6 +83,9 @@ p {
     font: inherit;
     cursor: pointer;
     outline: inherit;
+    align-self: flex-start;
+    margin-right: 1vh; 
+    font-size:2.5vh;
 }
 
 ::-webkit-scrollbar {

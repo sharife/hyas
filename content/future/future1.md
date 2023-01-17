@@ -2,8 +2,8 @@
 x: "17"
 y: "75"
 title : "Closing the Loop"
-description: "Hyas is a Hugo-powered Jamstack framework for building production-ready websites faster."
-lead: "Hyas is a Hugo-powered Jamstack framework for building production-ready websites faster."
+description: ""
+lead: ""
 date: 2020-06-17T12:18:10+00:00
 lastmod: 2020-04-17T12:18:10+00:00
 draft: false
