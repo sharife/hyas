@@ -25,6 +25,7 @@ p img {
    background-image: url("/images/allriver.png");
    background-repeat: no-repeat;
    background-size: cover;
+   background-position: center;
 }
 .time-button {
    background-color: #fefefe; /* Green */

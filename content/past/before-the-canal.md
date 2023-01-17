@@ -1,6 +1,6 @@
 ---
-x: "50"
-y: "50"
+x: "38"
+y: "43"
 draft: false
 lastmod: 2020-04-17T12:18:10+00:00
 title: Before the Canal
