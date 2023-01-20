@@ -7,14 +7,12 @@ function selectTime(time) {
   hideButtons();
 
   var btnRow = document.getElementById("button-time-row"); // move buttons down
-  btnRow.style.bottom = "0";
-  btnRow.style.marginBottom = "1vh";
+  btnRow.style.top = "95%";
 
   toggleTimeButton(time);
 
-  var background = document.getElementById("background-img");
-
-  background.style.backgroundImage = "url(/images/chicago-river-map-" + time +".png)";
+  var riverImage = document.getElementById("river-image-container");
+  riverImage.src = "/images/chicago-river-map-" + time +".png";
 
   showStoryText(time + "-landing", time, true) // show time landing page
 
@@ -55,7 +53,8 @@ function hideButtons() {
 function showMapText(temp) {
 
   var x = document.getElementById(temp);
-  var arrayOfElements= document.getElementsByClassName("maptext")
+  var arrayOfElements= document.getElementsByClassName("map-text")
+  console.log(arrayOfElements);
   for (var i=0; i<arrayOfElements.length;i++){
       arrayOfElements[i].style.display='none';
   }
@@ -109,8 +108,6 @@ function resetStoryButtons(time){
   var arrayOfElements = document.getElementsByClassName("content-" + time);
 
   for (var i=0; i<arrayOfElements.length;i++){
-    console.log(arrayOfElements[i].children[0]);
-
     arrayOfElements[i].children[0].style.backgroundColor = "#707070";
     arrayOfElements[i].children[0].style.color = "white";
     arrayOfElements[i].children[1].style.borderTop = "20px solid #707070";
