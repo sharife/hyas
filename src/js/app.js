@@ -54,7 +54,7 @@ function showMapText(temp) {
 
   var x = document.getElementById(temp);
   var arrayOfElements= document.getElementsByClassName("map-text")
-  console.log(arrayOfElements);
+
   for (var i=0; i<arrayOfElements.length;i++){
       arrayOfElements[i].style.display='none';
   }
@@ -97,9 +97,11 @@ function selectStoryButton(storyId, time, isLanding) {
 
   var element = document.getElementById(time + "-" + storyId);
 
+  var arrowSize = getComputedStyle(element.children[1]).borderTop.split(" ")[0];
+
   element.children[0].style.backgroundColor = "white";
   element.children[0].style.color = "#707070";
-  element.children[1].style.borderTop = "20px solid white";
+  element.children[1].style.borderTop = arrowSize.concat(""," solid white");
 
 }
 
@@ -110,7 +112,10 @@ function resetStoryButtons(time){
   for (var i=0; i<arrayOfElements.length;i++){
     arrayOfElements[i].children[0].style.backgroundColor = "#707070";
     arrayOfElements[i].children[0].style.color = "white";
-    arrayOfElements[i].children[1].style.borderTop = "20px solid #707070";
+    var arrowSize = getComputedStyle(arrayOfElements[i].children[1]).borderTop.split(" ")[0];
+    console.log(arrowSize);
+
+    arrayOfElements[i].children[1].style.borderTop = arrowSize.concat(""," solid #707070");
   }
 }
 

@@ -3,7 +3,7 @@
 {{ range (where .context.Site.Pages "Section" .time ) }}
     {{ range .Pages }}
     <div id="{{ .Title }}" class="story">
-        <h2 style="display: flex; justify-content:space-between;">
+        <h2 class="story-divider">
             <div class="story-title">
                 {{ .Title   }}
             </div>
