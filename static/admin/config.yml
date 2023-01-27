@@ -68,12 +68,18 @@ collections:
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
       - { label: 'Description', name: 'description', widget: 'string' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
-  - name: 'about'
-    label: 'About'
-    folder: 'content/about'
-    create: false
-    fields:
-      - { label: 'Description', name: 'description', widget: 'text' }
+  - name: "pages"
+    label: "Pages"
+    editor:
+      preview: false
+    files:
+        - name: 'about'
+          label: 'About'
+          folder: 'content/about'
+          create: false
+          fields:
+            - { label: 'Title', name: 'title', widget: 'string' }
+            - { label: 'Description', name: 'description', widget: 'text' }
   - name: 'profiles'
     label: 'Profiles'
     folder: 'content/about/profiles'
