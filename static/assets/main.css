@@ -139,6 +139,26 @@ p img {
    height: auto; */
 }
 
+.profile-flex-grid{
+   display: flex;
+   flex-wrap: wrap;
+   width: 80%;
+   margin:auto;
+}
+
+.about-profile {
+   width: 50%;
+   margin:auto;
+   box-sizing: border-box;
+   text-align: center;
+}
+.profile-picture{
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 50%;
+}
+
 .story-display {
    flex: 30%; 
    height:85vh;
@@ -221,6 +241,10 @@ img {
 
    .nav-container{
       display: none;
+   }
+
+   .about-profile{
+      width: 100%;
    }
 
 }

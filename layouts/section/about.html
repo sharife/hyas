@@ -4,7 +4,18 @@
 <div>
     About
 </div>
+<div class="profile-flex-grid">
+   {{ range .Pages }}
+   <div class="about-profile">
+      <div>
+         <a href="{{.Permalink}}"> {{ .Params.name }} </a>
+      </div>
+      <img src="{{substr .Params.picture 7}}" class="profile-picture">
+   </div>
+   
+   {{ end }}
+   
+   
+</div>
 
-{{ .Params.body | markdownify }}
-
-{{ end }}
+{{end }}

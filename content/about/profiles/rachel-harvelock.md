@@ -1,7 +1,7 @@
 ---
 name: Rachel Havrelock
 picture: /static/images/profilepics/rachel-havrelock-2511.jpg
-description: "Intention: By focusing on the Chicago Sanitary and Ship Canal, I
+intention: "By focusing on the Chicago Sanitary and Ship Canal, I
   want to return to the city’s original sin of sending its waste south to
   afflict downstate Illinois, southern states and the Gulf of Mexico. The reason
   for taking up the early 20th Century sin now is that the environmental and
@@ -17,7 +17,8 @@ description: "Intention: By focusing on the Chicago Sanitary and Ship Canal, I
   (CAWS) works, alert the public to the harm that it subsidies with tax dollars,
   and propose a new system that treats water like the precious source that it
   is.  Instead of a backward river of waste, I envision green industry built
-  around water recycling.  Bio: Rachel Havrelock is the founder and director of
+  around water recycling."
+bio: "Rachel Havrelock is the founder and director of
   the Freshwater Lab and a professor of English at the University of Illinois at
   Chicago.  A childhood of swimming in the Great Lakes created an indissoluble
   bond with water.  Decades of research in the Middle East led to her books
@@ -27,5 +28,5 @@ description: "Intention: By focusing on the Chicago Sanitary and Ship Canal, I
   water leaders.  She believes that the Great Lakes watershed can survive and
   thrive amidst accelerated Climate Change, but that a series of necessary
   actions must occur now.  Through collaboration, the Freshwater Lab has created
-  both The Backward River and the  Freshwater Stories digital platforms. "
+  both The Backward River and the  Freshwater Stories digital platforms."
 ---
