@@ -1,6 +1,6 @@
 ---
 name: Rachel Havrelock
-picture: /static/images/profilepics/rachel-havrelock-2511.jpg
+picture: /img/rachel-havrelock-2511.jpg
 intention: >-
   By focusing on the Chicago Sanitary and Ship Canal, I want to return to the
   city’s original sin of sending its waste south to afflict downstate Illinois,
