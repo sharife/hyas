@@ -68,3 +68,17 @@ collections:
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
       - { label: 'Description', name: 'description', widget: 'string' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
+  - name: 'about'
+    label: 'About'
+    folder: 'content/about'
+    create: false
+    fields:
+      - { label: 'Description', name: 'description', widget: 'text' }
+  - name: 'profiles'
+    label: 'Profiles'
+    folder: 'content/about/profiles'
+    create: true
+    fields:
+      - { label: 'Name', name: 'name', widget: 'string' }
+      - { label: 'Picture', name: 'picture', widget: 'image', media_folder: "/static/images/profilepics" }
+      - { label: 'Description', name: 'description', widget: 'string' }
