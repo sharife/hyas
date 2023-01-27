@@ -100,5 +100,3 @@ collections:
       - { label: 'Bio', name: 'bio', widget: 'markdown' }
       - { label: 'LinkedIn', name: 'linkedin', widget: 'string' }
       - { label: 'websiteurl', name: 'websiteurl', widget: 'string' }
-      
-      

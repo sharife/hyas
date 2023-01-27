@@ -11,6 +11,7 @@ p img {
    width:100%;
 }
 
+
 .map-text {
    display: none;
    font-size: 1.6rem;
@@ -152,6 +153,7 @@ p img {
    box-sizing: border-box;
    text-align: center;
 }
+
 .profile-picture{
    display: block;
    margin-left: auto;

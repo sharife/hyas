@@ -4,18 +4,20 @@
 <div>
     About
 </div>
+ {{ .Params.body}}
+
+
 <div class="profile-flex-grid">
    {{ range .Pages }}
    <div class="about-profile">
-      <div>
+      <div>4
          <a href="{{.Permalink}}"> {{ .Params.name }} </a>
+         <div class="profile-picture">
+            <a href="{{.Permalink}}"> <img src="{{substr .Params.picture 7}}"> </a>
+         </div>
       </div>
-      <img src="{{substr .Params.picture 7}}" class="profile-picture">
    </div>
-   
    {{ end }}
-   
-   
 </div>
 
 {{end }}

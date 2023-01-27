@@ -1,0 +1,15 @@
+{{define "main" }}
+
+<div>
+    {{.Params.name}}
+</div>
+
+{{.Params.intention | markdownify}}
+
+<p>
+    {{.Params.bio}}
+</p>
+
+
+
+{{ end }}
