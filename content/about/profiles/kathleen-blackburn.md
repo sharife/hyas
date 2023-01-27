@@ -1,6 +1,6 @@
 ---
 name: Kathleen Blackburn
-picture: /images/profilepics/author-photo.jpg
+picture: /images/profilepics/author-photo-.jpg
 intention: >-
   I want to reimagine the relationship we have to our watershed. By recognizing
   what currently shapes our rivers and impacts the communities who rely on them,
