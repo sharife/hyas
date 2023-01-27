@@ -95,7 +95,7 @@ collections:
     create: true
     fields:
       - { label: 'Name', name: 'name', widget: 'string' }
-      - { label: 'Picture', name: 'picture', widget: 'image', media_folder: "/static/images/profilepics" }
+      - { label: 'Picture', name: 'picture', widget: 'image' }
       - { label: 'Intention', name: 'intention', widget: 'markdown' }
       - { label: 'Bio', name: 'bio', widget: 'markdown' }
       - { label: 'LinkedIn', name: 'linkedin', widget: 'string', required: false}
