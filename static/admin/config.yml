@@ -73,13 +73,20 @@ collections:
     editor:
       preview: false
     files:
-        - name: 'about'
-          label: 'About'
-          folder: 'content/about'
-          create: false
-          fields:
-            - { label: 'Title', name: 'title', widget: 'string' }
-            - { label: 'Description', name: 'description', widget: 'text' }
+      - name: 'about'
+        label: 'About'
+        folder: 'content/about'
+        create: false
+        fields:
+          - { label: 'Title', name: 'title', widget: 'string' }
+          - { label: 'Description', name: 'description', widget: 'text' }
+      - name: 'get-involved'
+        label: 'Get Involved'
+        folder: 'content/get-involved'
+        create: false
+        fields:
+          - { label: 'Title', name: 'title', widget: 'string' }
+          - { label: 'Description', name: 'description', widget: 'text' }
   - name: 'profiles'
     label: 'Profiles'
     folder: 'content/about/profiles'
