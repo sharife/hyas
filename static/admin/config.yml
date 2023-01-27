@@ -76,6 +76,7 @@ collections:
       - name: 'about'
         label: 'About'
         folder: 'content/about'
+        file: 'content/about/_index.md'
         create: false
         fields:
           - { label: 'Title', name: 'title', widget: 'string' }
@@ -83,6 +84,7 @@ collections:
       - name: 'get-involved'
         label: 'Get Involved'
         folder: 'content/get-involved'
+        file: 'content/get-involved/_index.md'
         create: false
         fields:
           - { label: 'Title', name: 'title', widget: 'string' }
