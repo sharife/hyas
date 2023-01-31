@@ -1,12 +1,20 @@
 {{define "main" }}
 
-<div>
-    {{.Params.name}}
+<header class="about-spacer">
+	<div class="about-inner">
+		<h1 class="about-name">{{.Params.name}}</h1>
+	</div>
+</header>
+    <figure class="picture-wrapper">
+        <img class="about-picture" src="{{.Params.picture}}">
+    </figure>
+<div class="about-info">
+    Intention: {{.Params.intention | markdownify}}
 </div>
 
-{{.Params.intention | markdownify}}
-
-{{.Params.bio | markdownify}}
+<div class="about-info">
+    Bio: {{.Params.bio | markdownify}}
+</div>
 
 
 

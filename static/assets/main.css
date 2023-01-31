@@ -132,14 +132,6 @@ p img {
 
 }
 
-.river-display{
-   
-   /* max-width:100%;
-   max-height:100%;
-   width: auto;
-   height: auto; */
-}
-
 .profile-flex-grid{
    display: flex;
    flex-wrap: wrap;
@@ -208,6 +200,29 @@ img {
    justify-content: space-between;
 }
 
+.about-name {
+   text-align: center;
+   font-size: 5rem;
+}
+.about-info{
+   margin-left: auto;
+   margin-right: auto;
+   max-width: 43rem;
+}
+.about-picture{
+   height: auto;
+   margin: 0;
+   padding: 0;
+   display: block;
+   max-width: 100%;
+}
+.picture-wrapper {
+   position: absolute;
+   left:calc((100vw - 40rem) / 2 + 40rem);
+   max-width: 300px;
+}
+
+
 @media screen and (max-width: 500px) {
    .flex-container {
        flex-direction: column-reverse;
@@ -247,6 +262,11 @@ img {
 
    .about-profile{
       width: 100%;
+   }
+   .picture-wrapper {
+      position: static;
+      max-width: 300px;
+      left: 0;
    }
 
 }
