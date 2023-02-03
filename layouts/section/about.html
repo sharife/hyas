@@ -1,25 +1,29 @@
 {{ define "main" }}
 
-<div class="about-container">
-   <div class="single-title">
-      About
-  </div>
-  
-  {{ .Params.body}}
+<div class="single-title">
+   About
 </div>
 
-
-<div class="profile-flex-grid">
-   {{ range .Pages }}
-   <div class="about-profile">
-      <div>
-         <a href="{{.Permalink}}" class="about-page-name"> {{ .Params.name }} </a>
-         <div class="profile-picture">
-            <a href="{{.Permalink}}"> <img src="{{.Params.picture}}"> </a>
-         </div>
-      </div>
+<div class="about-background">
+   <div class="about-intro">
+      {{ .Params.body}}
    </div>
-   {{ end }}
+   <div class="the-team">
+      The Team
+   </div>
+    <div class="profile-flex-grid">
+       {{ range .Pages }}
+       <div class="about-profile">
+          <div>
+             <a href="{{.Permalink}}" class="about-page-name"> {{ .Params.name }} </a>
+             <div class="profile-picture">
+                <a href="{{.Permalink}}"> <img src="{{.Params.picture}}"> </a>
+             </div>
+          </div>
+       </div>
+       {{ end }}
+    </div>
 </div>
+
 
 {{end }}

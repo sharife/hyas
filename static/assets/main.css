@@ -208,12 +208,26 @@ img {
    justify-content: space-between;
    padding-top: 10px;
 }
-
-.about-container{
+.about-background {
+   background-color: #d7e8f2;
+   height: 100%;
+}
+.about-intro{
    width: 70%;
+   padding-top:3rem;
+   margin-bottom: 1rem;
    margin-left:auto;
    margin-right:auto;
 }
+.the-team{
+   width: 70%;
+   margin-left:auto;
+   margin-right:auto;
+   font-size: 3rem;
+   font-weight: bold;
+   margin-bottom: 2rem;
+}
+
 .single-title{
    text-align: center;
    font-size: 5rem;
