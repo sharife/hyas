@@ -21,9 +21,9 @@
         </button>
     </div>
     <div class="get-involved-content">
-        When we speak of the Backward River, we mean that the Chicago River literally runs backward and that it is part of a backward system with a skewed set of beneficiaries and victims.
-Here you’ll find tools, resources, ideas and opportunities to help you value fresh water, heal our shared sources, dismantle environmental racism, establish a reciprocal relationship with nature, expose the disparities of water infrastructure and policy, create socially engaged art, and transform our economic models from extractive to circular.
-Why get involved? Because nothing is more precious than water and everyone who lives around it has a stake in its future.
+        <div class="light-text">
+            {{.Params.intro | markdownify}}
+        </div>
     </div>
 </div>
 
@@ -45,31 +45,53 @@ Why get involved? Because nothing is more precious than water and everyone who l
             LinkedIn
         </button>
     </div>
-    <div>
-        Follow our social media to find out about opportunities, events, and urgent campaigns. We also want to hear from you. Connect with us on social media by tagging us on your water-related posts and using these hashtags.
+    <div class="get-involved-content">
+        <div class="dark-text">
+            {{.Params.connect | markdownify}}
+        </div>
+        <div class="get-involved-hashtags">
+            {{.Params.hashtags | markdownify}}
+        </div>
     </div>
-    <div>
-        #TheBackwardRiver #FreshwaterLab #TheRiverSpeaks #ChicagoRiver #LakeMichigan #GreatLakes #ChicagoAreaWaterwaySystem
-    </div>
+    
 </div>
 
 <div class="section-light">
     <div class="get-involved-flex-row">
-        <div>
-            RECLAIM
+        <div class="inline-block">
+            <img src="/img/reclaim.gif" class="get-involved-img">
+            <div class="gif-text">
+                Who owns the water? You do. Keep water public, clean and here!
+            </div>
+            <button class="gif-button">
+                Reclaim
+            </button>
         </div>
-        <div>
-            ACT NOW
+        <div class="inline-block">
+            <img src="/img/act.gif" class="get-involved-img">
+            <div class="gif-text">
+                There are things we can do at the individual and community levels to implement change.
+            </div>
+            <button class="gif-button">
+                Act
+            </button>
         </div>
-        <div>
-            UNLEARN
+        <div class="inline-block">
+            <img src="/img/unlearn.gif" class="get-involved-img">
+            <div class="gif-text">
+                Unlearn as an intentional, radical act so that you may learn.
+            </div>
+            <button class="gif-button">
+                Unlearn
+            </button>
         </div>
     </div>
 </div>
 <div class="section-dark">
-    <div >
-        How do you imagine the future of the Chicago River? Can you imagine a thriving watershed with equitable access? How do you currently interact with the river? How would you like your interactions to be different? Does the river inspire you to paint, sing, write, bike, take a deep breath, or organize actions? We want to know!
-    Send us your artwork, photos, videos and audio files and we’ll feature them on our social media and website.
+    <div class="get-involved-content">
+        <div class="dark-text">
+            {{.Params.reimagine | markdownify}}
+        </div>
     </div>
     
     <div class="form-container">

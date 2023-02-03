@@ -228,15 +228,46 @@ img {
    background-color: #079697;
    width: 100%;
    display: inline-block;
-   height: 70vh;
+}
+.dark-text{
+   color: #09232a;
+   text-align: center;
+   font-size: 1.5rem;
+}
+.light-text{
+   color: #084141;
+   text-align: center;
+   font-size: 1.5rem;
 }
 .get-involved-content{
    font-weight: 500;
    margin-left: 10rem;
    margin-right: 10rem;
-   font-size: 3.2rem;
 }
-
+.inline-block{ 
+   display: inline-block;
+   margin-bottom: 2rem;
+}
+.get-involved-img {
+   vertical-align: middle;
+   display: inline-block;
+   height: auto;
+}
+.gif-button{
+   margin-left:auto;
+   margin-right:auto;
+   margin-top: 1rem;
+   display: flex;
+   justify-content: center;
+}
+.gif-text{
+   text-align: center;
+}
+.get-involved-hashtags{
+   color: #a7fbfb;
+   font-size: 1.5rem;
+   text-align: center;
+}
 
 .about-name {
    text-align: center;

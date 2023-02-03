@@ -13,9 +13,9 @@ intro: >-
 connect: "#### Follow our social media to find out about opportunities, events,
   and urgent campaigns. We also want to hear from you. Connect with us on social
   media by tagging us on your water-related posts and using these hashtags."
-connect-hashtags: "### \\#TheBackwardRiver #FreshwaterLab #TheRiverSpeaks
+hashtags: "### \\#TheBackwardRiver #FreshwaterLab #TheRiverSpeaks
   #ChicagoRiver #LakeMichigan #GreatLakes #ChicagoAreaWaterwaySystem"
-re-imagine: >-
+reimagine: >-
   #### How do you imagine the future of the Chicago River? Can you imagine a
   thriving watershed with equitable access? How do you currently interact with
   the river? How would you like your interactions to be different? Does the

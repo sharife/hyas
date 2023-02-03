@@ -89,8 +89,8 @@ collections:
         fields:
           - { label: 'Intro', name: 'intro', widget: 'markdown'}
           - { label: 'Connect', name: 'connect', widget: 'markdown'}
-          - { label: 'Connect Hashtags', name: 'connect-hashtags', widget: 'markdown'}
-          - { label: 'Re Imagine', name: 're-imagine', widget: 'markdown'}
+          - { label: 'Connect Hashtags', name: 'hashtags', widget: 'markdown'}
+          - { label: 'Re Imagine', name: 'reimagine', widget: 'markdown'}
   - name: 'profiles'
     label: 'Profiles'
     folder: 'content/about/profiles'
