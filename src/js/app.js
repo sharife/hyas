@@ -1,6 +1,7 @@
 window.showStoryText = showStoryText;
 window.selectTime = selectTime;
 window.showMapText = showMapText;
+window.selectWater = selectWater;
 
 function selectTime(time) {
 
@@ -24,6 +25,19 @@ function selectTime(time) {
 
   for(var i=0; i < elements.length; i++) { 
     elements[i].style.display = "block";
+  }
+}
+
+function selectWater(x) {
+  var x = document.getElementById(x);
+  var arrayOfElements= document.getElementsByClassName("story")
+  for (var i=0; i<arrayOfElements.length;i++){
+      arrayOfElements[i].style.display='none';
+  }
+  if (x.style.display === "none") {
+  x.style.display = "block";
+  } else {
+  x.style.display = "none";
   }
 }
 

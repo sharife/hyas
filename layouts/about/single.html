@@ -5,15 +5,18 @@
 		<h1 class="about-name">{{.Params.name}}</h1>
 	</div>
 </header>
+<div class="about-background">
+    
     <figure class="picture-wrapper">
         <img class="about-picture" src="{{.Params.picture}}">
     </figure>
-<div class="about-info">
-    Intention: {{.Params.intention | markdownify}}
+    <div class="about-info">
+        {{.Params.intention | markdownify}}
+    </div>
+    <div class="about-info">
+        {{.Params.bio | markdownify}}
+    </div>
 </div>
 
-<div class="about-info">
-    Bio: {{.Params.bio | markdownify}}
-</div>
 
 {{ end }}

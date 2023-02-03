@@ -28,10 +28,10 @@ p img {
    background-color: #fefefe; /* Green */
    color: #575e63;
    border-color: #575e63;
-   padding: 15px;
+   padding: 10px;
    text-align: center;
    font-size: 1.8rem;
-   width: 20rem;
+   width: 10rem;
    border-radius:10px;
    font-weight: bold;
 }
@@ -189,6 +189,7 @@ p img {
    display: flex;
    flex-direction: row;
    text-align: center;
+   margin-left: 12px;
 }
 
 img {
@@ -291,6 +292,7 @@ img {
    margin-left: auto;
    margin-right: auto;
    max-width: 43rem;
+   line-height: 1.476;
 }
 .about-picture{
    height: auto;
@@ -322,9 +324,10 @@ textarea{
 }
 
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 1000px) {
    .flex-container {
        flex-direction: column-reverse;
+       margin-left:0;
    }
    .row-center {
       width: 100%;
@@ -342,7 +345,7 @@ textarea{
    .time-button {
       font-size: 16px;
       padding: 5px;
-      width: 25vw;
+      width: 20vw;
    }
    
    .story-button {
