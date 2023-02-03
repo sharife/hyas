@@ -84,6 +84,7 @@ collections:
       - name: 'get-involved'
         label: 'Get Involved'
         folder: 'content/get-involved'
+        file: 'content/get-involved/_index.md'
         create: false
         fields:
           - { label: 'Intro', name: 'intro', widget: 'markdown'}
