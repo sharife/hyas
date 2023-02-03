@@ -100,3 +100,12 @@ collections:
       - { label: 'Bio', name: 'bio', widget: 'markdown' }
       - { label: 'LinkedIn', name: 'linkedin', widget: 'string', required: false}
       - { label: 'websiteurl', name: 'websiteurl', widget: 'string', required: false}
+  - name: 'get-involved'
+    label: 'Get Invovled'
+    folder: 'content/get-involved'
+    create: false
+    fields:
+      - { label: 'Intro', name: 'intro', widget: 'markdown'}
+      - { label: 'Connect', name: 'connect', widget: 'markdown'}
+      - { label: 'Connect Hashtags', name: 'connect-hashtags', widget: 'markdown'}
+      - { label: 'Re Imagine', name: 're-imagine', widget: 'markdown'}
