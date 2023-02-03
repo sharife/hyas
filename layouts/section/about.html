@@ -1,16 +1,19 @@
 {{ define "main" }}
 
-
-<div>
-    About
+<div class="about-container">
+   <div class="single-title">
+      About
+  </div>
+  
+  {{ .Params.body}}
 </div>
- {{ .Params.body}}
+
 
 <div class="profile-flex-grid">
    {{ range .Pages }}
    <div class="about-profile">
       <div>
-         <a href="{{.Permalink}}"> {{ .Params.name }} </a>
+         <a href="{{.Permalink}}" class="about-page-name"> {{ .Params.name }} </a>
          <div class="profile-picture">
             <a href="{{.Permalink}}"> <img src="{{.Params.picture}}"> </a>
          </div>

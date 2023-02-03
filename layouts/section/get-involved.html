@@ -1,5 +1,101 @@
 {{ define "main" }}
 
-a
+<div class="single-title">
+    Get Involved
+</div>
+<div class="section-light">
+    <div class="get-involved-flex-row">
+        <button class="get-involved-btn">
+            Connect
+        </button>
+        <button class="get-involved-btn">
+            Reclaim
+        </button>
+        <button class="get-involved-btn">
+            Act Now
+        </button>
+        <button class="get-involved-btn">
+            Unlearn
+        </button>
+        <button class="get-involved-btn">
+            Reimagine
+        </button>
+    </div>
+    <div class="get-involved-content">
+        When we speak of the Backward River, we mean that the Chicago River literally runs backward and that it is part of a backward system with a skewed set of beneficiaries and victims.
+Here you’ll find tools, resources, ideas and opportunities to help you value fresh water, heal our shared sources, dismantle environmental racism, establish a reciprocal relationship with nature, expose the disparities of water infrastructure and policy, create socially engaged art, and transform our economic models from extractive to circular.
+Why get involved? Because nothing is more precious than water and everyone who lives around it has a stake in its future.
+    </div>
+</div>
+
+<div class="section-dark">
+    <h1 class="single-title">
+        Connect
+    </h1>
+    <div class="get-involved-flex-row">
+        <button class="get-involved-btn">
+            Facebook
+        </button>
+        <button class="get-involved-btn">
+            Instagram
+        </button>
+        <button class="get-involved-btn">
+            Twitter
+        </button>
+        <button class="get-involved-btn">
+            LinkedIn
+        </button>
+    </div>
+    <div>
+        Follow our social media to find out about opportunities, events, and urgent campaigns. We also want to hear from you. Connect with us on social media by tagging us on your water-related posts and using these hashtags.
+    </div>
+    <div>
+        #TheBackwardRiver #FreshwaterLab #TheRiverSpeaks #ChicagoRiver #LakeMichigan #GreatLakes #ChicagoAreaWaterwaySystem
+    </div>
+</div>
+
+<div class="section-light">
+    <div class="get-involved-flex-row">
+        <div>
+            RECLAIM
+        </div>
+        <div>
+            ACT NOW
+        </div>
+        <div>
+            UNLEARN
+        </div>
+    </div>
+</div>
+<div class="section-dark">
+    <div >
+        How do you imagine the future of the Chicago River? Can you imagine a thriving watershed with equitable access? How do you currently interact with the river? How would you like your interactions to be different? Does the river inspire you to paint, sing, write, bike, take a deep breath, or organize actions? We want to know!
+    Send us your artwork, photos, videos and audio files and we’ll feature them on our social media and website.
+    </div>
+    
+    <div class="form-container">
+        <form name="contact" method="POST" data-netlify="true">
+            <p>
+              <label> Name <input type="text" name="name" required/></label>
+            </p>
+            <p>
+              <label>Your Email: <input type="email" name="email" required/></label>
+            </p>
+            <p>
+                <label>Phone Number: <input type="phone" name="phone" required/></label>
+            </p>
+            <p>
+              <label>Message: <textarea name="message"></textarea></label>
+            </p>
+            <p>
+                <label for="myfile">Select a file:</label>
+                <input type="file" id="myfile" name="myfile">
+            </p>
+            <p>
+              <button type="submit">Send</button>
+            </p>
+          </form>
+    </div>
+</div>
 
 {{ end }}
