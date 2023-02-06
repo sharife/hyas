@@ -12,8 +12,16 @@ function selectTime(time) {
 
   toggleTimeButton(time);
 
-  var riverImage = document.getElementById("river-image-container");
-  riverImage.src = "/images/chicago-river-map-" + time +".png";
+  // var riverImage = document.getElementById("river-image-container");
+
+  // riverImage.src = "/images/chicago-river-map-" + time +".png";
+
+  var riverImage = document.getElementById("river-image");
+
+
+
+  riverImage.style.backgroundImage = 'url(/images/chicago-river-map-' + time +".png)";
+
 
   showStoryText(time + "-landing", time, true) // show time landing page
 
@@ -127,8 +135,6 @@ function resetStoryButtons(time){
     arrayOfElements[i].children[0].style.backgroundColor = "#707070";
     arrayOfElements[i].children[0].style.color = "white";
     var arrowSize = getComputedStyle(arrayOfElements[i].children[1]).borderTop.split(" ")[0];
-    console.log(arrowSize);
-
     arrayOfElements[i].children[1].style.borderTop = arrowSize.concat(""," solid #707070");
   }
 }

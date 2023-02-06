@@ -125,12 +125,25 @@ p img {
    color: black;
 }
 
-.river {
+.river-container {
    flex: 70%;
    width: 100%;
-   height: 85vh;
-   position:relative;
+   height: 50vh;
+}
 
+.river {
+   position:relative;
+   background-image: url("/images/allriver.png");
+   background-repeat: no-repeat;
+   background-size: cover;
+   width: 100%;
+   height: 0;
+   padding-top: 62.5%;
+}
+
+.river-display{
+   object-fit: contain;
+   max-height: 85vh;
 }
 
 .profile-flex-grid{
@@ -155,11 +168,12 @@ p img {
 }
 
 .story-display {
-   flex: 30%; 
+   flex: 30%;
    height:85vh;
    overflow:auto; 
    margin-right:0%;
    padding-right: 1rem;
+   margin-left: 12px;
 }
 
 .container{
@@ -189,12 +203,10 @@ p img {
    display: flex;
    flex-direction: row;
    text-align: center;
-   margin-left: 12px;
 }
 
 img {
    width: 100%;
-   height:100%;
 }
 
 .story-divider {
@@ -274,6 +286,25 @@ img {
    margin-top: 1rem;
    display: flex;
    justify-content: center;
+   font-weight: bold;
+   background-color: #0f5959;
+   border-color: #0f5959;
+   color: white;
+   padding: 14px 25px;
+   border-radius: 5px;
+   text-align: center;
+   text-decoration: none;
+   width: 40px;
+}
+
+.get-involved-btn {
+   background-color: #0f5959;
+   border-color: #0f5959;
+   color: white;
+   padding: 14px 25px;
+   border-radius: 5px;
+   text-align: center;
+   text-decoration: none;
 }
 .gif-text{
    text-align: center;
