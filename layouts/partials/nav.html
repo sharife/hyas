@@ -1,6 +1,6 @@
 <div class="nav-container">
     <div>
-    <a href="/"><img src="/img/logo.svg" style="width:100%;" alt="The Backward River homepage" /></a>
+    <a href="/"><img src="/img/logo.svg" class="main-logo"  alt="The Backward River homepage" /></a>
     </div>
     <div style="display: flex;">
         <div class="nav-item">
@@ -20,6 +20,28 @@
             <a href="/get-involved">Get involved</a>
         </div>
     </div>
+</div>
 
+<nav id="nav-mobile" class="mobile-nav-open">
+	<div class="fr br1 pa1 ma1">
+		<a class="white b f4 ph2 no-underline" onclick="toggleMobile();">&#9776;</a>
+	</div>
+</nav>
 
+<div id="mobile-menu" class="mobile-nav">
+	<div class="gradient-divider"></div>
+	<ul class="mobile-list">
+		<li><a href="/"><img src="/img/logo.svg" alt="Mantra Bio logo" class="mobile-logo"/></a></li>
+
+		<li><a href="/about" class="pa3 no-underline db">About</a></li>
+
+		<li><a href="/" class="pa3 no-underline db">Media</a></li>
+
+		<li><a href="/" class="pa3 no-underline db">En Español </a></li>
+
+		<li><a href="/get-involved" class="pa3 no-underline db">Get Involved</a></li>
+
+	</ul>
+	<div class="gradient-divider"></div>
+	<p class="mobile-exit"> <a onclick="toggleMobile();">[ EXIT ]</a></p>
 </div>

@@ -2,6 +2,7 @@ window.showStoryText = showStoryText;
 window.selectTime = selectTime;
 window.showMapText = showMapText;
 window.selectWater = selectWater;
+window.toggleMobile = toggleMobile;
 
 function selectTime(time) {
 
@@ -137,6 +138,10 @@ function resetStoryButtons(time){
     var arrowSize = getComputedStyle(arrayOfElements[i].children[1]).borderTop.split(" ")[0];
     arrayOfElements[i].children[1].style.borderTop = arrowSize.concat(""," solid #707070");
   }
+}
+
+function toggleMobile() {
+	$('#mobile-menu').fadeToggle();
 }
 
 
