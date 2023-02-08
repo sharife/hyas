@@ -85,10 +85,24 @@ collections:
         file: 'content/get-involved/act.md'
         create: false
         fields:
+          - label: 'At Home Accordion'
+            name: 'home'
+            widget: 'list'
+            allow_add: true
+            fields:
+              - { label: 'Accordion Header', name: 'header', widget: 'string'}
+              - { label: 'Accordion Text', name: 'text', widget: 'markdown'}
+          - label: 'In Community Accordion'
+            name: 'community'
+            widget: 'list'
+            allow_add: true
+            fields:
+              - { label: 'Accordion Header', name: 'header', widget: 'string'}
+              - { label: 'Accordion Text', name: 'text', widget: 'markdown'}
           - label: 'Accordions'
             name: 'accordions'
             widget: 'list'
-            allow_add: true
+            allow_add: false
             fields:
               - { label: 'Title', name: 'title', widget: 'string'}
               - label: 'Accordion Content'
