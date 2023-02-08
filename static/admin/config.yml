@@ -99,19 +99,6 @@ collections:
             fields:
               - { label: 'Accordion Header', name: 'header', widget: 'string'}
               - { label: 'Accordion Text', name: 'text', widget: 'markdown'}
-          - label: 'Accordions'
-            name: 'accordions'
-            widget: 'list'
-            allow_add: false
-            fields:
-              - { label: 'Title', name: 'title', widget: 'string'}
-              - label: 'Accordion Content'
-                name: 'accordion-Content'
-                widget: 'list'
-                allow_add: true
-                fields:
-                  - { label: 'Accordion Header', name: 'header', widget: 'string'}
-                  - { label: 'Accordion Text', name: 'text', widget: 'markdown'}
   - name: 'profiles'
     label: 'Profiles'
     folder: 'content/about/profiles'
