@@ -1,3 +1,5 @@
 ---
-title: "ahahdfhasf"
+title: "Act"
+type: "get-involved"
+layout: "act"
 ---

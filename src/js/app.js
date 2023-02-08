@@ -144,6 +144,9 @@ function toggleMobile() {
 	$('#mobile-menu').fadeToggle();
 }
 
+$(function() {
+  $( ".accordion" ).accordion();
+});
 
 
 // JS Goes here - ES6 supported

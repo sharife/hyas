@@ -79,6 +79,25 @@ collections:
           - { label: 'Connect', name: 'connect', widget: 'markdown'}
           - { label: 'Connect Hashtags', name: 'hashtags', widget: 'markdown'}
           - { label: 'Re Imagine', name: 'reimagine', widget: 'markdown'}
+      - name: 'act'
+        label: 'Act'
+        folder: 'content/get-involved'
+        file: 'content/get-involved/act.md'
+        create: false
+        fields:
+          - label: 'Accordions'
+            name: 'accordions'
+            widget: 'list'
+            allow_add: true
+            fields:
+              - { label: 'Title', name: 'title', widget: 'string'}
+              - label: 'Accordion Content'
+                name: 'accordion-Content'
+                widget: 'list'
+                allow_add: true
+                fields:
+                  - { label: 'Accordion Header', name: 'header', widget: 'string'}
+                  - { label: 'Accordion Text', name: 'text', widget: 'markdown'}
   - name: 'profiles'
     label: 'Profiles'
     folder: 'content/about/profiles'
