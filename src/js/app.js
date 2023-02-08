@@ -145,7 +145,7 @@ function toggleMobile() {
 }
 
 $(function() {
-  $( ".accordion" ).accordion();
+  $( ".accordion" ).accordion({heightStyle: 'panel'});
 });
 
 

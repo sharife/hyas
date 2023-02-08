@@ -5,9 +5,6 @@ layout: act
 home:
   - header: Hold off running water during the rain
     text: >-
-      <!--StartFragment-->
-
-
       As the warming of the planet accelerates, increased and intensified rainfall overwhelms the Great Lakes region. Chicago, like many cities [across the world](https://www.arcgis.com/home/item.html?id=004909c6679a4289b629a1c26278224c), has a [combined sewer system](https://mwrd.org/understanding-your-sewer-0). This means that storm drains connect with the sewers that fill with water from your home. More and more, the capacity of this system is breached by rain events. When sewers fill, there is nowhere for the waste water to go but up, often causing significant urban flooding that infiltrates basements and overruns city streets. 
 
 
@@ -25,26 +22,14 @@ home:
       * Replacing impermeable surfaces like sidewalks and driveways with permeable pavement that absorbs rain and helps to recharge groundwater. In Chicago, you can propose and vote for projects like this to be implemented with your Alderperson’s neighborhood funds through [participatory budgeting](http://www.pbchicago.org/pb-in-chicago.html).
 
       * Working with local leadership to install [reservoirs and rain gardens](https://www.chicago.gov/content/dam/city/progs/env/ChicagoGreenStormwaterInfrastructureStrategy.pdf).
-
-
-      <!--EndFragment-->
   - header: Watch what you flush
     text: >-
-      <!--StartFragment-->
-
-
       Although it may seem like you will never again see what you pour down the drain, everything we wash away reappears in rivers or streams.  Increasingly, the contents of drains reach our drinking water.  As a result, you should carefully read the ingredients in your home products. Take a look at your laundry detergent, personal care products and cleaning supplies.  Do they contain things that you would like to drink?  If not, you can switch to more natural products like [Meliora](https://meliorameansbetter.com/).  You can also[ make your own products.](http://freshwaterstories.com/stories/drinking-water/) 
 
 
       It is also crucial to keep pharmaceuticals out of the water.  Human medications are rewiring the DNA of aquatic animals, even causing fish and frogs to switch sexes amidst their lives.  Don’t flush unused medications. Instead, take them to a pharmaceutical drop-off.  Check [here ](https://www.chicago.gov/city/en/depts/cdph/supp_info/healthy-communities/pharmaceuticals_dropofflocations.html)for a list of locations in Chicago. Click [here](https://www.fda.gov/drugs/disposal-unused-medicines-what-you-should-know/drug-disposal-drug-take-back-locations) for those across the United States. Many drugstores and pharmacies also take back pharmaceuticals.
-
-
-      <!--EndFragment-->
   - header: Eat from your ecosystem
     text: >-
-      <!--StartFragment-->
-
-
       The movement to eat locally has taught us how to reduce the use of fossil fuels in transporting and packaging food.  Farmers markets offer healthier ways to procure food on multiple levels.  
 
 
@@ -70,38 +55,20 @@ home:
 
 
       You can learn more about Silverfin and Dirk’s famous carp burger recipe [here](http://freshwaterstories.com/stories/fishing/).
-
-
-      <!--EndFragment-->
   - header: Reduce pollution
     text: >-
-      <!--StartFragment-->
-
-
       Every straw, plastic water bottle and takeout utensil will outlive each one of us. Rather than disappear, these plastics simply break down into ever smaller pieces until they become [microplastics](https://www.5gyres.org/microbeads/) that are too small to be filtered out of drinking water. All those single-use plastics sitting on beaches and shores will turn up again in your drinking water and in your body. Another problem is that plastic attracts bacteria that can cause public health emergencies. It’s important to keep in mind that [less than 10% of plastic is recycled ](https://www.livescience.com/how-much-plastic-recycling.html)with most simply shipped to other countries or left to fester locally.  In both cases, these plastics contaminate waterways and harm humans and animals.
 
 
       Individuals can help keep their water clean by avoiding single-use plastics and look for non-plastic packaging where and when available.  Join or sponsor a beach cleanup such as Alliance for the Great Lakes’ [Adopt a Beach](https://adopt.greatlakes.org/s/) or the Shedd Aquarium’s [Action Days](https://www.sheddaquarium.org/care-and-conservation/take-action-for-animals/shedd-aquarium-action-days).
-
-
-      <!--EndFragment-->
   - header: Replace your grass
     text: >-
-      <!--StartFragment-->
-
-
       Shiny green lawns come at a cost to our water quality. Each month, 12,240 gallons of water are used on average per household each month.  40 million acres of turf grass exist in the lower 48 States – the single largest crop in the US.  Additionally, most grass is coaxed into existence by fertilizers and pesticides.  Rainstorms strip these chemicals from lawns and wash them into waterways where they fuel dead zones.
 
 
       Consider [switching](https://midwestgrowsgreen.org/) grass to native landscapes or food gardens. Here’s [a how-to guide](http://freshwaterstories.com/stories/landscaping/).
-
-
-      <!--EndFragment-->
   - header: Don’t buy bottled water
     text: >-
-      <!--StartFragment-->
-
-
       Many people don’t realize that bottled water is less regulated than the water in your tap. Bottled water is also connected to large systemic issues. Private companies are actively privatizing water, a public good. The Nestlé corporation pumps up to 400 gallons per minute, or 576,000 gallons per day, of public waters for its Ice Mountain brand.  [Brought to Michigan](https://www.mlive.com/news/2016/12/why_nestle_pays_next_to_nothin.html) with $10 million in state and local tax abatements in 2001, [Nestlé pays a mere $200 a year ](https://www.mlive.com/news/2020/04/nestle-wins-legal-challenge-to-michigan-groundwater-extraction.html)to Michigan while [reaping billions in profits](https://www.mlive.com/news/2016/12/why_nestle_pays_next_to_nothin.html).
 
 
@@ -124,26 +91,14 @@ home:
 
 
       Even a pitcher-style filter can get lead particles out.  [The Environmental Working Group Tap Water Databas](https://www.ewg.org/tapwater/)e can be helpful in choosing the right filter.
-
-
-      <!--EndFragment-->
   - header: Work with or join a neighborhood group
     text: >-
-      <!--StartFragment-->
-
-
       The Freshwater Lab is inspired by the work of groups such as:
 
 
       [Blacks in Green](https://www.blacksingreen.org/)[Freshwater Future](https://freshwaterfuture.org/)[FLOW for Water](https://forloveofwater.org/)[Little Village Environmental Justice Organization](http://www.lvejo.org/)[Milwaukee Water Commons](https://www.milwaukeewatercommons.org/)[People for Community Recovery](http://www.peopleforcommunityrecovery.org/)[Pilsen Environmental Rights and Reform Organization (P.E.R.R.O.)](https://pilsenperro.org/)[Sacred Keepers Sustainability Lab](https://www.sacredkeepers.org/)[Southeast Environmental Task Force](http://setaskforce.org/)[Southeast Side Coalition to Ban Petcoke](http://setaskforce.org/2016/02/petcoke/)[Southeast Youth Alliance](https://www.facebook.com/SoutheastYouthAlliance/)[We the People of Detroit](https://www.wethepeopleofdetroit.com/)See [here](https://healthylakes.org/about-us/) for a list of groups in various Great Lake states.
-
-
-      <!--EndFragment-->
   - header: Get involved with neighborhood planning
     text: >-
-      <!--StartFragment-->
-
-
       Neighborhoods along the Chicago Area Waterway System are being rezoned and redeveloped. To date, too much of the planning process occurs without proper community input.  Chicago’s [Blacks in Green ](https://www.blacksingreen.org/) invites agencies to present to its Black Water Council.  You can take this work further by showing up to community meetings, making your voice heard out loud and online, and disseminating the information to your friends and family members. 
 
 
@@ -160,15 +115,9 @@ home:
 
 
       While we work to generate and procure renewable, non-extractive energy for our own lives, we must push every scale of government and business to shift subsidy and support away from fossil fuels while prioritizing the retraining and prioritization of workers.  Fossil fuel corporations achieved their status by ushering us into the mess of climate catastrophe through unwavering governmental support. It’s time to shift our sources of energy and collectively democratize the institutions that distribute them. We can also act on the individual level by using [renewable energy](https://ilenviro.org/energy/renewable-energy/) at home and [taking public transportation ](https://ilenviro.org/transportation/)when possible. 
-
-
-      <!--EndFragment-->
 community:
   - header: Replace lead service lines
     text: >-
-      <!--StartFragment-->
-
-
       It is important to filter water, but for the long-term the lead pipes that service homes and schools must be replaced.  We know the damage that lead exposure can cause and all the jobs created when a municipality upgrades its pipes.  Get the lead out of plumbing!
 
 
@@ -182,14 +131,8 @@ community:
 
 
       [Illinois Environmental Council](https://ilenviro.org/category/legislative-updates/)
-
-
-      <!--EndFragment-->
   - header: Create green infrastructure
     text: >-
-      <!--StartFragment-->
-
-
       Scientists predict that heavy rainfall will continue and accelerate, overwhelming concrete infrastructures built to keep cities from flooding.  Federal infrastructure funding is badly needed across the United States.  As we advocate for this funding, steps can be taken at a local level to create green infrastructure.
 
 
@@ -197,23 +140,11 @@ community:
 
 
       When the city builds or sells to developers, [insist that green infrastructure be part of the plan](http://www.cnt.org/sites/default/files/publications/CNT_Value-of-Green-Infrastructure.pdf).  The public good still matters in private developments and nobody wants their home, business or local stores to flood.
-
-
-      <!--EndFragment-->
   - header: Reduce plastic pollution
     text: >-
-      <!--StartFragment-->
-
-
        On the municipal level, [you can advocate for reduction of plastic](https://www.sheddaquarium.org/care-and-conservation/take-action-for-animals/lets-shedd-plastic) in public spaces and at events. Some events provide, sell or rent reusable cups and dishware instead of generating mountains of single-use plastic. 
-
-
-      <!--EndFragment-->
   - header: Decolonize public space
     text: >-
-      <!--StartFragment-->
-
-
       To date, the American orientation toward water and related ecosystems has been [largely violent](https://thebackwardriver.org/the-river-speaks/) and rooted in the settler-colonial origins of the nation, which saw the world in terms of land to be conquered and resources to be extracted.  As toxins and pollutants pour into drinking water and impair the health of an increasing number of people, this foundational harm is coming home to roost.
 
 
@@ -221,14 +152,8 @@ community:
 
 
       Processes of decolonizing public space include [removing statues and monuments to violent settlers](https://southsideweekly.com/chicago-native-american-organizer-intersection-black-lives-matter-decolonization/), changing street and place names, a[cknowledging presence on Indigenous land](https://nativegov.org/a-guide-to-indigenous-land-acknowledgment/) and elevating Indigenous leadership to help us restructure our relationships with place.
-
-
-      <!--EndFragment-->
   - header: Honor treaties with Indigenous nations
     text: >-
-      <!--StartFragment-->
-
-
       Frank Ettawageshik, executive director of the United Tribes of Michigan and water wiseman, walks the halls of Lansing, Michigan and Washington D.C. with two constitutions in his jacket pocket – that of the United States and [of his tribe](https://www.ltbbodawa-nsn.gov/OdawaRegister/LTBB%20Constitution.pdf), the Little Traverse Bay Bands of Odawa Indians.  Both are relevant to Indigenous sovereignty.  The Commerce Clause (Article 1, Section 8, Clause 3) of the U.S. Constitution confers authority to Congress to “to regulate Commerce with foreign Nations, and among the several States, and with Indian Tribes.”  The listing of foreign Nations, several States and Indian Tribes attests to the sovereignty of all three recognized as preexisting the constitution itself.  Article 6 of the U.S. Constitution states that  “all Treaties made, or which shall be made, under the Authority of the United States, shall be the supreme Law of the Land.”  Ettawageshik emphasizes that “supreme Law of the Land” means that nothing can contradict or abrogate treaties made with Indigneous peoples.
 
 
@@ -244,8 +169,5 @@ community:
       * [Native-Land.ca](https://native-land.ca/)
 
       * [Land acknowledgement app](https://twitter.com/CanaItch/status/1292713097136807947)
-
-
-      <!--EndFragment-->
 accordions: []
 ---
