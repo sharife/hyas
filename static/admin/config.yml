@@ -91,7 +91,7 @@ collections:
             allow_add: true
             fields:
               - { label: 'Header', name: 'header', widget: 'string'}
-              - { label: 'Light Style?', name: 'light', widget: 'boolean'}
+              - { label: 'Light Background', name: 'light', widget: 'boolean', required: false }
               - { label: 'Text', name: 'text', widget: 'markdown'}
       - name: 'act'
         label: 'Act'

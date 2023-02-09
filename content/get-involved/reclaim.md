@@ -1,5 +1,5 @@
 ---
-title: a
+title: reclaim
 type: get-involved
 layout: reclaim
 content:
@@ -45,7 +45,7 @@ content:
 
 
       If your town, city or region’s water is run by a private corporation, then you can join the push to [remunicipalize water systems](https://www.youtube.com/watch?v=BlSM1TPm_k8), which means bringing  them back under public control. This has been [done successfully](http://www.remunicipalisation.org/front/page/home) in cities around the world, consistently leading to savings for both municipalities and their water customers. [It often brings other social benefits](https://www.municipalservicesproject.org/remunicipalization), including improved public accountability and transparency, more equitable water access and increased investment in water system safety.
-    light: true
+    light: false
   - header: Keep water clean
     text: >-
       Lake Michigan and sources of drinking water across the planet face three
@@ -92,9 +92,6 @@ content:
     light: true
   - header: Keep water here
     text: >-
-      <!--StartFragment-->
-
-
       There are a number of ways that we describe where we live: our neighborhood, our city, our state or our country.  Such descriptions of place follow lines of property, zoning and transportation. You might also consider your place in terms of watershed.  A watershed or basin is the interconnected water, land, species and cultures defined by the way rain drains across landscapes. Residents of a given watershed have shared interests in keeping their drinking water as safe as possible, ensuring the health of their soil and protecting the survival of species.
 
 
@@ -108,8 +105,5 @@ content:
 
 
       Learn about the [Great Lakes Compact ](https://gsgp.org/projects/water-management/great-lakes-agreement-and-compact/)and share how it can be implemented and improved in the future.
-
-
-      <!--EndFragment-->
-    light: true
+    light: false
 ---

@@ -252,12 +252,19 @@ img {
    display: inline-block;
    color: #084141;
 }
+.section-light a  {
+   color: #c32675;
+}
 
-.section-dark{
+.section-dark {
    background-color: #079697;
    width: 100%;
    display: inline-block;
    color: #d3ebd7;
+}
+
+.section-dark a  {
+   color: #f9bc5c;
 }
 
 .padding{

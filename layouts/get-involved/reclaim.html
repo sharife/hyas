@@ -4,6 +4,27 @@
     Reclaim
 </div>
 
+{{ range $key, $value := .Params.content }}
+
+{{ if eq $value.light false }}
+<div class="section-dark">
+{{ else }}
+<div class="section-light">
+{{ end }}
+
+    <div class="get-involved-content">
+        <div class="padding">
+            <h3>
+            {{ $value.header }}            
+            </h3>
+            <div>
+                {{ $value.text | markdownify }}
+            </div>
+        </div>
+    </div>
+</div>
+{{ end }}
+
 
 <div class="section-light">
     <div class="get-involved-content">
