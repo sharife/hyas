@@ -5,33 +5,18 @@ window.selectWater = selectWater;
 window.toggleMobile = toggleMobile;
 
 function selectTime(time) {
-
   hideButtons();
-
   var btnRow = document.getElementById("button-time-row"); // move buttons down
   btnRow.style.top = "95%";
-
   toggleTimeButton(time);
-
   // var riverImage = document.getElementById("river-image-container");
-
   // riverImage.src = "/images/chicago-river-map-" + time +".png";
-
   var riverImage = document.getElementById("river-image");
-
-
-
   riverImage.style.backgroundImage = 'url(/images/chicago-river-map-' + time +".png)";
-
-
   showStoryText(time + "-landing", time, true) // show time landing page
-
   resetStoryButtons(time);
-
   showMapText(time + "-map");
-
   var elements = document.getElementsByClassName("content-" + time);
-
   for(var i=0; i < elements.length; i++) { 
     elements[i].style.display = "block";
   }
@@ -63,7 +48,6 @@ function toggleTimeButton(time){
 }
 
 function hideButtons() {
-
   var temp = ["content-past", "content-future", "content-present"]
   for(var i = 0; i< temp.length; i++){
     var elements = document.getElementsByClassName(temp[i]);
@@ -74,10 +58,8 @@ function hideButtons() {
 }
 
 function showMapText(temp) {
-
   var x = document.getElementById(temp);
   var arrayOfElements= document.getElementsByClassName("map-text")
-
   for (var i=0; i<arrayOfElements.length;i++){
       arrayOfElements[i].style.display='none';
   }
@@ -91,17 +73,12 @@ function showMapText(temp) {
 
 
 function showStoryText(storyId, time, isLanding) {
-
   selectStoryButton(storyId, time, isLanding);
-
-
   var x = document.getElementById(storyId);
   var arrayOfElements= document.getElementsByClassName("story")
-
   for (var i=0; i<arrayOfElements.length;i++){
       arrayOfElements[i].style.display='none';
   }
-
   if (x.style.display === "none") {
   x.style.display = "block";
   } else {
@@ -111,27 +88,19 @@ function showStoryText(storyId, time, isLanding) {
 
 
 function selectStoryButton(storyId, time, isLanding) {
-
   if(isLanding == true) {
     return;
   }
-
   resetStoryButtons(time);
-
   var element = document.getElementById(time + "-" + storyId);
-
   var arrowSize = getComputedStyle(element.children[1]).borderTop.split(" ")[0];
-
   element.children[0].style.backgroundColor = "white";
   element.children[0].style.color = "#707070";
   element.children[1].style.borderTop = arrowSize.concat(""," solid white");
-
 }
 
 function resetStoryButtons(time){
-
   var arrayOfElements = document.getElementsByClassName("content-" + time);
-
   for (var i=0; i<arrayOfElements.length;i++){
     arrayOfElements[i].children[0].style.backgroundColor = "#707070";
     arrayOfElements[i].children[0].style.color = "white";

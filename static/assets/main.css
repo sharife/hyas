@@ -250,12 +250,14 @@ img {
    background-color: #d3f4f4;
    width: 100%;
    display: inline-block;
+   color: #084141;
 }
 
 .section-dark{
    background-color: #079697;
    width: 100%;
    display: inline-block;
+   color: #d3ebd7;
 }
 
 .padding{
@@ -399,7 +401,7 @@ textarea{
 .accordion .ui-accordion-content {
    width: 100%;
    border: 1px solid #d4d4d4;
-   color: #ffffff;
+   color: #084141;
    font-size: 10pt;
    line-height: 16pt;
 }
