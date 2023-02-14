@@ -93,6 +93,17 @@ collections:
               - { label: 'Header', name: 'header', widget: 'string'}
               - { label: 'Light Background', name: 'light', widget: 'boolean', required: false }
               - { label: 'Text', name: 'text', widget: 'markdown'}
+      - name: 'unlearn'
+        label: 'Unlearn'
+        folder: 'content/get-involved'
+        file: 'content/get-involved/unlearn.md'
+        fields:
+          - label: 'Reading List'
+            name: 'books'
+            widget: 'list'
+            fields:
+              - { label: Book Image', name: 'book', widget: 'image'}
+              - { label: 'Book Link', name: 'link', widget: 'string'}
       - name: 'act'
         label: 'Act'
         folder: 'content/get-involved'

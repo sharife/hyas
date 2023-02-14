@@ -3,6 +3,8 @@ window.selectTime = selectTime;
 window.showMapText = showMapText;
 window.selectWater = selectWater;
 window.toggleMobile = toggleMobile;
+window.showGlossary = showGlossary;
+
 
 function selectTime(time) {
   hideButtons();
@@ -106,6 +108,25 @@ function resetStoryButtons(time){
     arrayOfElements[i].children[0].style.color = "white";
     var arrowSize = getComputedStyle(arrayOfElements[i].children[1]).borderTop.split(" ")[0];
     arrayOfElements[i].children[1].style.borderTop = arrowSize.concat(""," solid #707070");
+  }
+}
+
+
+var glossaryToggle = ""
+
+function showGlossary(id) {
+  var arrayOfElements = document.getElementsByClassName("glossary-text");
+  for (var i=0; i<arrayOfElements.length;i++){
+    arrayOfElements[i].style.display = "none";
+  }
+  if(glossaryToggle === "" || glossaryToggle !== id){
+    var element = document.getElementById(id);
+    element.style.display = "block";
+    glossaryToggle = id;
+  } else {
+    var element = document.getElementById("base");
+    element.style.display = "block";
+    glossaryToggle = ""
   }
 }
 
