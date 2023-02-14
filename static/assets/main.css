@@ -476,7 +476,7 @@ textarea{
    align-items: center;
    display: flex;
    justify-content: center;
-   border: 2px solid #d1d5db;
+   /* border: 2px solid #d1d5db; */
    border-radius: 0px 50% 50% 50%;
    transform: rotate(45deg);
    height: 10vw;
@@ -486,12 +486,12 @@ textarea{
 .box {
    width: 19vw;
    height: 7vw;
-   border: 1px solid black;
+   /* border: 1px solid black; */
 }
 .box-big {
    width: 38vw;
    height: 7vw;
-   border: 1px solid black;
+   /* border: 1px solid black; */
 }
 .box-content {
    display: none;
@@ -500,22 +500,40 @@ textarea{
    display: block;
 }
 
-.teardrop:hover{
+.teardrop:hover, .box-big:hover:hover, .box:hover{
    background-color: #78aebf;
    opacity: .5;
 }
+
+
 
 .teardrop-content {
    display: none;
 }
 
-.teardrop:hover + .teardrop-content {
+.teardrop:hover + .teardrop-content,  .box:hover + .teardrop-content, .box-big:hover + .teardrop-content{
+   position: absolute;
    display: block;
+   left: 50%;
+   bottom: 50%;
+   float: left;
+   white-space: nowrap;
+   background-color: #084141;
+   color: white;
+   padding: .4rem;
 }
 
-.teardrop:active + .teardrop-content {
+/* .teardrop:active + .teardrop-content {
+   position: absolute;
    display: block;
-}
+   left: 50%;
+   bottom: 50%;
+   float: left;
+   white-space: nowrap;
+   background-color: #084141;
+   color: white;
+   padding: .4rem;
+} */
 
 @media screen and (max-width: 1000px) {
 
