@@ -11,6 +11,9 @@
     </div>
 </div>
 <div class="section-dark">
+    <div class="single-title">
+        Glossary
+    </div>
     <div class="glossary-flex-container">
         <div class="glossary-definition">
             <div id="base" class="glossary-text" style="display:block;">
@@ -277,30 +280,15 @@
         Recommended Reading List
     </h1>
     <div class="bookshelf">
-        <div class="book-wrapper">
-            a b c 
+        {{ range $key, $value := .Params.books }}
+        <div class="book-container">
+            <div class="book-wrapper">
+                <a href="{{$value.link}}">
+                    <img src="{{$value.book}}">
+                </a>
+            </div>
         </div>
-        <div class="book-wrapper">
-            a b c 
-        </div>
-        <div class="book-wrapper">
-            a b c 
-        </div>
-        <div class="book-wrapper">
-            a b c 
-        </div>
-        <div class="book-wrapper">
-            a b c 
-        </div>
-        <div class="book-wrapper">
-            z
-        </div>
-        <div class="book-wrapper">
-            z
-        </div>
-        <div class="book-wrapper">
-            z
-        </div>
+        {{end}}
     </div>
 </div>
 

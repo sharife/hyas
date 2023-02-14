@@ -412,9 +412,18 @@ textarea{
    font-size: 10pt;
    line-height: 16pt;
 }
-.book-wrapper{
+.book-container{
    flex: 20%;
-   text-align: center;
+   align-items: center;
+   justify-content: center;
+   display: flex;
+   margin-top: 2rem;
+}
+
+.book-wrapper{
+   object-fit: cover;
+   width: 150px;
+   height: 240px;
 }
 
 .bookshelf{
@@ -589,6 +598,9 @@ textarea{
    .get-involved-content{
       margin-left: 2rem;
       margin-right: 2rem;
+   }
+   .book-container{
+      flex: 100%;
    }
 
 }
