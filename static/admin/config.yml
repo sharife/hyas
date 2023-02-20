@@ -4,12 +4,14 @@ backend:
 media_folder: static/img
 public_folder: /img
 collections:
-  - name: 'water-agreement'
-    label: 'Water Agreement'
-    folder: 'content/water'
+  - name: 'landing'
+    label: 'Landing'
+    folder: 'content/landing'
     create: false
     fields:
     - { label: 'Title', name: 'title', widget: 'string' }
+    - { label: 'Category', name: 'category', widget: 'string' }
+    - { label: 'MapText', name: 'maptext', widget: 'string' }
     - { label: 'Body', name: 'body', widget: 'markdown' }
   - name: 'past'
     label: 'Past'
@@ -47,15 +49,6 @@ collections:
       - { label: 'Audio', name: 'audio', widget: 'string', required: false }
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
-  - name: 'landing'
-    label: 'Landing'
-    folder: 'content/landing'
-    create: false
-    fields:
-    - { label: 'Title', name: 'title', widget: 'string' }
-    - { label: 'Category', name: 'category', widget: 'string' }
-    - { label: 'MapText', name: 'maptext', widget: 'string' }
-    - { label: 'Body', name: 'body', widget: 'markdown' }
   - name: "pages"
     label: "Pages"
     editor:
@@ -136,3 +129,10 @@ collections:
       - { label: 'Bio', name: 'bio', widget: 'markdown' }
       - { label: 'LinkedIn', name: 'linkedin', widget: 'string', required: false}
       - { label: 'websiteurl', name: 'websiteurl', widget: 'string', required: false}
+  - name: 'water-agreement'
+    label: 'Water Agreement'
+    folder: 'content/water'
+    create: false
+    fields:
+    - { label: 'Title', name: 'title', widget: 'string' }
+    - { label: 'Body', name: 'body', widget: 'markdown' }

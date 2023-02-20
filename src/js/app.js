@@ -4,6 +4,7 @@ window.showMapText = showMapText;
 window.selectWater = selectWater;
 window.toggleMobile = toggleMobile;
 window.showGlossary = showGlossary;
+window.autoScroll = autoScroll;
 
 
 function selectTime(time) {
@@ -11,8 +12,7 @@ function selectTime(time) {
   var btnRow = document.getElementById("button-time-row"); // move buttons down
   btnRow.style.top = "95%";
   toggleTimeButton(time);
-  // var riverImage = document.getElementById("river-image-container");
-  // riverImage.src = "/images/chicago-river-map-" + time +".png";
+
   var riverImage = document.getElementById("river-image");
   riverImage.style.backgroundImage = 'url(/images/chicago-river-map-' + time +".png)";
   showStoryText(time + "-landing", time, true) // show time landing page
@@ -111,6 +111,13 @@ function resetStoryButtons(time){
   }
 }
 
+function autoScroll(id) {
+  var element = document.getElementById(id);
+  element.scrollIntoView({behavior: 'smooth'}, true)
+}
+
+
+
 
 var glossaryToggle = ""
 
@@ -129,6 +136,7 @@ function showGlossary(id) {
     glossaryToggle = ""
   }
 }
+
 
 function toggleMobile() {
 	$('#mobile-menu').fadeToggle();

@@ -5,19 +5,19 @@
 
 <div class="section-light">
     <div class="get-involved-flex-row">
-        <button class="get-involved-btn">
+        <button class="get-involved-btn" onclick="autoScroll('connect')">
             Connect
         </button>
-        <button class="get-involved-btn">
+        <button class="get-involved-btn" onclick="autoScroll('reclaim')">
             Reclaim
         </button>
-        <button class="get-involved-btn">
+        <button class="get-involved-btn" onclick="autoScroll('act')">
             Act Now
         </button>
-        <button class="get-involved-btn">
+        <button class="get-involved-btn" onclick="autoScroll('unlearn')">
             Unlearn
         </button>
-        <button class="get-involved-btn">
+        <button class="get-involved-btn" onclick="autoScroll('reimagine')">
             Reimagine
         </button>
     </div>
@@ -29,7 +29,7 @@
 </div>
 
 <div class="section-dark">
-    <h1 class="single-title">
+    <h1 class="single-title" id="connect">
         Connect
     </h1>
     <div class="get-involved-flex-row">
@@ -59,7 +59,7 @@
 
 <div class="section-light">
     <div class="get-involved-flex-row">
-        <div class="inline-block">
+        <div class="inline-block" id="reclaim">
             <img src="/img/reclaim.gif" class="get-involved-img">
             <div class="gif-text">
                 Who owns the water? You do. Keep water public, clean and here!
@@ -68,7 +68,7 @@
                 Reclaim
             </a>
         </div>
-        <div class="inline-block">
+        <div class="inline-block" id="act">
             <img src="/img/act.gif" class="get-involved-img">
             <div class="gif-text">
                 There are things we can do at the individual and community levels to implement change.
@@ -77,7 +77,7 @@
                 Act
             </a>
         </div>
-        <div class="inline-block">
+        <div class="inline-block" id="unlearn">
             <img src="/img/unlearn.gif" class="get-involved-img">
             <div class="gif-text">
                 Unlearn as an intentional, radical act so that you may learn.
@@ -95,7 +95,7 @@
         </div>
     </div>
     
-    <div class="form-container">
+    <div class="form-container" id="reimagine">
         <form name="contact" method="POST" data-netlify="true">
             <p>
               <label> Name <input type="text" name="name" required/></label>

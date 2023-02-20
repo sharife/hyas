@@ -272,18 +272,16 @@ img {
 }
 .dark-text{
    color: #09232a;
-   text-align: center;
    font-size: 1.5rem;
 }
 .light-text{
    color: #084141;
-   text-align: center;
    font-size: 1.5rem;
 }
 .get-involved-content{
    font-weight: 500;
-   margin-left: 10rem;
-   margin-right: 10rem;
+   max-width: 60%;
+   margin:auto;
 }
 .inline-block{ 
    display: inline-block;
@@ -326,7 +324,7 @@ img {
 .get-involved-hashtags{
    color: #a7fbfb;
    font-size: 1.5rem;
-   text-align: center;
+   /* text-align: center; */
 }
 
 .about-name {
@@ -357,7 +355,7 @@ img {
    padding-bottom: 5rem;
 }
 .form-container{
-   width: 80%;
+   width: 60%;
    margin-left: auto;
    margin-right: auto;
 }
@@ -382,6 +380,7 @@ textarea{
 }
 .mobile-exit{
    text-align: center;
+   font-size: 4rem;
 }
 .main-logo{
    width:100%;
@@ -535,13 +534,17 @@ textarea{
    padding: .4rem;
 } */
 
+textarea { resize: vertical; }
+
 @media screen and (max-width: 1000px) {
 
    .mobile-nav-open {
-      display: inline;
-      position: fixed;
-      width: 100%;
-      z-index: 999;
+      display: flex;
+      justify-content: space-between;
+   }
+   .mobile-click {
+      font-size: 2.5em;
+      padding-right: .4em;
    }
    .mobile-nav{
       left: 0;
@@ -557,6 +560,20 @@ textarea{
       max-width: 8rem;
    }
 
+   li{
+      font-weight: bold;
+      font-size: 2em;
+   }
+   li a:link {
+      text-decoration: none;
+   }
+   li a:visited {
+      text-decoration: none;
+   }
+
+   li:not(:last-child) {
+      margin-bottom: 5px;
+   }
    .flex-container {
        flex-direction: column-reverse;
        margin-left:0;
@@ -612,10 +629,6 @@ textarea{
       box-sizing: border-box;
       margin-left: auto;
       margin-right: auto;
-   }
-   .get-involved-content{
-      margin-left: 2rem;
-      margin-right: 2rem;
    }
    .book-container{
       flex: 100%;
