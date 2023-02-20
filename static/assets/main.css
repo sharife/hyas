@@ -13,8 +13,25 @@ p img {
 }
 
 
+.dark-btn {
+   background-color: #0f5959;
+   border-color: #0f5959;
+   color: white !important;
+   padding: 14px 25px;
+   border-radius: 5px;
+   text-align: center;
+}
+
 .fa {
    font-size: 30px !important;
+   color: #d3ebd7 !important;
+}
+
+.fa a:link {
+   text-decoration: none;
+}
+.fa a:visited {
+   text-decoration: none;
 }
 
 .map-text {
