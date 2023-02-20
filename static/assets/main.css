@@ -13,6 +13,10 @@ p img {
 }
 
 
+.fa {
+   font-size: 30px !important;
+}
+
 .map-text {
    display: none;
    font-size: 1.6rem;
@@ -183,7 +187,7 @@ p img {
 
 .row-center{
    position: absolute;
-   top: 50%;
+   bottom: 50%;
    left: 50%;
    transform: translate(-50%, -50%);
    display:flex; 
@@ -193,10 +197,11 @@ p img {
 
 .map-description {
    position: absolute;
-   top: 60px;
-   left: 60px;
+   top: 1.4em;
+   left: 1.4em;
    font-weight: 700;
    max-width: 40%;
+   text-align: left;
 }
 
 .flex-container {
@@ -560,7 +565,7 @@ textarea { resize: vertical; }
       max-width: 8rem;
    }
 
-   li{
+   .mobile-link {
       font-weight: bold;
       font-size: 2em;
    }

@@ -10,7 +10,7 @@ window.autoScroll = autoScroll;
 function selectTime(time) {
   hideButtons();
   var btnRow = document.getElementById("button-time-row"); // move buttons down
-  btnRow.style.top = "95%";
+  btnRow.style.bottom = "5%";
   toggleTimeButton(time);
 
   var riverImage = document.getElementById("river-image");
