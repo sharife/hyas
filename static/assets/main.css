@@ -204,11 +204,11 @@ p img {
 
 .row-center{
    position: absolute;
-   bottom: 50%;
+   bottom: 40%;
    left: 50%;
    transform: translate(-50%, -50%);
    display:flex; 
-   width:75%; 
+   width:75%;
    justify-content:space-between;
 }
 

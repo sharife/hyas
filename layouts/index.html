@@ -36,12 +36,14 @@
       </div>
       <div id="water-acknowledgement" class="story">
          {{ with .Site.GetPage "/water/water-agreement.md" }}
-         <h2 class ="story-title">
-            {{ .Title   }} 
+         <h2 class="story-divider">
+            <div class="story-title">
+               {{ .Title   }}
+            </div>
             <a href="/">
                <button class="close-story">
                   <img src="/images/X.png"/>
-              </button>
+               </button>
             </a>
          </h2>
          <div class="story-content">

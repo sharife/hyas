@@ -6,6 +6,8 @@ window.toggleMobile = toggleMobile;
 window.showGlossary = showGlossary;
 window.autoScroll = autoScroll;
 
+import './carousel-lightbox-slideshow/js/slider.js'
+import './carousel-lightbox-slideshow/css/slider.css';
 
 function selectTime(time) {
   hideButtons();
