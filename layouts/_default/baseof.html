@@ -18,8 +18,11 @@
       <div class="container">
         {{ block "header" . }}{{ partial "nav" . }}{{end}} 
         {{ block "main" . }}{{ end }}
-
-        {{/*  {{ block "footer" . }}{{ partial "footer" . }}{{end}}  */}}
+        
+        {{ if ne .IsHome true }}
+          {{ block "footer" . }}{{ partial "footer" . }}
+        {{ end }}
+        {{end}}
       </div>
     </div>
 

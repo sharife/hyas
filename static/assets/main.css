@@ -12,7 +12,6 @@ p img {
    width:100%;
 }
 
-
 .dark-btn {
    background-color: #0f5959;
    border-color: #0f5959;
@@ -20,6 +19,54 @@ p img {
    padding: 14px 25px;
    border-radius: 5px;
    text-align: center;
+}
+
+.back{
+   text-align: right;
+   font-size: 2em;
+}
+
+.contact-container{
+   margin-left: 10rem;
+}
+
+.footer-container{
+   width: 60%;
+   margin:auto;
+}
+.footer-social-row{
+   display: flex;
+}
+.footer-links-row{
+   display: flex;
+   flex-wrap: wrap;
+   margin-top: 3rem;
+}
+.footer-row-object{
+   flex: 50%;
+}
+.logo-row{
+   width: 100%;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+}
+
+.bw-river-logo{
+   display: block;
+   max-width:300px;
+   max-height:150px;
+   border-radius: 25px;
+   width: auto;
+   height: auto;
+}
+.freshwater-logo{
+   display: block;
+   max-width:200px;
+   max-height:200px;
+   border-radius: 25px;
+   width: auto;
+   height: auto;
 }
 
 .fa {
@@ -294,7 +341,7 @@ img {
 
 .single-title{
    text-align: center;
-   font-size: 5rem;
+   font-size: 5vw;
    font-weight: bold;
 }
 .section-light{
@@ -333,6 +380,7 @@ img {
    font-weight: 500;
    max-width: 60%;
    margin:auto;
+   overflow-wrap: break-word;
 }
 .inline-block{ 
    display: inline-block;
@@ -615,7 +663,6 @@ textarea { resize: vertical; }
    li a:visited {
       text-decoration: none;
    }
-
    li:not(:last-child) {
       margin-bottom: 5px;
    }
@@ -681,5 +728,22 @@ textarea { resize: vertical; }
    .book-container{
       flex: 100%;
    }
-
+   .footer-row-object{
+      flex: 100%;
+      margin: auto;
+   }
+   .footer-container{
+      width: 100%;
+   }
+   .bw-river-logo{
+      flex: 100%;
+      margin:auto;
+   }
+   .freshwater-logo{
+      flex:100%;
+      margin:auto;
+   }
+   .contact-container{
+      margin-left:1rem;
+   }
 }

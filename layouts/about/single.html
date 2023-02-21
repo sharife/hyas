@@ -16,8 +16,12 @@
         <div class="about-info">
             {{.Params.bio | markdownify}}
         </div>
+        <div class="about-info">
+            {{ partial "back.html" (dict "context" . "link" "/about")}}
+        </div>
     </div>
 </div>
+
 
 
 {{ end }}
