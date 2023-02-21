@@ -6,15 +6,16 @@
 	</div>
 </header>
 <div class="about-background">
-    
-    <figure class="picture-wrapper">
-        <img class="about-picture" src="{{.Params.picture}}">
-    </figure>
-    <div class="about-info">
-        {{.Params.intention | markdownify}}
-    </div>
-    <div class="about-info">
-        {{.Params.bio | markdownify}}
+    <div class="about-content">
+        <div class="about-info">
+            <figure class="picture-wrapper">
+                <img class="about-picture-single" src="{{.Params.picture}}">
+            </figure>
+            {{.Params.intention | markdownify}}
+        </div>
+        <div class="about-info">
+            {{.Params.bio | markdownify}}
+        </div>
     </div>
 </div>
 
