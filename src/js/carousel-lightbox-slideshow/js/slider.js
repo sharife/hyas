@@ -1,5 +1,5 @@
 $(() => {
-  // $.mobile.loading().hide();
+  // $mobile.loading().hide();
 
 
   // Slider
