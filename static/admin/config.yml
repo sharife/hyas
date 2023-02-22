@@ -132,9 +132,9 @@ collections:
             fields:
               - { label: 'Title', name: 'title', widget: 'string'}
               - { label: 'Audio File Name', name: 'audiofile', widget: 'string'}
-      - name: 'media'
+      - name: 'media-content'
         label: 'Media'
-        folder: 'content/Media'
+        folder: 'content/media'
         file: 'content/media/_index.md'
         create: false
         fields:
