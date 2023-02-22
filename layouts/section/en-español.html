@@ -6,41 +6,21 @@
 
 <div class="section-light">
     <div class="subpage-content">
+        
         <div>
-            intro
+            {{ .Params.intro | markdownify }}
         </div>
 
-
-        
         <div class="audio-library-flex">
+            {{ range .Params.content }}
             <div class="spanish-audio-wrapper">
                 <h2>
-                    TITLE
+                    {{ .title }}
                 </h2>
-                <audio controls src="/audio/{{.Params.audio}}" style="width: 100%;">
+                <audio controls src="/audio/{{.audiofile}}" style="width: 100%;">
                 </audio>
             </div>
-            <div class="spanish-audio-wrapper">
-                <h2>
-                    TITLE
-                </h2>
-                <audio controls src="/audio/{{.Params.audio}}" style="width: 100%;">
-                </audio>
-            </div>
-            <div class="spanish-audio-wrapper">
-                <h2>
-                    TITLE
-                </h2>
-                <audio controls src="/audio/{{.Params.audio}}" style="width: 100%;">
-                </audio>
-            </div>
-            <div class="spanish-audio-wrapper">
-                <h2>
-                    TITLE
-                </h2>
-                <audio controls src="/audio/{{.Params.audio}}" style="width: 100%;">
-                </audio>
-            </div>
+            {{ end }}
         </div>
     </div>
 </div>

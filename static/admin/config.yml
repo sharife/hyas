@@ -125,13 +125,49 @@ collections:
         create: false
         fields:
           - { label: 'Intro', name: 'intro', widget: 'markdown'}
-          - label: 'Content'
+          - label: 'Audio Files'
             name: 'content'
             widget: 'list'
             allow_add: true
             fields:
-              - { label: 'Title', name: 'Title', widget: 'string'}
-              - { label: 'Audio File Name', name: 'audio-file', widget: 'string'}
+              - { label: 'Title', name: 'title', widget: 'string'}
+              - { label: 'Audio File Name', name: 'audiofile', widget: 'string'}
+      - name: 'media'
+        label: 'Media'
+        folder: 'content/Media'
+        file: 'content/media/_index.md'
+        create: false
+        fields:
+          - label: 'Media Column Left'
+            name: 'colleft'
+            widget: 'list'
+            allow_add: true
+            fields:
+              - { label: 'Title', name: 'title', widget: 'string'}
+              - { label: 'Description', name: 'description', widget: 'markdown'}
+              - { label: 'Image', name: 'image', widget: 'image', required: false}
+              - label: 'Link'
+                name: 'link'
+                widget: 'list'
+                allow_add: true
+                fields:
+                - { label: 'Link Label', name: 'label', widget: 'string'}
+                - { label: 'Link Url', name: 'url', widget: 'string'}
+        - label: 'Media Column Right'
+            name: 'colright'
+            widget: 'list'
+            allow_add: true
+            fields:
+              - { label: 'Title', name: 'title', widget: 'string'}
+              - { label: 'Description', name: 'description', widget: 'markdown'}
+              - { label: 'Image', name: 'image', widget: 'image', required: false}
+              - label: 'Link'
+                name: 'link'
+                widget: 'list'
+                allow_add: true
+                fields:
+                - { label: 'Link Label', name: 'label', widget: 'string'}
+                - { label: 'Link Url', name: 'url', widget: 'string'}
   - name: 'profiles'
     label: 'Profiles'
     folder: 'content/about/profiles'

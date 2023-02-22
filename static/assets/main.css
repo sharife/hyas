@@ -33,6 +33,7 @@ p img {
 .footer-container{
    width: 60%;
    margin:auto;
+   padding-top: 1.5rem;
 }
 .footer-social-row{
    display: flex;
@@ -96,10 +97,15 @@ p img {
    justify-content: space-between;
    padding-top: 10px;
    flex-wrap: wrap;
+   column-gap: 10px;
 }
 
+
+
+
+
 .spanish-audio-wrapper{
-   width: 50%;
+   width: 49%;
 }
 
 .story {
@@ -373,6 +379,8 @@ img {
    width: 100%;
    display: inline-block;
    color: #084141;
+   padding-top:1rem;
+   padding-bottom: 1rem;
 }
 .section-light a  {
    color: #c32675;
@@ -384,6 +392,8 @@ img {
    width: 100%;
    display: inline-block;
    color: #d3ebd7;
+   padding-top:1rem;
+   padding-bottom: 1rem;
 }
 
 .section-dark a  {
@@ -779,6 +789,7 @@ textarea { resize: vertical; }
    }
    .footer-container{
       width: 100%;
+      padding-top: 1.5rem;
    }
    .bw-river-logo{
       flex: 100%;
