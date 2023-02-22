@@ -118,6 +118,20 @@ collections:
             fields:
               - { label: 'Accordion Header', name: 'header', widget: 'string'}
               - { label: 'Accordion Text', name: 'text', widget: 'markdown'}
+      - name: 'en español'
+        label: 'En Español'
+        folder: 'content/en-español'
+        file: 'content/en-español/_index.md'
+        create: false
+        fields:
+          - { label: 'Intro', name: 'intro', widget: 'markdown'}
+          - label: 'Content'
+            name: 'content'
+            widget: 'list'
+            allow_add: true
+            fields:
+              - { label: 'Title', name: 'Title', widget: 'string'}
+              - { label: 'Audio File Name', name: 'audio-file', widget: 'string'}
   - name: 'profiles'
     label: 'Profiles'
     folder: 'content/about/profiles'
