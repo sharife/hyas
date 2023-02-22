@@ -39,14 +39,30 @@ function selectWater(x) {
 
 
 function toggleTimeButton(time){
+  // var elements = document.getElementsByClassName("time-button"); Grey
+  // for(var i=0; i < elements.length; i++) { 
+  //   elements[i].style.backgroundColor = "#f5f5f5";
+  //   elements[i].style.color = "#707070";
+  // }
+
+
+
+  // var select = document.getElementById("time-button-" + time);
+  // select.style.backgroundColor = "#707070";
+  // select.style.color = "#fefefe";
+
+
   var elements = document.getElementsByClassName("time-button");
   for(var i=0; i < elements.length; i++) { 
-    elements[i].style.backgroundColor = "#f5f5f5";
-    elements[i].style.color = "#707070";
+    elements[i].style.backgroundColor = "#0f5959";
+    elements[i].style.color = "#fefefe";
   }
+
+
+  
   var select = document.getElementById("time-button-" + time);
-  select.style.backgroundColor = "#707070";
-  select.style.color = "#fefefe";
+  select.style.backgroundColor = "#d3ebd7";
+  select.style.color = "#0f5959";
 }
 
 function hideButtons() {

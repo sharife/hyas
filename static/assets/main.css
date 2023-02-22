@@ -12,14 +12,6 @@ p img {
    width:100%;
 }
 
-.dark-btn {
-   background-color: #0f5959;
-   border-color: #0f5959;
-   color: white !important;
-   padding: 14px 25px;
-   border-radius: 5px;
-   text-align: center;
-}
 
 .back{
    text-align: right;
@@ -100,9 +92,27 @@ p img {
    column-gap: 10px;
 }
 
+.social-circle-btn{
+   background-color: #c32650;
+   padding: 10px;
+   border-radius: 100px;
+   margin-left: 10px;
+   text-decoration: none;
+}
 
+.dark-btn, input::file-selector-button {
+   background-color: #0f5959;
+   border-color: #0f5959;
+   color: white;
+   padding: 14px 25px;
+   border-radius: 5px;
+   text-align: center;
+   text-decoration: none;
+}
 
-
+input, textarea {
+   border-radius:5px;
+}
 
 .spanish-audio-wrapper{
    width: 49%;
@@ -113,8 +123,19 @@ p img {
 }
 
 .time-button {
-   background-color: #fefefe; /* Green */
-   color: #575e63;
+   /* background-color: #575e63;
+   color: #ffffff;
+   border-color: #575e63; TEMP
+   padding: 10px;
+   text-align: center;
+   font-size: 1.8rem;
+   width: 10rem;
+   border-radius:10px;
+   font-weight: bold; */
+
+
+   background-color: #0f5959;
+   color: #ffffff;
    border-color: #575e63;
    padding: 10px;
    text-align: center;
@@ -123,9 +144,7 @@ p img {
    border-radius:10px;
    font-weight: bold;
 }
-.time-button:hover{
-   background-color: #f5f5f5;
-}
+
 
 .arrow-down {
    width: 0; 
@@ -198,9 +217,13 @@ p img {
 .nav-container {
    display: flex; 
    justify-content: space-between;
-   height:14vh;
+   height:15vh;
 }
-
+.nav-links{
+ display: flex;
+ margin-top: 4rem;
+ margin-right:1rem;
+}
 
 .nav-item {
    padding: 1rem;
@@ -216,7 +239,8 @@ p img {
 .river-container {
    flex: 70%;
    width: 100%;
-   height: 50vh;
+   height: 85vh;
+   background-color: #084141;
 }
 
 .river {
@@ -269,6 +293,7 @@ p img {
 
 .profile-description{
    text-align: center;
+   margin-left: 1em;
 }
 
 .profile-picture{
@@ -284,7 +309,8 @@ p img {
    overflow:auto; 
    margin-right:0%;
    padding-right: 1rem;
-   margin-left: 12px;
+   padding-left: 12px;
+   background-color: #d3ebd7;
 }
 
 .container{
@@ -474,15 +500,6 @@ img {
    width: 40px;
 }
 
-.get-involved-btn {
-   background-color: #0f5959;
-   border-color: #0f5959;
-   color: white;
-   padding: 14px 25px;
-   border-radius: 5px;
-   text-align: center;
-   text-decoration: none;
-}
 .gif-text{
    text-align: center;
 }
@@ -801,7 +818,7 @@ textarea { resize: vertical; }
       flex-wrap: wrap;
       row-gap: 10px;
    }
-   .get-involved-btn{
+   .dark-btn{
       width: 100%;
       box-sizing: border-box;
       margin-left: auto;
