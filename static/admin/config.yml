@@ -132,7 +132,7 @@ collections:
             fields:
               - { label: 'Title', name: 'title', widget: 'string'}
               - { label: 'Audio File Name', name: 'audiofile', widget: 'string'}
-      - name: 'media-content'
+      - name: 'zzzzzzzzzzzzzzcontent'
         label: 'Media'
         folder: 'content/media'
         file: 'content/media/_index.md'
@@ -151,8 +151,8 @@ collections:
                 widget: 'list'
                 allow_add: true
                 fields:
-                - { label: 'Link Label', name: 'label', widget: 'string'}
-                - { label: 'Link Url', name: 'url', widget: 'string'}
+                  - { label: 'Link Label', name: 'label', widget: 'string'}
+                  - { label: 'Link Url', name: 'url', widget: 'string'}
         - label: 'Media Column Right'
             name: 'colright'
             widget: 'list'
@@ -166,8 +166,8 @@ collections:
                 widget: 'list'
                 allow_add: true
                 fields:
-                - { label: 'Link Label', name: 'label', widget: 'string'}
-                - { label: 'Link Url', name: 'url', widget: 'string'}
+                  - { label: 'Link Label', name: 'label', widget: 'string'}
+                  - { label: 'Link Url', name: 'url', widget: 'string'}
   - name: 'profiles'
     label: 'Profiles'
     folder: 'content/about/profiles'
