@@ -139,7 +139,7 @@ collections:
                 fields:
                   - { label: 'Link Label', name: 'label', widget: 'string'}
                   - { label: 'Link Url', name: 'url', widget: 'string'}
-        - label: 'Media Column Right'
+          - label: 'Media Column Right'
             name: 'colright'
             widget: 'list'
             allow_add: true
