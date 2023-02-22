@@ -118,21 +118,7 @@ collections:
             fields:
               - { label: 'Accordion Header', name: 'header', widget: 'string'}
               - { label: 'Accordion Text', name: 'text', widget: 'markdown'}
-      - name: 'en español'
-        label: 'En Español'
-        folder: 'content/en-español'
-        file: 'content/en-español/_index.md'
-        create: false
-        fields:
-          - { label: 'Intro', name: 'intro', widget: 'markdown'}
-          - label: 'Audio Files'
-            name: 'content'
-            widget: 'list'
-            allow_add: true
-            fields:
-              - { label: 'Title', name: 'title', widget: 'string'}
-              - { label: 'Audio File Name', name: 'audiofile', widget: 'string'}
-      - name: 'zzzzzzzzzzzzzzcontent'
+      - name: 'media'
         label: 'Media'
         folder: 'content/media'
         file: 'content/media/_index.md'
@@ -168,6 +154,20 @@ collections:
                 fields:
                   - { label: 'Link Label', name: 'label', widget: 'string'}
                   - { label: 'Link Url', name: 'url', widget: 'string'}
+      - name: 'en español'
+        label: 'En Español'
+        folder: 'content/en-español'
+        file: 'content/en-español/_index.md'
+        create: false
+        fields:
+          - { label: 'Intro', name: 'intro', widget: 'markdown'}
+          - label: 'Audio Files'
+            name: 'content'
+            widget: 'list'
+            allow_add: true
+            fields:
+              - { label: 'Title', name: 'title', widget: 'string'}
+              - { label: 'Audio File Name', name: 'audiofile', widget: 'string'}
   - name: 'profiles'
     label: 'Profiles'
     folder: 'content/about/profiles'
