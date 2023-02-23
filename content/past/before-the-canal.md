@@ -1,13 +1,20 @@
 ---
-x: "45"
-y: "43"
 draft: false
 lastmod: 2020-04-17T12:18:10+00:00
 title: Before the Canal
+x: "45"
+y: "43"
 date: 2020-04-17T12:18:10+00:00
+gallery:
+  - caption: Caption Here
+    img: /img/erika.jpg
+  - img: /img/fd12wvhxebkf1bb-1024x502.jpg
+    caption: Book?
+  - img: /img/20191104_074539-1024x1024.jpg
+    caption: Caption Here 2
 images: []
-lead: 
-description: 
+lead: null
+description: null
 category: Past
 ---
 ### The marsh between the Mississippi River and Lake Michigan was a fertile place that allowed for travel, trade, and connections among indigenous peoples.
