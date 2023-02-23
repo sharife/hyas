@@ -6,6 +6,9 @@ window.toggleMobile = toggleMobile;
 window.showGlossary = showGlossary;
 window.autoScroll = autoScroll;
 
+import './simple-lightbox/dist/simple-lightbox.jquery.js';
+import './simple-lightbox/dist/simple-lightbox.min.css';
+
 
 function selectTime(time) {
   hideButtons();
@@ -160,6 +163,11 @@ function toggleMobile() {
 
 $(function() {
   $( ".accordion" ).accordion({heightStyle: 'panel'});
+});
+
+// As A jQuery Plugin -->
+var gallery = $('.gallery a').simpleLightbox({
+  /* options */
 });
 
 

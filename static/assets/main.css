@@ -13,6 +13,24 @@ p img {
 }
 
 
+.carousel-container{
+   display: flex;
+   overflow-y: hidden;
+   width: 30%;
+   min-width: 300px;
+   margin:auto;
+   overflow-x: auto;
+   white-space: nowrap;
+}
+
+.carousel-img > img {
+   width: 100%;
+   min-width: 300px;
+   width: 128px; 
+}
+
+
+
 .back{
    text-align: right;
    font-size: 2em;

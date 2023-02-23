@@ -60,6 +60,7 @@
     "purgecss-whitelister": "^2.4.0",
     "quicklink": "^2.3.0",
     "shx": "^0.3.4",
+    "simplelightbox": "^2.12.1",
     "style-loader": "^3.3.1",
     "stylelint": "^14.14.0",
     "stylelint-config-standard-scss": "^6.1.0"
