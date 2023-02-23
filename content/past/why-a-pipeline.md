@@ -1,13 +1,20 @@
 ---
-x: "55"
-y: "48"
 draft: false
 lastmod: 2020-04-17T12:18:10+00:00
 title: Why a Pipeline?
+x: "55"
+y: "48"
 date: 2020-08-17T12:18:10+00:00
+gallery:
+  - img: /img/bluefuture-200x300.jpeg
+    caption: z
+  - img: /img/erika.jpg
+    caption: "zxcvxcv "
+  - img: /img/poisonedcity-197x300.jpeg
+    caption: "zxcvxzcv "
 images: []
-lead: 
-description: 
+lead: null
+description: null
 category: Past
 ---
 ### Why do we call a river, a waterbody known for turns and bends, a pipeline?
