@@ -20,6 +20,7 @@ p img {
    min-width: 300px;
    margin:auto;
    overflow-x: auto;
+   max-height: 300px;
    white-space: nowrap;
 }
 
