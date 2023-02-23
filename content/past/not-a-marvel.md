@@ -2,13 +2,20 @@
 draft: false
 lastmod: 2020-04-17T12:18:10+00:00
 title: Not a Marvel
-category: Past
 x: "61"
 y: "57"
 date: 2020-06-17T12:18:10+00:00
+gallery:
+  - img: /img/istockphoto-1141114423-612x612.jpg
+    caption: BASASD
+  - img: /img/rachel-havrelock-2511.jpg
+    caption: Caption H
+  - img: /img/author-photo-.jpg
+    caption: Caption z
 images: []
-lead: 
-description: 
+lead: null
+description: null
+category: Past
 ---
 
 ### The dawn of the twentieth century brought the Chicago Sanitary and Ship Canal into being. 
