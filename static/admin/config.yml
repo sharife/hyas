@@ -24,7 +24,7 @@ collections:
       - { label: 'Audio', name: 'audio', widget: 'string', required: false}
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
-      - label: 'Gallery'
+      - label: 'Image'
         name: 'gallery'
         widget: 'list'
         allow_add: true
@@ -43,6 +43,14 @@ collections:
       - { label: 'Audio', name: 'audio', widget: 'string', required: false }
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
+      - label: 'Image'
+        name: 'gallery'
+        widget: 'list'
+        allow_add: true
+        required: false
+        fields:
+          - { label: 'Image', name: 'img', widget: 'image'}
+          - { label: 'Caption', name: 'caption', widget: 'string'}
   - name: 'future'
     label: 'Future'
     folder: 'content/future'
@@ -54,6 +62,14 @@ collections:
       - { label: 'Audio', name: 'audio', widget: 'string', required: false }
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
+      - label: 'Image'
+        name: 'gallery'
+        widget: 'list'
+        allow_add: true
+        required: false
+        fields:
+          - { label: 'Image', name: 'img', widget: 'image'}
+          - { label: 'Caption', name: 'caption', widget: 'string'}
   - name: "pages"
     label: "Pages"
     editor:

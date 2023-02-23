@@ -6,12 +6,10 @@ x: "55"
 y: "48"
 date: 2020-08-17T12:18:10+00:00
 gallery:
-  - img: /img/bluefuture-200x300.jpeg
-    caption: z
-  - img: /img/erika.jpg
-    caption: "zxcvxcv "
-  - img: /img/poisonedcity-197x300.jpeg
-    caption: "zxcvxzcv "
+  - img: /img/fd12wvhxebkf1bb-1024x502.jpg
+    caption: Book?
+  - img: /img/20191104_074539-1024x1024.jpg
+    caption: Caption Here 2
 images: []
 lead: null
 description: null

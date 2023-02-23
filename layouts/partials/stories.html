@@ -1,5 +1,6 @@
 
 {{ $x:= .time }}
+
 {{ range (where .context.Site.Pages "Section" .time ) }}
     {{ range .Pages }}
     <div id="{{ .Title }}" class="story">
@@ -16,6 +17,21 @@
                 <audio controls src="/audio/{{.Params.audio}}" style="width: 100%;">
                 </audio>
             {{ end }}
+            {{ $title:= .Title}}
+            {{ $title := trim $title "? "}}
+            {{ if isset .Params "gallery" }}
+            <div class="gallery">
+                <div class="carousel-container">
+                    {{ range .Params.gallery }}
+                <a href="{{.img}}" class="carousel-img" rel="{{ $title }}">
+                    <img src="{{.img}}" alt="" title="{{.caption}}">
+                    </a>
+                {{ end }}
+                </div>
+            </div>
+            {{ end }} 
+
+
             <div class="story-content">
                 {{ .Content | markdownify}}
             </div>

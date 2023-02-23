@@ -602,7 +602,8 @@ var SimpleLightbox = /*#__PURE__*/function () {
         _this5.isOpen = true;
         var captionContainer, captionText;
         if (typeof _this5.options.captionSelector === 'string') {
-          captionContainer = _this5.options.captionSelector === 'self' ? _this5.relatedElements[_this5.currentImageIndex] : document.querySelector(_this5.generateQuerySelector(_this5.relatedElements[_this5.currentImageIndex]) + ' ' + _this5.options.captionSelector);
+          captionContainer = _this5.options.captionSelector === 'self' ? _this5.relatedElements[_this5.currentImageIndex] : 
+          document.querySelector(CSS.escape(_this5.generateQuerySelector(_this5.relatedElements[_this5.currentImageIndex]) + ' ' + _this5.options.captionSelector));
         } else if (typeof _this5.options.captionSelector === 'function') {
           captionContainer = _this5.options.captionSelector(_this5.relatedElements[_this5.currentImageIndex]);
         }
