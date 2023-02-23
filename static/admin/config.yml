@@ -30,7 +30,7 @@ collections:
         allow_add: true
         required: false
         fields:
-          - { label: 'Image', name: 'img', widget: 'img'}
+          - { label: 'Image', name: 'img', widget: 'image'}
           - { label: 'Caption', name: 'caption', widget: 'string'}
   - name: 'present'
     label: 'Present'
