@@ -42,30 +42,14 @@ function selectWater(x) {
 
 
 function toggleTimeButton(time){
-  // var elements = document.getElementsByClassName("time-button"); Grey
-  // for(var i=0; i < elements.length; i++) { 
-  //   elements[i].style.backgroundColor = "#f5f5f5";
-  //   elements[i].style.color = "#707070";
-  // }
-
-
-
-  // var select = document.getElementById("time-button-" + time);
-  // select.style.backgroundColor = "#707070";
-  // select.style.color = "#fefefe";
-
-
   var elements = document.getElementsByClassName("time-button");
   for(var i=0; i < elements.length; i++) { 
-    elements[i].style.backgroundColor = "#0f5959";
-    elements[i].style.color = "#fefefe";
+    elements[i].style.backgroundColor = "var(--index-button-default)";
+    elements[i].style.color = "var(--index-on-button-default)";
   }
-
-
-  
   var select = document.getElementById("time-button-" + time);
-  select.style.backgroundColor = "#d3ebd7";
-  select.style.color = "#0f5959";
+  select.style.backgroundColor = "var(--index-button-select)";
+  select.style.color = "var(--index-on-button-select)";
 }
 
 function hideButtons() {
@@ -93,6 +77,7 @@ function showMapText(temp) {
 }
 
 
+
 function showStoryText(storyId, time, isLanding) {
   selectStoryButton(storyId, time, isLanding);
   var x = document.getElementById(storyId);
@@ -115,18 +100,21 @@ function selectStoryButton(storyId, time, isLanding) {
   resetStoryButtons(time);
   var element = document.getElementById(time + "-" + storyId);
   var arrowSize = getComputedStyle(element.children[1]).borderTop.split(" ")[0];
-  element.children[0].style.backgroundColor = "white";
-  element.children[0].style.color = "#707070";
-  element.children[1].style.borderTop = arrowSize.concat(""," solid white");
+  element.children[0].style.backgroundColor = "var(--index-button-select)";
+  element.children[0].style.color = "var(--index-on-button-select)";
+  element.children[1].style.borderTop = arrowSize.concat(""," solid var(--index-button-select)");
 }
 
+
 function resetStoryButtons(time){
+
   var arrayOfElements = document.getElementsByClassName("content-" + time);
   for (var i=0; i<arrayOfElements.length;i++){
-    arrayOfElements[i].children[0].style.backgroundColor = "#707070";
-    arrayOfElements[i].children[0].style.color = "white";
+
+    arrayOfElements[i].children[0].style.backgroundColor = "var(--index-button-default)";
+    arrayOfElements[i].children[0].style.color = "var(--index-on-button-default)";
     var arrowSize = getComputedStyle(arrayOfElements[i].children[1]).borderTop.split(" ")[0];
-    arrayOfElements[i].children[1].style.borderTop = arrowSize.concat(""," solid #707070");
+    arrayOfElements[i].children[1].style.borderTop = arrowSize.concat(""," solid var(--index-button-default)");
   }
 }
 
@@ -134,8 +122,6 @@ function autoScroll(id) {
   var element = document.getElementById(id);
   element.scrollIntoView({behavior: 'smooth'}, true)
 }
-
-
 
 
 var glossaryToggle = ""

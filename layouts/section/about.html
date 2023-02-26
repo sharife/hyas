@@ -4,29 +4,31 @@
    About
 </div>
 
-<div class="about-background">
-   <div class="about-intro">
-      {{ .Params.body}}
-   </div>
-   <div class="the-team">
-      The Team
-   </div>
-   <div class="profile-flex-grid">
-      {{ range .Pages }}
-      <div class="about-profile">
-         <div>
-            <div class="profile-picture">
-               <a href="{{.Permalink}}"> <img src="{{.Params.picture}}" class="about-picture" > </a>
-               <div class="profile-description">
-                  {{ .Params.name }}
-                  <div>
-                     <a href="{{.Permalink}}"> Bio </a>
+<div class="section-light">
+   <div class="subpage-content">
+      <div class="light-text">
+         {{ .Params.body}}
+      </div>
+      <div class="the-team">
+         The Team
+      </div>
+      <div class="profile-flex-grid">
+         {{ range .Pages }}
+         <div class="about-profile">
+            <div>
+               <div class="profile-picture">
+                  <a href="{{.Permalink}}"> <img src="{{.Params.picture}}" class="about-picture" > </a>
+                  <div class="profile-description">
+                     {{ .Params.name }}
+                     <div>
+                        <a href="{{.Permalink}}"> Bio </a>
+                     </div>
                   </div>
                </div>
             </div>
          </div>
+         {{ end }}
       </div>
-      {{ end }}
    </div>
 </div>
 

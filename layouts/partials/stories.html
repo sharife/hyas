@@ -18,7 +18,6 @@
                 </audio>
             {{ end }}
             {{ $title:= .Title}}
-            {{ $title := trim $title "? "}}
             {{ if isset .Params "gallery" }}
             <div class="gallery">
                 <div class="carousel-container">

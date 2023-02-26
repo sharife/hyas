@@ -1,5 +1,5 @@
 ---
-title: media
+title: Media
 colleft:
   - title: Freshwater Radio
     description: Freshwater Radio is a show hosted by [Anish

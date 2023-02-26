@@ -1,3 +1,23 @@
+:root{
+   --index-button-default: #1c1f1f;
+   --index-on-button-default: #ffffff;
+   --index-button-select: #d7e8f2;
+   --index-on-button-select: #1c1f1f;
+   --index-story-display: #d7e8f2;
+   --index-under-map-filler:#575e63;
+   --content-background-light: #d7e8f2;
+   --on-content-background-light: #084141;
+   --on-content-background-dark:#fbfbfb;
+   --content-background-dark:#079697;
+   --content-button: #0f5959;
+   --on-content-button: white;
+   --content-background-dark-link: #f9bc5c;
+   --content-background-light-link: #c32675;
+   --social-media-link-color: #c32650;
+
+   --content-font-size: 1.5rem;
+}
+
 body {
    font-family: 'Karla', sans-serif;
    letter-spacing: -0.025rem;
@@ -5,12 +25,13 @@ body {
 }
 
 p {
-   font-size: 1.1rem;
+   font-size: 1.4rem;
 }
 
 p img {
    width:100%;
 }
+
 
 
 .carousel-container{
@@ -27,7 +48,7 @@ p img {
 .carousel-img > img {
    width: 100%;
    min-width: 300px;
-   width: 128px; 
+   width: 128px;
 }
 
 
@@ -42,7 +63,7 @@ p img {
 }
 
 .footer-container{
-   width: 60%;
+   width: 50%;
    margin:auto;
    padding-top: 1.5rem;
 }
@@ -112,7 +133,7 @@ p img {
 }
 
 .social-circle-btn{
-   background-color: #c32650;
+   background-color: var(--social-media-link-color);
    padding: 10px;
    border-radius: 100px;
    margin-left: 10px;
@@ -120,9 +141,19 @@ p img {
 }
 
 .dark-btn, input::file-selector-button {
-   background-color: #0f5959;
-   border-color: #0f5959;
-   color: white;
+   background-color: var(--content-button);
+   border-color: var(--content-button);
+   color: var(--on-content-button);
+   padding: 14px 25px;
+   border-radius: 5px;
+   text-align: center;
+   text-decoration: none;
+}
+
+.social-square-btn{
+   background-color: var(--social-media-link-color);
+   border-color: var(--social-media-link-color);
+   color: var(--on-content-button);
    padding: 14px 25px;
    border-radius: 5px;
    text-align: center;
@@ -142,19 +173,8 @@ input, textarea {
 }
 
 .time-button {
-   /* background-color: #575e63;
-   color: #ffffff;
-   border-color: #575e63; TEMP
-   padding: 10px;
-   text-align: center;
-   font-size: 1.8rem;
-   width: 10rem;
-   border-radius:10px;
-   font-weight: bold; */
-
-
-   background-color: #0f5959;
-   color: #ffffff;
+   background-color: var(--index-button-default);
+   color: var(--index-on-button-default);
    border-color: #575e63;
    padding: 10px;
    text-align: center;
@@ -163,7 +183,6 @@ input, textarea {
    border-radius:10px;
    font-weight: bold;
 }
-
 
 .arrow-down {
    width: 0; 
@@ -176,9 +195,9 @@ input, textarea {
  }
 
 .story-button{ 
-   background-color: #575e63;
+   background-color: var(--index-button-default);
    border: none;
-   color: white;
+   color: var(--index-on-button-default);
    padding: 0.5rem;
    font-size: 15px;
    font-weight: bold;
@@ -259,7 +278,7 @@ input, textarea {
    flex: 70%;
    width: 100%;
    height: 85vh;
-   background-color: #084141;
+   background-color: var(--index-under-map-filler);
 }
 
 .river {
@@ -268,7 +287,6 @@ input, textarea {
    background-repeat: no-repeat;
    background-size: cover;
    width: 100%;
-   height: 0;
    padding-top: 62.5%;
 }
 
@@ -280,12 +298,12 @@ input, textarea {
 .profile-flex-grid{
    display: flex;
    flex-wrap: wrap;
-   width: 80%;
+   /* width: 80%; */
    margin:auto;
 }
 
 .about-profile {
-   width: 40%;
+   width:32%;
    margin:auto;
    box-sizing: border-box;
    text-align: center;
@@ -324,12 +342,12 @@ input, textarea {
 
 .story-display {
    flex: 30%;
-   height:85vh;
+   height:86vh;
    overflow:auto; 
    margin-right:0%;
    padding-right: 1rem;
    padding-left: 12px;
-   background-color: #d3ebd7;
+   background-color: var(--index-story-display);
 }
 
 .container{
@@ -371,7 +389,7 @@ img {
    justify-content: space-between;
 }
 .get-involved-flex-row{
-   max-width: 60%;
+   max-width: 40%;
    margin-left: auto;
    margin-right: auto;
    display: flex;
@@ -399,15 +417,9 @@ img {
    background-color: #d7e8f2;
    height: 100%;
 }
-.about-intro{
-   width: 60%;
-   padding-top:3rem;
-   margin-bottom: 1rem;
-   margin-left:auto;
-   margin-right:auto;
-}
+
 .the-team{
-   width: 60%;
+   /* width: 60%; */
    margin-left:auto;
    margin-right:auto;
    font-size: 3rem;
@@ -416,7 +428,7 @@ img {
 }
 
 .media-flex-row{
-   max-width: 70%;
+   /* max-width: 70%; */
    margin-left: auto;
    margin-right: auto;
    display: flex;
@@ -438,57 +450,51 @@ img {
    padding-top: 1em;
    font-size: 1.5em;
    text-align: center;
-   /* margin: 10px; */
-   /* border: 5px solid gray; */
 }
+
 .single-title{
    text-align: center;
    font-size: 5vw;
    font-weight: bold;
 }
 .section-light{
-   background-color: #d3f4f4;
+   background-color: var(--content-background-light);
    width: 100%;
    display: inline-block;
-   color: #084141;
+   color: var(--on-content-background-light);
    padding-top:1rem;
    padding-bottom: 1rem;
 }
 .section-light a  {
-   color: #c32675;
+   color:  var(--content-background-light-link);;
    font-weight: bold;
 }
 
 .section-dark {
-   background-color: #079697;
+   background-color: var(--content-background-dark);
    width: 100%;
    display: inline-block;
-   color: #d3ebd7;
+   color: var(--content-background-light);
    padding-top:1rem;
    padding-bottom: 1rem;
 }
 
 .section-dark a  {
-   color: #f9bc5c;
+   color:  var(--content-background-dark-link);
    font-weight: bold;
 }
 
 .padding{
    padding: 3rem;
 }
-.dark-text{
-   color: #09232a;
-   font-size: 1.5rem;
-}
-.light-text{
-   color: #084141;
-   font-size: 1.5rem;
-}
+
+
 .subpage-content{
    font-weight: 500;
-   max-width: 60%;
+   max-width: 50%;
    margin:auto;
    overflow-wrap: break-word;
+   font-size: var(--content-font-size);
 }
 
 .inline-block{ 
@@ -550,7 +556,7 @@ img {
    padding-bottom: 5rem;
 }
 .form-container{
-   width: 60%;
+   width: 35%;
    margin-left: auto;
    margin-right: auto;
 }
@@ -560,6 +566,7 @@ input{
 textarea{
    width: 100%;
 }
+
 
 
 .mobile-nav-open {
@@ -717,19 +724,17 @@ textarea{
    padding: .4rem;
 }
 
-/* .teardrop:active + .teardrop-content {
-   position: absolute;
-   display: block;
-   left: 50%;
-   bottom: 50%;
-   float: left;
-   white-space: nowrap;
-   background-color: #084141;
-   color: white;
-   padding: .4rem;
-} */
-
 textarea { resize: vertical; }
+
+@media screen and (min-width: 1400px) {
+   .map-text{
+      font-size: 2.5rem;
+   }
+   .nav-item{
+      font-size: 2.5rem;
+   }
+}
+
 
 @media screen and (max-width: 1000px) {
 
@@ -865,7 +870,7 @@ textarea { resize: vertical; }
       margin:auto;
    }
    .contact-container{
-      margin-left:1rem;
+      margin-left:4rem;
    }
    .media-flex-row{
       width: 100%;
