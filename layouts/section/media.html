@@ -9,25 +9,25 @@
         <div class="media-flex-row">
             <div class="media-col">
                 {{ range .Params.colleft }}
-                    <div>
+                    <div class="media-item">
                         <h2>
                             {{.title }}
                         </h2>
                         {{ if .image }}
                         <div>
                             <img src="{{.image}}">
-                            <div>
+                            <div class="media-description">
                                 {{.description | markdownify }}
                             </div>
                         </div>
                         {{else}}
-                        <div>
+                        <div class="media-description">
                             {{.description | markdownify }}
                         </div>
                         {{ end }}
                         {{ range .link }}
-                        <div class="media-link" >
-                            <a  href="{{.url}}" >
+                        <div class="media-button">
+                            <a  href="{{.url}}" target="_blank" rel="noopener noreferrer">
                                 {{.label }}
                             </a>
                         </div>
@@ -46,18 +46,18 @@
                         {{ if .image }}
                         <div>
                             <img src="{{.image}}">
-                            <div>
+                            <div class="media-description">
                                 {{.description | markdownify }}
                             </div>
                         </div>
                         {{else}}
-                        <div>
+                        <div class="media-description">
                             {{.description | markdownify }}
                         </div>
                         {{ end }}
                         {{ range .link }}
-                        <div class="media-link" >
-                            <a  href="{{.url}}" >
+                        <div class="media-button" >
+                            <a  href="{{.url}}" target="_blank" rel="noopener noreferrer">
                                 {{.label }}
                             </a>
                         </div>
