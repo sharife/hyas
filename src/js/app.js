@@ -6,9 +6,13 @@ window.toggleMobile = toggleMobile;
 window.showGlossary = showGlossary;
 window.autoScroll = autoScroll;
 
+
+
+
 import './simple-lightbox/dist/simple-lightbox.jquery.js';
 import './simple-lightbox/dist/simple-lightbox.min.css';
 
+let HOME_STACK_BREAKPOINT = 1000;
 
 function selectTime(time) {
   hideButtons();
@@ -20,7 +24,7 @@ function selectTime(time) {
   riverImage.style.backgroundImage = 'url(/images/chicago-river-map-' + time +".png)";
   showStoryText(time + "-landing", time, true) // show time landing page
   resetStoryButtons(time);
-  showMapText(time + "-map");
+  showMapText(time);
   var elements = document.getElementsByClassName("content-" + time);
   for(var i=0; i < elements.length; i++) { 
     elements[i].style.display = "block";
@@ -62,20 +66,48 @@ function hideButtons() {
   }
 }
 
+
 function showMapText(temp) {
-  var x = document.getElementById(temp);
-  var arrayOfElements= document.getElementsByClassName("map-text")
+  var web = document.getElementById(temp + "-map");
+  var arrayOfElements = document.getElementsByClassName("map-text");
+
   for (var i=0; i<arrayOfElements.length;i++){
       arrayOfElements[i].style.display='none';
   }
-  if (x.style.display === "none") {
-  x.style.display = "block";
-  } else {
-  x.style.display = "none";
+
+  var mobile = document.getElementById(temp + "-map-mobile");
+  arrayOfElements = document.getElementsByClassName("map-text-mobile");
+
+  for (var i=0; i<arrayOfElements.length;i++){
+      arrayOfElements[i].style.display='none';
   }
 
+  if(window.innerWidth <= 1000){
+    if (mobile.style.display === "none") {
+      mobile.style.display = "block";
+    } else {
+      mobile.style.display = "none";
+    }
+  }
+  else {
+    if (web.style.display === "none") {
+      web.style.display = "block";
+    } else {
+      web.style.display = "none";
+    }
+  }
 }
+addEventListener("load", (event) => {
+  var web = document.getElementById("landing-map");
+  var mobile = document.getElementById("landing-map-mobile");
 
+  if( window.innerWidth <= HOME_STACK_BREAKPOINT) {
+    mobile.style.display = "block";
+  } else {
+    web.style.display = "block";
+  }
+
+});
 
 
 function showStoryText(storyId, time, isLanding) {

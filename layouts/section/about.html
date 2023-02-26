@@ -15,17 +15,16 @@
       <div class="profile-flex-grid">
          {{ range .Pages }}
          <div class="about-profile">
-            <div>
-               <div class="profile-picture">
-                  <a href="{{.Permalink}}"> <img src="{{.Params.picture}}" class="about-picture" > </a>
-                  <div class="profile-description">
-                     {{ .Params.name }}
-                     <div>
-                        <a href="{{.Permalink}}"> Bio </a>
-                     </div>
+            <div class="profile-picture">
+               <a href="{{.Permalink}}"> <img src="{{.Params.picture}}" class="about-picture"> </a>
+               <div class="profile-description">
+                  {{ .Params.name }}
+                  <div>
+                     <a href="{{.Permalink}}"> Bio </a>
                   </div>
                </div>
             </div>
+            
          </div>
          {{ end }}
       </div>

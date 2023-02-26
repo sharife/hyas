@@ -6,7 +6,7 @@ colleft:
       Tailor](https://thebackwardriver.org/meet-the-team/anish-tailor/) about
       society’s relationship to water in the Great Lakes basin.
     link:
-      - label: FRESHWATER RADIO
+      - label: Freshwater Radio
         url: https://thebackwardriver.org/interviews-audio/freshwaterradioz
   - title: The Backward River playlist
     description: A [music playlist curated by The Backward River
@@ -21,7 +21,7 @@ colleft:
       Freshwater Lab members and affiliates
     image: /img/fwl_logo_1000px-2-2-edited.png
     link:
-      - label: FRESHWATER LAB MEDIA
+      - label: Freshwater Lab Media
         url: http://www.freshwaterlab.org/media
   - title: Gen Z Environmental Justice Leaders
     description: Gen Z climate justice leaders heighten our awareness of the
@@ -29,9 +29,9 @@ colleft:
       communities
     image: /img/gen-z-environmental-justice-panel.jpg
     link:
-      - label: WATCH ON FACEBOOK
+      - label: Watch on Facebook
         url: https://fb.me/e/M9aHz8gz
-      - label: WATCH ON YOUTUBE
+      - label: Watch on Youtube
         url: https://www.youtube.com/watch?v=0SOKj_E7_LU
 colright:
   - title: The Water Chronicles
@@ -57,7 +57,7 @@ colright:
       past, present and future of the Chicago River with MWRD Commissioner Eira
       L. Corral Sepúlveda"
     link:
-      - label: WATCH ON FACEBOOK
+      - label: Watch on Facebook
         url: https://www.facebook.com/EiraH2O/videos/766755421064815/
     image: /img/fd12wvhxebkf1bb-1024x502.jpg
   - title: Militarizing Rivers
@@ -66,14 +66,14 @@ colright:
     image: /img/militarizing-rivers-flyer-long-1.jpg
     link:
       - url: https://www.youtube.com/watch?v=PAYhjkyDJiM
-        label: WATCH ON YOUTUBE
+        label: Watch on Youtube
   - title: Freshwater Media Festival
     description: Explore the politics of freshwater and reimagine its revolutionary
       potential
     image: /img/freshwater-media-festival-edited-1-1024x576.jpg
     link:
-      - label: WATCH ON FACEBOOK
+      - label: Watch on Facebook
         url: https://youtu.be/ZFpKMSdaMNIhttps://www.facebook.com/watch/?v=387630839338973
-      - label: WATCH ON YOUTUBE
+      - label: Watch on Youtube
         url: https://youtu.be/ZFpKMSdaMNIhttps://www.facebook.com/watch/?v=387630839338973
 ---

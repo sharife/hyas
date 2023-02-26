@@ -14,7 +14,6 @@
    --content-background-dark-link: #f9bc5c;
    --content-background-light-link: #c32675;
    --social-media-link-color: #c32650;
-
    --content-font-size: 1.5rem;
 }
 
@@ -303,7 +302,8 @@ input, textarea {
 }
 
 .about-profile {
-   width:32%;
+   width: 33%;
+   display: flex;
    margin:auto;
    box-sizing: border-box;
    text-align: center;
@@ -329,7 +329,7 @@ input, textarea {
 }
 
 .profile-description{
-   text-align: center;
+   text-align: left;
    margin-left: 1em;
 }
 
@@ -422,6 +422,7 @@ img {
    /* width: 60%; */
    margin-left:auto;
    margin-right:auto;
+   margin-top:3rem;
    font-size: 3rem;
    font-weight: bold;
    margin-bottom: 2rem;
@@ -744,9 +745,13 @@ textarea{
 
 textarea { resize: vertical; }
 
+.map-text-mobile {
+   display: none;
+}
+
 @media screen and (min-width: 1400px) {
    .map-text{
-      font-size: 2.5rem;
+      font-size: 3rem;
    }
    .nav-item{
       font-size: 2.5rem;
@@ -755,7 +760,14 @@ textarea { resize: vertical; }
 
 
 @media screen and (max-width: 1000px) {
-
+   .map-text-mobile-container{
+      display: inline-block;
+      margin-left: 1em;
+      margin-right: 1em;
+   }
+   .map-text-mobile{
+      font-size: 2.5rem;
+   }
    .mobile-nav-open {
       display: flex;
       justify-content: space-between;
@@ -812,6 +824,7 @@ textarea { resize: vertical; }
       font-size: 16px;
       padding: 5px;
       width: 20vw;
+      overflow-wrap: break-word;
    }
    
    .story-button {
@@ -901,5 +914,8 @@ textarea { resize: vertical; }
    }
    .form-container{
       width: 80%;
+   }
+   .profile-flex-grid{
+      width: 100%;
    }
 }

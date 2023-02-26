@@ -1,4 +1,17 @@
 {{ define "main" }}
+<div class="map-text-mobile-container">
+   <h2 id="landing-map-mobile" class="map-text-mobile">
+      What will the river tell you? Select a choice below to begin.
+   </h2>
+   {{ range (where .Site.Pages "Section" "landing") }}
+      {{ range .Pages }}
+      <h2 id="{{.Params.category}}-map-mobile" class="map-text-mobile">
+         {{ .Params.maptext }}
+      </h2>
+      {{ end }}
+   {{ end }}
+</div>
+
 <div class="flex-container">
    <div class="story-display">
          {{ range (where .Site.Pages "Section" "landing" ) }}
@@ -55,7 +68,7 @@
    <div class="river-container" >
          <div class="river" id="river-image">
             <div class="map-description">
-               <div id="landing-map" class="map-text" style="display: block;">
+               <div id="landing-map" class="map-text">
                   What will the river tell you? Select a choice below to begin.
                </div>
                {{ range (where .Site.Pages "Section" "landing") }}
