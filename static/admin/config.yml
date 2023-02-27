@@ -190,8 +190,8 @@ collections:
               - { label: 'Title', name: 'title', widget: 'string'}
               - { label: 'Audio File Name', name: 'audiofile', widget: 'string'}
           - {name: 'Creative Process', label: 'creative-process', widget: 'markdown'}
-  - name: 'Audio en español'
-    label: 'audio-en-español'
+  - name: 'audio-en-español'
+    label: 'Audio en español'
     folder: 'content/en-español/stories'
     create: true
     fields:
@@ -206,9 +206,10 @@ collections:
         fields:
           - { label: 'Image', name: 'img', widget: 'image'}
           - { label: 'Caption', name: 'caption', widget: 'string'}
-      - { label: 'Note From Actor', name: 'actor-note', widget: 'markdown'}
+      - { label: 'Personality', name: 'personality', widget: 'markdown'}   
+      - { label: 'Note From Actor', name: 'actor-note', widget: 'markdown', required: false}
       - { label: 'Transcript', name: 'transcript', widget: 'markdown'}
-      - { label: 'Credits', name: 'credit', widget: 'markdown'}
+      - { label: 'Credits', name: 'credit', widget: 'markdown', required: false}
   - name: 'profiles'
     label: 'Profiles'
     folder: 'content/about/profiles'
