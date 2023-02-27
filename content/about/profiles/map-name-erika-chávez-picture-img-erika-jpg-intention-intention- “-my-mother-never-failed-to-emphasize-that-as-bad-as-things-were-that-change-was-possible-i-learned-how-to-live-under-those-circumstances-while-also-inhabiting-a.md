@@ -1,5 +1,5 @@
 ---
-name: Erika Chávez
+title: Erika Chávez
 picture: /img/erika.jpg
 intention: >-
   **Intention:** “*My mother never failed to emphasize that as bad as things

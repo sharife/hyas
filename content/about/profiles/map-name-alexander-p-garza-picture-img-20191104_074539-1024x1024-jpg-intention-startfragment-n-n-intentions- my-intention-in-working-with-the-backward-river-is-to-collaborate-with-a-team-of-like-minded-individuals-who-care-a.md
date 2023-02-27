@@ -1,5 +1,5 @@
 ---
-name: Alexander P. Garza
+title:  Alexander P. Garza
 picture: /img/20191104_074539-1024x1024.jpg
 intention: >-
   <!--StartFragment-->

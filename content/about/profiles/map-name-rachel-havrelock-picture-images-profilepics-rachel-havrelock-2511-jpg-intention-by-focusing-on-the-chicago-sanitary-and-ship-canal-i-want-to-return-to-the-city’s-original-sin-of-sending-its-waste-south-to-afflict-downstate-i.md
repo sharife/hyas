@@ -1,5 +1,5 @@
 ---
-name: Rachel Havrelock
+title: Rachel Havrelock
 picture: /img/rachel-havrelock-2511.jpg
 intention: >-
   By focusing on the Chicago Sanitary and Ship Canal, I want to return to the

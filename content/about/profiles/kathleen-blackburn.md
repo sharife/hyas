@@ -1,5 +1,5 @@
 ---
-name: Kathleen Blackburn
+title: Kathleen Blackburn
 picture: /img/author-photo-.jpg
 intention: >-
   I want to reimagine the relationship we have to our watershed. By recognizing
