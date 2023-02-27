@@ -25,6 +25,9 @@
                         {{ range .Params.gallery }}
                         <li class="splide__slide">
                             <img src="{{.img}}" alt="">
+                            <div>
+                                {{.caption}}
+                            </div>
                         </li>
                         {{ end }}
                     </ul>
