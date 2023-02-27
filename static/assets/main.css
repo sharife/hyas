@@ -14,6 +14,7 @@
    --content-background-dark-link: #f9bc5c;
    --content-background-light-link: #c32675;
    --social-media-link-color: #c32650;
+   --mobile-nav-color: #0f5959;
    --content-font-size: 1.5rem;
 }
 
@@ -29,6 +30,23 @@ p {
 
 p img {
    width:100%;
+}
+
+
+.splide__slide img {
+   max-width: 300px;
+   max-height: 300px;
+   object-fit: cover;
+}
+
+.splide:not(.is-overflow) .splide__pagination {
+   display: block !important;
+}
+
+.splide-container{
+   height: 10rem;
+   width: 10rem;
+   margin: auto;
 }
 
 
@@ -86,11 +104,12 @@ p img {
 
 .bw-river-logo{
    display: block;
-   max-width:300px;
+   max-width: 400px;
+   /* max-width:300px;
    max-height:150px;
-   border-radius: 25px;
    width: auto;
-   height: auto;
+   height: auto; */
+   border-radius: 25px;
 }
 .freshwater-logo{
    display: block;
@@ -165,6 +184,10 @@ input, textarea {
 
 .spanish-audio-wrapper{
    width: 49%;
+}
+
+.spanish-audio-display{
+   width: 100%;
 }
 
 .story {
@@ -601,7 +624,7 @@ textarea{
 }
 .mobile-exit{
    text-align: center;
-   font-size: 4rem;
+   font-size: 2.5rem;
 }
 .main-logo{
    width:100%;
@@ -760,6 +783,9 @@ textarea { resize: vertical; }
 
 
 @media screen and (max-width: 1000px) {
+   .single-title{
+      font-size: 15vw;
+   }
    .map-text-mobile-container{
       display: inline-block;
       margin-left: 1em;
@@ -793,15 +819,16 @@ textarea { resize: vertical; }
    .mobile-link {
       font-weight: bold;
       font-size: 2em;
+      color: var(--mobile-nav-color);
+   }
+   .mobile-link-container{
+      margin-bottom: 1.2rem;
    }
    li a:link {
       text-decoration: none;
    }
    li a:visited {
       text-decoration: none;
-   }
-   li:not(:last-child) {
-      margin-bottom: 5px;
    }
    .flex-container {
        flex-direction: column-reverse;
@@ -901,7 +928,7 @@ textarea { resize: vertical; }
       margin:auto;
    }
    .contact-container{
-      margin-left:4rem;
+      /* margin-left:4rem; */
    }
    .media-flex-row{
       width: 100%;

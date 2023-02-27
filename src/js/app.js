@@ -7,7 +7,9 @@ window.showGlossary = showGlossary;
 window.autoScroll = autoScroll;
 
 
+import '@splidejs/splide/css';
 
+import Splide from '@splidejs/splide';
 
 import './simple-lightbox/dist/simple-lightbox.jquery.js';
 import './simple-lightbox/dist/simple-lightbox.min.css';
@@ -98,15 +100,25 @@ function showMapText(temp) {
   }
 }
 addEventListener("load", (event) => {
-  var web = document.getElementById("landing-map");
-  var mobile = document.getElementById("landing-map-mobile");
 
-  if( window.innerWidth <= HOME_STACK_BREAKPOINT) {
-    mobile.style.display = "block";
-  } else {
-    web.style.display = "block";
+  if(window.location.pathname == "/") {
+    var web = document.getElementById("landing-map");
+    var mobile = document.getElementById("landing-map-mobile");
+
+    if( window.innerWidth <= HOME_STACK_BREAKPOINT) {
+      mobile.style.display = "block";
+    } else {
+      web.style.display = "block";
+    }
   }
 
+  var elms = document.getElementsByClassName( 'splide' );
+  if(elms != null){
+    for ( var i = 0; i < elms.length; i++ ) {
+      new Splide( elms[ i ], {
+      } ).mount();
+    }
+  }
 });
 
 
@@ -182,6 +194,9 @@ function toggleMobile() {
 $(function() {
   $( ".accordion" ).accordion({heightStyle: 'panel'});
 });
+
+
+
 
 // As A jQuery Plugin -->
 var gallery = $('.gallery a').simpleLightbox({

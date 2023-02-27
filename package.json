@@ -44,6 +44,7 @@
     "@babel/preset-env": "^7.20.2",
     "@fullhuman/postcss-purgecss": "^5.0.0",
     "@hyas/core": "^0.1.4",
+    "@splidejs/splide": "^4.1.4",
     "auto-changelog": "^2.4.0",
     "autoprefixer": "^10.4.13",
     "eslint": "^8.27.0",
