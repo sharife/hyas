@@ -20,7 +20,7 @@ gallery:
     caption: a
 personality: >-
  La rama norte superior es una figura matrona en un gran árbol genealógico. No tiene hijos biológicos, pero sirve como figura materna para todos los jóvenes de la red familiar. Conoce a tu madre desde antes de que tú nacieras y puede contarte historias que tu madre nunca mencionaría. Tiene mucho conocimiento institucional del árbol genealógico. La rama norte superior conoce profundamente todas las otras ramas. Todas las otras ramas han olvidado de dónde vienen, se han desconectado de su identidad y han cambiado. Sin embargo, Upper North Branch sabe quien es en realidad. Ella anima a los jóvenes a permanecer fieles y auténticos.
-actor-note: >-
+actornote: >-
   La rama norte superior es una figura matrona en un gran árbol genealógico. No tiene hijos biológicos, pero sirve como figura materna para todos los jóvenes de la red familiar. Conoce a tu madre desde antes de que tú nacieras y puede contarte historias que tu madre nunca mencionaría. Tiene mucho conocimiento institucional del árbol genealógico. La rama norte superior conoce profundamente todas las otras ramas. Todas las otras ramas han olvidado de dónde vienen, se han desconectado de su identidad y han cambiado. Sin embargo, Upper North Branch sabe quien es en realidad. Ella anima a los jóvenes a permanecer fieles y auténticos.
 transcript: >-
   Recuerdo nuestros senderos de follaje verde antes de que fueran ahogados por

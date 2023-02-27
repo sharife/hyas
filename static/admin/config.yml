@@ -207,7 +207,7 @@ collections:
           - { label: 'Image', name: 'img', widget: 'image'}
           - { label: 'Caption', name: 'caption', widget: 'string'}
       - { label: 'Personality', name: 'personality', widget: 'markdown'}   
-      - { label: 'Note From Actor', name: 'actor-note', widget: 'markdown', required: false}
+      - { label: 'Note From Actor', name: 'actornote', widget: 'markdown', required: false}
       - { label: 'Transcript', name: 'transcript', widget: 'markdown'}
       - { label: 'Credits', name: 'credit', widget: 'markdown', required: false}
   - name: 'profiles'

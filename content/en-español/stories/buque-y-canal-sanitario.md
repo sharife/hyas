@@ -27,7 +27,7 @@ personality: El Sanitary and Ship Canal es retratado como un capitalista rapaz
   comunidades marginadas que vivían cerca de la vía fluvial. Solo estaban
   motivados por un apetito voraz por el capital, al igual que la élite
   industrial oportunista.
-actor-note: >-
+actornote: >-
   *I grew up in the Lathrop Homes projects on the North side at the
   intersections of Damen, Diversey and Clybourn – the Chicago River ran right
   along side the projects. My fondest memories were when the river would swallow

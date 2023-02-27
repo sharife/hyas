@@ -1,0 +1,59 @@
+{{ define "main" }}
+
+<div class="single-title">
+    {{.Title}}
+</div>
+<div class="section-light">
+    <div class="subpage-content">
+        <audio controls src="/audio/{{ .Params.audiofile }}" class="spanish-audio-display">
+        </audio>
+        {{.Params.intro | markdownify}}
+        {{ if isset .Params "gallery" }}
+        <div class="splide-container">
+            <section id="image-carousel" class="splide" aria-label="Beautiful Images">
+                <div class="splide__track">
+                    <ul class="splide__list">
+                        {{ range .Params.gallery }}
+                        <li class="splide__slide">
+                            <img src="{{.img}}" alt="">
+                        </li>
+                        {{ end }}
+                    </ul>
+                </div>
+            </section>
+        </div>
+        {{ end }}
+        <div>
+            <h2>
+                Personaje del {{.Title}}
+            </h2>
+            {{.Params.personality | markdownify}}
+        </div>
+        {{ if isset .Params "actornote" }}
+        <div>
+            <h2>
+                Del actor
+            </h2>
+            {{.Params.actornote | markdownify}}
+        </div>
+        {{ end }}
+        <div>
+            <h2>
+                Transcripción de grabación
+            </h2>
+            {{.Params.transcript | markdownify}}
+        </div>
+        {{ if isset .Params "credit" }}
+        <div>
+            <h2>
+                Credit
+            </h2>
+            {{.Params.credit | markdownify}}
+        </div>
+        {{ end }}
+        {{ partial "back.html" (dict "context" . "link" "/en-español")}}
+    </div>
+</div>
+
+
+{{ end }}

@@ -10,18 +10,22 @@
         <div>
             {{ .Params.intro | markdownify }}
         </div>
-
+        
         <div class="audio-library-flex">
-            {{ range .Params.content }}
+            {{ range .Pages }}
             <div class="spanish-audio-wrapper">
                 <h2>
-                    {{ .title }}
+                    <a href="{{.Permalink}}">
+                        {{ .Params.title }}
+                    </a>
                 </h2>
-                <audio controls src="/audio/{{.audiofile}}" class="spanish-audio-display">
+                <audio controls src="/audio/{{ .Params.audiofile }}" class="spanish-audio-display">
                 </audio>
             </div>
             {{ end }}
+            
         </div>
+        
     </div>
 </div>
 

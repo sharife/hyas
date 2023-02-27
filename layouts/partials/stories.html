@@ -13,7 +13,7 @@
     </h2>
     <div>
         {{ if isset .Params "audio" }}
-        <audio controls src="/audio/{{.Params.audio}}" style="width: 100%;">
+        <audio controls src="/audio/{{.Params.audio}}" class="story-audio-display">
         </audio>
         {{ end }}
         {{ $title:= .Title}}

@@ -25,7 +25,7 @@ body {
 }
 
 p {
-   font-size: 1.4rem;
+   font-size: 1.7rem;
 }
 
 p img {
@@ -34,8 +34,8 @@ p img {
 
 
 .splide__slide img {
-   max-width: 300px;
-   max-height: 300px;
+   /* max-width: 300px;
+   max-height: 300px; */
    object-fit: cover;
 }
 
@@ -44,8 +44,8 @@ p img {
 }
 
 .splide-container{
-   height: 10rem;
-   width: 10rem;
+   /* height: 10rem;
+   width: 10rem; */
    margin: auto;
 }
 
@@ -104,7 +104,7 @@ p img {
 
 .bw-river-logo{
    display: block;
-   max-width: 400px;
+   max-width: 500px;
    /* max-width:300px;
    max-height:150px;
    width: auto;
@@ -188,6 +188,10 @@ input, textarea {
 
 .spanish-audio-display{
    width: 100%;
+}
+.story-audio-display{
+   width: 100%;
+   margin-bottom: 1rem;
 }
 
 .story {
@@ -471,15 +475,18 @@ img {
 
 .media-button{
    text-align: center;
+   box-sizing: border-box;
    margin-top: 2rem;
    margin-bottom: 4rem;
+   background-color: var(--content-button);
+   border-radius: 5px;
 }
 .media-button > a {
-   background-color: var(--content-button);
-   border-color: var(--content-button);
+   /* background-color: var(--content-button); */
+   /* border-color: var(--content-button); */
    color: var(--on-content-button) !important;
-   padding: 14px 25px;
-   border-radius: 5px;
+   padding: 10px 15px;
+   /* border-radius: 5px; */
    text-decoration: none;
 }
 
@@ -536,6 +543,8 @@ img {
    margin:auto;
    overflow-wrap: break-word;
    font-size: var(--content-font-size);
+   margin-top:1rem;
+   margin-bottom: 1rem;
 }
 
 .inline-block{ 
@@ -855,7 +864,7 @@ textarea { resize: vertical; }
    }
    
    .story-button {
-      font-size: 10px;
+      font-size: 15px;
       padding: 0.2rem;
    }
    .arrow-down{
@@ -928,7 +937,7 @@ textarea { resize: vertical; }
       margin:auto;
    }
    .contact-container{
-      /* margin-left:4rem; */
+      margin-left:4rem;
    }
    .media-flex-row{
       width: 100%;

@@ -1,13 +1,6 @@
 ---
 title: Media
 colleft:
-  - title: Freshwater Radio
-    description: Freshwater Radio is a show hosted by [Anish
-      Tailor](https://thebackwardriver.org/meet-the-team/anish-tailor/) about
-      society’s relationship to water in the Great Lakes basin.
-    link:
-      - label: Freshwater Radio
-        url: https://thebackwardriver.org/interviews-audio/freshwaterradioz
   - title: The Backward River playlist
     description: A [music playlist curated by The Backward River
       team](https://open.spotify.com/playlist/4lg8fdIrQTJQiKoiPvg2as?si=5dbcbb619663470e) to
