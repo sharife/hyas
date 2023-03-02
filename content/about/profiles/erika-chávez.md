@@ -13,7 +13,8 @@ intention: >-
 
 
   With this project, I hope to help create conditions of possibility for change that expand our understanding of the Chicago River, dismantle systems that disproportionately burden Black and brown communities along its bank, and challenge us to wildly reimagine what’s possible. Through a deepening of our collective consciousness on issues of slow violence and environmental justice, we are empowered to make connections that make an imagined world a reality and compelled to move beyond the transactional toward the relational. We begin to see that the outcomes of slow violence are just as harmful, rampant and far-reaching as those of fast violence, structural racism and inequity. The river wants to flow forward. We can change course too.
-bio: "**Bio:** Erika Chávez has been a member of the UIC Freshwater Lab since
+bio: >-
+  **Bio:** Erika Chávez has been a member of the UIC Freshwater Lab since
   the fall of 2019 and is a marketing communications professional who helps
   organizations achieve objectives through strategic outreach, experience design
   and brand management. A daughter of immigrants and lifelong Chicago resident,

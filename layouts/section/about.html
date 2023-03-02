@@ -16,14 +16,15 @@
          <div class="about-profile">
             <div class="profile-picture">
                <a href="{{.Permalink}}"> <img src="{{.Params.picture}}" class="about-picture"> </a>
-               <div class="profile-description">
+            </div>
+            <div class="profile-description">
+               <div class="about-name-small">
                   {{ .Title }}
-                  <div>
-                     <a href="{{.Permalink}}"> Bio </a>
-                  </div>
+               </div>
+               <div>
+                  <a href="{{.Permalink}}"> Bio </a>
                </div>
             </div>
-            
          </div>
          {{ end }}
       </div>

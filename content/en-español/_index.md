@@ -16,7 +16,7 @@ content:
     audiofile: Brazo-Norte-Superior-voiceover-Pinqy-Ring.mp3
   - title: Conoce el North Shore Channel
     audiofile: Canal-de-la-Costa-Norte-audio-Esteban-Schemberg.mp3
-Creative Process: Los personajes del río surgieron porque queríamos resaltar las
+creativeProcess: Los personajes del río surgieron porque queríamos resaltar las
   personalidades y arquetipos que emergen del río Chicago. Hay muchos sistemas
   estructurales en el lugar que dictan cómo se usa el río. Estos arquetipos
   representan a los jugadores involucrados en mantener el statu quo y aquellos

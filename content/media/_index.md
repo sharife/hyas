@@ -32,7 +32,7 @@ colright:
       Lyons](https://thebackwardriver.org/meet-the-team/becky-lyons/) where we
       unearth people’s stories of their relationship with freshwater.
     link:
-      - label: THE WATER CHRONICLES
+      - label: The Water Chronicles
         url: https://feeds.buzzsprout.com/1041286.rss
   - link:
       - url: https://soundcloud.com/erikaone773/sets/the-river-speak

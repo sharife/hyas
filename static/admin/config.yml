@@ -21,6 +21,7 @@ collections:
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'X', name: 'x', widget: 'string' }
       - { label: 'Y', name: 'y', widget: 'string' }
+      - { label: 'Intro', name: 'intro', widget: 'markdown' }
       - { label: 'Audio', name: 'audio', widget: 'string', required: false}
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
@@ -40,7 +41,8 @@ collections:
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'X', name: 'x', widget: 'string' }
       - { label: 'Y', name: 'y', widget: 'string' }
-      - { label: 'Audio', name: 'audio', widget: 'string', required: false }
+      - { label: 'Intro', name: 'intro', widget: 'markdown' }
+      - { label: 'Audio', name: 'audio', widget: 'string', required: false}
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
       - label: 'Image'
@@ -59,7 +61,8 @@ collections:
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'X', name: 'x', widget: 'string' }
       - { label: 'Y', name: 'y', widget: 'string' }
-      - { label: 'Audio', name: 'audio', widget: 'string', required: false }
+      - { label: 'Intro', name: 'intro', widget: 'markdown' }
+      - { label: 'Audio', name: 'audio', widget: 'string', required: false}
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
       - label: 'Image'
@@ -189,7 +192,7 @@ collections:
             fields:
               - { label: 'Title', name: 'title', widget: 'string'}
               - { label: 'Audio File Name', name: 'audiofile', widget: 'string'}
-          - {name: 'Creative Process', label: 'creative-process', widget: 'markdown'}
+          - {name: 'Creative Process', label: 'creativeProcess', widget: 'markdown'}
   - name: 'audio-en-español'
     label: 'Audio en español'
     folder: 'content/en-español/stories'

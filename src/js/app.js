@@ -11,10 +11,7 @@ import '@splidejs/splide/css';
 
 import Splide from '@splidejs/splide';
 
-import './simple-lightbox/dist/simple-lightbox.jquery.js';
-import './simple-lightbox/dist/simple-lightbox.min.css';
-
-let HOME_STACK_BREAKPOINT = 1000;
+let HOME_STACK_BREAKPOINT = 1400;
 
 function selectTime(time) {
   hideButtons();
@@ -84,7 +81,7 @@ function showMapText(temp) {
       arrayOfElements[i].style.display='none';
   }
 
-  if(window.innerWidth <= 1000){
+  if(window.innerWidth <= HOME_STACK_BREAKPOINT){
     if (mobile.style.display === "none") {
       mobile.style.display = "block";
     } else {
@@ -115,7 +112,9 @@ addEventListener("load", (event) => {
   var elms = document.getElementsByClassName( 'splide' );
   if(elms != null){
     for ( var i = 0; i < elms.length; i++ ) {
-      new Splide( elms[ i ], {
+      new Splide( elms[ i ], 
+      {
+        heightRatio: 0.5
       } ).mount();
     }
   }
