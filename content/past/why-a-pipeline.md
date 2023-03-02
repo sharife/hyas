@@ -4,6 +4,8 @@ lastmod: 2020-04-17T12:18:10+00:00
 title: Why a Pipeline?
 x: "55"
 y: "48"
+intro: "### Why do we call a river, a waterbody known for turns and bends, a
+  pipeline?"
 date: 2020-08-17T12:18:10+00:00
 gallery:
   - img: /img/fd12wvhxebkf1bb-1024x502.jpg
@@ -15,8 +17,6 @@ lead: null
 description: null
 category: Past
 ---
-### Why do we call a river, a waterbody known for turns and bends, a pipeline?
-
 We think of rivers coursing in a natural path, whereas pipelines direct flows according to human will. The Chicago River was harnessed, straightened into a canal and pressed into the service of conveying coal, oil and other products. It was even reversed in order to carry unwanted water away from the city through the Chicago Sanitary and Ship Canal.  
 
 Although it is not covered like a pipe, the river functions like a pipeline. Oil and gas pipelines become known for their breaches and their damages. During a rainstorm, the river can also overflow with sewage. 
