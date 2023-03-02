@@ -4,6 +4,8 @@ lastmod: 2020-04-17T12:18:10+00:00
 title: Not a Marvel
 x: "61"
 y: "57"
+intro: "### The dawn of the twentieth century brought the Chicago Sanitary and
+  Ship Canal into being."
 date: 2020-06-17T12:18:10+00:00
 gallery:
   - img: /img/istockphoto-1141114423-612x612.jpg
@@ -17,9 +19,6 @@ lead: null
 description: null
 category: Past
 ---
-
-### The dawn of the twentieth century brought the Chicago Sanitary and Ship Canal into being. 
-
 Nineteenth century engineering quickly proved insufficient for the burgeoning metropolis. As commodities and labor swelled, so did byproducts and waste which spilled into Lake Michigan, the city’s source of drinking water. Outbreaks of water-borne diseases like cholera required a public health response. They did not prompt changes in industrial scale or practices, but rather more audacious engineering.
 
 The city was lifted to accommodate an underground sewer system then the river was reversed to flush byproducts and waste. This marks the beginning of the backward river. Until this point, a lazy river meandered toward Lake Michigan. Thereafter, a canal created a transcontinental toilet from Chicago to the Mississippi River and the Gulf of Mexico. 
