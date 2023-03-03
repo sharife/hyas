@@ -115,10 +115,10 @@ addEventListener("load", (event) => {
     }
   }
 
-  
-
-
-  
+  if(window.location.pathname.substring(0,25) == "/en-espa%C3%B1ol/stories/"){
+    var element = document.getElementById( 'image-carousel-spanish' );
+    new Splide( element).mount();
+  }
 });
 
 
@@ -198,10 +198,10 @@ $(function() {
 
 
 
-// As A jQuery Plugin -->
-var gallery = $('.gallery a').simpleLightbox({
-  /* options */
-});
+// // As A jQuery Plugin -->
+// var gallery = $('.gallery a').simpleLightbox({
+//   /* options */
+// });
 
 
 // JS Goes here - ES6 supported

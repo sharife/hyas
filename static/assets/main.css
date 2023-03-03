@@ -47,20 +47,38 @@ p img {
    text-align: left;
 }
 
+
+#spanish_list .splide__slide img {
+   height: auto;
+   width: 100%;
+}
+
 .splide__slide img {
    height: 15rem;
    width: auto;
 }
+
 
 .splide:not(.is-overflow) .splide__pagination {
    display: block !important;
 }
 
 .splide-container{
-   /* height: 10rem;
-   width: 10rem; */
    margin: auto;
 }
+
+
+.splide:not(.is-overflow) .splide__pagination {
+   display: block !important;
+}
+.splide-container-spanish{
+   width: 50%;
+   margin: auto;
+}
+
+/* .splide-container{
+   margin: auto;
+} */
 
 
 
