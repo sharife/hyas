@@ -35,9 +35,9 @@ body {
    margin: 0;
 }
 
-/* html{
+html{
    font-size: 9px;
-} */
+}
 
 p {
    font-size: 1.7rem;
@@ -346,7 +346,7 @@ input, textarea {
 }
 
 .story-title{
-   font-size: 2rem;
+   font-size: 2.5rem;
 }
 .story-content {
    font-size: 1.2rem;
