@@ -19,7 +19,7 @@
    --content-font-size: 1.5rem;
 }
 
-h3{
+h3 {
    font-weight: bold;
    font-size: 2rem;
 }
@@ -35,9 +35,9 @@ body {
    margin: 0;
 }
 
-html{
-   font-size: 10px;
-}
+/* html{
+   font-size: 9px;
+} */
 
 p {
    font-size: 1.7rem;
