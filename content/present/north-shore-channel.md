@@ -7,10 +7,9 @@ lead: ""
 date: 2020-06-17T12:18:10+00:00
 lastmod: 2020-04-17T12:18:10+00:00
 draft: false
+intro: "### There are no concentrated industrial corridors along this branch."
 images: []
 ---
-### There are no concentrated industrial corridors along this branch.
-
 This branch of the Chicago River is lined with green spaces. It boasts a trail that runs along most of its length, encouraging movement up to the North Shore suburb of Wilmette and back. At once, the channel carries highly-treated wastewater from the North Shore suburbs down through Chicago. Although it seems that this branch is serene, green and clean, there is more to the story. You only have to move away from the banks, into the surrounding communities, and beneath the pavement to find out. In Chicago, single family homes and two-flats built before 1986 are most likely to be connected to a lead service line, which are in high concentration along this channel.
 
 **Character of the North Shore Channel**  

@@ -19,6 +19,11 @@
    --content-font-size: 1.5rem;
 }
 
+h3{
+   font-weight: bold;
+   font-size: 2rem;
+}
+
 h1 {
    margin:unset;
    margin-bottom: 1rem;
@@ -38,6 +43,9 @@ p img {
    width:100%;
 }
 
+.story-intro{
+   text-align: left;
+}
 
 .splide__slide img {
    height: 15rem;
@@ -110,6 +118,8 @@ a:visited{
 }
 .footer-social-row{
    display: flex;
+   column-gap: .8rem;
+
 }
 .footer-links-row{
    display: flex;
@@ -149,9 +159,12 @@ a:visited{
 }
 
 .fa {
-   font-size: 30px !important;
+   font-size: 36px !important;
    color: #d3ebd7 !important;
+   padding:30px;
+   padding-top: 3rem;
 }
+
 
 .fa a:link {
    text-decoration: none;
@@ -180,11 +193,36 @@ a:visited{
 
 .social-circle-btn{
    background-color: var(--social-media-link-color);
-   padding: 10px;
-   border-radius: 100px;
-   margin-left: 10px;
+   padding: 2rem 2rem;
+   height: 1.5rem;
+   width: 1.5rem;
+   border-radius: 50%;
    text-decoration: none;
+   margin-left: .2rem;
+   font-size: 1em;
 }
+
+.fa-twitter{
+   background-color: #1da1f2;
+}
+
+.fa-youtube{
+   background-color: #c32650;
+}
+
+.fa-instagram {
+   background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f
+   60%, #285aeb 90%);;
+}
+
+.fa-facebook{
+   background-color: #4064ac;
+   /* padding-left: 1rem; */
+}
+.fa-linkedin{
+   background: #0073af ;
+}
+
 
 .dark-btn{
    background-color: var(--content-button);
@@ -213,8 +251,8 @@ input::file-selector-button {
 }
 
 .social-square-btn{
-   background-color: var(--social-media-link-color);
-   border-color: var(--social-media-link-color);
+   /* background-color: var(--social-media-link-color);
+   border-color: var(--social-media-link-color); */
    color: var(--on-content-button);
    padding: 14px 25px;
    border-radius: 5px;
@@ -719,7 +757,7 @@ textarea{
 }
 .mobile-exit{
    text-align: center;
-   font-size: 2.5rem;
+   font-size: 2rem;
 }
 .main-logo{
    width:100%;
@@ -747,7 +785,7 @@ textarea{
    width: 100%;
    border: 1px solid #d4d4d4;
    color: #084141;
-   font-size: 10pt;
+   font-size: 1.2rem;
    line-height: 16pt;
 }
 .book-container{
@@ -911,7 +949,7 @@ textarea { resize: vertical; }
    }
    .mobile-logo{
       width: 100%;
-      max-width: 8rem;
+      max-width: 30rem;
    }
 
    .mobile-link {
@@ -1042,10 +1080,22 @@ textarea { resize: vertical; }
    .profile-flex-grid{
       width: 100%;
    }
+   .footer-social-row{
+      margin-left: 1rem;
+   }
+   .social-square-btn{
+      padding:1vw;
+   }
 }
 
 @media screen and (max-width: 1000px) {
    .about-profile{
       width: 100%;
+   }
+   .footer-social-row{
+      margin-left: 1rem;
+   }
+   .social-square-btn{
+      padding:2vw;
    }
 }

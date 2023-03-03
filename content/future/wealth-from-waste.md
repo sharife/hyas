@@ -7,11 +7,9 @@ lead: ""
 date: 2020-06-17T12:18:10+00:00
 lastmod: 2020-04-17T12:18:10+00:00
 draft: false
+intro: "### What if we rejected the very possibility of water as waste? How might this shift get us out of the 19th century and help us to embrace the 21st? What if, instead of flushing, we kept replenishing the tank? "
 images: []
 ---
-
-### What if we rejected the very possibility of water as waste? How might this shift get us out of the 19th century and help us to embrace the 21st? What if, instead of flushing, we kept replenishing the tank? 
-
 Modern society is acclimated to the drain, a liquid parallel to the garbage can. The cyclicality of water suggests another model – drops that morph from rain to lakewater to fog and ice as they move through a number of natural and engineered systems. When we easily dispense with water, we break its cycle and create waste that comes back to haunt us. In an age when we long for water during droughts and fear it during intense storms, a non-wasteful orientation must emerge. There is no choice but to balance new water extremes through reservoirs and reuse.  We need to close the loop to emulate nature and the ways water circulates through many landscapes and forms.
 Closing the loop of the Sanitary and Ship Canal marks a crucial step in transforming the Rust Belt to the Water Belt. Instead of diverting water from Chicago as a southbound wastestream, we can recycle it to support industry in water-stressed communities. This would help protect Lake Michigan for human needs and ecosystem viability. 
 

@@ -85,7 +85,7 @@ collections:
         create: false
         fields:
           - { label: 'Title', name: 'title', widget: 'string' }
-          - { label: 'Description', name: 'description', widget: 'text' }
+          - { label: 'Intro', name: 'intro', widget: 'text' }
       - name: 'get-involved'
         label: 'Get Involved'
         folder: 'content/get-involved'

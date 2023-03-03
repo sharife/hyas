@@ -11,6 +11,9 @@
             <img src="/images/X.png" />
         </button>
     </h2>
+    <div class="story-intro">
+        {{.Params.intro | markdownify}}
+    </div>
     <div>
         {{ if isset .Params "audio" }}
         <audio controls src="/audio/{{.Params.audio}}" class="story-audio-display">

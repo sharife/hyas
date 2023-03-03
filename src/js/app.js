@@ -107,17 +107,18 @@ addEventListener("load", (event) => {
     } else {
       web.style.display = "block";
     }
-  }
-
-  var elms = document.getElementsByClassName( 'splide' );
-  if(elms != null){
-    for ( var i = 0; i < elms.length; i++ ) {
-      new Splide( elms[ i ], 
-      {
-        heightRatio: 0.5
-      } ).mount();
+    var elms = document.getElementsByClassName( 'splide' );
+    if(elms != null){
+      for ( var i = 0; i < elms.length; i++ ) {
+        new Splide( elms[ i ], {} ).mount();
+      }
     }
   }
+
+  
+
+
+  
 });
 
 

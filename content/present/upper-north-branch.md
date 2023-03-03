@@ -8,9 +8,9 @@ lead: ""
 date: 2020-04-17T12:18:10+00:00
 lastmod: 2020-04-17T12:18:10+00:00
 draft: false
+intro: "### This winding waterway, flanked along most of its borders by woods and walking trails, calls back to the river’s past while offering views of its potential future."
 images: []
 ---
-### This winding waterway, flanked along most of its borders by woods and walking trails, calls back to the river’s past while offering views of its potential future.
 
 As a narrow, shallow branch that flows through the northwest suburbs and northwest side of Chicago before mingling with the North Branch, the Upper North Branch is the least manipulated section of the river. While other branches have been shaped by the city, the barge industry and unabashed growth, the Upper North Branch preserves the bends and memories of the river basin. It’s had some work done, including a new sewer tunnel built in the Jefferson Park neighborhood in 2014 that connects with the Deep Tunnel. 
 

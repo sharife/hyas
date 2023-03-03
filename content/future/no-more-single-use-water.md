@@ -7,9 +7,9 @@ lead: ""
 date: 2020-04-17T12:18:10+00:00
 lastmod: 2020-04-17T12:18:10+00:00
 draft: false
+intro: "### No matter its levels of regulation or deregulation, treatment or neglect, we cannot afford to treat water as garbage."
 images: []
 ---
-### No matter its levels of regulation or deregulation, treatment or neglect, we cannot afford to treat water as garbage.
 
 A vital component of climate change adaptation involves rejecting single use plastic. Individual acts like refusing straws and plastic cutlery and structural changes like sourcing materials from plants rather than petrochemicals all help to reduce the toxic waste mounting around us. A wrapper that you pull off in seconds will outlast you by many thousands of years.
 
