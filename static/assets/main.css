@@ -35,6 +35,10 @@ body {
    margin: 0;
 }
 
+html{
+   font-size: 20px;
+}
+
 p {
    font-size: 1.7rem;
 }
