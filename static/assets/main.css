@@ -246,7 +246,7 @@ a:visited{
    background-color: var(--content-button);
    border-color: var(--content-button);
    color: var(--on-content-button);
-   padding: 14px 25px;
+   padding: .8rem 1rem;
    border-radius: 5px;
    font-size: 1.5rem;
    text-align: center;
@@ -342,7 +342,7 @@ input, textarea {
 }
 
 .story-title{
-   font-size: 3rem;
+   font-size: 2rem;
 }
 .story-content {
    font-size: 1.2rem;
@@ -439,7 +439,7 @@ input, textarea {
 }
 
 .about-profile {
-   width: 33%;
+   width: 40%;
    display: flex;
 
    box-sizing: border-box;
@@ -591,7 +591,7 @@ img {
    padding: .5rem;
    background-color: var(--content-button);
    border-radius: 5px;
-   width: 50%;
+   width: 35%;
    margin-left: auto;
    margin-right: auto;
 }
@@ -923,6 +923,10 @@ textarea { resize: vertical; }
    display: none;
 }
 
+
+
+
+
 @media screen and (min-width: 1600px) {
    .map-text{
       font-size: 2.2rem;
@@ -930,7 +934,14 @@ textarea { resize: vertical; }
    .nav-item{
       font-size: 2.2rem;
    }
+   .story-title{
+      font-size: 3rem;
+   }
+   .about-profile{
+      width: 33%;
+   }
 }
+
 
 
 
@@ -1021,9 +1032,7 @@ textarea { resize: vertical; }
       display: none;
    }
 
-   .about-profile{
-      width: 50%;
-   }
+   
    .about-picture-single{
       max-width:250px;
       max-height:150px;
