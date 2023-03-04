@@ -21,10 +21,21 @@ function selectTime(time) {
 
   var riverImage = document.getElementById("river-image");
   riverImage.style.backgroundImage = 'url(/images/chicago-river-map-' + time +".png)";
+
   showStoryText(time + "-landing", time, true) // show time landing page
   resetStoryButtons(time);
+
   showMapText(time);
+  displayStoryButtons(time);
+  
+}
+
+function displayStoryButtons(time){
   var elements = document.getElementsByClassName("content-" + time);
+  $('.content-' + time).delay(500).fadeTo('slow', 1, function()
+    {
+        $(this).css('opacity', '1');
+    }).delay(500).fadeTo('slow', 1);
   for(var i=0; i < elements.length; i++) { 
     elements[i].style.display = "block";
   }
@@ -147,6 +158,7 @@ function selectStoryButton(storyId, time, isLanding) {
   element.children[0].style.backgroundColor = "var(--index-button-select)";
   element.children[0].style.color = "var(--index-on-button-select)";
   element.children[1].style.borderTop = arrowSize.concat(""," solid var(--index-button-select)");
+  
 }
 
 

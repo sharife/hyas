@@ -388,7 +388,7 @@ input, textarea {
 }
 .content-past {
    display: none;
-   position:absolute;
+   position: absolute;
 }
 .content-present {
    display: none;
