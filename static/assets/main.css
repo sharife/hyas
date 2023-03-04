@@ -343,7 +343,7 @@ input, textarea {
    border: none;
    color: var(--index-on-button-default);
    padding: 0.5rem;
-   font-size: 1.6rem;
+   font-size: 1.5rem;
    font-weight: bold;
 }
 
@@ -942,10 +942,10 @@ textarea { resize: vertical; }
       font-size: 1.4rem;
    }
    .map-text{
-      font-size: 1.6rem;
+      font-size: 1.5rem;
    }
    .story-title{
-      font-size: 2.5rem;
+      font-size: 3rem;
    }
    .about-profile{
       width: 50%;
