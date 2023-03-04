@@ -21,7 +21,7 @@
 
 h3 {
    font-weight: bold;
-   font-size: 1.3rem;
+   font-size: 1.6rem;
 }
 
 h1 {
@@ -71,7 +71,9 @@ p img {
    margin: auto;
 }
 
-
+.splide__pagination {
+   bottom: -1em !important ;
+}
 .splide:not(.is-overflow) .splide__pagination {
    display: block !important;
 }
@@ -197,7 +199,7 @@ a:visited{
 
 .map-text {
    display: none;
-   font-size: 1.6rem;
+   font-size: 1.5rem;
    background-color: rgba(255, 255, 255, 0.6);
    padding: 0.5rem;
 }
@@ -341,17 +343,21 @@ input, textarea {
    border: none;
    color: var(--index-on-button-default);
    padding: 0.5rem;
-   font-size: 1.8rem;
+   font-size: 1.6rem;
    font-weight: bold;
 }
 
 .story-title{
-   font-size: 2rem;
+   font-size: 2.9rem;
 }
 .story-content {
    font-size: 1.2rem;
    text-align: left;
 }
+.story-content > p {
+   font-size: 1.4rem;
+}
+
 .close-story{
    background: none;
     color: #575e63;
@@ -443,7 +449,7 @@ input, textarea {
 }
 
 .about-profile {
-   width: 40%;
+   width: 33%;
    display: flex;
 
    box-sizing: border-box;
@@ -931,26 +937,26 @@ textarea { resize: vertical; }
 
 
 
-@media screen and (min-width: 1800px) {
+@media screen and (max-width: 1800px) {
    h3 {
-      font-size: 2rem;
+      font-size: 1rem;
    }
    .map-text{
-      font-size: 1.5rem;
-   }
-   .nav-item{
-      font-size: 1.5rem;
+      font-size: 1.6rem;
    }
    .story-title{
-      font-size: 2.5rem;
+      font-size: 2.8rem;
    }
    .about-profile{
-      width: 33%;
+      width: 50%;
+   }
+   .story-button{
+      font-size: 1.4rem;
+   }
+   .story-content > p {
+      font-size: 1.4rem;
    }
 }
-
-
-
 
 
 
