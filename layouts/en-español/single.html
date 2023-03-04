@@ -1,10 +1,10 @@
 {{ define "main" }}
 
-<div class="single-title">
+<div class="single-title fade-2">
     {{.Title}}
 </div>
 <div class="section-light">
-    <div class="subpage-content">
+    <div class="subpage-content fade-3">
         <audio controls src="/audio/{{ .Params.audiofile }}" class="spanish-audio-display">
         </audio>
         {{.Params.intro | markdownify}}

@@ -1,9 +1,9 @@
 {{ define "main" }}
-<div class="single-title">
+<div class="single-title fade-2">
     Get Involved
 </div>
 <div class="section-light">
-    <div class="get-involved-flex-row">
+    <div class="get-involved-flex-row fade-3">
         <button class="dark-btn" onclick="autoScroll('connect')">
             Connect
         </button>
@@ -20,7 +20,7 @@
             Reimagine
         </button>
     </div>
-    <div class="subpage-content">
+    <div class="subpage-content fade-3">
         <div class="light-text">
             {{.Params.intro | markdownify}}
         </div>
@@ -28,17 +28,17 @@
 </div>
 
 <div class="section-dark">
-    <h1 class="single-title" id="connect">
+    <h1 class="single-title fade-3" id="connect">
         Connect
     </h1>
-    <div class="get-involved-flex-row">
+    <div class="get-involved-flex-row fade-3">
         <a class="social-square-btn fa fa-facebook" href="https://www.facebook.com/FreshwaterLab" target="_blank" rel="noopener noreferrer"></a>
         <a class="social-square-btn fa fa-instagram" href="https://www.instagram.com/thefreshwaterlab/" target="_blank" rel="noopener noreferrer"></a>
         <a class="social-square-btn fa fa-twitter" href="https://twitter.com/FreshwaterLab" target="_blank" rel="noopener noreferrer"></a>
         <a class="social-square-btn fa fa-linkedin" href="https://www.linkedin.com/company/freshwater-lab-at-uic/" target="_blank" rel="noopener noreferrer"></a>
         <a class="social-square-btn fa fa-youtube" href="https://www.youtube.com/channel/UCl7LFAr11B_AE2DGMvjqOHQ" target="_blank" rel="noopener noreferrer"></a>
     </div>
-    <div class="subpage-content">
+    <div class="subpage-content fade-3">
         <div class="dark-text">
             {{.Params.connect | markdownify}}
         </div>
@@ -50,7 +50,7 @@
 </div>
 
 <div class="section-light-gif">
-    <div class="get-involved-flex-row-gif">
+    <div class="get-involved-flex-row-gif fade-3">
         <div class="inline-block" id="reclaim">
             <img src="/img/reclaim.gif" class="get-involved-img">
             <div class="gif-text">
@@ -81,16 +81,16 @@
     </div>
 </div>
 <div class="section-dark">
-    <h1 class="single-title" id="reimagine">
+    <h1 class="single-title fade-3" id="reimagine">
         Reimagine
     </h1>
-    <div class="subpage-content">
+    <div class="subpage-content fade-3">
         <div class="dark-text">
             {{.Params.reimagine | markdownify}}
         </div>
     </div>
     
-    <div class="form-container">
+    <div class="form-container fade-3">
         <form name="contact" method="POST" data-netlify="true">
             <p>
               <label> Name <input type="text" name="name" required/></label>

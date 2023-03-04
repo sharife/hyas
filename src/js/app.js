@@ -195,6 +195,15 @@ $(function() {
   $( ".accordion" ).accordion({heightStyle: 'panel'});
 });
 
+$(function(){  // $(document).ready shorthand
+  $('.fade-1').delay(10).animate({'opacity':'1'},700);
+  $('.fade-2').delay(500).animate({'opacity':'1'},700);
+  $('.fade-3').delay(1000).animate({'opacity':'1'},700);
+  $('.fade-4').delay(1500).animate({'opacity':'1'},700);
+  $('.fade-5').delay(2500).animate({'opacity':'1'},700);
+  $('.fade-6').delay(3500).animate({'opacity':'1'},700);
+  $('.zoom').addClass('scaler');
+});
 
 
 

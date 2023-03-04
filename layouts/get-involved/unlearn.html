@@ -1,20 +1,20 @@
 {{ define "main" }}
 
-<div class="single-title">
+<div class="single-title fade-2">
     Unlearn
 </div>
 <div class="section-light">
-    <div class="subpage-content">
+    <div class="subpage-content fade-3">
         <div class="padding">
             What do we mean by unlearn? We have inherited many concepts as common knowledge or basic logic.  This feeds a status quo in which questionable, problematic structures become embedded and difficult to transform.  Part of the necessary transformation of making our systems more durable, accessible and inclusive involves reexamining them and unlearning the ideas that sustain them.
         </div>
     </div>
 </div>
 <div class="section-dark">
-    <div class="single-title">
+    <div class="single-title fade-3">
         Glossary
     </div>
-    <div class="glossary-flex-container">
+    <div class="glossary-flex-container fade-3">
         <div class="glossary-definition">
             <div id="base" class="glossary-text" style="display:block;">
                 <h2>
@@ -204,7 +204,7 @@
                 </div>
             </div>
         </div>
-        <div class="glossary-container">
+        <div class="glossary-container fade-3">
             <div class="glossary">
                 <a class="glossary-hotspot" onclick="showGlossary('industrial')" style="top: 15%; left: 4%;">
                     <div class="teardrop">
@@ -279,10 +279,10 @@
 </div>
 
 <div class="section-light">
-    <h1 class="single-title">
+    <h1 class="single-title fade-2">
         Recommended Reading List
     </h1>
-    <div class="bookshelf">
+    <div class="bookshelf fade-3">
         {{ range $key, $value := .Params.books }}
         <div class="book-container">
             <div class="book-wrapper">
@@ -293,7 +293,7 @@
         </div>
         {{end}}
     </div>
-    <div class="subpage-content">
+    <div class="subpage-content fade-3">
         {{ partial "back.html" (dict "context" . "link" "/get-involved")}}
     </div>
     

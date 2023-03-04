@@ -933,8 +933,9 @@ textarea { resize: vertical; }
    display: none;
 }
 
-
-
+.fade-1, .fade-2, .fade-3,.fade-4,.fade-5 {
+   opacity: 0;
+}
 
 
 @media screen and (max-width: 1800px) {

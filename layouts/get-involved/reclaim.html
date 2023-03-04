@@ -1,8 +1,11 @@
 {{ define "main" }}
 
-<div class="single-title">
+<div class="single-title fade-2">
     Reclaim
 </div>
+
+
+{{$len := (len .Params.content)}}
 
 {{ range $key, $value := .Params.content }}
 
@@ -11,8 +14,7 @@
 {{ else }}
 <div class="section-light">
 {{ end }}
-
-    <div class="subpage-content">
+    <div class="subpage-content fade-3">
         <div class="padding">
             <h2>
             {{ $value.header }}            
@@ -21,50 +23,12 @@
                 {{ $value.text | markdownify }}
             </div>
         </div>
+        {{if eq (add $key 1) $len}}
+        {{ partial "back.html" (dict "context" . "link" "/get-involved")}}
+        {{end}}
     </div>
 </div>
 {{ end }}
-
-
-<div class="section-light">
-    <div class="subpage-content">
-        <div class="padding">
-            <h3>
-                Who owns the Water?                
-            </h3>
-            <div>
-                The answer from the perspective of U.S. law is that those who live around it along with future generations do.  This is the central premise of Public Trust Law that holds local residents to be the owners of surface water and their elected officials as the trustees of this valuable legacy.  The decisions that elected officials make about shared water should benefit the public and ensure its viable future.
-
-                Indigenous traditions do not see water as something that can be owned by the public or by anyone else.  Instead water is a life-giving mother and a relative who sustains you and whose health you treat with great care.  From this perspective, water, fish, trees and other living things are relatives who should not be harmed or commodified.
-                
-                Whatever your perspective on water, it is something on which your life depends and your community requires for self-protection and future possibilities.  By reclaiming it, you can assert your right or your relationship with water and engage ways of preserving it and adopting practices of mutual benefit.
-            </div>
-        </div>
-    </div>
-</div>
-
-<div class="section-dark">
-    <div class="subpage-content">
-        <div class="padding">
-            <h3>
-                Who owns the Water?                
-            </h3>
-            <div>
-                We are witnessing two broad trends in municipal water systems. The first is disenfranchisement of the public from its drinking water and sewer infrastructure. This occurs through water shutoffs to homes for non-payment; lack of bill affordability; the contamination of drinking water; unpublished and incomplete water quality reports; deregulation of water pollution; and crumbling water infrastructure. The second trend is privatization in which the municipality and the public loses control over their water systems. This occurs through the bottling of water by global corporations and selling it back to residents at inflated prices. It also occurs when corporations take over water and sewer systems. Most municipalities privatize because federal funding has been slashed by 74% since 1977 and because they do not claim ownership of the revenue streams from public water.
-
-The tragedy is that private corporations tend not to fix the sputtering systems.  They often run them into the ground leaving residents with higher bills, less public accountability and lead pipe crises (often from transitions to ‘cheaper’ sources of water, as happened in University Park, Illinois in 2019). Worst of all, the municipality loses significant revenue as the corporations reap record profits. For example, as the State of Illinois faces massive budget shortfalls, the private corporation (Illinois) American Water has achieved an all-time high of profit shares.  This is, in part, due to laws that enable water corporations to increase their profits by acquiring new water and wastewater systems. Listen to The Water Chronicles podcast for a deep dive into water privatization in Illinois.
-
-Keeping water public involves ensuring that water is affordable. Advocate for a water affordability plan in your city or town. We the People Detroit, US Water Alliance, Food and Water Watch can all help in understanding and creating a water affordability plan.
-
-Freshwater Lab alum Karen Yates created this storymap to understand The Water For All Ordinance in Chicago.
-
-Chicago residents: See if you qualify for billing relief program.
-If your town, city or region’s water is run by a private corporation, then you can join the push to remunicipalize water systems, which means bringing  them back under public control. This has been done successfully in cities around the world, consistently leading to savings for both municipalities and their water customers. It often brings other social benefits, including improved public accountability and transparency, more equitable water access and increased investment in water system safety.
-            </div>
-        </div>
-        {{ partial "back.html" (dict "context" . "link" "/get-involved")}}
-    </div>
-</div>
 
 
 

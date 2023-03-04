@@ -1,5 +1,5 @@
 {{ define "main" }}
-<div class="map-text-mobile-container">
+<div class="map-text-mobile-container fade-2">
    <h2 id="landing-map-mobile" class="map-text-mobile">
       What will the river tell you? Select a choice below to begin.
    </h2>
@@ -13,7 +13,7 @@
 </div>
 
 <div class="flex-container">
-   <div class="story-display">
+   <div class="story-display fade-2">
          {{ range (where .Site.Pages "Section" "landing" ) }}
             {{ range .Pages }}
             {{ if .Params.category }}
@@ -44,7 +44,7 @@
             {{ end }}
          </div>
          <div style="display: flex; justify-content: center;">
-            <button class="water-ack"  onclick="selectWater('water-acknowledgement')" style="font-size: 1.5rem;"> Water Acknowledgement  </button>
+            <button class="water-ack fade-2"  onclick="selectWater('water-acknowledgement')" style="font-size: 1.5rem;"> Water Acknowledgement  </button>
          </div>
       </div>
       <div id="water-acknowledgement" class="story">
@@ -67,7 +67,7 @@
    </div>
    <div class="river-container" >
          <div class="river" id="river-image">
-            <div class="map-description">
+            <div class="map-description fade-2">
                <div id="landing-map" class="map-text">
                   What will the river tell you? Select a choice below to begin.
                </div>
@@ -79,7 +79,7 @@
                   {{ end }}
                {{ end }}
             </div>
-            <div class="row-center" id="button-time-row">
+            <div class="row-center fade-2" id="button-time-row">
                <button id="time-button-past" class="time-button" onclick="selectTime('past')"> Past  </button>
                <button id="time-button-present" class="time-button" onclick="selectTime('present')"> Present  </button>
                <button id="time-button-future" class="time-button" onclick="selectTime('future')"> Future  </button>
