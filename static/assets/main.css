@@ -353,9 +353,10 @@ input, textarea {
 .story-content {
    font-size: 1.2rem;
    text-align: left;
+
 }
 .story-content > p {
-   font-size: 1.4rem;
+   font-size: 1.3rem;
 }
 
 .close-story{
@@ -434,6 +435,7 @@ input, textarea {
    background-size: cover;
    width: 100%;
    padding-top: 62.5%;
+   transition: background-image 0.5s linear;
 }
 
 .river-display{
@@ -839,6 +841,10 @@ textarea{
    display: none;
 }
 
+.glossary-title{
+   font-size:2.5rem;
+}
+
 .glossary-flex-container{
    display: flex;
    flex-direction: row;
@@ -846,12 +852,12 @@ textarea{
 }
 
 .glossary-container {
-   width: 100%;
+   width: 80%;
    /* height: 50vh; */
    flex: 75%;
-   margin-right: 1vh;
-   margin-top: 1vh;
-   margin-bottom: 1vh;
+   margin-right: 2vh;
+   margin-top: 2vh;
+   margin-bottom: 2vh;
 }
 .glossary-definition{
    flex: 20%;
@@ -955,7 +961,7 @@ textarea { resize: vertical; }
       font-size: 1.4rem;
    }
    .story-content > p {
-      font-size: 1.4rem;
+      font-size: 1.2rem;
    }
 }
 
@@ -1127,7 +1133,17 @@ textarea { resize: vertical; }
    .social-square-btn{
       padding:1vw;
    }
-   
+   .glossary-flex-container{
+      flex-direction: column-reverse;
+   }
+   .glossary-container{
+      width: 90%;
+      margin: auto;
+   }
+   .glossary-definition{
+      width: 80%;
+      margin: auto;
+   }
    
 }
 
