@@ -1173,5 +1173,8 @@ textarea { resize: vertical; }
    .time-button{
       font-size: .9rem;
    }
+   .mobile-link{
+      font-size: 30px;
+   }
 
 }
