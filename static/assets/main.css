@@ -317,6 +317,7 @@ input, textarea {
 }
 
 
+
 .water-ack {
    background-color: var(--index-button-default);
    color: var(--index-on-button-default);
@@ -345,6 +346,7 @@ input, textarea {
    padding: 0.5rem;
    font-size: 1.5rem;
    font-weight: bold;
+   white-space: nowrap;
 }
 
 .story-title{
@@ -435,7 +437,7 @@ input, textarea {
    background-size: cover;
    width: 100%;
    padding-top: 62.5%;
-   transition: background-image 0.5s linear;
+   transition: background-image 0.8s linear;
 }
 
 .river-display{
@@ -963,6 +965,7 @@ textarea { resize: vertical; }
    .story-content > p {
       font-size: 1.2rem;
    }
+   
 }
 
 
@@ -1003,7 +1006,7 @@ textarea { resize: vertical; }
 
    .mobile-link {
       font-weight: bold;
-      font-size: 2em;
+      font-size: 30px;
       color: var(--mobile-nav-color);
    }
    .mobile-link-container{
@@ -1033,13 +1036,13 @@ textarea { resize: vertical; }
       font-size: 1rem;
    }
    .time-button {
-      font-size: 16px;
-      padding: 5px;
+      font-size: 1rem;
+      padding: .2rem;
       width: 20vw;
-      overflow-wrap: break-word;
+      /* overflow-wrap: break-word; */
    }
    .story-button {
-      font-size: 1rem;
+      font-size: 1.3rem;
       padding: 0.2rem;
    }
    .arrow-down{
@@ -1157,4 +1160,18 @@ textarea { resize: vertical; }
    .social-square-btn{
       padding:2vw;
    }
+   .mobile-link {
+      font-size: 60px;
+   }
+
+}
+
+@media screen and (max-width: 500px) {
+   .story-button{
+      font-size: .9rem;
+   }
+   .time-button{
+      font-size: .9rem;
+   }
+
 }
