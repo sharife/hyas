@@ -154,6 +154,8 @@ function selectStoryButton(storyId, time, isLanding) {
   }
   resetStoryButtons(time);
   var element = document.getElementById(time + "-" + storyId);
+  element.style.zIndex = "1";
+
   var arrowSize = getComputedStyle(element.children[1]).borderTop.split(" ")[0];
   element.children[0].style.backgroundColor = "var(--index-button-select)";
   element.children[0].style.color = "var(--index-on-button-select)";
@@ -166,7 +168,7 @@ function resetStoryButtons(time){
 
   var arrayOfElements = document.getElementsByClassName("content-" + time);
   for (var i=0; i<arrayOfElements.length;i++){
-
+    arrayOfElements[i].style.zIndex = "0";
     arrayOfElements[i].children[0].style.backgroundColor = "var(--index-button-default)";
     arrayOfElements[i].children[0].style.color = "var(--index-on-button-default)";
     var arrowSize = getComputedStyle(arrayOfElements[i].children[1]).borderTop.split(" ")[0];

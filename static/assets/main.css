@@ -69,6 +69,7 @@ p img {
 
 .splide-container{
    margin: auto;
+   margin-top:1rem;
 }
 
 .splide__pagination {
@@ -297,7 +298,7 @@ input, textarea {
 }
 .story-audio-display{
    width: 100%;
-   margin-bottom: 1rem;
+   /* margin-bottom: 1rem; */
 }
 
 .story {
@@ -1147,7 +1148,9 @@ textarea { resize: vertical; }
       width: 80%;
       margin: auto;
    }
-   
+   h3 {
+      font-size:1.8rem;
+   }
 }
 
 @media screen and (max-width: 1000px) {
@@ -1161,9 +1164,9 @@ textarea { resize: vertical; }
       padding:2vw;
    }
    .mobile-link {
-      font-size: 60px;
+      font-size: 40px;
    }
-
+   
 }
 
 @media screen and (max-width: 500px) {
