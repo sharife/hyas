@@ -1,5 +1,5 @@
 ---
-title: reclaim
+title: Reclaim
 type: get-involved
 layout: reclaim
 content:
