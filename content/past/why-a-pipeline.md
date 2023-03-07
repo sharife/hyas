@@ -3,15 +3,11 @@ draft: false
 lastmod: 2020-04-17T12:18:10+00:00
 title: Why a Pipeline?
 x: "55"
-y: "48"
+y: "42"
 intro: "### Why do we call a river, a waterbody known for turns and bends, a
   pipeline?"
 date: 2020-08-17T12:18:10+00:00
-gallery:
-  - img: /img/fd12wvhxebkf1bb-1024x502.jpg
-    caption: Book?
-  - img: /img/20191104_074539-1024x1024.jpg
-    caption: Caption Here 2
+gallery: []
 images: []
 lead: null
 description: null
