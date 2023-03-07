@@ -31,9 +31,10 @@ collections:
         fields:
           - { label: 'Audio Name', name: 'audio', widget: 'string'}
           - { label: 'Intro', name: 'intro', widget: 'markdown' }
-          - { label: 'Body', name: 'body', widget: 'markdown' }
+          - { label: 'Transcription', name: 'transcription', widget: 'markdown' }
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
+      - { label: 'Credits', name: 'credit', widget: 'markdown' }
       - label: 'Image'
         name: 'gallery'
         widget: 'list'

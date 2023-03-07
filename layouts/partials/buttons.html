@@ -5,7 +5,7 @@
     
     <div id="{{$x}}-{{.Title}}" class="content-{{ $x }}" style="bottom:{{.Params.y}}%; margin-left:{{.Params.x}}%; transform: translateX(-50%);">
         <button class="story-button" onclick="showStoryText({{.Title}}, {{$x}}, false)" > {{.Title}} 
-            {{ if isset .Params "audio" }}
+            {{ if .Params.audioList }}
             &#9835;
             {{ end }}
         </button>
