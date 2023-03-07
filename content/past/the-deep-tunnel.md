@@ -1,7 +1,7 @@
 ---
 title: The Deep Tunnel
-x: "0"
-y: "0"
+x: "40"
+y: "29"
 intro: "### Chicago’s Deep Tunnel is the world’s biggest water storage system.
   Despite its mammoth scale, the Deep Tunnel keeps wastewater out of civic
   eyesight. Few people know how much water circulates beneath the city or

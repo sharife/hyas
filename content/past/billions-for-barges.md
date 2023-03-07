@@ -1,6 +1,6 @@
 ---
 title: Billions for Barges
-x: "0"
+x: "70"
 y: "0"
 intro: "### Canals and barges seem like antiquated relics of the 19th century,
   but they persist supported by substantial public investment. One estimate
