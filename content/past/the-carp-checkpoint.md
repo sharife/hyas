@@ -8,7 +8,7 @@ intro: "### When commodities and waste are moved across the globe, life moves
   drawn to sites of opportunity."
 audioAfter: false
 date: 2023-03-07T17:02:23.276Z
-credits: a
+credits: ""
 ---
 Few American rivers have been left untouched by the drive for shipping channels and sewage canals. To move along a storied river like the Mississippi is to navigate a path cut for commodities with pumps, locks and straightened bends. This is certainly the case at the lock where the reversed Chicago slurps from Lake Michigan, at the pumping stations that push sewage south and at ship elevators connected to the canal system. 
 
