@@ -34,7 +34,7 @@ collections:
           - { label: 'Transcription', name: 'transcription', widget: 'markdown' }
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
-      - { label: 'Credits', name: 'credit', widget: 'markdown' }
+      - { label: 'Credits', name: 'credits', widget: 'markdown' }
       - label: 'Image'
         name: 'gallery'
         widget: 'list'
@@ -52,10 +52,19 @@ collections:
       - { label: 'X', name: 'x', widget: 'string' }
       - { label: 'Y', name: 'y', widget: 'string' }
       - { label: 'Intro', name: 'intro', widget: 'markdown' }
-      - { label: 'Audio', name: 'audio', widget: 'string', required: false}
       - { label: 'Audio After Body?', name: 'audioAfter', widget: 'boolean', required: false}
+      - label: 'Audio'
+        name: 'audioList'
+        widget: 'list'
+        allow_add: true
+        required: false
+        fields:
+          - { label: 'Audio Name', name: 'audio', widget: 'string'}
+          - { label: 'Intro', name: 'intro', widget: 'markdown' }
+          - { label: 'Transcription', name: 'transcription', widget: 'markdown' }
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
+      - { label: 'Credits', name: 'credits', widget: 'markdown' }
       - label: 'Image'
         name: 'gallery'
         widget: 'list'
@@ -82,9 +91,10 @@ collections:
         fields:
           - { label: 'Audio Name', name: 'audio', widget: 'string'}
           - { label: 'Intro', name: 'intro', widget: 'markdown' }
-          - { label: 'Body', name: 'body', widget: 'markdown' }
+          - { label: 'Transcription', name: 'transcription', widget: 'markdown' }
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
+      - { label: 'Credits', name: 'credits', widget: 'markdown' }
       - label: 'Image'
         name: 'gallery'
         widget: 'list'
