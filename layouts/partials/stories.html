@@ -21,7 +21,7 @@
         </audio>
         {{ end }}
         {{ $title:= .Title}}
-        {{ if isset .Params "gallery" }}
+        {{ if .Params.gallery }}
         <div class="splide-container">
             <section id="image-carousel" class="splide" aria-label="Beautiful Images">
                 <div class="splide__track">
@@ -48,11 +48,12 @@
         {{ if and (.Params.audioList) (.Params.audioAfter)}}
 
         {{ range .Params.audioList }}
+        <div class="story-content">
+            {{ .intro | markdownify}}
+        </div>
         <audio controls src="/audio/{{.audio}}" class="story-audio-display">
         </audio>
         <div class="story-content">
-            {{ .intro | markdownify}}
-
             <h4>
                 Audio Transcription
             </h4>
@@ -63,7 +64,7 @@
 
         {{ if isset .Params "credits"}}
         <div class="story-content">
-            {{ .credits | markdownify}}
+            {{ .Params.credits | markdownify}}
         </div>
         {{ end }}
     </div>
