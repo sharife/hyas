@@ -15,7 +15,7 @@
         {{.Params.intro | markdownify}}
     </div>
     <div>
-        {{ if isset .Params "audio" }}
+        {{ if and (isset .Params "audio") (not .Params.audioAfter)}}
         <audio controls src="/audio/{{.Params.audio}}" class="story-audio-display">
         </audio>
         {{ end }}
@@ -43,6 +43,11 @@
         <div class="story-content">
             {{ .Content | markdownify}}
         </div>
+
+        {{ if and (isset .Params "audio") (.Params.audioAfter)}}
+        <audio controls src="/audio/{{.Params.audio}}" class="story-audio-display">
+        </audio>
+        {{ end }}
     </div>
 </div>
 {{ end }}

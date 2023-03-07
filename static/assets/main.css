@@ -488,9 +488,6 @@ input, textarea {
    margin-left: 1em;
 }
 
-.profile-picture{
-   /* width: 50%; */
-}
 
 .story-display {
    flex: 30%;
@@ -591,9 +588,6 @@ img {
    column-gap: 3.5em;
 }
 
-.media-item{
-   /* height: 40rem; */
-}
 
 .media-description{
    margin-bottom: 2rem;

@@ -9,6 +9,7 @@ lastmod: 2020-04-17T12:18:10+00:00
 draft: false
 images: []
 audio: test.mp3
+audioAfter: true
 intro: "### Aspirations of luxury blend with commercial utility along the North Branch."
 gallery:
   - img: /img/gen-z-environmental-justice-panel.jpg
