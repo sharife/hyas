@@ -1,7 +1,7 @@
 ---
 title: The Carp Checkpoint
-x: "25"
-y: "0"
+x: "30"
+y: "8"
 intro: "### When commodities and waste are moved across the globe, life moves
   with them. In this way, species have been introduced into North American
   rivers and the Great Lakes. They circulate with the products and the people
