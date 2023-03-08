@@ -12,7 +12,18 @@ audioList:
       **From the actress**
 
 
-      “I absolutely adore this project and how it personifies the river as a theatrical character! It truly makes it easier for all to understand the inequitable treatment and use of the river based on who lives and what exists around it. I’m deeply honored to be part of such a creative, engaging way to educate the general public about Great Lakes water issues.” [Tonika Johnson](https://www.tonijphotography.com/)
+      > I absolutely adore this project and how it personifies the river as a theatrical character! It truly makes it easier for all to understand the inequitable treatment and use of the river based on who lives and what exists around it. I’m deeply honored to be part of such a creative, engaging way to educate the general public about Great Lakes water issues. 
+
+
+
+
+
+
+      [Tonika Johnson](https://www.tonijphotography.com/)
+
+
+
+
 
 
       **Transcript of recording**
