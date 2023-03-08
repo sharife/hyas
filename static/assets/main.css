@@ -362,6 +362,10 @@ input, textarea {
    font-size: 1.3rem;
 }
 
+.story-content > h5 {
+   font-size: 1.4rem;
+}
+
 .close-story{
    background: none;
     color: #575e63;
@@ -943,9 +947,7 @@ textarea { resize: vertical; }
 
 
 @media screen and (max-width: 1800px) {
-   h3 {
-      font-size: 1.4rem;
-   }
+   
    .map-text{
       font-size: 1.5rem;
    }
@@ -958,8 +960,17 @@ textarea { resize: vertical; }
    .story-button{
       font-size: 1.4rem;
    }
+
+   h3 {
+      font-size: 1.5rem;
+   }
+
    .story-content > p {
       font-size: 1.2rem;
+   }
+
+   .story-content > h5 {
+      font-size: 1.3rem;
    }
    
 }
