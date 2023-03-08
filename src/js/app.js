@@ -14,13 +14,20 @@ import Splide from '@splidejs/splide';
 let HOME_STACK_BREAKPOINT = 1400;
 
 function selectTime(time) {
+
   hideButtons();
+  pauseAudio();
+
   var btnRow = document.getElementById("button-time-row"); // move buttons down
   btnRow.style.bottom = "5%";
+
+
+
   toggleTimeButton(time);
 
   var riverImage = document.getElementById("river-image");
   riverImage.style.backgroundImage = 'url(/images/chicago-river-map-' + time +".png)";
+
 
   showStoryText(time + "-landing", time, true) // show time landing page
   resetStoryButtons(time);
@@ -149,10 +156,14 @@ function showStoryText(storyId, time, isLanding) {
 
 
 function selectStoryButton(storyId, time, isLanding) {
+  
   if(isLanding == true) {
     return;
   }
+
   resetStoryButtons(time);
+  pauseAudio();
+
   var element = document.getElementById(time + "-" + storyId);
   element.style.zIndex = "1";
 
@@ -173,6 +184,14 @@ function resetStoryButtons(time){
     arrayOfElements[i].children[0].style.color = "var(--index-on-button-default)";
     var arrowSize = getComputedStyle(arrayOfElements[i].children[1]).borderTop.split(" ")[0];
     arrayOfElements[i].children[1].style.borderTop = arrowSize.concat(""," solid var(--index-button-default)");
+  }
+}
+
+
+function pauseAudio(){
+  var arrayOfElements = document.getElementsByTagName("audio");
+  for (var i=0; i<arrayOfElements.length;i++){
+    arrayOfElements[i].pause();
   }
 }
 
