@@ -54,10 +54,7 @@
         <audio controls src="/audio/{{.audio}}" class="story-audio-display">
         </audio>
         <div class="story-content">
-            <h4>
-                Audio Transcription
-            </h4>
-            {{ .transcription | markdownify}}
+            {{ .body | markdownify}}
         </div>
         {{ end }}
         {{ end }}

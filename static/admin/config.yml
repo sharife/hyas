@@ -31,7 +31,7 @@ collections:
         fields:
           - { label: 'Audio Name', name: 'audio', widget: 'string'}
           - { label: 'Intro', name: 'intro', widget: 'markdown', required: false}
-          - { label: 'Transcription', name: 'transcription', widget: 'markdown' }
+          - { label: 'Body', name: 'body', widget: 'markdown' }
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
       - { label: 'Credits', name: 'credits', widget: 'markdown', required: false}
@@ -61,7 +61,7 @@ collections:
         fields:
           - { label: 'Audio Name', name: 'audio', widget: 'string'}
           - { label: 'Intro', name: 'intro', widget: 'markdown', required: false}
-          - { label: 'Transcription', name: 'transcription', widget: 'markdown' }
+          - { label: 'Body', name: 'body', widget: 'markdown' }
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
       - { label: 'Credits', name: 'credits', widget: 'markdown', required: false}
@@ -91,7 +91,7 @@ collections:
         fields:
           - { label: 'Audio Name', name: 'audio', widget: 'string'}
           - { label: 'Intro', name: 'intro', widget: 'markdown', required: false}
-          - { label: 'Transcription', name: 'transcription', widget: 'markdown' }
+          - { label: 'Body', name: 'body', widget: 'markdown' }
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
       - { label: 'Credits', name: 'credits', widget: 'markdown', required: false}

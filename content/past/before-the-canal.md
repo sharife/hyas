@@ -15,7 +15,10 @@ audioList:
       of warehousing and goods movement has a long history with the Chicago
       River and enables opportunities for leveraging power across the labor and
       environmental movements."
-    transcription: >-
+    body: >-
+      **Transcript of recording**
+
+
       I'm really excited to have this conversation about the river because
       actually, the history of warehousing and goods movement in general has
       such a long history with the Chicago River in particular. In the mid

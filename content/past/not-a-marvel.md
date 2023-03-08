@@ -14,7 +14,11 @@ audioList:
       (LVEJO)](http://www.lvejo.org/), speaking in spring 2022 about the
       intersection of environmental justice, labor and public health in Little
       Village and its industrial corridor."
-    transcription: Within the industrial corridors, like we realized, because of how
+    body: >-
+      **Transcript of recording**
+
+
+      Within the industrial corridors, like we realized, because of how
       big they are, because of the importance that they have carried where we
       don't minimize the importance of having local jobs, the importance of
       having a closed economy within our community. A lot of these jobs were
@@ -59,7 +63,11 @@ audioList:
       conservationists and warehouse workers have aligned to fight against a
       major warehouse development in Joliet, breaking down the environment vs
       jobs dichotomy with which we are often presented."
-    transcription: Will county, where I work mainly, is such a company town,
+    body: >-
+      **Transcript of recording**
+      
+
+      Will county, where I work mainly, is such a company town,
       essentially, of warehousing. And we see a lot of the local electeds taking
       warehouse money from these big companies. And then it becoming really hard
       to stand in the way of new warehouse developments. We really came to this
@@ -91,7 +99,11 @@ audioList:
       (WWJ)](https://www.ww4j.org/), speaking in spring 2022 about the
       sacrifices that warehouse workers made during the Covid-19 pandemic, which
       enabled much of society to stay safely at home."
-    transcription: A large percentage of warehouse workers are temporary workers.
+    body: >-
+      **Transcript of recording**
+      
+      
+      A large percentage of warehouse workers are temporary workers.
       And so we know that across Illinois, 85% of temp workers are primarily
       Black and Latino. And we also did a survey in December of 2020 where we
       talked to our networks of workers to see who was represented and what
@@ -133,7 +145,10 @@ audioList:
     intro: "### Two Amazon workers speaking in spring 2022 about how workers at
       Amazon are set up for an impossible and incredibly strenuous job, and how
       little the corporation cares about its employees."
-    transcription: >-
+    body: >-
+      **Transcript of recording**
+      
+      
       They really ask like an impossible task of you, and they try to brainwash
       you to think it's possible by having try-hard people promote all the items
       that they can stow in a day, which aren't really real, but yeah, it's just
@@ -158,7 +173,10 @@ audioList:
   - audio: Amazon workers - Not a career.mp3
     intro: "### Two Amazon workers speaking in spring 2022 about why they work at
       Amazon despite how physically demanding and depressing it is."
-    transcription: >-
+    body: >-
+      **Transcript of recording**
+      
+      
       Okay, so basically it makes me feel like you never finish anything because
       once you finish all of your work, they just bring you new work. So it's
       not like, oh, okay, so like, today, okay, once I finish this, then I'll be
