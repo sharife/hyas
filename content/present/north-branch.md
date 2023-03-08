@@ -9,13 +9,13 @@ intro: "### Aspirations of luxury blend with commercial utility along the North
   Branch."
 audioList:
   - transcription: >-
-      ##### From the actress
+      **From the actress**
 
 
       “I absolutely adore this project and how it personifies the river as a theatrical character! It truly makes it easier for all to understand the inequitable treatment and use of the river based on who lives and what exists around it. I’m deeply honored to be part of such a creative, engaging way to educate the general public about Great Lakes water issues.” [Tonika Johnson](https://www.tonijphotography.com/)
 
 
-      ##### Transcript of recording
+      **Transcript of recording**
 
 
       Look at that! A sweet old couple just closed their corner store down the block. You know they spent a few decades running the store and raising their kids. It WOULD be sad to see their establishment go but no one who went to their store lives here anymore. No one left to say they’ll miss it. Pushed out by rising property taxes caused by gentrification. Like bad acne, a ton of white heads have been gradually popping into the neighborhoods around me. But, the North Shore Channel tells me to be happy with all this. They said this is just what I need to turn myself around to be more welcoming and open. But who am I welcoming and open to??!? All my friends can’t afford to live here anymore, and it’s just a bunch of white people now. 
