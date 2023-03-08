@@ -362,6 +362,10 @@ input, textarea {
    font-size: 1.3rem;
 }
 
+.story-content > blockquote >p {
+   font-size: 1.3rem;
+}
+
 .story-content > h5 {
    font-size: 1.4rem;
 }
@@ -966,6 +970,10 @@ textarea { resize: vertical; }
    }
 
    .story-content > p {
+      font-size: 1.2rem;
+   }
+
+   .story-content > blockquote >p {
       font-size: 1.2rem;
    }
 
