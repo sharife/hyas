@@ -1,7 +1,7 @@
 ---
 title: Main Stem
-x: "0"
-y: "0"
+x: "59"
+y: "52"
 intro: "### The glistening jewel of the Chicago Area Waterway System."
 audioList:
   - body: >-
