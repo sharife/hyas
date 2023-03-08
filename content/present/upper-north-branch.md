@@ -31,13 +31,10 @@ images: []
 credits: |-
   ##### Credits
 
-  Written by Tristen Ortiz
-
-  Produced by Anish Tailor
-
-  Performed by Pinqy Ring
-
-  Story by Tristen Ortiz and Anish Tailor
+  * Written by Tristen Ortiz
+  * Produced by Anish Tailor
+  * Performed by Pinqy Ring
+  * Story by Tristen Ortiz and Anish Tailor
 id: present-present3
 lead: ""
 description: ""
