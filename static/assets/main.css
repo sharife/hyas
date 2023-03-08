@@ -435,7 +435,8 @@ input, textarea {
    position:relative;
    background-image: url("/images/allriver.png");
    background-repeat: no-repeat;
-   background-size: cover;
+   background-size: cover; 
+   /* need contain? */
    width: 100%;
    padding-top: 62.5%;
    transition: background-image 0.8s linear;
