@@ -1,8 +1,9 @@
 ---
 draft: false
+x: "44"
+audioAfter: true
 lastmod: 2020-04-17T12:18:10+00:00
 title: Wealth from Waste
-x: "44"
 y: "45"
 intro: "### What if we rejected the very possibility of water as waste? How
   might this shift get us out of the 19th century and help us to embrace the
