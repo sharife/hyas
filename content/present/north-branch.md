@@ -29,7 +29,7 @@ audioList:
 
       As the influx of modern colonizers increases, my appearance changes for the better, according to the entitled new residents who have taken the place of those who were here before. The amenities that get added to me aren’t for the people who’ve been here for years, or for me, for that matter. All it does is draw in wealth, not community. Oh great, looks like I’m getting another bar with a craft brewery inside. Pack it up Goose Island.
     audio: Copy of North Branch - Voiceover - Final.mp3
-    intro: q
+    intro: ""
 date: 2020-08-17T12:18:10+00:00
 credits: |-
   ##### Credits
