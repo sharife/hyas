@@ -34,13 +34,10 @@ date: 2020-08-17T12:18:10+00:00
 credits: |-
   ##### Credits
 
-  Written by Tristen Ortiz
-
-  Produced by Anish Tailor
-
-  Performed by Tonika Johnson
-
-  Story by Tristen Ortiz and Anish Tailor
+  * Written by Tristen Ortiz
+  * Produced by Anish Tailor
+  * Performed by Tonika Johnson
+  * Story by Tristen Ortiz and Anish Tailor
 gallery: []
 audio: test.mp3
 images: []
