@@ -2,8 +2,8 @@
 draft: false
 lastmod: 2020-04-17T12:18:10+00:00
 title: No More Single Use Water
-x: "60"
-y: "25"
+x: "63"
+y: "15"
 intro: "### No matter its levels of regulation or deregulation, treatment or
   neglect, we cannot afford to treat water as garbage."
 date: 2020-04-17T12:18:10+00:00
