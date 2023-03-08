@@ -16,9 +16,16 @@
     </div>
     <div>
         {{ if and (.Params.audioList) (not .Params.audioAfter)}}
-
-        <audio controls src="/audio/{{.Params.audio}}" class="story-audio-display">
+        {{ range .Params.audioList }}
+        <div class="story-content">
+            {{ .intro | markdownify}}
+        </div>
+        <audio controls src="/audio/{{.audio}}" class="story-audio-display">
         </audio>
+        <div class="story-content">
+            {{ .body | markdownify}}
+        </div>
+        {{ end }}
         {{ end }}
         {{ $title:= .Title}}
         {{ if .Params.gallery }}
@@ -60,6 +67,7 @@
         {{ end }}
 
         {{ if isset .Params "credits"}}
+        <hr>
         <div class="story-content">
             {{ .Params.credits | markdownify}}
         </div>
