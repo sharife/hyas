@@ -45,7 +45,6 @@ In conjunction with water recycling, biogas can be derived from wastewater and h
 
 Every site of existing water treatment can be extended to full water reclamation and resource recovery that transforms waste into revenue-generating products whose building blocks, in turn, can be reclaimed in an ongoing feedback loop.
 
----
+- - -
 
-Learn More:
-https://www.chicagohumanities.org/events/attend/speculative-infrastructure/
+Learn More **[Here](https://www.chicagohumanities.org/events/attend/speculative-infrastructure/)**
