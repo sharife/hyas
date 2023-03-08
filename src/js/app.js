@@ -5,7 +5,8 @@ window.selectWater = selectWater;
 window.toggleMobile = toggleMobile;
 window.showGlossary = showGlossary;
 window.autoScroll = autoScroll;
-
+window.fadeStoryButtonOut = fadeStoryButtonOut;
+window.fadeStoryButtonIn = fadeStoryButtonIn;
 
 import '@splidejs/splide/css';
 
@@ -156,7 +157,7 @@ function showStoryText(storyId, time, isLanding) {
 
 
 function selectStoryButton(storyId, time, isLanding) {
-  
+
   if(isLanding == true) {
     return;
   }
@@ -216,6 +217,23 @@ function showGlossary(id) {
     var element = document.getElementById("base");
     element.style.display = "block";
     glossaryToggle = ""
+  }
+}
+
+
+function fadeStoryButtonOut(id, time){
+  var arrayOfElements = document.getElementsByClassName("content-" + time);
+  for (var i=0; i<arrayOfElements.length;i++){
+    if(arrayOfElements[i].id != (time + "-" + id)){
+      arrayOfElements[i].style.opacity = "0.1";
+    }
+  }
+}
+
+function fadeStoryButtonIn(time) {
+  var arrayOfElements = document.getElementsByClassName("content-" + time);
+  for (var i=0; i<arrayOfElements.length;i++){
+    arrayOfElements[i].style.opacity = "1";
   }
 }
 

@@ -348,6 +348,7 @@ input, textarea {
    font-size: 1.5rem;
    font-weight: bold;
    white-space: nowrap;
+   opacity: 1;
 }
 
 .story-title{
