@@ -30,7 +30,7 @@ audioList:
 
 
       Please don’t take what I’m saying out of context. I just want what’s best for my community. You can’t blame me for desiring something so reasonable. Honestly, it’s their own fault that none of the other branches have any of these lovely river attractions amenities. I’ve been here since 1910 and I have worked hard to look this good. The North is starting to turn around and lose all those industrial corridors but sheesh I assume the South Branch has so many they might even enjoy them. They are constantly protesting against the treatment of the branches and their industrial corridors. They never stop to think if their protesting affects us channelized canals. I understand they’re going through a lot. I wish I could help, but I really couldn’t if I tried. I just wish they would stop and just settle down in their community. I don’t know how to help them! Oh well, I can only do what’s best for my community by providing all this lovely scenery.
-    audio: Copy of North Shore Channel - Voiceover.mp3
+    audio: Copy of North Shore Channel - Voiceover.wav
 date: 2020-06-17T12:18:10+00:00
 images: []
 credits: |-
