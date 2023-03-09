@@ -1,6 +1,6 @@
 ---
 title: Braeden Nelson
-picture: /img/copy-of-braeden.png
+picture: /img/copy-of-braeden-1-.jpg
 intention: My intention is to address local, regional, and continental water
   problems produced and perpetuated by the Backward River. At the local level,
   South Side communities suffer from the environmental racism of toxic
