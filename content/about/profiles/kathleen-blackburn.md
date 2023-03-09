@@ -5,10 +5,10 @@ intention: >-
   I want to reimagine the relationship we have to our watershed. By recognizing
   what currently shapes our rivers and impacts the communities who rely on them,
   my aim is to help heal our shared waters. I hope to connect with each other
-  around questions of:  
+  around questions of:
 
 
-  * How we can thrive in an ever-changing water geography?  
+  * How we can thrive in an ever-changing water geography?
 
   * What can we do to repurpose our canal and introduced species to create equitable ownership of these rivers?
 
