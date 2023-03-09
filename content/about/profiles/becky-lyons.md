@@ -1,7 +1,11 @@
 ---
 title: Becky Lyons
 picture: /img/copy-of-b.lyons-headshot.jpg
-intention: My intention in collaborating on the Backward River media project is
+intention: >-
+  <!--StartFragment-->
+
+
+  **Intentions:** My intention in collaborating on the Backward River media project is
   to draw connections to the compounding policies that put profits over people
   and serve to maintain and amplify systems of oppression baked into our
   capitalist society, using the engineered Chicago waterway as the throughline
@@ -21,7 +25,8 @@ intention: My intention in collaborating on the Backward River media project is
   Chicago River as a moat, separating the wealthy downtown from working class
   people, and the bridges as literal leverage to only allow elites into the loop
   and to kettle in protestors who dared to take to those streets.
-bio: Becky Lyons is an environmental educator and urban planner who specializes
+bio: >-
+  **Bio:** Becky Lyons is an environmental educator and urban planner who specializes
   in environmental justice and building community in and around nature. She
   holds a Masters of Urban Planning & Policy from the University of Illinois
   Chicago and helped launch the Freshwater Lab’s internship course in spring of

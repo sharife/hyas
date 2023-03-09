@@ -2,9 +2,7 @@
 title: Kathleen Blackburn
 picture: /img/author-photo-.jpg
 intention: >-
-  I want to reimagine the relationship we have to our watershed. By recognizing
-  what currently shapes our rivers and impacts the communities who rely on them,
-  my aim is to help heal our shared waters. I hope to connect with each other
+  **Intention:** I want to reimagine the relationship we have to our watershed. By recognizing what currently shapes our rivers and impacts the communities who rely on them, my aim is to help heal our shared waters. I hope to connect with each other
   around questions of:
 
 
@@ -13,7 +11,8 @@ intention: >-
   * What can we do to repurpose our canal and introduced species to create equitable ownership of these rivers?
 
   * In what ways can we promote the perspectives of BIPOC communities whose activism continues to conserve and protect our most precious resources?
-bio: Kathleen Blackburn is a PhD in the Program for Writers at UIC and a
+bio: >-
+  **Bio:** Kathleen Blackburn is a PhD in the Program for Writers at UIC and a
   research assistant in the UIC  Freshwater Lab. She researches the intersection
   of U.S. militarization and  ecological disruption, specifically in cases of
   invasive species. Recent projects have focused on invasive Brown Tree Snakes

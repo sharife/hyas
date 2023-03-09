@@ -1,7 +1,11 @@
 ---
 title: Citlalli Trujillo
 picture: /img/copy-of-citlalli-headshot.jpg
-intention: My intention with the Backward River is to highlight people's
+intention: >-
+  <!--StartFragment-->
+
+
+  **Intentions:** My intention with the Backward River is to highlight people's
   experiences and relationship with the Chicago River in different parts of the
   city through stories. Depending on where you live along the river, one’s
   experiences it very differently. Along the North Branch and Main Stem, you see
@@ -12,7 +16,8 @@ intention: My intention with the Backward River is to highlight people's
   reclaim their spaces along the river. I hope my contribution to the research
   about the Chicago River and Sanitary Ship Canal will aid to improve the way we
   treat our natural resources and our vulnerable communities.
-bio: Citlalli Trujillo is a first-generation college graduate who holds a BS in
+bio: >-
+  **Bio:** Citlalli Trujillo is a first-generation college graduate who holds a BS in
   Biochemistry from the University of Illinois at Chicago and is currently
   pursuing a master's degree in Environmental and Occupational Health Science.
   As a member of the Freshwater Lab, Citlalli has developed a passion for

@@ -1,7 +1,8 @@
 ---
 title: Rachel Havrelock
 picture: /img/rachel-havrelock-2511.jpg
-intention: By focusing on the Chicago Sanitary and Ship Canal, I want to return
+intention: >-
+  **Intention:** By focusing on the Chicago Sanitary and Ship Canal, I want to return
   to the city’s original sin of sending its waste south to afflict downstate
   Illinois, southern states and the Gulf of Mexico. The reason for taking up the
   early 20th Century sin now is that the environmental and public health abuses
@@ -16,7 +17,8 @@ intention: By focusing on the Chicago Sanitary and Ship Canal, I want to return
   the Great Lakes watershed.  I look to culture and storytelling as ways to
   engage the broader public in acts of reimagining our infrastructure and
   environment.
-bio: Rachel Havrelock is the founder and director of the Freshwater Lab and a
+bio: >-
+  **Bio:** Rachel Havrelock is the founder and director of the Freshwater Lab and a
   professor of English at the University of Illinois at Chicago.  A childhood of
   swimming in the Great Lakes created an indissoluble bond with water.  Decades
   of research in the Middle East led to her books *River Jordan* and *The Joshua

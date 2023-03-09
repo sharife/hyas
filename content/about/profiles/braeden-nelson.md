@@ -1,7 +1,11 @@
 ---
 title: Braeden Nelson
 picture: /img/copy-of-braeden-small1.jpg
-intention: My intention is to address local, regional, and continental water
+intention: >-
+  <!--StartFragment-->
+
+
+  **Intentions:** My intention is to address local, regional, and continental water
   problems produced and perpetuated by the Backward River. At the local level,
   South Side communities suffer from the environmental racism of toxic
   industries along the river while downtown and North Side communities enjoy
@@ -13,7 +17,8 @@ intention: My intention is to address local, regional, and continental water
   those communities. Ultimately, the Backward River sends that wastewater across
   the continent, damaging waterways along the way and producing a dead zone in
   the Gulf of Mexico.
-bio: Braeden Nelson is pursuing a Master in Urban Planning and Policy from the
+bio: >-
+  **Bio:** Braeden Nelson is pursuing a Master in Urban Planning and Policy from the
   University of Illinois at Chicago. He is a research assistant with the
   Freshwater Lab helping to facilitate internship placement in the Freshwater
   Lab course and supports a research project on water recycling. He also works
