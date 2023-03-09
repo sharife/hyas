@@ -1,6 +1,6 @@
 ---
 title: Tristen Ortiz
-picture: /img/copy-of-img_3070.jpg
+picture: /img/copy-of-img_30701.jpg
 intention: My intentions with the backward river is to create art that can be
   not only accessible but reflective of the issues that surround the Chicago
   river and the city as whole. The choice to focus on slow violence as a subject
