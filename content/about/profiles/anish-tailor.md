@@ -1,6 +1,6 @@
 ---
 title: Anish Tailor
-picture: /img/anish.jpg
+picture: /img/anish1.jpg
 intention: "This project is an opportunity to reorient ourselves towards nature.
   My intentions in participating are several: to show citizens of Chicago how to
   reconnect with nature so that people may connect to themselves; to develop an
