@@ -2,6 +2,9 @@
 title: Rachel Havrelock
 picture: /img/rachel-havrelock-2511.jpg
 intention: >-
+  <!--StartFragment-->
+
+
   **Intention:** By focusing on the Chicago Sanitary and Ship Canal, I want to return
   to the city’s original sin of sending its waste south to afflict downstate
   Illinois, southern states and the Gulf of Mexico. The reason for taking up the

@@ -2,6 +2,9 @@
 title: Erika Chávez
 picture: /img/erika.jpg
 intention: >-
+  <!--StartFragment-->
+
+
   **Intention:** “*My mother never failed to emphasize that as bad as things
   were, that change was possible. I learned how to live under those
   circumstances while also inhabiting an imagined world. Also recognizing that
