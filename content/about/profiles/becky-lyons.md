@@ -1,6 +1,6 @@
 ---
 title: Becky Lyons
-picture: /img/copy-of-b.lyons-headshot.jpg
+picture: /img/copy-of-b.lyons-headshot1.jpg
 intention: My intention in collaborating on the Backward River media project is
   to draw connections to the compounding policies that put profits over people
   and serve to maintain and amplify systems of oppression baked into our
