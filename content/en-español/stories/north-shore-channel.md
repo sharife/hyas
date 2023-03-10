@@ -26,7 +26,7 @@ actornote: >-
   <!--StartFragment-->
 
 
-  #### Del actor
+  ## Del actor
 
 
   > “The city of Buenos Aires has a wide and beautiful river called Rio de la Plata and connects two different countries: Argentina and Uruguay. In the last fifteen years, the city has made a lot of improvements and efforts regarding its relationship with river. Now we can enjoy the Rio de la Plata thru many public spaces that are available for all the people. I used to go to those beautiful places to read a book or just to have a pleasant moment to see and feel the sounds of the river.” 
