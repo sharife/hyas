@@ -116,6 +116,7 @@ collections:
         fields:
           - { label: 'Title', name: 'title', widget: 'string' }
           - { label: 'Intro', name: 'intro', widget: 'text' }
+          - { label: 'Gratitude', name: 'gratitude', widget: 'markdown' }
       - name: 'get-involved'
         label: 'Get Involved'
         folder: 'content/get-involved'
