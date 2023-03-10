@@ -28,17 +28,13 @@ actornote: >-
   <!--StartFragment-->
 
 
-  #### De la actriz
+  ## De la actriz
 
 
   > “I believe water is the source of life. Our connection to water is closely tied to our connection and appreciation for the power that lies within nature. To be in the presence of bodies of water allows me to be in the present moment and remind me I’m alive. They also remind me that we are only here as visitors to this great wondrous planet we call earth. Therefore, as a visitor, I must give the respect and gratitude rivers, lakes and oceans deserve by being intentional about how I protect them for generations to come.”
 
 
-
-
   [Anyiné Galván-Rodríguez](https://afrolatinanatural.com/)
-
-
 
 
   <!--EndFragment-->
