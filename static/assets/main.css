@@ -814,7 +814,7 @@ textarea{
 .accordion .ui-accordion-content > * {
    margin: 0;
    padding: 20px;
- }
+}
 
 .accordion .ui-accordion-header {
    /* background-color: #ccc; */
@@ -824,8 +824,7 @@ textarea{
 .accordion .ui-accordion-content {
    width: 100%;
    border: 1px solid #d4d4d4;
-   color: #084141;
-   font-size: 1.2rem;
+   /* color: #084141; */
    line-height: 16pt;
 }
 .book-container{
