@@ -61,8 +61,6 @@ transcript: >-
 credit: |-
   <!--StartFragment-->
 
-  ##### Credits
-
   * Written by Tristen Ortiz
   * Produced by Anish Tailor
   * Performed in English by Derek Nelson
