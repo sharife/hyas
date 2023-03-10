@@ -26,6 +26,9 @@ actornote: >-
   <!--StartFragment-->
 
 
+  ## Del actor
+
+
   > “My appreciation for the value of water was realized on 2 separate occasions. The first time was during my visit to a Navajo reservation in Arizona. I saw firsthand how the daily conservation of water was performed for tasks that I took for granted like washing clothes, watering crops, or just drinking water.  The second time was after hurricane Maria hit Puerto Rico. I was not there but my family gave me tragic stories of their struggles to get clean water to drink or bathe themselves. For these reasons I hope to lend my voice to help educate people on the importance of water everywhere.” 
 
 
