@@ -20,7 +20,7 @@ function selectTime(time) {
   pauseAudio();
 
   var btnRow = document.getElementById("button-time-row"); // move buttons down
-  btnRow.style.bottom = "5%";
+  btnRow.style.bottom = "2%";
 
 
 

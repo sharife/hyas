@@ -441,11 +441,12 @@ input, textarea {
 }
 
 .river {
+   
    position:relative;
    background-image: url("/images/allriver.png");
    background-repeat: no-repeat;
-   background-size: cover; 
-   /* need contain? */
+   background-size: cover;
+   background-position: center bottom;
    width: 100%;
    padding-top: 62.5%;
    transition: background-image 0.8s linear;
@@ -957,7 +958,7 @@ textarea { resize: vertical; }
       font-size: 1.5rem;
    }
    .story-title{
-      font-size: 3rem;
+      font-size: 2.2rem;
    }
    .about-profile{
       width: 50%;

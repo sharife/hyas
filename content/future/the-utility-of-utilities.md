@@ -1,7 +1,7 @@
 ---
 title: The Utility of Utilities
 x: "59"
-y: "52"
+y: "65"
 intro: "### The necessary reorientation toward waste requires new water
   economics. Money extracted by private corporations can be reclaimed to build
   state of the art civic infrastructure for the 21st century and beyond."

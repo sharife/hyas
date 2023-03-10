@@ -1,7 +1,7 @@
 ---
 title: Sanitary & Ship Canal
-x: "34"
-y: "19"
+x: "33.5"
+y: "32"
 intro: "### Opening with a blast of dynamite on the eve of 1900, the canal
   redirected the Chicago River south, offshoring the city’s waste for the
   benefit of an expanding metropolis."

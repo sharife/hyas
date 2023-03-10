@@ -1,7 +1,7 @@
 ---
 title: Sewer’s Revenge
-x: "60"
-y: "36"
+x: "59"
+y: "51"
 intro: "### Just as little as 0.3 inches (0.762 cm) of rain is enough to
   initiate combined sewer overflows (CSOs) in over 300 sewage outfalls into the
   Chicago River. At these moments, the sewers exact their revenge by resurfacing

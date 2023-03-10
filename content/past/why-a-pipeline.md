@@ -2,8 +2,8 @@
 draft: false
 lastmod: 2020-04-17T12:18:10+00:00
 title: Why a Pipeline?
-x: "55"
-y: "42"
+x: "53"
+y: "55"
 intro: "### Why do we call a river, a waterbody known for turns and bends, a
   pipeline?"
 date: 2020-08-17T12:18:10+00:00

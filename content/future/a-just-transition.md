@@ -1,7 +1,7 @@
 ---
 title: A Just Transition
 x: "57"
-y: "45"
+y: "58"
 intro: "### In order to be successful, decarbonization (ending fossil fuel
   dependence) must attend to the people involved. Changing how industry operates
   directly impacts workers whose labor and health must be prioritized through
