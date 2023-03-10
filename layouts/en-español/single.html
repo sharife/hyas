@@ -31,9 +31,6 @@
         </div>
         {{ if isset .Params "actornote" }}
         <div>
-            <h2>
-                Del actor
-            </h2>
             {{.Params.actornote | markdownify}}
         </div>
         {{ end }}
@@ -46,7 +43,7 @@
         {{ if isset .Params "credit" }}
         <div>
             <h2>
-                Credit
+                Credits
             </h2>
             {{.Params.credit | markdownify}}
         </div>
