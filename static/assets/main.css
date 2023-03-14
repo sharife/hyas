@@ -540,7 +540,6 @@ input, textarea {
 .flex-container {
    display: flex;
    flex-direction: row;
-   text-align: center;
 }
 
 img {
@@ -1021,8 +1020,8 @@ textarea { resize: vertical; }
       background-color: white;
    }
    .mobile-logo{
-      width: 100%;
-      max-width: 30rem;
+      width: 15rem;
+      max-width: 300px;
    }
 
    .mobile-link {
