@@ -40,7 +40,7 @@ body {
 } */
 
 p {
-   font-size: 1.7rem;
+   font-size: 1.5rem;
 }
 
 p img {
@@ -303,6 +303,7 @@ input, textarea {
 
 .story {
    display: none;
+   margin-bottom: 2.1rem;
 }
 
 .time-button {
@@ -731,8 +732,8 @@ img {
    margin-left: auto;
    margin-right: auto;
    max-width: 43rem;
-   line-height: 1.476;
-   font-size: 1.7rem;
+   line-height: 1.4;
+   font-size: 1.5rem;
 }
 
 .about-page-name{
@@ -959,7 +960,7 @@ textarea { resize: vertical; }
       font-size: 1.5rem;
    }
    .story-title{
-      font-size: 2.2rem;
+      font-size: 2rem;
    }
    .about-profile{
       width: 50%;
@@ -973,7 +974,8 @@ textarea { resize: vertical; }
    }
 
    .story-content > p {
-      font-size: 1.2rem;
+      font-size: 1.1rem;
+      line-height: 1.4rem;
    }
 
    .story-content > blockquote >p {
@@ -989,8 +991,8 @@ textarea { resize: vertical; }
 
 
 @media screen and (max-width: 1400px) {
-   .single-title{
-      font-size: 10vw;
+   .single-title {
+      font-size: 3.5rem;
    }
    .map-text-mobile-container{
       display: inline-block;
@@ -998,7 +1000,7 @@ textarea { resize: vertical; }
       margin-right: 1em;
    }
    .map-text-mobile{
-      font-size: 2rem;
+      font-size: 1.6rem;
    }
    .mobile-nav-open {
       display: flex;
@@ -1166,7 +1168,7 @@ textarea { resize: vertical; }
       margin: auto;
    }
    h3 {
-      font-size:1.8rem;
+      font-size:1.6rem;
    }
 }
 

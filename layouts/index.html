@@ -32,7 +32,7 @@
          {{ partial "stories.html" (dict "context" . "time" "present")}}
          {{ partial "stories.html" (dict "context" . "time" "future")}}
 
-      <div id="landing-page" class="story" style="display: block; position:relative;">
+      <div id="landing-page" class="story" style="display: block; position:relative; margin-bottom: 2rem;">
          <div>
             {{ with .Site.GetPage "/landing/landing.md" }}
             <h2 class ="story-title">
