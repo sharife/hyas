@@ -20,6 +20,6 @@ Manifesting a blue future in the Great Lakes region requires imagination and ada
 
 In order for the Great Lakes watershed to become a climate change oasis, many fundamental systems need to be rebuilt. The overabundance of lead service lines must be traded out immediately. Water must be affordable and accessible for every resident and take priority over subsidizing private enterprise. Infrastructure of water treatment and distribution needs to make the most of every single drop. Vitally, money made from the local water supply must be reinvested in its preservation and advancement.
 
-Like the oasis that it is, the watershed can support the arrival of people and development of new businesses and forms of production. Such trend reversing change from the Rust Belt to the Water Belt portends a stable future, but it cannot occur without some important upgrades. 
+Like the oasis that it is, the watershed can support the arrival of people and development of new businesses and forms of production. Such trend reversing change from the Rust Belt to the Water Belt portends a stable future, but it cannot occur without some important upgrades.
 
 The necessary upgrades are both technical and social. Because they impact all life in the watershed, the upgrades must be guided by ethics rather than profit motives. We propose three basic principles to guide the transformation: **keep water public, keep water clean, and keep water here.**
