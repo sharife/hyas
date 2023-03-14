@@ -48,10 +48,6 @@ credits: |-
 ---
 As readers of Upton Sinclair’s The Jungle know, a century of meatpacking and heavy industrial pollution gave rise to the infamously-contaminated Bubbly Creek. The name derives from the methane bubbles that popped as organic matter decayed in the water. This damage persists and mixes with ongoing pollution from industrial corridors along the South Branch. The river and many communities along it have become contested spaces in recent decades, as [luxury developments extend south](https://www.wbez.org/stories/lightfoot-aldermen-likely-to-advance-lincoln-yards-the-78/def7079a-2ca6-405f-80c0-163fa6b5e701), pushing and pricing out communities of color through gentrification. Now, whiter, wealthier neighborhoods boast the opportunity to jog on river paths or sip microbrews on overlooks whereas African-American and Latine neighborhoods contend with the fumes of asphalt mixing, the grind of metal shredding and lagoons of industrial waste.
 
-
-
-
-
 ##### Character of the South Branch
 
 The South Branch speaks as  a youth activist and protest organizer who understands how the institutional structures of capitalism, white supremacy and patriarchy harm marginalized communities. They understand the systems at play and how the status quo leaves their people behind. They’re a well-spoken young person who grasps the operations of late capitalism and wants to upend the system. Imagine the person who gives the sound byte when a local news camera sticks a mic in their face and asks them why they’re protesting.

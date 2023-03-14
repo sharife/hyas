@@ -42,8 +42,6 @@ credits: |-
 ---
 Lined by elegant buildings that epitomize changing tastes of modernity, the Main Stem is most recently defined by two United States presidents. Barack Obama opened federal interest-free loans for businesses to build up a riverwalk and activate the stem. Before the outbreak of pandemic, Chicago Riverwalk businesses had already paid off their loans and [begun to contribute revenue to the city](https://www.chicagotribune.com/politics/ct-met-rahm-emanuel-riverwalk-east-20180801-story.html). Opposite stands the [overleveraged Trump Tower](https://therealdeal.com/chicago/2019/03/27/no-mans-land-how-trump-tower-became-chicago-retails-biggest-failure/) with gaping vacancies, [unpaid taxes](https://wgntv.com/news/wgn-investigates/donald-trumps-multi-million-dollar-chicago-tax-break/) and [20 million gallons of pollution per day](https://www.chicagotribune.com/news/ct-met-trump-tower-chicago-river-madigan-lawsuit-20180814-story.html) poured into Main Stem waters.
 
-
-
 ##### Character of the Main Stem
 
 The Main Stem is characterized in terms of boosterism, an approach where vested interests try to attract tourists, transplants and transactions. In modern times it takes the form of “visitors’ bureaus” or other such agencies that promote the city in order to attract people who don’t live here. Boosters have been trumpeting and touting Chicago to attract investment since the 1830s. Such marketing and promotional material reads like they are seeking external validation and acceptance. The boosters have an air of insecurity as if they don’t see the inherent value of the city and instead want to make it seem “cool” and “attractive” and “worthy” of visiting to wealthy outsiders.
