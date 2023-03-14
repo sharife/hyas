@@ -146,7 +146,8 @@ function showStoryText(storyId, time, isLanding) {
   var x = document.getElementById(storyId);
   var arrayOfElements= document.getElementsByClassName("story")
   for (var i=0; i<arrayOfElements.length;i++){
-      arrayOfElements[i].style.display='none';
+    arrayOfElements[i].style.display='none';
+    arrayOfElements[i].scrollTop = 0;
   }
   if (x.style.display === "none") {
   x.style.display = "block";
