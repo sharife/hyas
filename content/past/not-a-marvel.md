@@ -141,7 +141,7 @@ audioList:
       they were also some of the most oppressed folks in the workforce at that
       time and were not adequately repaid for the sacrifices that they made
       going to work.
-  - audio: Amazon workers - Amazon doesn't care.mp3
+  - audio: Amazon-workers-Amazon-doesn't-care.mp3
     intro: "### Two Amazon workers speaking in spring 2022 about how workers at
       Amazon are set up for an impossible and incredibly strenuous job, and how
       little the corporation cares about its employees."
