@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     {{/*  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">  */}}
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
   </head>
   <body>
     <div class="page">
@@ -31,6 +32,18 @@
       <script src="{{ relURL . }}"></script>
     {{ end }}
     <script src="/assets/bundle.js"></script>
+
+    <script>
+  if (window.netlifyIdentity) {
+    window.netlifyIdentity.on("init", user => {
+      if (!user) {
+        window.netlifyIdentity.on("login", () => {
+          document.location.href = "/admin/";
+        });
+      }
+    });
+  }
+</script>
   </body>
   
 </html>
