@@ -1,7 +1,7 @@
 ---
 title: The Dead Zone
-x: "21"
-y: "15"
+x: "12"
+y: "12"
 intro: "### Increasingly, life giving water contains zones of death where
   nothing can live. Societal decisions about food production, landscaping and
   waste determine whether our water is vital or deadly."

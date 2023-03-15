@@ -1,7 +1,7 @@
 ---
 title: Billions for Barges
-x: "69"
-y: "17"
+x: "80"
+y: "14"
 intro: "### Canals and barges seem like antiquated relics of the 19th century,
   but they persist supported by substantial public investment. One estimate
   figures that the public spends nearly two-billion dollars a year paying the
