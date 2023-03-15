@@ -226,7 +226,7 @@ function fadeStoryButtonOut(id, time){
   var arrayOfElements = document.getElementsByClassName("content-" + time);
   for (var i=0; i<arrayOfElements.length;i++){
     if(arrayOfElements[i].id != (time + "-" + id)){
-      arrayOfElements[i].style.opacity = "0.1";
+      arrayOfElements[i].style.opacity = "0.2";
     }
   }
 }

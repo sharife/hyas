@@ -1,7 +1,7 @@
 ---
 title: Decommission the Pipeline
-x: "33.5"
-y: "32"
+x: "27"
+y: "25"
 intro: "### We must stop using rivers to transport carbon. Why risk waters so
   important as sources of drinking water, sites of recreation and spaces to
   gather for a dead industry?"

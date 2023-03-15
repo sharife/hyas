@@ -1,10 +1,10 @@
 ---
 draft: false
-x: "47"
+x: "42"
+y: "41"
 audioAfter: true
 lastmod: 2020-04-17T12:18:10+00:00
 title: Before the Canal
-y: "50"
 intro: "### The marsh between the Mississippi River and Lake Michigan was a
   fertile place that allowed for travel, trade, and connections among indigenous
   peoples."
