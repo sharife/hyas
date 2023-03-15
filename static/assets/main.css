@@ -450,7 +450,7 @@ input, textarea {
    background-size: cover;
    background-position: center bottom;
    width: 100%;
-   padding-top: 62.5%;
+   padding-top: 96.8%;
    transition: background-image 0.8s linear;
 }
 
@@ -503,8 +503,8 @@ input, textarea {
 
 
 .story-display {
-   flex: 30%;
-   height:86vh;
+   flex: 83%;
+   height:85vh;
    overflow:auto; 
    margin-right:0%;
    padding-right: 1rem;
