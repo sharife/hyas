@@ -20,14 +20,14 @@ function selectTime(time) {
   pauseAudio();
 
   var btnRow = document.getElementById("button-time-row"); // move buttons down
-  btnRow.style.bottom = "2%";
+  btnRow.style.bottom = "1%";
 
 
 
   toggleTimeButton(time);
 
   var riverImage = document.getElementById("river-image");
-  riverImage.style.backgroundImage = 'url(/images/chicago-river-map-' + time +".png)";
+  riverImage.style.backgroundImage = 'url(/img/chicago-river-map-' + time +".jpg)";
 
 
   showStoryText(time + "-landing", time, true) // show time landing page

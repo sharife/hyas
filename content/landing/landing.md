@@ -1,7 +1,7 @@
 ---
 title : "A digital storytelling project of the Freshwater Lab at the University of Illinois at Chicago"
-description: "Hyas is a Hugo-powered Jamstack framework for building production-ready websites faster."
-lead: "Hyas is a Hugo-powered Jamstack framework for building production-ready websites faster."
+description: ""
+lead: ""
 date: 2020-04-17T12:18:10+00:00
 lastmod: 2020-04-17T12:18:10+00:00
 draft: false

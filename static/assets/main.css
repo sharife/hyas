@@ -40,8 +40,8 @@ body {
 } */
 
 p {
-   font-size: 1.4rem;
-   line-height: 1.8rem;
+   font-size: 1.6rem;
+   line-height: 2rem;
 }
 
 p img {
@@ -445,7 +445,7 @@ input, textarea {
 .river {
    
    position:relative;
-   background-image: url("/images/allriver.png");
+   background-image: url("/img/chicago-river-map-main.jpg");
    background-repeat: no-repeat;
    background-size: cover;
    background-position: center bottom;
@@ -953,7 +953,6 @@ textarea { resize: vertical; }
    opacity: 0;
 }
 
-
 @media screen and (max-width: 1800px) {
    
    .map-text{
@@ -974,8 +973,8 @@ textarea { resize: vertical; }
    }
 
    .story-content > p {
-      font-size: 1.1rem;
-      line-height: 1.4rem;
+      font-size: 1.2rem;
+      line-height: 1.5rem;
    }
 
    .story-content > blockquote >p {
@@ -985,12 +984,20 @@ textarea { resize: vertical; }
    .story-content > h5 {
       font-size: 1.3rem;
    }
+
+   .time-button {
+      font-size: 1.5rem;
+      /* overflow-wrap: break-word; */
+   }
    
 }
 
 
 
 @media screen and (max-width: 1400px) {
+   .story-title{
+      font-size: 2rem;
+   }
    .single-title {
       font-size: 3.5rem;
    }
