@@ -1,11 +1,11 @@
 {{ define "main" }}
 <div class="map-text-mobile-container fade-2">
-   <h2 id="landing-map-mobile" class="map-text-mobile">
+   <h2 id="landing-mobile-map" class="map-text-mobile">
       What will the river tell you? Select a choice below to begin.
    </h2>
    {{ range (where .Site.Pages "Section" "landing") }}
       {{ range .Pages }}
-      <h2 id="{{.Params.category}}-map-mobile" class="map-text-mobile">
+      <h2 id="{{.Params.category}}-mobile-map" class="map-text-mobile">
          {{ .Params.maptext }}
       </h2>
       {{ end }}
@@ -53,11 +53,9 @@
             <div class="story-title">
                {{ .Title   }}
             </div>
-            <a href="/">
-               <button class="close-story">
-                  <img src="/img/close.svg" style="width: 60px;" />
-               </button>
-            </a>
+            <button class="close-story">
+               <img src="/img/close.svg" style="width: 60px;" onclick="showHomeLanding()" />
+            </button>
          </h2>
          <div class="story-content">
             {{ .Content | markdownify }}

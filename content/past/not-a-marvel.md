@@ -8,7 +8,7 @@ lastmod: 2020-04-17T12:18:10+00:00
 intro: "### The dawn of the twentieth century brought the Chicago Sanitary and
   Ship Canal into being."
 audioList:
-  - audio: Edith-EJ,-Labor-&-Public-Health-in-Little-Village.mp3
+  - audio: Edith - EJ, Labor & Public Health in Little Village.mp3
     intro: "### Edith Tovar, Senior Justice Transition Organizer with [Little
       Village Environmental Justice Organization
       (LVEJO)](http://www.lvejo.org/), speaking in spring 2022 about the
@@ -57,7 +57,7 @@ audioList:
       want a company that shows up and just ignores everything that's happening
       outside of their industry walls, right? We want active participants of our
       community.
-  - audio: Yana-Environment-vs-Jobs-in-Joliet.mp3
+  - audio: Yana - Environment vs Jobs in Joliet.mp3
     intro: "### Yana Kalmyka, formerly with [Warehouse Workers for Justice
       (WWJ)](https://www.ww4j.org/), speaking in spring 2022 about how farmers,
       conservationists and warehouse workers have aligned to fight against a
@@ -94,7 +94,7 @@ audioList:
       North Point. And that's kind of how we came to the environmental work. And
       we really started interrogating what are the intersections of the labor
       and environmental issues
-  - audio: Yana-Warehouse-workers-during-the-pandemic.mp3
+  - audio: Yana - Warehouse workers during the pandemic.mp3
     intro: "### Yana Kalmyka, formerly with [Warehouse Workers for Justice
       (WWJ)](https://www.ww4j.org/), speaking in spring 2022 about the
       sacrifices that warehouse workers made during the Covid-19 pandemic, which
@@ -141,7 +141,7 @@ audioList:
       they were also some of the most oppressed folks in the workforce at that
       time and were not adequately repaid for the sacrifices that they made
       going to work.
-  - audio: Amazon-workers-Amazon-doesn't-care.mp3
+  - audio: Amazon workers Amazon doesn't care.mp3
     intro: "### Two Amazon workers speaking in spring 2022 about how workers at
       Amazon are set up for an impossible and incredibly strenuous job, and how
       little the corporation cares about its employees."
@@ -170,7 +170,7 @@ audioList:
 
 
       Long story short, the question was, what do people not understand about working at Amazon? It's just really like you don't understand how little they care about their employees. I think you can talk about it all day long, but actually being an employee there and realizing they don't care that I get the correct pay, they don't care that I get all my time off, they don't care about any of that. They care that I send out 1200 items in a day. That's all they care about. It's sad. It's sad and it's really frustrating at the same time. And those are like really bad emotions to have towards the job that you're trying to do. And especially when you have all these requirements you want to meet, when you don't want to meet them because you don't like your employer. That's what I think.
-  - audio: Amazon-workers-Not-a-career.mp3
+  - audio: Amazon workers - Not a career.mp3
     intro: "### Two Amazon workers speaking in spring 2022 about why they work at
       Amazon despite how physically demanding and depressing it is."
     body: >-

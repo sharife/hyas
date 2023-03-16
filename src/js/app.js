@@ -7,35 +7,42 @@ window.showGlossary = showGlossary;
 window.autoScroll = autoScroll;
 window.fadeStoryButtonOut = fadeStoryButtonOut;
 window.fadeStoryButtonIn = fadeStoryButtonIn;
+window.showHomeLanding = showHomeLanding;
+
+
 
 import '@splidejs/splide/css';
 
 import Splide from '@splidejs/splide';
 
 let HOME_STACK_BREAKPOINT = 1400;
-
+let currentLanding = "landing"
 function selectTime(time) {
 
   hideButtons();
   pauseAudio();
 
+
+  if(currentLanding == time){ // untoggle to get to landing
+    var btnRow = document.getElementById("button-time-row"); // move buttons down
+    btnRow.style.bottom = "40%";
+    var riverImage = document.getElementById("river-image");
+    riverImage.style.backgroundImage = "url(/img/chicago-river-map-main.jpg)";
+    showHomeLanding();
+    return;
+  }
+
+  currentLanding = time;
+
   var btnRow = document.getElementById("button-time-row"); // move buttons down
   btnRow.style.bottom = "1%";
-
-
-
   toggleTimeButton(time);
-
   var riverImage = document.getElementById("river-image");
   riverImage.style.backgroundImage = 'url(/img/chicago-river-map-' + time +".jpg)";
-
-
   showStoryText(time + "-landing", time, true) // show time landing page
   resetStoryButtons(time);
-
   showMapText(time);
   displayStoryButtons(time);
-  
 }
 
 function displayStoryButtons(time){
@@ -93,7 +100,7 @@ function showMapText(temp) {
       arrayOfElements[i].style.display='none';
   }
 
-  var mobile = document.getElementById(temp + "-map-mobile");
+  var mobile = document.getElementById(temp + "-mobile-map");
   arrayOfElements = document.getElementsByClassName("map-text-mobile");
 
   for (var i=0; i<arrayOfElements.length;i++){
@@ -119,7 +126,7 @@ addEventListener("load", (event) => {
 
   if(window.location.pathname == "/") {
     var web = document.getElementById("landing-map");
-    var mobile = document.getElementById("landing-map-mobile");
+    var mobile = document.getElementById("landing-mobile-map");
 
     if( window.innerWidth <= HOME_STACK_BREAKPOINT) {
       mobile.style.display = "block";
@@ -144,11 +151,13 @@ addEventListener("load", (event) => {
 function showStoryText(storyId, time, isLanding) {
   selectStoryButton(storyId, time, isLanding);
   var x = document.getElementById(storyId);
-  var arrayOfElements= document.getElementsByClassName("story")
+  var arrayOfElements= document.getElementsByClassName("story");
+
   for (var i=0; i<arrayOfElements.length;i++){
     arrayOfElements[i].style.display='none';
     arrayOfElements[i].scrollTop = 0;
   }
+
   if (x.style.display === "none") {
   x.style.display = "block";
   } else {
@@ -158,17 +167,13 @@ function showStoryText(storyId, time, isLanding) {
 
 
 function selectStoryButton(storyId, time, isLanding) {
-
   if(isLanding == true) {
     return;
   }
-
   resetStoryButtons(time);
   pauseAudio();
-
   var element = document.getElementById(time + "-" + storyId);
   element.style.zIndex = "1";
-
   var arrowSize = getComputedStyle(element.children[1]).borderTop.split(" ")[0];
   element.children[0].style.backgroundColor = "var(--index-button-select)";
   element.children[0].style.color = "var(--index-on-button-select)";
@@ -178,7 +183,6 @@ function selectStoryButton(storyId, time, isLanding) {
 
 
 function resetStoryButtons(time){
-
   var arrayOfElements = document.getElementsByClassName("content-" + time);
   for (var i=0; i<arrayOfElements.length;i++){
     arrayOfElements[i].style.zIndex = "0";
@@ -219,6 +223,23 @@ function showGlossary(id) {
     element.style.display = "block";
     glossaryToggle = ""
   }
+}
+
+function showHomeLanding(){
+  var arrayOfElements= document.getElementsByClassName("story");
+  for (var i=0; i<arrayOfElements.length;i++){
+    arrayOfElements[i].style.display='none';
+    arrayOfElements[i].scrollTop = 0;
+  }
+  var elements = document.getElementsByClassName("time-button");
+  for(var i=0; i < elements.length; i++) { 
+    elements[i].style.backgroundColor = "var(--index-button-default)";
+    elements[i].style.color = "var(--index-on-button-default)";
+  }
+  var x = document.getElementById("landing-page");
+  x.style.display = "block";
+  showMapText("landing");
+  currentLanding = "landing"
 }
 
 
@@ -263,7 +284,6 @@ $(function(){  // $(document).ready shorthand
 // var gallery = $('.gallery a').simpleLightbox({
 //   /* options */
 // });
-
 
 // JS Goes here - ES6 supported
 if (window.netlifyIdentity) {
