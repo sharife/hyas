@@ -877,7 +877,7 @@ textarea{
    flex: 20%;
 }
 .glossary {
-   background-image: url("/images/fums.jpg");
+   background-image: url("/img/fums.jpg");
    background-repeat: no-repeat;
    background-size: cover;
    width: 100%;
