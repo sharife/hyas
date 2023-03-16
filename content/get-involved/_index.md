@@ -6,10 +6,10 @@ intro: >-
   set of beneficiaries and victims.** 
 
 
-  **Here you’ll find tools, resources, ideas and opportunities to help you value fresh water, heal our shared sources, dismantle environmental racism, establish a reciprocal relationship with nature, expose the disparities of water infrastructure and policy, create socially engaged art, and transform our economic models from extractive to circular.** 
+  Here you’ll find tools, resources, ideas and opportunities to help you value fresh water, heal our shared sources, dismantle environmental racism, establish a reciprocal relationship with nature, expose the disparities of water infrastructure and policy, create socially engaged art, and transform our economic models from extractive to circular.
 
 
-  **Why get involved? Because nothing is more precious than water and everyone who lives around it has a stake in its future.**
+  *Why get involved? Because nothing is more precious than water and everyone who lives around it has a stake in its future.*
 connect: "#### Follow our social media to find out about opportunities, events,
   and urgent campaigns. We also want to hear from you. Connect with us on social
   media by tagging us on your water-related posts and using these hashtags."
