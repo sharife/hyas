@@ -106,7 +106,7 @@ function showMapText(temp) {
       arrayOfElements[i].style.display='none';
   }
 
-  if(window.width <= HOME_STACK_BREAKPOINT){
+  if(window.innerWidth <= HOME_STACK_BREAKPOINT){
     if (mobile.style.display === "none") {
       mobile.style.display = "block";
     }
