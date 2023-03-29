@@ -15,21 +15,18 @@ import '@splidejs/splide/css';
 
 import Splide from '@splidejs/splide';
 
-let HOME_STACK_BREAKPOINT = 1400;
-let currentLanding = "landing"
+let HOME_STACK_BREAKPOINT = 1024;
+let currentLanding = "landing";
 function selectTime(time) {
-
-  hideButtons();
+  //console.log(currentLanding+" / "+time);
+  //hideButtons();
   pauseAudio();
 
+  var diff = false;
 
-  if(currentLanding == time){ // untoggle to get to landing
-    var btnRow = document.getElementById("button-time-row"); // move buttons down
-    btnRow.style.bottom = "40%";
-    var riverImage = document.getElementById("river-image");
-    riverImage.style.backgroundImage = "url(/img/chicago-river-map-main.jpg)";
-    showHomeLanding();
-    return;
+  if (currentLanding != time) {
+    hideButtons();
+    diff = true;
   }
 
   currentLanding = time;
@@ -42,7 +39,9 @@ function selectTime(time) {
   showStoryText(time + "-landing", time, true) // show time landing page
   resetStoryButtons(time);
   showMapText(time);
-  displayStoryButtons(time);
+  if (diff == true) {
+    displayStoryButtons(time);
+  }
 }
 
 function displayStoryButtons(time){

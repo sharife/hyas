@@ -440,7 +440,7 @@ input, textarea {
 }
 
 .river-container {
-   flex: 70%;
+   flex: 57%;
    width: 100%;
    height: 85vh;
    background-color: var(--index-under-map-filler);
@@ -507,7 +507,7 @@ input, textarea {
 
 
 .story-display {
-   flex: 83%;
+   flex: 60%;
    height:85vh;
    overflow:auto; 
    margin-right:0%;
@@ -998,7 +998,7 @@ textarea { resize: vertical; }
 
 
 
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1024px) {
    .story-title{
       font-size: 2rem;
    }
