@@ -151,6 +151,8 @@ function showStoryText(storyId, time, isLanding) {
   for (var i=0; i<arrayOfElements.length;i++){
     arrayOfElements[i].style.display='none';
     arrayOfElements[i].scrollTop = 0;
+    arrayOfElements[i].style.opacity = 0;
+    $(arrayOfElements[i]).delay(10).animate({'opacity':'1'},700);
   }
 
   if (x.style.display === "none") {
