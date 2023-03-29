@@ -15,7 +15,7 @@ import '@splidejs/splide/css';
 
 import Splide from '@splidejs/splide';
 
-let HOME_STACK_BREAKPOINT = 1024;
+let HOME_STACK_BREAKPOINT = 1000;
 let currentLanding = "landing";
 function selectTime(time) {
   //console.log(currentLanding+" / "+time);
@@ -106,18 +106,14 @@ function showMapText(temp) {
       arrayOfElements[i].style.display='none';
   }
 
-  if(window.innerWidth <= HOME_STACK_BREAKPOINT){
+  if(window.width <= HOME_STACK_BREAKPOINT){
     if (mobile.style.display === "none") {
       mobile.style.display = "block";
-    } else {
-      mobile.style.display = "none";
     }
   }
   else {
     if (web.style.display === "none") {
       web.style.display = "block";
-    } else {
-      web.style.display = "none";
     }
   }
 }
