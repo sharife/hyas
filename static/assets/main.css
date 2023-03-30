@@ -1077,7 +1077,7 @@ textarea { resize: vertical; }
       position: flex;
       top: 0px;
       left: 10px;
-      max-width: 40%;
+      max-width: 30%;
    }
    .map-text{
       font-size: 1.2rem;
@@ -1224,6 +1224,9 @@ textarea { resize: vertical; }
    }
    .mobile-link{
       font-size: 30px;
+   }
+   .map-text{
+      font-size: 0.9rem;
    }
 
 }
