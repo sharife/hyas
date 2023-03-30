@@ -113,6 +113,8 @@ addEventListener("load", (event) => {
 
   if(window.location.pathname == "/") {
     var web = document.getElementById("landing-map");
+    web.classList.add("fade-4");
+    $('.fade-4').delay(2500).animate({'opacity':'1'},700);
     web.style.display = "block";
     
     var elms = document.getElementsByClassName( 'splide' );
