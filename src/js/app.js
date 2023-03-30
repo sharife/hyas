@@ -102,6 +102,12 @@ function showMapText(temp) {
   if (web.style.display === "none") {
     web.style.display = "block";
   }
+
+  if (temp == "future") {
+    web.style.color = "white";
+  } else {
+    web.style.color = "black";
+  }
 }
 addEventListener("load", (event) => {
 

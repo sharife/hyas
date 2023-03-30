@@ -3,19 +3,7 @@
 <div class="flex-container">
    <div class="story-display fade-2">
 
-      <div class="fade-2">
-         {{ range (where .Site.Pages "Section" "landing") }}
-            {{ range .Pages }}
-            <div id="{{.Params.category}}-map" class="map-text">
-               {{ .Params.maptext }}
-            </div>
-            {{ end }}
-         {{ end }}
-         <br />
-         <hr />
-      </div>
-
-
+      
          {{ range (where .Site.Pages "Section" "landing" ) }}
             {{ range .Pages }}
             {{ if .Params.category }}
@@ -54,7 +42,15 @@
    </div>
    <div class="river-container fade-1" >
          <div class="river" id="river-image">
-            
+            <div class="map-description fade-2">
+               {{ range (where .Site.Pages "Section" "landing") }}
+                  {{ range .Pages }}
+                  <div id="{{.Params.category}}-map" class="map-text">
+                     {{ .Params.maptext }}
+                  </div>
+                  {{ end }}
+               {{ end }}
+            </div>
             <div class="row-center fade-2" id="button-time-row">
                <button id="time-button-past" class="time-button" onclick="selectTime('past')"> Past  </button>
                <button id="time-button-present" class="time-button" onclick="selectTime('present')"> Present  </button>

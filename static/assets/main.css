@@ -208,7 +208,7 @@ a:visited{
 .map-text {
    display: none;
    font-size: 1.75rem;
-   font-style: italic;
+   font-weight: bold;
 /*   text-transform: uppercase;*/
 /*   background-color: rgba(255, 255, 255, 0.6);*/
    margin-top: 1.5rem;
@@ -555,11 +555,11 @@ input, textarea {
 
 .map-description {
    position: absolute;
-   top: 1.4em;
+   top: 0;
    left: 1.4em;
-   font-weight: 700;
    max-width: 40%;
    text-align: left;
+/*   text-shadow: 1px 1px 10px white;*/
 }
 
 .flex-container {
@@ -1075,10 +1075,9 @@ textarea { resize: vertical; }
    }
    .map-description {
       position: flex;
-      top: 10px;
+      top: 0px;
       left: 10px;
-      font-weight: 700;
-      max-width: 50%;
+      max-width: 40%;
    }
    .map-text{
       font-size: 1.2rem;
