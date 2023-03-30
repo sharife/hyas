@@ -1,19 +1,21 @@
 {{ define "main" }}
-<div class="map-text-mobile-container fade-2">
-   <h2 id="landing-mobile-map" class="map-text-mobile">
-      What will the river tell you? Select a choice below to begin.
-   </h2>
-   {{ range (where .Site.Pages "Section" "landing") }}
-      {{ range .Pages }}
-      <h2 id="{{.Params.category}}-mobile-map" class="map-text-mobile">
-         {{ .Params.maptext }}
-      </h2>
-      {{ end }}
-   {{ end }}
-</div>
 
 <div class="flex-container">
    <div class="story-display fade-2">
+
+      <div class="fade-2">
+         {{ range (where .Site.Pages "Section" "landing") }}
+            {{ range .Pages }}
+            <div id="{{.Params.category}}-map" class="map-text">
+               {{ .Params.maptext }}
+            </div>
+            {{ end }}
+         {{ end }}
+         <br />
+         <hr />
+      </div>
+
+
          {{ range (where .Site.Pages "Section" "landing" ) }}
             {{ range .Pages }}
             {{ if .Params.category }}
@@ -35,49 +37,24 @@
       <div id="landing-page" class="story" style="display: block; position:relative; margin-bottom: 2rem;">
          <div>
             {{ with .Site.GetPage "/landing/landing.md" }}
+
             <h2 class ="story-title">
                   {{ .Title   }}
                </h2>
-                <img src="{{ index .Params.images 0 }}" />
+
+               <img src="{{ index .Params.images 0 }}" />
                <div class="story-content">
                   {{ .Content | markdownify }}
                </div>
             {{ end }}
          </div>
-         <!-- <div style="display: flex;">
-            <button class="water-ack fade-2"  onclick="selectWater('water-acknowledgement')" style="font-size: 1.3rem;"> Water Acknowledgement  </button>
-         </div> -->
+         
       </div>
-      <div id="water-acknowledgement" class="story">
-         {{ with .Site.GetPage "/water/water-agreement.md" }}
-         <h2 class="story-divider">
-            <div class="story-title">
-               {{ .Title   }}
-            </div>
-            <button class="close-story">
-               <img src="/img/close.svg" style="width: 60px;" onclick="showHomeLanding()" />
-            </button>
-         </h2>
-         <div class="story-content">
-            {{ .Content | markdownify }}
-         </div>
-         {{ end }}
-      </div>
+      
    </div>
    <div class="river-container fade-1" >
          <div class="river" id="river-image">
-            <div class="map-description fade-2">
-               <div id="landing-map" class="map-text">
-                  What will the river tell you? Select a choice below to begin.
-               </div>
-               {{ range (where .Site.Pages "Section" "landing") }}
-                  {{ range .Pages }}
-                  <div id="{{.Params.category}}-map" class="map-text">
-                     {{ .Params.maptext }}
-                  </div>
-                  {{ end }}
-               {{ end }}
-            </div>
+            
             <div class="row-center fade-2" id="button-time-row">
                <button id="time-button-past" class="time-button" onclick="selectTime('past')"> Past  </button>
                <button id="time-button-present" class="time-button" onclick="selectTime('present')"> Present  </button>

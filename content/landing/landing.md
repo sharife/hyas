@@ -1,11 +1,13 @@
 ---
 title : "A digital storytelling project of the Freshwater Lab at the University of Illinois at Chicago"
-description: ""
+maptext: "What will the river tell you? Select a choice on the map to begin."
 lead: ""
+description: ""
 date: 2020-04-17T12:18:10+00:00
 lastmod: 2020-04-17T12:18:10+00:00
 draft: false
 images: ["/img/landing-1500x500.jpg"]
+category: landing
 ---
 ### The backward river in question is the Chicago, reversed at the dawn of the 20th century to serve industrial capitalism in a rising metropolis.
 

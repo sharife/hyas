@@ -99,35 +99,40 @@ function showMapText(temp) {
       arrayOfElements[i].style.display='none';
   }
 
-  var mobile = document.getElementById(temp + "-mobile-map");
-  arrayOfElements = document.getElementsByClassName("map-text-mobile");
-
-  for (var i=0; i<arrayOfElements.length;i++){
-      arrayOfElements[i].style.display='none';
+  if (web.style.display === "none") {
+    web.style.display = "block";
   }
 
-  if(window.innerWidth <= HOME_STACK_BREAKPOINT){
-    if (mobile.style.display === "none") {
-      mobile.style.display = "block";
-    }
-  }
-  else {
-    if (web.style.display === "none") {
-      web.style.display = "block";
-    }
-  }
+  // var mobile = document.getElementById(temp + "-mobile-map");
+  // arrayOfElements = document.getElementsByClassName("map-text-mobile");
+
+  // for (var i=0; i<arrayOfElements.length;i++){
+  //     arrayOfElements[i].style.display='none';
+  // }
+
+  // if(window.innerWidth <= 0){
+  //   if (mobile.style.display === "none") {
+  //     mobile.style.display = "block";
+  //   }
+  // }
+  // else {
+  //   if (web.style.display === "none") {
+  //     web.style.display = "block";
+  //   }
+  // }
 }
 addEventListener("load", (event) => {
 
   if(window.location.pathname == "/") {
     var web = document.getElementById("landing-map");
-    var mobile = document.getElementById("landing-mobile-map");
+    web.style.display = "block";
+    //var mobile = document.getElementById("landing-mobile-map");
 
-    if( window.innerWidth <= HOME_STACK_BREAKPOINT) {
-      mobile.style.display = "block";
-    } else {
-      web.style.display = "block";
-    }
+    // if( window.innerWidth <= HOME_STACK_BREAKPOINT) {
+    //   mobile.style.display = "block";
+    // } else {
+    //   web.style.display = "block";
+    // }
     var elms = document.getElementsByClassName( 'splide' );
     if(elms != null){
       for ( var i = 0; i < elms.length; i++ ) {

@@ -207,9 +207,16 @@ a:visited{
 
 .map-text {
    display: none;
-   font-size: 1.5rem;
-   background-color: rgba(255, 255, 255, 0.6);
-   padding: 0.5rem;
+   font-size: 1.75rem;
+   font-style: italic;
+/*   text-transform: uppercase;*/
+/*   background-color: rgba(255, 255, 255, 0.6);*/
+   margin-top: 1.5rem;
+}
+
+hr {
+   border-top: 2px dashed white;
+   border-bottom: none;
 }
 
 
@@ -963,9 +970,7 @@ textarea{
 
 textarea { resize: vertical; }
 
-.map-text-mobile {
-   display: none;
-}
+
 
 .fade-1, .fade-2, .fade-3,.fade-4,.fade-5 {
    opacity: 0;
@@ -1012,7 +1017,7 @@ textarea { resize: vertical; }
 
 @media screen and (max-width: 1400px) {
    .map-text{
-      font-size: 1.2rem;
+      font-size: 1.3rem;
    }
 }
 
@@ -1023,14 +1028,6 @@ textarea { resize: vertical; }
    }
    .single-title {
       font-size: 3.5rem;
-   }
-   .map-text-mobile-container{
-      display: inline-block;
-      margin-left: 1em;
-      margin-right: 1em;
-   }
-   .map-text-mobile{
-      font-size: 1.6rem;
    }
    .mobile-nav-open {
       display: flex;
@@ -1083,7 +1080,7 @@ textarea { resize: vertical; }
       max-width: 50%;
    }
    .map-text{
-      font-size: 1rem;
+      font-size: 1.2rem;
    }
    .time-button {
       font-size: 1rem;
