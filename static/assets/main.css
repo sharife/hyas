@@ -43,7 +43,7 @@ body {
 
 p {
    font-size: 1.6rem;
-   line-height: 2rem;
+/*   line-height: 2rem;*/
 }
 
 p img {
@@ -377,11 +377,12 @@ input, textarea {
 
 }
 .story-content > p {
-   font-size: 1.3rem;
+   font-size: 1.2rem;
 }
 
-.story-content > blockquote >p {
-   font-size: 1.3rem;
+.story-content > blockquote > p {
+   font-size: 1.4rem;
+   font-style: italic;
 }
 
 .story-content > h5 {
@@ -997,7 +998,7 @@ textarea { resize: vertical; }
 
    .story-content > p {
       font-size: 1.2rem;
-      line-height: 1.5rem;
+      line-height: 1.6rem;
    }
 
    .story-content > blockquote >p {
