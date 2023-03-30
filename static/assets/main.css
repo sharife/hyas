@@ -1,9 +1,10 @@
 :root{
-   --index-button-default: #1c1f1f;
+   --index-button-default: #333;
    --index-on-button-default: #ffffff;
    --index-button-select: #d7e8f2;
    --index-on-button-select: #1c1f1f;
-   --index-story-display: #d7e8f2;
+   --index-story-display: #333;
+/*   --index-story-display: #d7e8f2;*/
    --index-under-map-filler:#333;
    --content-background-light: #d7e8f2;
    --on-content-background-light: #084141;
@@ -17,6 +18,7 @@
    --mobile-nav-color: #0f5959;
    --choose-file-button: #25bcbc;
    --content-font-size: 1.2rem;
+   --story-link: #d7e8f2;
 }
 
 h3 {
@@ -189,10 +191,10 @@ a:visited{
 }
 
 .fa {
-   font-size: 36px !important;
+   font-size: 1.5rem !important;
    color: #d3ebd7 !important;
-   padding:30px;
-   padding-top: 3rem;
+   /*padding:30px;
+   padding-top: 3rem;*/
 }
 
 
@@ -223,12 +225,12 @@ a:visited{
 
 .social-circle-btn{
    background-color: var(--social-media-link-color);
-   padding: 2rem 2rem;
+   padding: 1.5rem;
    height: 1.5rem;
    width: 1.5rem;
-   border-radius: 50%;
+   text-align: center;
+   border-radius: 100%;
    text-decoration: none;
-   margin-left: .2rem;
    font-size: 1em;
 }
 
@@ -260,9 +262,10 @@ a:visited{
    color: var(--on-content-button);
    padding: .8rem 1rem;
    border-radius: 5px;
-   font-size: 1.5rem;
+   font-size: 1.2rem;
    text-align: center;
    text-decoration: none;
+   font-weight: bold;
 }
 
 button {
@@ -315,7 +318,8 @@ input, textarea {
    background-color: var(--index-button-default);
    color: var(--index-on-button-default);
    border-color: #575e63;
-   padding: .8rem;
+   padding: .5rem;
+   margin: .5rem;
    text-align: center;
    font-size: 1.8rem;
    width: 10rem;
@@ -516,7 +520,14 @@ input, textarea {
    padding-right: 1rem;
    padding-left: 12px;
    background-color: var(--index-story-display);
-   color: #1c1f1f;
+   color: white;
+/*   color: #1c1f1f;*/
+}
+
+.story-display a {
+   color: var(--story-link);
+   font-weight: bold;
+   text-decoration: underline;
 }
 
 .container{
@@ -662,7 +673,7 @@ img {
 
 .section-light a  {
    color:  var(--content-background-light-link);;
-   font-weight: bold;
+/*   font-weight: bold;*/
 }
 
 .section-dark {
@@ -676,7 +687,7 @@ img {
 
 .section-dark a  {
    color:  var(--content-background-dark-link);
-   font-weight: bold;
+/*   font-weight: bold;*/
 }
 
 .padding{

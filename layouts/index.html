@@ -38,14 +38,15 @@
             <h2 class ="story-title">
                   {{ .Title   }}
                </h2>
+                <img src="{{ index .Params.images 0 }}" />
                <div class="story-content">
                   {{ .Content | markdownify }}
                </div>
             {{ end }}
          </div>
-         <div style="display: flex;">
+         <!-- <div style="display: flex;">
             <button class="water-ack fade-2"  onclick="selectWater('water-acknowledgement')" style="font-size: 1.3rem;"> Water Acknowledgement  </button>
-         </div>
+         </div> -->
       </div>
       <div id="water-acknowledgement" class="story">
          {{ with .Site.GetPage "/water/water-agreement.md" }}
