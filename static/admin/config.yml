@@ -11,6 +11,7 @@ collections:
     fields:
     - { label: 'Title', name: 'title', widget: 'string' }
     - { label: 'Category', name: 'category', widget: 'string' }
+    - { label: 'Image', name: 'image', widget: 'image', required: false}
     - { label: 'MapText', name: 'maptext', widget: 'string' }
     - { label: 'Body', name: 'body', widget: 'markdown' }
   - name: 'past'
@@ -255,10 +256,3 @@ collections:
       - { label: 'Bio', name: 'bio', widget: 'markdown' }
       - { label: 'LinkedIn', name: 'linkedin', widget: 'string', required: false}
       - { label: 'websiteurl', name: 'websiteurl', widget: 'string', required: false}
-  - name: 'water-agreement'
-    label: 'Water Agreement'
-    folder: 'content/water'
-    create: false
-    fields:
-    - { label: 'Title', name: 'title', widget: 'string' }
-    - { label: 'Body', name: 'body', widget: 'markdown' }

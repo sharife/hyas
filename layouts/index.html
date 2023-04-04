@@ -30,7 +30,7 @@
                   {{ .Title   }}
                </h2>
 
-               <img src="{{ index .Params.images 0 }}" />
+               <img src="{{ .Params.image }}" />
                <div class="story-content">
                   {{ .Content | markdownify }}
                </div>
