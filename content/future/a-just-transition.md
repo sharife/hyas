@@ -8,62 +8,15 @@ intro: "### In order to be successful, decarbonization (ending fossil fuel
   job retraining and environmental protections."
 audioAfter: true
 audioList:
-  - intro: "### Edith Tovar, Senior Justice Transition Organizer with [Little
-      Village Environmental Justice Organization
-      (LVEJO)](http://www.lvejo.org/), speaking in spring 2022 about what
-      residents of Little Village dreamed and asked for during the city of
-      Chicago’s industrial corridor planning process for the corridor in Little
-      Village."
-    body: One of the things that we have been looking for is for more access to
-      public transportation, more connection from the West Side to connect more
-      to the CTA, the train, the Pink Line. There isn't that many main roads or
-      main buses that folks can rely on. And so right now it's just the number
-      60 and the Cermak bus heading east and west. Heading north and south those
-      modes of transportation are a little bit more accessible. But also our
-      neighborhood is not bike friendly either. And mostly because it's- one
-      because of the land use, there's a lot of industry, there's a lot of semi
-      trucks. There's just like lack of safety and folks not feeling safe riding
-      their bikes on the street. That can also be like the lack of
-      infrastructure. One of the things that we were requesting were- how are
-      the roads or like the sidewalks going to be fixed? Are they going to be
-      fixed? Was this part of the industrial corridor modernization process?
-      Right? Probably not. So some of the most basic requests were not really
-      something that were really taken seriously, but more like, what kind of
-      industry do you want to be moved in? It's like we don't want any more. We
-      already have enough industry, but rethinking of the type of industry. And
-      so a lot of folks were saying like, well, we would love to see indoor
-      farming. Is that an opportunity? We know that we have a lot of brown
-      fields. Can we convert them into solar fields? Can we create job training
-      opportunities through the Solar for All program? That if there's a lot of
-      brown fields, maybe we can get folks connected to jobs and get them like a
-      local job right here in our community and building up that program. There
-      is a lot of talk about creating community spaces like shared kitchens,
-      right, for our street vendors. It's like a large large large percentage of
-      street vendors in the City of Chicago come from Little Village. So
-      supporting them, right? Looking at how else we can support them through
-      maybe helping them apply for a food permit when they're selling their food
-      or translating a lot of that information. So we were more resource-based
-      versus the City of Chicago coming to us and saying like, well, you're
-      manufacturing, you're this category, you're this zoning category. And
-      we're thinking that these are the type of industries that should be
-      coming. And we're like, we want to get out of that mentality, we want to
-      start thinking forward, right? And so those were some of the ideas that
-      came out. And as we know, long story short, Rahm didn't run for mayor
-      anymore. The whole process completely stopped. We have a new mayor, Invest
-      Southwest, which has been seeing some really positive developments, like
-      in Auburn Gresham, but also some questionable developments like in North
-      Lawndale, where what was once known as one of the city's largest dump
-      sites with concrete and all types of things. It's now going to be a
-      warehouse, right? So is that really environmental justice? Is that really
-      moving forward? Is that really thinking about a just transition? And so a
-      just transition is thinking about moving from an extractive economy to a
-      regenerative economy.
-    audio: Edith - LV Industrial Corridor planning.mp3
   - audio: Edith - Just Transition.mp3
-    intro: "### Edith Tovar, Senior Justice Transition Organizer with [Little
-      Village Environmental Justice Organization
-      (LVEJO)](http://www.lvejo.org/), speaking in spring 2022 about what it
-      means to imagine a Just Transition for each community."
+    intro: >-
+      ### Edith Tovar, Senior Justice Transition Organizer with [Little Village
+      Environmental Justice Organization (LVEJO)](http://www.lvejo.org/),
+      speaking in spring 2022 about what it means to imagine a Just Transition
+      for each community.
+
+
+      "A just transition is thinking about moving from an extractive economy to a regenerative economy."
     body: >-
       Transcript of Recording
 
