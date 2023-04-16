@@ -3,8 +3,8 @@ title: Decommission the Pipeline
 x: "27"
 y: "25"
 intro: "### We must stop using rivers to transport carbon. Why risk waters so
-  important as sources of drinking water, sites of recreation and spaces to
-  gather for a dead industry?"
+  important as sources of drinking water and sites of recreation for a dead
+  industry?"
 date: 2023-03-08T17:36:55.105Z
 ---
 Survival on Planet Earth depends upon the essential act of decarbonization. **In every place and in every possible way, we must stop burning fossil fuels and replace them with renewable sources of energy**. Decarbonizing water, a crucial and dwindling element, must take priority.
