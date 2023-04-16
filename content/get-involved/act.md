@@ -109,7 +109,7 @@ home:
       water in your tap. Bottled water is also connected to large systemic
       issues. Private companies are actively privatizing water, a public good.
       The Nestlé corporation pumps up to 400 gallons per minute, or 576,000
-      gallons per day, of public waters for its Ice Mountain brand.  [Brought to
+      gallons per day, of public waters for its Ice Mountain brand. [Brought to
       Michigan](https://www.mlive.com/news/2016/12/why_nestle_pays_next_to_nothin.html) with
       $10 million in state and local tax abatements in 2001, [Nestlé pays a mere
       $200 a
@@ -118,7 +118,7 @@ home:
       profits](https://www.mlive.com/news/2016/12/why_nestle_pays_next_to_nothin.html).
 
 
-      At the same time, Michigan water systems falter after decades of disinvestment.  [Harmful “forever” chemicals](https://ilenviro.org/pfas-a-toxic-legacy-building-in-illinois/?eType=EmailBlastContent&eId=5e024d25-e405-4860-9b09-82e59d7edfd3) are being discovered throughout the groundwater in the Great Lake State even as households struggle with unpaid bills and water shutoffs.  
+      At the same time, Michigan water systems falter after decades of disinvestment. [Harmful “forever” chemicals](https://ilenviro.org/pfas-a-toxic-legacy-building-in-illinois/?eType=EmailBlastContent&eId=5e024d25-e405-4860-9b09-82e59d7edfd3) are being discovered throughout the groundwater in the Great Lake State even as households struggle with unpaid bills and water shutoffs.  
 
 
       **What if Michigan bottled (in biodegradable packaging) and sold its water instead of Nestlé?** With profit margins of over 200% for bottled water, [Michigan’s water could support its people](https://forloveofwater.org/)! In addition to poor water quality, plastic bottle waste adds to the pollution of our waterways. If you are not dependent on bottled water for a (relatively) safe water source, then don’t buy bottled water. Instead, you can filter the water in your home. 
@@ -136,7 +136,7 @@ home:
       * [Check to see ](https://www.chicagowaterquality.org/LSLIdentification)if the service line into your home is made of lead. If so, then make sure that your filter is certified NSF/ANSI Standard 42 or 43.
 
 
-      Even a pitcher-style filter can get lead particles out.  [The Environmental Working Group Tap Water Databas](https://www.ewg.org/tapwater/)e can be helpful in choosing the right filter.
+      Even a pitcher-style filter can get lead particles out. [The Environmental Working Group Tap Water Databas](https://www.ewg.org/tapwater/)e can be helpful in choosing the right filter.
   - header: Work with or join a neighborhood group
     text: >-
       The Freshwater Lab is inspired by the work of groups such as:
