@@ -3,11 +3,11 @@ draft: false
 lastmod: 2020-04-17T12:18:10+00:00
 title: No More Single Use Water
 x: "75"
-y: "15"
 intro: "### No matter its levels of regulation or deregulation, treatment or
   neglect, we cannot afford to treat water as garbage."
 date: 2020-04-17T12:18:10+00:00
 images: []
+y: "15"
 lead: ""
 description: ""
 ---
@@ -27,4 +27,4 @@ The main destination for **secondary water** is commercial and industrial enterp
 
 Secondary water can have multiple destinations and be reclaimed as **tertiary water** for use in other industrial processes. Any given factory or business could economize by setting up its own water reuse system. This would cut down on water bills and allow the enterprise to use and reuse a given volume of water many times. Various compounds and heavy metals can even be harvested onsite and reapplied thereby cutting down on the need for elements extracted from the earth. Water released at any stage of the cycle should receive the best possible treatment as it feeds canals and rivers, perhaps even reviving dry rivers or emptied aquifers.
 
-By changing our societal orientation toward waste, we can produce beneficial products through non-extractive means. Repurposing the elements of wastewater at state of the art water recycling plants further offers ways to anticipate regulation of emerging contaminants like [PFAs](https://www.chicagotribune.com/news/environment/ct-pfas-sludge-illinois-farmland-20220731-7xqijchadfhilbvkut3ndw5uja-story.html) (forever chemicals) and microplastics. Treatment technologies, based on scientific studies of dangerous toxins in water, can remove present and anticipated pollutants in order to produce water with long-term viability.
+By changing our societal orientation toward waste, we can produce beneficial products through non-extractive means. Repurposing the elements of wastewater at state of the art water recycling plants offers ways to meet new limits on emerging contaminants like [PFAs](https://www.chicagotribune.com/news/environment/ct-pfas-sludge-illinois-farmland-20220731-7xqijchadfhilbvkut3ndw5uja-story.html) (forever chemicals) and microplastics. Treatment technologies, based on scientific studies of dangerous toxins in water, can remove present and anticipated pollutants in order to produce water with long-term viability.
