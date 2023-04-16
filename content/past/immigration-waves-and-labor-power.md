@@ -2,10 +2,10 @@
 title: Immigration Waves and Labor Power
 x: "45"
 y: "39"
-intro: The historic occasion of building the Sanitary and Ship Canal to reverse
-  the river catalyzed Chicago's growth into one of the nation’s largest cities
-  and a center of [international trade and
-  commerce](https://www.chicago.gov/city/en/about/history.html).
+intro: "### The historic occasion of building the Sanitary and Ship Canal to
+  reverse the river catalyzed Chicago's growth into one of the nation’s largest
+  cities and a center of [international trade and
+  commerce](https://www.chicago.gov/city/en/about/history.html)."
 date: 2023-04-16T18:40:37.667Z
 ---
 With industrial waste pumped far away on the public’s dime, factories multiplied exponentially. Heavy manufacturing [and stockyards lined the banks of the canal](https://interactive.wttw.com/chicago-river-tour/history-chicago-river) and the South Branch, transforming them into oozing waste pools. Stockyard engineers tore through wetlands around the South Branch and replaced them with a massive system that drained wastes from 325 acres of meatpacking factories into the now hard-edged river. In the famous muckraking book The Jungle, author Upton Sinclair named a fork of the river Bubbly Creek. He describes how "(b)ubbles of carbonic acid gas will rise to the surface and burst, and make rings two or three feet wide. Here and there the grease and filth have caked solid, and the creek looks like a bed of lava; chickens walk about on it, feeding."
