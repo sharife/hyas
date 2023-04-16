@@ -150,9 +150,7 @@ home:
 
       Little Village Environmental Justice Organization](http://www.lvejo.org/)\
 
-      [Milwaukee Water Common](https://www.milwaukeewatercommons.org/)[[\
-
-      Neighbors for Environmental Justic](https://n4ej.org/)](https://n4ej.org/)e[\
+      [Milwaukee Water Common](https://www.milwaukeewatercommons.org/)[[](https://n4ej.org/)](https://n4ej.org/)[[[Neighbors for Environmental Justic](https://n4ej.org/)](https://n4ej.org/)](https://n4ej.org/)[\
 
       People for Community Recovery](http://www.peopleforcommunityrecovery.org/)\
 
