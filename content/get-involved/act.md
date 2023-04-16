@@ -247,28 +247,28 @@ community:
       Processes of decolonizing public space include [removing statues and monuments to violent settlers](https://southsideweekly.com/chicago-native-american-organizer-intersection-black-lives-matter-decolonization/), changing street and place names, a[cknowledging presence on Indigenous land](https://nativegov.org/a-guide-to-indigenous-land-acknowledgment/) and elevating Indigenous leadership to help us restructure our relationships with place.
   - header: Honor treaties with Indigenous nations
     text: >-
-      Frank Ettawageshik, executive director of the United Tribes of Michigan
-      and water wiseman, walks the halls of Lansing, Michigan and Washington
-      D.C. with two constitutions in his jacket pocket – that of the United
-      States and [of his
+      [Frank Ettawageshik](https://www.youtube.com/watch?v=b6bARteX1cI),
+      executive director of the United Tribes of Michigan and water wiseman,
+      walks the halls of Lansing, Michigan and Washington D.C. with two
+      constitutions in his jacket pocket – that of the United States and [of his
       tribe](https://www.ltbbodawa-nsn.gov/OdawaRegister/LTBB%20Constitution.pdf),
-      the Little Traverse Bay Bands of Odawa Indians.  Both are relevant to
-      Indigenous sovereignty.  The Commerce Clause (Article 1, Section 8, Clause
+      the Little Traverse Bay Bands of Odawa Indians. Both are relevant to
+      Indigenous sovereignty. The Commerce Clause (Article 1, Section 8, Clause
       3) of the U.S. Constitution confers authority to Congress to “to regulate
       Commerce with foreign Nations, and among the several States, and with
-      Indian Tribes.”  The listing of foreign Nations, several States and Indian
-      Tribes attests to the sovereignty of all three recognized as preexisting
-      the constitution itself.  Article 6 of the U.S. Constitution states that 
+      Indian Tribes.” The listing of foreign Nations, several States and Indian
+      Tribes attests to the sovereignty of all three, recognized as preexisting
+      the constitution itself. Article 6 of the U.S. Constitution states that 
       “all Treaties made, or which shall be made, under the Authority of the
-      United States, shall be the supreme Law of the Land.”  Ettawageshik
+      United States, shall be the supreme Law of the Land.” Ettawageshik
       emphasizes that “supreme Law of the Land” means that nothing can
       contradict or abrogate treaties made with Indigneous peoples.
 
 
-      Along with knowledge of the documents themselves, Ettawageshik brings a vital interpretive frame to both of his constitutions.  The U.S. Constitution does not give rights to Indigenous nations.  Instead, he explains, it speaks to how Indigenous peoples gave rights to the new Americans with the query of how they were going to live with what the tribes already had.  When land was sold or granted to the U.S. federal government, Indian treaty partners reserved their rights of fishing, hunting and gathering.  Odawa fishing rights, preserved in the [1836 Treaty of Washington](https://www.cmich.edu/library/clarke/ResearchResources/Native_American_Material/Treaty_Rights/Text_of_Michigan_Related_Treaties/Pages/Washington,-1836.aspx), are not based on property rights.  They insist, rather, on the right to live with the fish.  Living with the fish involves the right to sing, dance, eat, and exist in tandem with them. Anything that impedes the relationship with the fish, such as a “do not consume” mercury advisory [violates fishing rights](https://www.michigan.gov/dnr/0,4570,7-350-79136_79236_80538_80541-424734--,00.html).
+      Along with knowledge of the documents themselves, Ettawageshik brings a vital interpretive frame to both of his constitutions. The U.S. Constitution does not give rights to Indigenous nations.  Instead, he explains, it speaks to how Indigenous peoples gave rights to the new Americans with the query of how they were going to live with what the tribes already had. When land was sold or granted to the U.S. federal government, Indian treaty partners reserved their rights of fishing, hunting and gathering.  Odawa fishing rights, preserved in the [1836 Treaty of Washington](https://www.cmich.edu/library/clarke/ResearchResources/Native_American_Material/Treaty_Rights/Text_of_Michigan_Related_Treaties/Pages/Washington,-1836.aspx), are not based on property rights.  They insist, rather, on the right to live with the fish.  Living with the fish involves the right to sing, dance, eat, and exist in tandem with them. Anything that impedes the relationship with the fish, such as a “do not consume” mercury advisory [violates fishing rights](https://www.michigan.gov/dnr/0,4570,7-350-79136_79236_80538_80541-424734--,00.html).
 
 
-      **Honoring treaties and the rights of Indigenous peoples is the law, if not the practice, of the United States.**  Respecting these rights and treaties not only upholds the law, but also confers benefit to all who share water, air and earth with Indigenous peoples.  When native relationships with fish are upheld, the watershed is healthier and better able to support life now and in the future.  The free exercise of Indigenous sovereignty can stop harmful pipelines, mines and industrial agriculture facilities thereby curbing carbon emissions and slowing climate change.  It can protect the very right to breathe.
+      **Honoring treaties and the rights of Indigenous peoples is the law, if not the practice, of the United States.** Respecting these rights and treaties not only upholds the law, but also confers benefit to all who share water, air and earth with Indigenous peoples. When native relationships with fish are upheld, the watershed is healthier and better able to support life now and in the future. The free exercise of Indigenous sovereignty can stop harmful pipelines, mines and industrial agriculture facilities thereby curbing carbon emissions and slowing climate change. It can protect the very right to breathe.
 
 
       Whose land are you sitting on?
