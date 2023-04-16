@@ -62,7 +62,7 @@ home:
       [Chicago Food Policy](https://www.chicagofoodpolicy.com/covid19/#food)
 
 
-      Eating from your ecosystem can also mean availing yourself of newly arrived species like bighead carp. These groups make it easier for you to enjoy Silverfin (i.e. carp):
+      Eating from your ecosystem can also mean availing yourself of newly arrived species like bighead carp. These groups make it easier for you to enjoy Copi (i.e. carp):
 
 
       [Dirk’s Fish](https://dirksfish.com/about)
@@ -74,7 +74,7 @@ home:
       [Illinois Department of Natural Resources](https://www2.illinois.gov/dnr/news/Pages/Statewide-Asian-Carp-Cookout-to-be-Held-Oct.-17.aspx)
 
 
-      You can learn more about Silverfin and Dirk’s famous carp burger recipe [here](http://freshwaterstories.com/stories/fishing/).
+      You can learn more about Copi and Dirk’s famous carp burger recipe [here](http://freshwaterstories.com/stories/fishing/).
   - header: Reduce pollution
     text: >-
       Every straw, plastic water bottle and takeout utensil will outlive each
@@ -142,7 +142,11 @@ home:
       The Freshwater Lab is inspired by the work of groups such as:
 
 
-      [Blacks in Green](https://www.blacksingreen.org/)[Freshwater Future](https://freshwaterfuture.org/)[FLOW for Water](https://forloveofwater.org/)[Little Village Environmental Justice Organization](http://www.lvejo.org/)[Milwaukee Water Commons](https://www.milwaukeewatercommons.org/)[People for Community Recovery](http://www.peopleforcommunityrecovery.org/)[Pilsen Environmental Rights and Reform Organization (P.E.R.R.O.)](https://pilsenperro.org/)[Sacred Keepers Sustainability Lab](https://www.sacredkeepers.org/)[Southeast Environmental Task Force](http://setaskforce.org/)[Southeast Side Coalition to Ban Petcoke](http://setaskforce.org/2016/02/petcoke/)[Southeast Youth Alliance](https://www.facebook.com/SoutheastYouthAlliance/)[We the People of Detroit](https://www.wethepeopleofdetroit.com/)See [here](https://healthylakes.org/about-us/) for a list of groups in various Great Lake states.
+      [Blacks in Green](https://www.blacksingreen.org/)[, Freshwater Future](https://freshwaterfuture.org/)[, FLOW for Water](https://forloveofwater.org/), [Little Village Environmental Justice Organization](http://www.lvejo.org/), [Milwaukee Water Commons](https://www.milwaukeewatercommons.org/)[, People for Community Recovery,](http://www.peopleforcommunityrecovery.org/) [Pilsen Environmental Rights and Reform Organization (P.E.R.R.O.)](https://pilsenperro.org/), [Sacred Keepers Sustainability Lab](https://www.sacredkeepers.org/), [Southeast Environmental Task Force](http://setaskforce.org/), [Southeast Youth Alliance](https://www.facebook.com/SoutheastYouthAlliance/), [We the People of Detroit,](https://www.wethepeopleofdetroit.com/) \
+
+      \
+
+      See [here](https://healthylakes.org/about-us/) for a list of groups in various Great Lake states.
   - header: Get involved with neighborhood planning
     text: >-
       Neighborhoods along the Chicago Area Waterway System are being rezoned and
