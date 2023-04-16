@@ -142,7 +142,29 @@ home:
       The Freshwater Lab is inspired by the work of groups such as:
 
 
-      [Blacks in Green](https://www.blacksingreen.org/)[, Freshwater Future](https://freshwaterfuture.org/)[, FLOW for Water](https://forloveofwater.org/), [Little Village Environmental Justice Organization](http://www.lvejo.org/), [Milwaukee Water Commons](https://www.milwaukeewatercommons.org/)[, People for Community Recovery,](http://www.peopleforcommunityrecovery.org/) [Pilsen Environmental Rights and Reform Organization (P.E.R.R.O.)](https://pilsenperro.org/), [Sacred Keepers Sustainability Lab](https://www.sacredkeepers.org/), [Southeast Environmental Task Force](http://setaskforce.org/), [Southeast Youth Alliance](https://www.facebook.com/SoutheastYouthAlliance/), [We the People of Detroit,](https://www.wethepeopleofdetroit.com/) \
+      [Blacks in Green](https://www.blacksingreen.org/)[\
+
+      Freshwater Future](https://freshwaterfuture.org/)[\
+
+      FLOW for Water](https://forloveofwater.org/)[\
+
+      Little Village Environmental Justice Organization](http://www.lvejo.org/)\
+
+      [Milwaukee Water Common](https://www.milwaukeewatercommons.org/)[[\
+
+      Neighbors for Environmental Justic](https://n4ej.org/)](https://n4ej.org/)e[\
+
+      People for Community Recovery](http://www.peopleforcommunityrecovery.org/)\
+
+      [Pilsen Environmental Rights and Reform Organization (P.E.R.R.O.)](https://pilsenperro.org/)[\
+
+      Sacred Keepers Sustainability Lab](https://www.sacredkeepers.org/)[\
+
+      Southeast Environmental Task Force](http://setaskforce.org/)\
+
+      [Southeast Youth Alliance](https://www.facebook.com/SoutheastYouthAlliance/)[\
+
+      We the People of Detroit](https://www.wethepeopleofdetroit.com/) \
 
       \
 
