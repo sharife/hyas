@@ -8,6 +8,7 @@ intro: "### **You would not expect to read about a water crisis alongside a
   collapse of the Cambrian-Ordovician aquifer. At the same time, companies like
   Amazon have received tax breaks and water discounts to open warehouses in the
   area.**"
+audioAfter: true
 audioList:
   - body: >-
       **Transcript of Recording**
