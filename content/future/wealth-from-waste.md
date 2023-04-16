@@ -33,4 +33,4 @@ Every site of existing water treatment can be extended to full water reclamation
 
 - - -
 
-**[Learn More Here](https://www.chicagohumanities.org/events/attend/speculative-infrastructure/)**
+**[Learn more here](https://www.chicagohumanities.org/events/attend/speculative-infrastructure/)**
