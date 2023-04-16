@@ -16,7 +16,7 @@ audioList:
       for each community.
 
 
-      "A just transition is thinking about moving from an extractive economy to a regenerative economy."
+      "A Just Transition is thinking about moving from an extractive economy to a regenerative economy."
     body: >-
       Transcript of Recording
 
