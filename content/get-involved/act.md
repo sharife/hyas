@@ -244,7 +244,7 @@ community:
       Without an honest appraisal of how we reached the point of climate catastrophe, we will continue to support the same systems of oppression and make the same mistakes.  Such examination requires addressing how Indigenous peoples were forcibly removed from their land, treated with an intent of annihilation and cut-off from productive interdependence with the natural world.
 
 
-      Processes of decolonizing public space include [removing statues and monuments to violent settlers](https://southsideweekly.com/chicago-native-american-organizer-intersection-black-lives-matter-decolonization/), changing street and place names, a[cknowledging presence on Indigenous land](https://nativegov.org/a-guide-to-indigenous-land-acknowledgment/) and elevating Indigenous leadership to help us restructure our relationships with place.
+      Processes of decolonizing public space include [removing statues and monuments to violent settlers](https://southsideweekly.com/chicago-native-american-organizer-intersection-black-lives-matter-decolonization/), changing street and place names, [acknowledging presence on Indigenous land](https://nativegov.org/a-guide-to-indigenous-land-acknowledgment/) and elevating Indigenous leadership to help us restructure our relationships with place.
   - header: Honor treaties with Indigenous nations
     text: >-
       [Frank Ettawageshik](https://www.youtube.com/watch?v=b6bARteX1cI),
