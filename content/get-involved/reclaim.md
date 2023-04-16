@@ -26,24 +26,16 @@ content:
       We are witnessing two broad trends in municipal water systems. The first is disenfranchisement of the public from its drinking water and sewer infrastructure. This occurs through water shutoffs to homes for non-payment; lack of bill affordability; the contamination of drinking water; unpublished and incomplete water quality reports; deregulation of water pollution; and crumbling water infrastructure. The second trend is privatization in which the municipality and the public loses control over their water systems. This occurs through the bottling of water by global corporations and selling it back to residents at inflated prices. It also transpires when corporations take over water and sewer systems. Most municipalities privatize because federal funding has been slashed by 74% since 1977 and because they do not claim ownership of the revenue streams from public water.
 
 
-
-
       The tragedy is that private corporations tend not to fix the sputtering systems.  They often run them into the ground leaving residents with higher bills, less public accountability and lead pipe crises (often from transitions to ‘cheaper’ sources of water, [as happened in University Park, Illinois in 2019](https://www.chicagotribune.com/suburbs/daily-southtown/ct-sta-university-park-water-quality-response-st-0929-20200928-vmntvcqmtnbrxgxurdq5bdcwgu-story.html)). Worst of all, the municipality loses significant revenue as the corporations reap record profits. For example, as the State of Illinois faces massive budget shortfalls, the private corporation (Illinois) American Water has achieved an all-time high of profit shares.  This is, in part, due to laws that enable water corporations to increase their profits by acquiring new water and wastewater systems. Listen to [The Water Chronicles](https://feeds.buzzsprout.com/1041286.rss) podcast for a deep dive into water privatization in Illinois.
-
-
 
 
       Keeping water public involves ensuring that water is affordable. Advocate for a water affordability plan in your city or town. [We the People Detroit](https://detroitmi.gov/Portals/0/docs/DWSD/BRPA%20Presentation.pdf), [US Water Alliance](http://uswateralliance.org/wec), [Food and Water Watch](https://www.foodandwaterwatch.org/campaign/public-water-all) can all help in understanding and creating a water affordability plan.
 
 
-
-
       Freshwater Lab alum Karen Yates created [this storymap](https://storymaps.arcgis.com/stories/991376fea3994bcf984eb3ba6991c740) to understand The Water For All Ordinance in Chicago.
 
 
-      Chicago residents: [See if you qualify for billing relief program](https://chicago.docugateway.com/main/guest/billing_relief/).
-
-
+      Chicago residents: [See if you qualify for utility billing relief](https://chicago.docugateway.com/main/guest/billing_relief/).
 
 
       If your town, city or region’s water is run by a private corporation, then you can join the push to [remunicipalize water systems](https://www.youtube.com/watch?v=BlSM1TPm_k8), which means bringing  them back under public control. This has been [done successfully](http://www.remunicipalisation.org/front/page/home) in cities around the world, consistently leading to savings for both municipalities and their water customers. [It often brings other social benefits](https://www.municipalservicesproject.org/remunicipalization), including improved public accountability and transparency, more equitable water access and increased investment in water system safety.
