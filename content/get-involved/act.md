@@ -255,7 +255,7 @@ intro: >-
   <!--StartFragment-->
 
 
-  The extraction, transportation, refining and consumption of fossil fuels all cause damage to water. With the million gallons of heavy tar sands that spilled into the Kalamazoo River; the refinery explosion in Superior, Wisconsin; or the continued risks of Line 5 and the push to expand Line 3, the Great Lakes has experienced considerable damage. The ongoing risks of fossil fuels exacerbate other issues, including urban flooding, pollution, crumbling infrastructure, and threats to our drinking water. While unlearning is necessary for a paradigm shift in how we imagine and interact with water, there are things we can do at the individual and community levels to implement environmental justice, green practices, conservation, clean drinking water, reconstructed wetlands, reduced urban flooding, local food markets, decreased pollution, and renewable energy sources.
+  The extraction, transportation, refining and consumption of fossil fuels all cause damage to water. With the million gallons of heavy tar sands that spilled into the Kalamazoo River; the refinery explosion in Superior, Wisconsin; or the continued risks of Line 5 and the push to expand Line 3, the Great Lakes has experienced considerable damage. The ongoing risks of fossil fuels exacerbate other issues, including urban flooding, pollution, crumbling infrastructure, and threats to our drinking water. There are things we can do at the individual and community levels to implement environmental justice, green practices, conservation, clean drinking water, reconstructed wetlands, reduced urban flooding, local food markets, decreased pollution, and renewable energy sources.
 
 
   <!--EndFragment-->
