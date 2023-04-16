@@ -225,10 +225,10 @@ community:
 
       When the city builds or sells to developers, [insist that green infrastructure be part of the plan](http://www.cnt.org/sites/default/files/publications/CNT_Value-of-Green-Infrastructure.pdf).  The public good still matters in private developments and nobody wants their home, business or local stores to flood.
   - header: Reduce plastic pollution
-    text:  On the municipal level, [you can advocate for reduction of
+    text: On the municipal level,[ you can advocate for reduction of
       plastic](https://www.sheddaquarium.org/care-and-conservation/take-action-for-animals/lets-shedd-plastic) in
       public spaces and at events. Some events provide, sell or rent reusable
-      cups and dishware instead of generating mountains of single-use plastic. 
+      cups and dishware instead of generating mountains of single-use plastic.
   - header: Decolonize public space
     text: >-
       To date, the American orientation toward water and related ecosystems has
