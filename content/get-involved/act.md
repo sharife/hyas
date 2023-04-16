@@ -35,17 +35,17 @@ home:
   - header: Watch what you flush
     text: >-
       Although it may seem like you will never again see what you pour down the
-      drain, everything we wash away reappears in rivers or streams. 
-      Increasingly, the contents of drains reach our drinking water.  As a
+      drain, everything we wash away reappears in rivers or streams.
+      Increasingly, the contents of drains reach our drinking water. As a
       result, you should carefully read the ingredients in your home products.
       Take a look at your laundry detergent, personal care products and cleaning
-      supplies.  Do they contain things that you would like to drink?  If not,
-      you can switch to more natural products
-      like [Meliora](https://meliorameansbetter.com/).  You can also[ make your
+      supplies. Do they contain things that you would like to drink? If not, you
+      can switch to more natural products
+      like [Meliora](https://meliorameansbetter.com/). You can also[ make your
       own products.](http://freshwaterstories.com/stories/drinking-water/) 
 
 
-      It is also crucial to keep pharmaceuticals out of the water.  Human medications are rewiring the DNA of aquatic animals, even causing fish and frogs to switch sexes amidst their lives.  Don’t flush unused medications. Instead, take them to a pharmaceutical drop-off.  Check [here ](https://www.chicago.gov/city/en/depts/cdph/supp_info/healthy-communities/pharmaceuticals_dropofflocations.html)for a list of locations in Chicago. Click [here](https://www.fda.gov/drugs/disposal-unused-medicines-what-you-should-know/drug-disposal-drug-take-back-locations) for those across the United States. Many drugstores and pharmacies also take back pharmaceuticals.
+      It is also crucial to keep pharmaceuticals out of the water. Human medications are rewiring the DNA of aquatic animals, even causing fish and frogs to switch sexes amidst their lives. Don’t flush unused medications. Instead, take them to a pharmaceutical drop-off. [Check here](https://www.chicago.gov/city/en/depts/cdph/supp_info/healthy-communities/pharmaceuticals_dropofflocations.html) for a list of locations in Chicago. Click [here](https://www.fda.gov/drugs/disposal-unused-medicines-what-you-should-know/drug-disposal-drug-take-back-locations) for those across the United States. Many drugstores and pharmacies also take back pharmaceuticals.
   - header: Eat from your ecosystem
     text: >-
       The movement to eat locally has taught us how to reduce the use of fossil
