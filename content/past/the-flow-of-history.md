@@ -1,7 +1,7 @@
 ---
 title: The Flow of History
-x: "50"
-y: "50"
+x: "60"
+y: "30"
 intro: The Chicago River was engineered at the beginning of the 20th Century to
   send northern industrial waste southward and to allow commodities to
   circulate. As the commodities flowed in multiple directions, their movement
