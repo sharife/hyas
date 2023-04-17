@@ -1,11 +1,11 @@
 ---
 title: The Flow of History
 x: "60"
-y: "30"
-intro: The Chicago River was engineered at the beginning of the 20th Century to
-  send northern industrial waste southward and to allow commodities to
-  circulate. As the commodities flowed in multiple directions, their movement
-  benefited a small cadre of capitalists. This continues to be the case.
+y: "70"
+intro: "### The Chicago River was engineered at the beginning of the 20th
+  Century to send northern industrial waste southward and to allow commodities
+  to circulate. As the commodities flowed in multiple directions, their movement
+  benefited a small cadre of capitalists. This continues to be the case."
 audioAfter: true
 audioList: []
 date: 2023-04-17T17:36:40.059Z
