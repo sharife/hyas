@@ -1,7 +1,7 @@
 ---
 title: Water Crisis in Joliet
-x: "44"
-y: "42"
+x: "40"
+y: "46"
 intro: "### You would not expect to read about a water crisis alongside a river,
   but overextraction can cause depletion and watershed collapse anywhere. This
   has occurred in northeastern Illinois in the case of the impending collapse of
