@@ -1,7 +1,7 @@
 ---
 title: Warehouses on the River
 x: "82"
-y: "18"
+y: "20"
 intro: "### [Warehouse Workers for Justice estimates that there are about
   150,000 warehouse
   workers](https://www.ww4j.org/the-chicago-distribution-hub.html)[ in the
