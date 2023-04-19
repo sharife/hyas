@@ -2,7 +2,18 @@
 title: Warehouses on the River
 x: "55"
 y: "43"
-intro: "### BLAH BLAH INTRO COPY HERE"
+intro: "### [Warehouse Workers for Justice estimates that there are about
+  150,000 warehouse
+  workers](https://www.ww4j.org/the-chicago-distribution-hub.html)[ in the
+  Chicago region](https://www.ww4j.org/the-chicago-distribution-hub.html). Most
+  warehouse jobs fall into the category of precarious employment meaning that
+  workers do not have a say in scheduling, pay, benefits, workplace safety and
+  job security. Warehouse workers bear the burdens of long hours, high risk of
+  occupational injuries, dangerous working conditions and nowhere to file
+  grievances. Think about the scale of these impacts through the Warehouse
+  Workers for Justice statistic that “Chicago has half a billion square feet of
+  warehouse space, making it one of the largest concentrations of warehouses on
+  the planet.”"
 audioList:
   - audio: Amazon workers Amazon doesn't care.mp3
     intro: "### Two Amazon workers speaking in spring 2022 about how workers at
@@ -59,4 +70,4 @@ audioList:
       A large percentage of warehouse workers are temporary workers. And so we know that across Illinois, 85% of temp workers are primarily Black and Latino. And we also did a survey in December of 2020 where we talked to our networks of workers to see who was represented and what their experiences were like in the workplace. And we found that of our folks, less than 10% of the workers in our network self-identified as white. And so it is a predominantly people of color and low wage industry, partially because of the temp component of all of this. But I also want to name, in terms of who are warehouse workers, just that warehouse workers are the reason that a lot of us were able to stay home and really be safe during the pandemic. The reason that we could get stuff delivered to the comfort of our homes, to our very front doors, was because warehouse workers never stopped going to work. And folks who had the luxury, like us right now, to sit on Zoom and have virtual meetings were able to then get stuff delivered to their homes that they needed and were allowed to stay safe because of the work of warehouse workers. And some other stats that I wanted to pull out from our report, which came out in January of 2021, it's called [The Covid Jungle](https://www.google.com/url?q=http://www.ww4j.org/uploads/7/0/0/6/70064813/wwj_food_workers_report-2-1.pdf&sa=D&source=docs&ust=1681671024074074&usg=AOvVaw2BfQEeJEZPGZMxn8ejaIEq), and it really focused on working conditions throughout the pandemic. But I wanted to pull out that almost all of our interviewed workers made less than $20 an hour, and 56% of them made less than $15 an hour. And at the same time, 83% of them had a caretaking responsibility. So either an elderly parent, a disabled family member, or a child. And 96% of them, at the time of interview, were not receiving any hazard pay, which is heightened pay for going to work in more dangerous working conditions. 83% of the workers that we talked to who got Covid during the pandemic did not receive any paid sick leave. And this is really important because folks, if they're not receiving paid sick leave and if they are making low wages and can't afford to skip a paycheck, right, a lot of the time folks might go to work because they feel like they have to, not report symptoms and not take care of their bodies, but then also get other coworkers sick as a result of that. And then 50% of the workers we talked to didn't have any health insurance, and 20% qualified for Medicaid, so 70% of them were not getting health insurance through their job at all. And so I just share all that to say that acknowledging how essential warehouse workers were during the Pandemic, they were also some of the most oppressed folks in the workforce at that time and were not adequately repaid for the sacrifices that they made going to work.
 date: 2023-04-16T18:47:38.435Z
 ---
-BLAH BLAH BLAH BODY COPY HERE
+BODY COPY HERE
