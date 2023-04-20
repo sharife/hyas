@@ -12,8 +12,6 @@ audioList:
       > Upon hearing about this ambitious project to inject life into the Chicago River branches, I immediately jumped at the opportunity to lend my voice to help bring this river to life. Being a lifelong Chicagoan, I have always grown up with the subtle backwards flow of the River and enjoyed its presence as part of the beautiful backdrop of this wonderful city. Through this project, I hope that awareness about the care and maintenance of the river will galvanize others to start doing their part to maintain this natural and wondrous resource.
 
 
-
-
       [Derek S. Nelson](https://www.imdb.com/name/nm6948177/)
 
 
@@ -30,6 +28,9 @@ audioList:
 
 
       You know the North Branch said I sold out. That I gave in easily to the prospect of fame and recognition. They were just hating. People love me from all over the world see me yet they leave. They gasp and gawk at the buildings on my banks but that’s not me. I’ve begun to wonder if the North Branch was right. Maybe I forgot what it means to be a part of the river. Maybe I’m not even a river anymore.
+
+
+      **Escucha en español**
     audio: Copy of Main Stem - Voiceover.mp3
 date: 2023-03-08T16:45:11.209Z
 credits: |-
