@@ -4,7 +4,7 @@ maptext: "Learn how the river became what is it today through politics, power
   and public funding. "
 lastmod: 2020-04-17T12:18:10+00:00
 date: 2020-08-17T12:18:10+00:00
-title: How the Chicago River Resembles a Pipeline
+title: Before the Canal
 images: []
 lead: ""
 description: ""
