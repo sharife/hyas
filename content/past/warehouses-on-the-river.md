@@ -12,6 +12,7 @@ intro: "### Industrial corridors (ICs) are often described [as specific areas
   zoning and pollution allowances compromise water, air and soil, which can lead
   to impaired public and mental health. Of late, large warehouses and trucking
   hubs have taken advantage of industrial corridor zoning."
+audioAfter: true
 audioList:
   - audio: Amazon workers Amazon doesn't care.mp3
     intro: "### Two Amazon workers speaking in spring 2022 about how workers at
