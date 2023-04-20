@@ -1,6 +1,7 @@
 ---
 title: Anish Tailor
 picture: /img/anish1.jpg
+date: 2023-03-30T15:04:10.000Z
 intention: >-
   <!--StartFragment-->
 

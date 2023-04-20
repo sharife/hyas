@@ -1,6 +1,7 @@
 ---
 title: Braeden Nelson
 picture: /img/copy-of-braeden.jpg
+date: 2023-03-28T15:04:10.000Z
 intention: >-
   <!--StartFragment-->
 

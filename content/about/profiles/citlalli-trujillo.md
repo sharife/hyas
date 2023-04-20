@@ -1,6 +1,7 @@
 ---
 title: Citlalli Trujillo
 picture: /img/copy-of-citlalli-headshot.jpg
+date: 2023-04-01T15:04:10.000Z
 intention: >-
   <!--StartFragment-->
 

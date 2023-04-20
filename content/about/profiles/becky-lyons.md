@@ -1,6 +1,7 @@
 ---
 title: Becky Lyons
 picture: /img/copy-of-b.lyons-headshot1.jpg
+date: 2023-04-02T15:04:10.000Z
 intention: >-
   <!--StartFragment-->
 

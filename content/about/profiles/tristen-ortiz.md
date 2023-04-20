@@ -1,6 +1,7 @@
 ---
 title: Tristen Ortiz
 picture: /img/tristen-ortiz.jpg
+date: 2023-03-31T15:04:10.000Z
 intention: >-
   <!--StartFragment-->
 

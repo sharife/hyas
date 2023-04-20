@@ -1,6 +1,7 @@
 ---
 title: Kathleen Blackburn
 picture: /img/author-photo-.jpg
+date: 2023-03-29T15:04:10.000Z
 intention: >-
   **Intention:** I want to reimagine the relationship we have to our watershed. By recognizing what currently shapes our rivers and impacts the communities who rely on them, my aim is to help heal our shared waters. I hope to connect with each other
   around questions of:
