@@ -23,14 +23,13 @@ audioList:
       I am the Sanitary and Ship Canal. My name ends in “canal” because I just so happen to come from a great lineage of canals. Humble beginnings such as the canals of Amsterdam and Venice to the magnificent marvel that is the Panama Canal.
 
 
-
-
       You could say I aspired to be like them. As you have seen, I have blazed my own trail to transform Chicago from swamp prairie into a boomtown. I make Chicago matter. Not the main stem, not the north branch, and especially not the south branch– the most ungrateful branch of this city. They spout off about my existence as one of irreparable harm as if I have tainted this city with greed and gluttony. That I’m allowed to be a massive public health risk and affect the neighborhoods around me. I say they’re often hyperbolic. Now, I do recognize my work and my position in this river is… intimidating and difficult to embrace. I see you and I hear you. But I must say,  if the south branch chose to embrace their numerous industrial corridors they would realize how important they were instead of going on about human rights violations.
 
 
-
-
       If only the  branches understood their worth. That’s the problem with a lot of the branches–except main stem. Though he may be a milksop, he gets the job done. Presenting the city as pretty and posh. Unlike the stem I have to get my hands dirty to ensure this city runs. You see, I do my own sewage. The ships that sail on me are ships I know. I make it my business to see that every ship and turd flows through me to the Des Plaines. I do not botch my reversal flow as I merge with my business partner, the Calumet-Saganashkee (Cal-Sag) Channel. What I am trying to say is I’m fixed like no other branch or channel in this river. I get my hands dirty to make sure this city is held up by my oil drenched hands even if it means picking off a couple of undesirables. I may be capitalist but I’m a staunch believer in Utilitarianism.
+
+
+      **Escucha en español**
     audio: Copy of Sanitary and Ship Canal - Voiceover.mp3
 date: 2023-03-08T16:56:18.058Z
 credits: |-
