@@ -2,9 +2,6 @@
 draft: false
 audioAfter: true
 lastmod: 2020-04-17T12:18:10+00:00
-title: North Branch
-x: "60"
-y: "75"
 intro: "### Aspirations of luxury blend with commercial utility along the North
   Branch."
 audioList:
@@ -15,15 +12,7 @@ audioList:
       > I absolutely adore this project and how it personifies the river as a theatrical character! It truly makes it easier for all to understand the inequitable treatment and use of the river based on who lives and what exists around it. I’m deeply honored to be part of such a creative, engaging way to educate the general public about Great Lakes water issues. 
 
 
-
-
-
-
       [Tonika Johnson](https://www.tonijphotography.com/)
-
-
-
-
 
 
       **Transcript of recording**
@@ -39,9 +28,18 @@ audioList:
 
 
       As the influx of modern colonizers increases, my appearance changes for the better, according to the entitled new residents who have taken the place of those who were here before. The amenities that get added to me aren’t for the people who’ve been here for years, or for me, for that matter. All it does is draw in wealth, not community. Oh great, looks like I’m getting another bar with a craft brewery inside. Pack it up Goose Island.
+
+
+      **Escucha en español**
     audio: Copy of North Branch - Voiceover - Final.mp3
     intro: ""
 date: 2020-08-17T12:18:10+00:00
+gallery: []
+audio: test.mp3
+title: North Branch
+x: "60"
+images: []
+y: "75"
 credits: |-
   ##### Credits
 
@@ -49,9 +47,6 @@ credits: |-
   * Produced by Anish Tailor
   * Performed by Tonika Johnson
   * Story by Tristen Ortiz and Anish Tailor
-gallery: []
-audio: test.mp3
-images: []
 lead: ""
 description: ""
 ---
