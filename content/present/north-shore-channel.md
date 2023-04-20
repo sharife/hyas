@@ -1,10 +1,9 @@
 ---
 draft: false
-x: "60"
-y: "85"
 audioAfter: true
 lastmod: 2020-04-17T12:18:10+00:00
 title: North Shore Channel
+x: "60"
 intro: "### There are no concentrated industrial corridors along this branch."
 audioList:
   - body: >-
@@ -14,15 +13,7 @@ audioList:
       > The North Shore Channel personifies the white person who doesn’t understand the concept of privilege. They are someone who doesn’t see the systems at play that allow them to have a clean river to use for recreation and wellbeing, while the people living on that very same river 15 miles south don’t get the same chance. They represent the “liberal racist” archetype, those who might advocate for Black Lives Matter, but would cause a stir if a Black person moves into their neighborhood. They are the type of “ally” who when confronted with problematic behavior will make it about themselves instead of listening to the harm that was caused, being humble, and taking accountability. 
 
 
-
-
-
-
       [Sarah Rachel Schol](https://www.instagram.com/drschol/)
-
-
-
-
 
 
       ##### Transcript of recording
@@ -35,9 +26,13 @@ audioList:
 
 
       Please don’t take what I’m saying out of context. I just want what’s best for my community. You can’t blame me for desiring something so reasonable. Honestly, it’s their own fault that none of the other branches have any of these lovely river attractions amenities. I’ve been here since 1910 and I have worked hard to look this good. The North is starting to turn around and lose all those industrial corridors but sheesh I assume the South Branch has so many they might even enjoy them. They are constantly protesting against the treatment of the branches and their industrial corridors. They never stop to think if their protesting affects us channelized canals. I understand they’re going through a lot. I wish I could help, but I really couldn’t if I tried. I just wish they would stop and just settle down in their community. I don’t know how to help them! Oh well, I can only do what’s best for my community by providing all this lovely scenery.
+
+
+      **Escucha en español**
     audio: Copy of North Shore Channel - Voiceover.wav
 date: 2020-06-17T12:18:10+00:00
 images: []
+y: "85"
 credits: |-
   ##### Credits
 
