@@ -1,11 +1,12 @@
 ---
-title: The Flow of History
+title: Immigrations Waves and Labor Power
 x: "60"
 y: "70"
 intro: "### The Chicago River was engineered at the beginning of the 20th
   Century to send northern industrial waste southward and to allow commodities
-  to circulate. As the commodities flowed in multiple directions, their movement
-  benefited a small cadre of capitalists. This continues to be the case."
+  to circulate.  It catalyzed Chicago's growth into one of the nation’s largest
+  cities and a center of [international trade and
+  commerce](https://www.chicago.gov/city/en/about/history.html)."
 audioAfter: true
 audioList:
   - body: >-
@@ -28,4 +29,10 @@ credits: ""
 ---
 Native travelers knew how to portage through the marshland that would become Chicago and shared this knowledge with early explorers and settlers. To colonial eyes, the swampy link between the river and the lake seemed the perfect place for a permanent cut. So, in 1848, the Chicago River was expanded as the Illinois-Michigan (I&M) Canal. 19th century engineering quickly proved insufficient for the burgeoning metropolis. The I&M Canal worked with the railroad system to draw resources and people into Chicago where they were transformed into commodities and labor. 
 
-The pre-industrial span of the Chicago River included North and South Branches and a Main Stem. In the name of flushing the metropolis and allowing for the circulation of commodities, the Chicago Sanitary and Ship Canal was forged in 1900. Its perceived success led to the North Shore Channel that drains upscale suburbs and later to the artery for heavy industry, the Calumet-Saganashkee (Cal-Sag) Channel to the south.
+The historic occasion of building the Sanitary and Ship Canal enabled intense industrial development that attracted [immigrants](http://www.encyclopedia.chicagohistory.org/pages/2477.html)  from across the world seeking possibilities. With industrial waste pumped far away on the public’s dime, factories multiplied exponentially. Heavy manufacturing [and stockyards lined the banks of the canal](https://interactive.wttw.com/chicago-river-tour/history-chicago-river) and the South Branch, transforming them into oozing waste pools. Stockyard engineers tore through wetlands around the South Branch and replaced them with a massive system that drained wastes from 325 acres of meatpacking factories into the now hard-edged river. In the famous muckraking book The Jungle, author Upton Sinclair named a fork of the river Bubbly Creek. He describes how "(b)ubbles of carbonic acid gas will rise to the surface and burst, and make rings two or three feet wide. Here and there the grease and filth have caked solid, and the creek looks like a bed of lava; chickens walk about on it, feeding." 
+
+Eventually, neighborhoods along the South Branch and the Sanitary and Ship Canal became an entry point for [working-class immigrants](http://www.encyclopedia.chicagohistory.org/pages/765.html) [of different](http://www.encyclopedia.chicagohistory.org/pages/2477.html) backgrounds, who flocked in and out of communities such as Pilsen, Back of the Yards, Lawndale and Little Village.  Although industrial expansion enabled settlement and economic growth, it was often unregulated, forcing immigrants to confront hazardous working conditions, low wages, long hours and polluted environments. In response, residents of these neighborhoods joined together in a vibrant Chicago labor movement, engaging in protests and strikes, even when met with [violence](https://news.wttw.com/2022/03/05/little-village-mural-depicts-chicago-s-labor-legacy). 
+
+Today, these neighborhoods are home to a majority working-class, Latine immigrant population and strong grassroot organizations addressing environmental and [labor injustices](https://chicago.suntimes.com/business/2021/9/23/22690939/el-milagro-employees-fair-wages-end-harsh-working-conditions-walkout-little-village). For example, Pilsen annually hosts the well-known [Fiesta de Sol](https://fiestadelsol.org/about/), a Latine cultural festival that celebrates social transformation through community connection and highlights local organizations, businesses and projects. Little Village, commonly known as La Villita, welcomes people with a gateway that reads “[Bienvenidos a Little Village](https://www.chicagotribune.com/voice-it/ct-the-landmark-that-welcomes-mexicans-in-the-midwest-20180918-story.html).” A two-mile stretch on La Villita’s 26th street gained its own nickname as the “second Magnificent Mile,” lined with local panaderias, eloteros, and tamaleros, colorful restaurants and murals, and the [Discount Mall that resembles un tianguis, a Mexican market.](https://www.chicagotribune.com/news/ct-little-village-discount-mall-reduction-renovation-novak-vendors-profiles-20230302-lfkmgsmvsbeyfelv2bnxbjt6j4-story.html) 
+
+Over time, industry shifted from meatpacking to coal-fired power plants and heavy manufacturing to the warehouses and logistics of today. With its need for labor power, industry is often attracted to neighborhoods with a high number of immigrants, and many new immigrants seek to live where employment is readily available. Despite the changing nature of industry, exploitation of the immigrant workforce persists. This continued pattern is repeatedly met with the strength and imagination of an ongoing Chicago labor movement.
