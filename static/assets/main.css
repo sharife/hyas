@@ -332,6 +332,7 @@ input, textarea {
    width: 10rem;
    border-radius:10px;
    font-weight: bold;
+   cursor: pointer;
 }
 
 
@@ -1014,6 +1015,7 @@ textarea { resize: vertical; }
 
    .time-button {
       font-size: 1.5rem;
+      cursor: pointer;
       /* overflow-wrap: break-word; */
    }
    

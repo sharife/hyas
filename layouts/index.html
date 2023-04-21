@@ -65,9 +65,9 @@
                {{ end }}
             </div>
             <div class="row-center fade-2" id="button-time-row">
-               <button id="time-button-past" class="time-button" onclick="selectTime('past')"> Past  </button>
-               <button id="time-button-present" class="time-button" onclick="selectTime('present')"> Present  </button>
-               <button id="time-button-future" class="time-button" onclick="selectTime('future')"> Future  </button>
+               <button id="time-button-past" class="time-button" onclick="selectTime('past')" style="cursor:pointer;"> Past  </button>
+               <button id="time-button-present" class="time-button" onclick="selectTime('present')" style="cursor:pointer;"> Present  </button>
+               <button id="time-button-future" class="time-button" onclick="selectTime('future')" style="cursor:pointer;"> Future  </button>
             </div>
             {{ partial "buttons.html" (dict "context" . "time" "past")}}
             {{ partial "buttons.html" (dict "context" . "time" "present")}}
