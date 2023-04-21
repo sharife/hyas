@@ -1,7 +1,7 @@
 ---
 title: Immigrations Waves and Labor Power
-x: "60"
-y: "70"
+x: "48"
+y: "40"
 intro: "### The Chicago River was engineered at the beginning of the 20th
   Century to send northern industrial waste southward and to allow commodities
   to circulate.  It catalyzed Chicago's growth into one of the nation’s largest
