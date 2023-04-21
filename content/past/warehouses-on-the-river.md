@@ -15,9 +15,9 @@ intro: "### Industrial corridors (ICs) are often described [as specific areas
 audioAfter: true
 audioList:
   - audio: Amazon workers Amazon doesn't care.mp3
-    intro: "### Two former Amazon workers speaking in spring 2022 about how workers
-      at Amazon are set up for an impossible and incredibly strenuous job, and
-      how little the corporation cares about its employees."
+    intro: "### Two former Amazon workers speaking in spring 2022 about how they
+      worked at Amazon are set up for an impossible and incredibly strenuous
+      job, and how little the corporation cares about its employees."
     body: >-
       **Transcript of recording**
 
