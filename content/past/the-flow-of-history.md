@@ -22,8 +22,7 @@ audioList:
       history of warehousing and goods movement parallels the Chicago River and
       how power can be leveraged across the labor and environmental
       movements.**"
-    audio: "NEED TO ADD AUDIO CLIP: Yana Chi river history tied to the history of
-      labor"
+    audio: Yana - Chi River history tied to power of labor.mp3
 date: 2023-04-17T17:36:40.059Z
 credits: ""
 ---
