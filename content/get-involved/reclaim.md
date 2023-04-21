@@ -88,30 +88,25 @@ content:
     light: true
   - header: Keep water here
     text: >-
-      <!--StartFragment-->
-
-
-      There are a number of ways in which we can describe where we live: our neighborhood, our city, our state or our country. Such descriptions of place follow lines of property, zoning and transportation. You might also consider your place in terms of watershed. Residents of a given watershed have shared interests in keeping their drinking water as safe as possible.
-
-
+      There are a number of ways in which we can describe where we live: our
+      neighborhood, our city, our state or our country. Such descriptions of
+      place follow lines of property, zoning and transportation. You might also
+      consider your place in terms of watershed. Residents of a given watershed
+      have shared interests in keeping their drinking water as safe as possible.
 
 
       You can explore your watershed by using The Freshwater Lab’s [Source-Path-People tool](http://freshwaterstories.com/get-involved/).
 
 
+      Water and watersheds are highly localized.  For this reason, people have historically lived around sources of water.  History also shows processes of transferring water to certain places (like the suburbs) or to certain enterprises (like factories).  Mapping where pipes run also outlines who has power.  Transferring water from one place to another requires considerable money and energy.  In an era of collapsing watersheds, it is vital to keep water within the Great Lakes basin so that it can support ecosystems and communities.
 
 
       Across the globe, we are seeing the [collapse of watersheds](https://www.nytimes.com/2021/08/27/sunday-review/colorado-river-drying-up.html?searchResultPosition=2) due to climate change and over extraction. Along with keeping an eye on the quality of your water, pay attention to water quantity. Which sectors receive the biggest piece of the water pie? Which communities receive the least amount of water at the highest cost? If water use persists at current rates, then how much will be left in five, ten or fifty years?
-
-
 
 
       The Great Lakes basin contains over 20% of the world’s fresh water, but it is not immune to depletion. The Great Lakes Compact oversees how much water is allowed to leave the Great Lakes basin. It is a vital piece of legislation that protects the interests of Great Lakes residents.  
 
 
       Learn about the [Great Lakes Compact](https://gsgp.org/projects/water-management/great-lakes-agreement-and-compact/) and share how it can be implemented and improved in the future.
-
-
-      <!--EndFragment-->
     light: false
 ---
