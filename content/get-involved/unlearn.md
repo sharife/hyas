@@ -19,4 +19,8 @@ books:
     link: https://www.goodreads.com/book/show/75243.Nature_s_Metropolis
   - book: /img/braiding-sweetgrass.jpg
     link: https://milkweed.org/book/braiding-sweetgrass
+  - book: /img/toxic-communities.jpg
+    link: https://nyupress.org/9781479861781/toxic-communities/
+  - book: /img/toxic-debt.jpg
+    link: https://uncpress.org/book/9781469665764/toxic-debt/
 ---
