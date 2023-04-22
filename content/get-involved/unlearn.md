@@ -17,4 +17,6 @@ books:
     link: https://wwnorton.com/books/The-Death-and-Life-of-the-Great-Lakes/
   - book: /img/naturemetrop-189x300.jpeg
     link: https://www.goodreads.com/book/show/75243.Nature_s_Metropolis
+  - book: /img/braiding-sweetgrass.jpg
+    link: https://milkweed.org/book/braiding-sweetgrass
 ---
