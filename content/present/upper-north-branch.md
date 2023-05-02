@@ -3,7 +3,7 @@ draft: false
 audioAfter: true
 lastmod: 2020-04-17T12:18:10+00:00
 title: Upper North Branch
-x: "48"
+x: "46"
 intro: "### This winding waterway, flanked along most of its borders by woods
   and walking trails, calls back to the river’s past while offering views of its
   potential future."
@@ -31,7 +31,7 @@ audioList:
       **Escucha en español**
 date: 2020-04-17T12:18:10+00:00
 images: []
-y: "80"
+y: "78"
 credits: |-
   ##### Credits
 

@@ -32,7 +32,7 @@ function selectTime(time) {
   currentLanding = time;
 
   var btnRow = document.getElementById("button-time-row"); // move buttons down
-  btnRow.style.bottom = "1%";
+  btnRow.style.bottom = "0%";
   toggleTimeButton(time);
   var riverImage = document.getElementById("river-image");
   riverImage.style.backgroundImage = 'url(/img/chicago-river-map-' + time +".jpg)";
