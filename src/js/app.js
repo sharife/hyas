@@ -233,7 +233,7 @@ function redirectStory(){
   var time = searchParams.get("time");
   var story = searchParams.get("story");
   selectTime(time);
-  selectStoryButton(story,time,false);
+  showStoryText(story,time,false);
 }
 
 
