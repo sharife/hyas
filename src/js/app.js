@@ -122,13 +122,13 @@ addEventListener("load", (event) => {
       if(link[c].pathname === "/" && link[c].host === window.location.host && link[c].search !== "")
       {
         link[c].addEventListener('click', (event)=> {
-          WhichLinkWasClicked(event, 1);
+          relativeStoryRedirect(event);
         });
         link[c].linkParam = link[c].host;
       }
       
     }
-    function WhichLinkWasClicked(event, linkParam) {
+    function relativeStoryRedirect(event) {
       event.preventDefault();
       redirectStory(event.target.search);
     }
