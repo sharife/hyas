@@ -18,19 +18,17 @@ import Splide from '@splidejs/splide';
 let HOME_STACK_BREAKPOINT = 1000;
 let currentLanding = "landing";
 function selectTime(time) {
-  //console.log(currentLanding+" / "+time);
-  //hideButtons();
   pauseAudio();
-
   var diff = false;
-
   if (currentLanding != time) {
     hideButtons();
     diff = true;
   }
+  if(time != null){
+    updateStoryURL("time", time);
+  }
 
   currentLanding = time;
-
   var btnRow = document.getElementById("button-time-row"); // move buttons down
   btnRow.style.bottom = "0%";
   toggleTimeButton(time);
@@ -116,7 +114,25 @@ addEventListener("load", (event) => {
     web.classList.add("fade-4");
     $('.fade-4').delay(2500).animate({'opacity':'1'},700);
     web.style.display = "block";
+
+    redirectStory(window.location.search);
     
+    var link = document.querySelectorAll( 'a' );
+    for ( var c = 0; c < link.length; c ++ ) {
+      if(link[c].pathname === "/" && link[c].host === window.location.host && link[c].search !== "")
+      {
+        link[c].addEventListener('click', (event)=> {
+          WhichLinkWasClicked(event, 1);
+        });
+        link[c].linkParam = link[c].host;
+      }
+      
+    }
+    function WhichLinkWasClicked(event, linkParam) {
+      event.preventDefault();
+      redirectStory(event.target.search);
+    }
+
     var elms = document.getElementsByClassName( 'splide' );
     if(elms != null){
       for ( var i = 0; i < elms.length; i++ ) {
@@ -156,6 +172,7 @@ function selectStoryButton(storyId, time, isLanding) {
   if(isLanding == true) {
     return;
   }
+  updateStoryURL("story", storyId);
   resetStoryButtons(time);
   pauseAudio();
   var element = document.getElementById(time + "-" + storyId);
@@ -164,7 +181,6 @@ function selectStoryButton(storyId, time, isLanding) {
   element.children[0].style.backgroundColor = "var(--index-button-select)";
   element.children[0].style.color = "var(--index-on-button-select)";
   element.children[1].style.borderTop = arrowSize.concat(""," solid var(--index-button-select)");
-  
 }
 
 
@@ -226,6 +242,30 @@ function showHomeLanding(){
   x.style.display = "block";
   showMapText("landing");
   currentLanding = "landing"
+}
+
+function redirectStory(url){
+  var searchParams = new URLSearchParams(url);
+  var time = searchParams.get("time");
+  var story = searchParams.get("story");
+  if(!time){
+    return;
+  }
+  selectTime(time);
+  if(!story){
+    return;
+  }
+  showStoryText(story,time,false);
+}
+
+
+function updateStoryURL(key, val){
+  if ('URLSearchParams' in window) {
+    var searchParams = new URLSearchParams(window.location.search)
+    searchParams.set(key, val);
+    var newRelativePathQuery = window.location.pathname + '?' + searchParams.toString();
+    history.pushState(null, '', newRelativePathQuery);
+  }
 }
 
 
