@@ -115,7 +115,23 @@ addEventListener("load", (event) => {
     $('.fade-4').delay(2500).animate({'opacity':'1'},700);
     web.style.display = "block";
 
-    redirectStory();
+    redirectStory(window.location.search);
+    
+    var link = document.querySelectorAll( 'a' );
+    for ( var c = 0; c < link.length; c ++ ) {
+      if(link[c].pathname === "/" && link[c].host === window.location.host && link[c].search !== "")
+      {
+        link[c].addEventListener('click', (event)=> {
+          WhichLinkWasClicked(event, 1);
+        });
+        link[c].linkParam = link[c].host;
+      }
+      
+    }
+    function WhichLinkWasClicked(event, linkParam) {
+      event.preventDefault();
+      redirectStory(event.target.search);
+    }
 
     var elms = document.getElementsByClassName( 'splide' );
     if(elms != null){
@@ -228,11 +244,17 @@ function showHomeLanding(){
   currentLanding = "landing"
 }
 
-function redirectStory(){
-  var searchParams = new URLSearchParams(window.location.search);
+function redirectStory(url){
+  var searchParams = new URLSearchParams(url);
   var time = searchParams.get("time");
   var story = searchParams.get("story");
+  if(!time){
+    return;
+  }
   selectTime(time);
+  if(!story){
+    return;
+  }
   showStoryText(story,time,false);
 }
 
