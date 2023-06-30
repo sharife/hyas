@@ -9,6 +9,16 @@ intro: "### When commodities and waste are moved across the globe, life moves
 audioAfter: false
 date: 2023-03-07T17:02:23.276Z
 credits: ""
+gallery:
+  - img: /img/bighead-carp-at-the-shedd-aquarium-february-2020.-photo_rachel-havrelock-.jpg
+    caption: "Bighead carp at the Shedd Aquarium, February 2020 (Photo: Rachel
+      Havrelock)"
+  - img: /img/brandon-road-1.jpg
+    caption: Photo owned by University of Illinois Chicago
+  - img: /img/brandon-road-2.jpeg
+    caption: Photo owned by University of Illinois Chicago
+  - img: /img/ace-glmris-design.jpg
+    caption: Photo owned by University of Illinois Chicago
 ---
 Few American rivers have been left untouched by the drive for shipping channels and sewage canals. To move along a storied river like the Mississippi is to navigate a path cut for commodities with pumps, locks and straightened bends. This is certainly the case at the lock where the reversed Chicago slurps from Lake Michigan, at the pumping stations that push sewage south and at ship elevators connected to the canal system.
 
