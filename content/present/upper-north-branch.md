@@ -28,7 +28,7 @@ audioList:
       I continue to share our history downstream so it may inform people of our family of waterways, and encourage them to stand up for our community. Only by embracing our past, and our true selves, will we bring about a better future for all of us.
 
 
-      **Escucha en español**
+      **[Escucha en español](https://thebackwardriver.org/en-espa%C3%B1ol/stories/conoce-el-upper-north-branch/)**
 date: 2020-04-17T12:18:10+00:00
 images: []
 y: "78"
