@@ -29,7 +29,7 @@ audioList:
       If only the  branches understood their worth. That’s the problem with a lot of the branches–except main stem. Though he may be a milksop, he gets the job done. Presenting the city as pretty and posh. Unlike the stem I have to get my hands dirty to ensure this city runs. You see, I do my own sewage. The ships that sail on me are ships I know. I make it my business to see that every ship and turd flows through me to the Des Plaines. I do not botch my reversal flow as I merge with my business partner, the Calumet-Saganashkee (Cal-Sag) Channel. What I am trying to say is I’m fixed like no other branch or channel in this river. I get my hands dirty to make sure this city is held up by my oil drenched hands even if it means picking off a couple of undesirables. I may be capitalist but I’m a staunch believer in Utilitarianism.
 
 
-      **Escucha en español**
+      **[Escucha en español](https://thebackwardriver.org/en-espa%C3%B1ol/stories/buque-y-canal-sanitario/)**
     audio: Copy of Sanitary and Ship Canal - Voiceover.mp3
 date: 2023-03-08T16:56:18.058Z
 credits: |-
