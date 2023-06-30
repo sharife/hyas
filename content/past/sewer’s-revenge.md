@@ -7,6 +7,15 @@ intro: "### Just as little as 0.3 inches (0.762 cm) of rain is enough to
   Chicago River. At these moments, the sewers exact their revenge by resurfacing
   what goes down the drain."
 date: 2023-03-07T17:17:33.225Z
+gallery:
+  - img: /img/chicago-river-brown-1024x683.jpg
+    caption: "Credit: University of Illinois Chicago"
+  - img: /img/cso_sign.jpg
+    caption: "Credit: University of Illinois Chicago"
+  - img: /img/wet-conditions-v5.jpg
+    caption: "Credit: University of Illinois Chicago"
+  - img: /img/chicago-flood-may-19-2020_crop.jpg
+    caption: "Credit: University of Illinois Chicago"
 ---
 The backward river backs up. A metropolis has risen from wetlands that once stored and filtered copious amounts of water. In their place concrete spreads from the lakefront into the Illinois prairie. When rain hits these impermeable surfaces, it is moved toward storm drains. Beneath the ground, these drains meet with those taking sewage from homes and businesses. This is called a combined sewer system.
 
