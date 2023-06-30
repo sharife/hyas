@@ -23,19 +23,16 @@ audioList:
       **[Samer Owaida](https://www.instagram.com/yourfriendsamer/)**
 
 
-
-
-
-
       ##### Transcript of recording
 
 
       For too long they have silenced us. For too long they have suffocated us with toxic air. Our babies choke on every breath. For too long they have poisoned us with tainted water that we are forced to pay for. And if you can’t afford it, you are denied a human right altogether. I am surrounded by the victims of incremental violence. My people continue to experience this deliberate attack on our humanity through disinvestment resulting in closed schools, food deserts and even a lack of parks. Quite frankly, it’s not incremental violence at all! From the barrel of a CPD gun, to the putrid air that we are forced to breath. They’re all weapons designed to hurt and kill us. This is a different kind of genocide.
 
 
-
-
       I am here to enact change. We are here to manifest that change. We’re not going to continue to be a dumping ground for this city, and its hate for us. The North Branch is being forced to conform to a new status quo thanks to gentrification. They’re transforming their industrial corridors into corporate playgrounds. Why? Because a bunch of middle class white kids moved in, and just pushed out all the black and brown folks already living there. On top of that, the companies that already polluted up north are moving here, down south, to dump their waste on us, as if we’re some kind of landfill. They think it’s okay because we’re not rich and we’re not white. Well, you know what? We’re here to say, we’ve had enough. We’re here to say, we won’t  tolerate this. And we’re here to say, they can’t do this anymore. Do they think we don’t know our own value? They say we could look more beautiful. Pfff. Yeah, for more tourists. Well, we say, our value exists outside a corporate model. We won’t let them pollute us. And we won’t stop fighting. They’re going to learn that they can’t just do this and get away with it. We say, collective imagination OVER capital domination. We’re not asking for clean and free water any more. We’re demanding it, by any means necessary.
+
+
+      **[Escucha en español](https://thebackwardriver.org/en-espa%C3%B1ol/stories/south-branch/)**
     audio: Copy of South Branch - Voiceover - Final.mp3
 date: 2023-03-08T17:03:46.312Z
 credits: |-
