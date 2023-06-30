@@ -56,39 +56,41 @@ p img {
 
 
 #spanish_list .splide__slide img {
-   height: auto;
    width: 100%;
+   aspect-ratio: 16/9;
+   height: auto;
+   object-fit: contain;
 }
 
-.splide__slide img {
-   height: 15rem;
-   width: auto;
-}
-
-
-.splide:not(.is-overflow) .splide__pagination {
+.splide:not(.is-overflow) {
    display: block !important;
 }
 
 .splide-container{
    margin: auto;
    margin-top:1rem;
+   margin-bottom: 2rem;
 }
 
 .splide__pagination {
    bottom: -1em !important ;
+   display: flex;
 }
+
 .splide:not(.is-overflow) .splide__pagination {
-   display: block !important;
+   display: flex !important;
 }
 .splide-container-spanish{
-   width: 50%;
+   width: 100%;
    margin: auto;
 }
 
-/* .splide-container{
-   margin: auto;
-} */
+.splide__slide img{
+   width: 100%;
+   aspect-ratio: 16/9;
+   height: auto;
+   object-fit: contain;
+}
 
 
 
