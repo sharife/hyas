@@ -7,6 +7,18 @@ intro: "### Canals and barges seem like antiquated relics of the 19th century,
   figures that the public spends nearly two-billion dollars a year paying the
   [way for private barges](https://beltmag.com/chicago-river-future/)."
 date: 2023-03-07T17:17:05.039Z
+gallery:
+  - img: /img/calumet-river-towboat.jpg
+    caption: " Calumet River towboat with open barges crossing under the Norfolk
+      Southern railroad bridge, March 28, 2020. (Photo_© Matthew Kaplan
+      Photography)"
+  - img: /img/liquid-cargo-barge.jpg
+    caption: " A liquid cargo barge, likely transporting petroleum products, passes
+      under the Norfolk Southern railroad bridge on the Calumet River, December
+      12, 2018. (Photo_© Matthew Kaplan Photography)"
+  - img: /img/road-salt-piles.jpg
+    caption: Road salt piles on east bank Calumet, June 13, 2018. (Photo_© Matthew
+      Kaplan Photography)
 ---
 The barge industry is largely an offshoot of the fossil fuel industry.  It loads moribund commodities like coal too toxic to legally burn in North America onto flat boats and moves them along our rivers. It is an industry in swift [decline](https://www.nrdc.org/sites/default/files/revitalizing-chicago-area-waterway-system-IB.pdf). We subsidize the movement of materials that cause harm by keeping the canal open and thereby facilitate the burning of carbon that only contributes to increased precipitation, warming waters and flooding.  
 
