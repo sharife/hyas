@@ -30,7 +30,7 @@ audioList:
       You know the North Branch said I sold out. That I gave in easily to the prospect of fame and recognition. They were just hating. People love me from all over the world see me yet they leave. They gasp and gawk at the buildings on my banks but that’s not me. I’ve begun to wonder if the North Branch was right. Maybe I forgot what it means to be a part of the river. Maybe I’m not even a river anymore.
 
 
-      **Escucha en español**
+      **[Escucha en español](https://thebackwardriver.org/en-espa%C3%B1ol/stories/main-stem/)**
     audio: Copy of Main Stem - Voiceover.mp3
 date: 2023-03-08T16:45:11.209Z
 credits: |-
