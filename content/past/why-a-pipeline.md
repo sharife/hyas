@@ -14,6 +14,9 @@ gallery:
       Reclamation District of Greater Chicago)"
   - img: /img/img-0458.jpg
     caption: Owned by University of Illinois Chicago
+  - img: /img/us-army-corps-of-engineers-map-of-the-chicago-river.-part-of-the-larger-chicago-area-waterway-system..jpg
+    caption: US Army Corps of Engineers map of the Chicago River. Part of the larger
+      Chicago Area Waterway System.
 images: []
 y: "29"
 lead: null
