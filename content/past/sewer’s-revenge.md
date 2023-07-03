@@ -11,11 +11,15 @@ gallery:
   - img: /img/chicago-river-brown-1024x683.jpg
     caption: "Credit: University of Illinois Chicago"
   - img: /img/cso_sign.jpg
-    caption: "Credit: University of Illinois Chicago"
+    caption: "A sign outside Combined Sewer Outfall #094 along the North Branch of
+      the Chicago River (Eric Allix Rogers)  "
   - img: /img/wet-conditions-v5.jpg
-    caption: "Credit: University of Illinois Chicago"
+    caption: "To prevent combined sewer overflows when it rains, stormwater and
+      sewage are held in reservoirs until there is capacity to treat it at
+      wastewater treatment plants. (Friends of the Chicago River) "
   - img: /img/chicago-flood-may-19-2020_crop.jpg
-    caption: "Credit: University of Illinois Chicago"
+    caption: Flooding along the South Branch of the Chicago River, May 2020 (The
+      Watchers)
 ---
 The backward river backs up. A metropolis has risen from wetlands that once stored and filtered copious amounts of water. In their place concrete spreads from the lakefront into the Illinois prairie. When rain hits these impermeable surfaces, it is moved toward storm drains. Beneath the ground, these drains meet with those taking sewage from homes and businesses. This is called a combined sewer system.
 
