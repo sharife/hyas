@@ -6,6 +6,7 @@ lastmod: 2020-04-17T12:18:10+00:00
 date: 2020-06-17T12:18:10+00:00
 title: The River Speaks
 images: []
+image: /img/chicago-river-south-branch-looking-under-the-loomis-avenue-bridge-towards-decommissioned-fisk-generating-plant-july-9-2016.-photo_©-matthew-kaplan-photography-.jpg
 lead: ""
 description: ""
 category: present
