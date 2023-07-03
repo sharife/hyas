@@ -14,11 +14,16 @@ gallery:
     caption: "Bighead carp at the Shedd Aquarium, February 2020 (Photo: Rachel
       Havrelock)"
   - img: /img/brandon-road-1.jpg
-    caption: Photo owned by University of Illinois Chicago
+    caption: The Brandon Road Lock and Dam, along the Des Plaines River near Joliet,
+      February 2020. (Erin Hooley/Chicago Tribune)
   - img: /img/brandon-road-2.jpeg
-    caption: Photo owned by University of Illinois Chicago
+    caption: The Brandon Road Lock and Dam, along the Des Plaines River near Joliet,
+      February 2020. (Erin Hooley/Chicago Tribune)
   - img: /img/ace-glmris-design.jpg
-    caption: Photo owned by University of Illinois Chicago
+    caption: "ACE GLMRIS Design: The U.S. Army Corps of Engineers Great Lakes and
+      Missippi River Interbasin Study Design (GLMRIS) explores a range of
+      options and lock controls that will limit the transfer of aquatic nuisance
+      species between the Great Lakes and Mississippi River. "
 ---
 Few American rivers have been left untouched by the drive for shipping channels and sewage canals. To move along a storied river like the Mississippi is to navigate a path cut for commodities with pumps, locks and straightened bends. This is certainly the case at the lock where the reversed Chicago slurps from Lake Michigan, at the pumping stations that push sewage south and at ship elevators connected to the canal system.
 
