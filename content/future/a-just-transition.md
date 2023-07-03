@@ -46,6 +46,20 @@ audioList:
 
       Again, another example is the [Semillas de Justicia (seeds of justice) garden](http://www.lvejo.org/our-accomplishments/community-garden/), which was another brownfield here. The problem was that there were dozens of old oil containers buried on the ground that started to seep. And with the seepage, a lot of toxic smells started to come up. And so the city was able to clean it and NeighborSpace was able to acquire that. And so we've been working with NeighborSpace to have a free community garden where we have about 45 families that have access to land, where they grow herbs, fruit, vegetables. And in these last two years that we have really opened up the garden, the first year in 2020, the gardeners produced about two tons of food. And that's like chilies, tomatoes, onions, garlic, things that we can really weigh, not so much the herbs. And in 2021, we saw an increase to four tons of food. So the same amount of land, just a whole lot of folks more interested in getting access to land. And the head gardener also created a program. And again, this is another mode of just transition, mutual aid, where a lot of the family saw that they were going to have a lot of their veggies leftover -they started hanging grocery bags from the fans. And we made social media posts like, if folks want to pick up fresh organic veggies, come pick them up at the garden, in a way, also distributing food in that way. And so those are examples of just transition. And so those are the examples that we would love to see projects like this duplicated and so many different opportunities.
 date: 2023-03-08T17:37:47.276Z
+gallery:
+  - img: /img/angel-de-jesus-leon-and-david-bedolla-discussing-how-the-scene-near-the-south-branch-of-the-chicago-river-has-changed-through-their-many-visits-to-the-“silos”-over-the-course-of-8-years-august-2020.-photo_citlalli-trujillo-.jpg
+    caption: "Angel de Jesus Leon and David Bedolla discussing how the scene (near
+      the South Branch of the Chicago River) has changed through their many
+      visits to the “Silos” over the course of 8 years, August 2020. (Photo:
+      Citlalli Trujillo)"
+  - img: /img/copy-of-20220910_143138.jpg
+    caption: " (Photo: Citlalli Trujillo)"
+  - img: /img/copy-of-20220910_143323.jpg
+    caption: " (Photo: Citlalli Trujillo)"
+  - img: /img/copy-of-img_3748.jpg
+    caption: " (Photo: Citlalli Trujillo)"
+  - img: /img/copy-of-img_3785.jpg
+    caption: " (Photo: Citlalli Trujillo)"
 ---
 The South Branch and the Sanitary and Ship Canal offer few places to access the river. It takes an adventurous spirit to move through industrial hubs, dodge semi trucks, and navigate broken glass to reach the water. The [Canalport Riverwalk](https://www.chicagotribune.com/news/breaking/ct-canalport-riverwalk-park-20220929-xnkf6dcj7zbblbuaigor7qmnsq-story.html), a five-acre park that straddles the South Branch and the canal, is one of the few access points on Chicago’s West Side. Its existence is barely known even to longtime residents.The courageous spirits who visit contend with smells of exhaust and grinding noise from [metal being shredded](https://chicago.suntimes.com/2022/1/13/22882507/pilsen-sims-metal-management-shredder-illinois-environmental-protection-agency) across the water.
 
