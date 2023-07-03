@@ -42,6 +42,11 @@ credits: |-
   * Produced by Anish Tailor
   * Performed in English by Samer Owaida
   * Story by Tristen Ortiz and Anish Tailor
+gallery:
+  - img: /img/despite-visible-litter-a-young-boy-plays-with-the-water-from-the-south-branch-that-leads-into-bubbly-creek-on-a-hot-sunny-day-august-2020.-photo_citlalli-trujillo-.jpg
+    caption: "Despite visible litter, a young boy plays with the water from the
+      South Branch that leads into Bubbly Creek on a hot, sunny day, August
+      2020. (Photo: Citlalli Trujillo)"
 ---
 As readers of Upton Sinclair’s The Jungle know, a century of meatpacking and heavy industrial pollution gave rise to the infamously-contaminated Bubbly Creek. The name derives from the methane bubbles that popped as organic matter decayed in the water. This damage persists and mixes with ongoing pollution from industrial corridors along the South Branch. The river and many communities along it have become contested spaces in recent decades, as [luxury developments extend south](https://www.wbez.org/stories/lightfoot-aldermen-likely-to-advance-lincoln-yards-the-78/def7079a-2ca6-405f-80c0-163fa6b5e701), pushing and pricing out communities of color through gentrification. Now, whiter, wealthier neighborhoods boast the opportunity to jog on river paths or sip microbrews on overlooks whereas African-American and Latine neighborhoods contend with the fumes of asphalt mixing, the grind of metal shredding and lagoons of industrial waste.
 
