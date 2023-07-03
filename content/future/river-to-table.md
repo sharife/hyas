@@ -6,6 +6,10 @@ intro: "### Four species known as Asian carp or Copi swim in Illinois and Des
   Plaines Rivers. Across the Great Lakes, alarms sound that the fish will ride
   the canal and enter Lake Michigan."
 date: 2023-03-08T17:34:48.255Z
+gallery:
+  - img: /img/u.s.-fish-and-wildlife-service-personnel-net-silver-carp-jumping-in-the-fox-river.-photo_ryan-hagerty-usfws-.jpg
+    caption: U.S. Fish and Wildlife Service personnel net Silver carp jumping in the
+      Fox River. (Photo/Ryan Hagerty, USFWS)
 ---
 While the ecological and economic problems the carp pose are legitimate, dubbing the fish Asian carp racializes the issue. It clouds the thinking of Rust Belt folk primed to believe their economic woes are caused by Asian economies. Rather than perpetuate the racialized rhetoric that justifies militarized solutions like a costly checkpoint for carp, we can take actions that demilitarize our sacred streams. A more holistic river to table approach is underway.
 
