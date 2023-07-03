@@ -24,6 +24,12 @@ audioList:
       water to operate in the area.
     audio: Yana - Joliet's water crisis & Amazon.mp3
 date: 2023-04-16T18:07:50.380Z
+gallery:
+  - img: /img/joliet-exxon-refinery_flicker-yooperann_2010_crop.jpg
+    caption: "Joliet’s ExxonMobil refinery (Photo: Flickr user yooperann)"
+  - img: /img/aquifer-drawdown_crop.jpg
+    caption: "  Source: Abrams et al., “Changing Groundwater Levels.” Illinois State
+      Water Survey, 2015"
 ---
 The biggest drawdown of the Cambrian-Ordovician aquifer from a single community has been in the city of Joliet (the third most populous city in Illinois), where the aquifer’s water level has fallen by over 800 feet. Joliet and other southwestern suburbs of Chicago in Will, Kendall, Kane and DuPage counties are at the highest risk of aquifer collapse. In this area, sustainable withdrawals from the aquifer would fall between 2 to 7 million gallons per day (mgd), yet in 2018 total demand on the aquifer was 36.7 mgd. 12.8 mgd of this demand came from three large petrochemical users.
 
