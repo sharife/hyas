@@ -48,18 +48,25 @@ audioList:
 date: 2023-03-08T17:37:47.276Z
 gallery:
   - img: /img/angel-de-jesus-leon-and-david-bedolla-discussing-how-the-scene-near-the-south-branch-of-the-chicago-river-has-changed-through-their-many-visits-to-the-“silos”-over-the-course-of-8-years-august-2020.-photo_citlalli-trujillo-.jpg
-    caption: "Angel de Jesus Leon and David Bedolla discussing how the scene (near
+    caption: Angel de Jesus Leon and David Bedolla discussing how the scene (near
       the South Branch of the Chicago River) has changed through their many
-      visits to the “Silos” over the course of 8 years, August 2020. (Photo:
-      Citlalli Trujillo)"
+      visits to the “Silos” over the course of 8 years, August 2020.
+      (Photo/Citlalli Trujillo)
   - img: /img/copy-of-20220910_143138.jpg
-    caption: " (Photo: Citlalli Trujillo)"
+    caption: Maggie Cooper, Conservation Stewardship Coordinator at Shedd Aquarium
+      exploring the river’s ecology with youth residents
   - img: /img/copy-of-20220910_143323.jpg
-    caption: " (Photo: Citlalli Trujillo)"
+    caption: Participants screen printed the words ‘Freshwater Future’ and the Great
+      Lakes with the Mobile Street Art Cart led by Chicago artist William
+      Estrada.
   - img: /img/copy-of-img_3748.jpg
-    caption: " (Photo: Citlalli Trujillo)"
+    caption: Artists Cynthia Weiss and Delilah Salgado asking community residents
+      what they envision for Canalport Riverwalk
   - img: /img/copy-of-img_3785.jpg
-    caption: " (Photo: Citlalli Trujillo)"
+    caption: "Freshwater Lab Founder Rachel Havrelock, Freshwater Lab member
+      Citlalli Trujillo and artists Cynthia Weiss and Delilah Salgado discuss
+      the Rio de Bienvendiad/River of Welcome project for Canalport Riverwalk
+      Park. "
 ---
 The South Branch and the Sanitary and Ship Canal offer few places to access the river. It takes an adventurous spirit to move through industrial hubs, dodge semi trucks, and navigate broken glass to reach the water. The [Canalport Riverwalk](https://www.chicagotribune.com/news/breaking/ct-canalport-riverwalk-park-20220929-xnkf6dcj7zbblbuaigor7qmnsq-story.html), a five-acre park that straddles the South Branch and the canal, is one of the few access points on Chicago’s West Side. Its existence is barely known even to longtime residents.The courageous spirits who visit contend with smells of exhaust and grinding noise from [metal being shredded](https://chicago.suntimes.com/2022/1/13/22882507/pilsen-sims-metal-management-shredder-illinois-environmental-protection-agency) across the water.
 
