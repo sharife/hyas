@@ -28,9 +28,9 @@ category: Past
 ---
 Nineteenth century engineering quickly proved insufficient for the burgeoning metropolis. As commodities and labor swelled, so did byproducts and waste which spilled into Lake Michigan, the city’s source of drinking water. Outbreaks of water-borne diseases like cholera required a public health response. They did not prompt changes in industrial scale or practices, but rather more audacious engineering.
 
-The city was lifted to accommodate an underground sewer system then the river was reversed to flush byproducts and waste. This marks the beginning of the backward river. Until this point, a lazy river meandered toward Lake Michigan. Thereafter, a canal created a transcontinental toilet from Chicago to the Mississippi River and the Gulf of Mexico.
+The city was lifted to accommodate an underground sewer system, then the river was reversed to flush byproducts and waste. This marks the beginning of the backward river. Until this point, a lazy river meandered toward Lake Michigan. Thereafter, a canal created a transcontinental toilet from Chicago to the Mississippi River and the Gulf of Mexico.
 
-Since 1900 the engineered river originates from Lake Michigan, runs straight like a pipe through a corridor of sleek city skyscrapers then diverges into a North and a South Branch. The South Branch becomes increasingly industrial until it becomes the Sanitary and Ship Canal, easy to smell but difficult to view.
+Since 1900 the engineered river originates from Lake Michigan, runs straight like a pipe through a corridor of sleek city skyscrapers, then diverges into a North and a South Branch. The South Branch becomes increasingly industrial until it becomes the Sanitary and Ship Canal, easy to smell but difficult to view.
 
 Factories tend to be built alongside water to facilitate the release of industrial byproducts. A waterway that people prefer not to notice proved a boon for coal-fired power plants and industry in general. A series of foul channels cut into neighborhoods on Chicago’s west side and pool the toxins from industrial corridors.
 
