@@ -10,16 +10,16 @@ audioList: []
 date: 2020-06-17T12:18:10+00:00
 gallery:
   - img: /img/dynamite-blasts-through-bedrock-during-the-construction-of-the-chicago-sanitary-and-ship-canal-may-22-1895.-photo_metropolitan-water-reclamation-district-of-greater-chicago-.jpg
-    caption: Dynamite blasts through bedrock during the construction of the Chicago
-      Sanitary and Ship Canal, May 22, 1895. (Photo_Metropolitan Water
-      Reclamation District of Greater Chicago)
+    caption: "Dynamite blasts through bedrock during the construction of the Chicago
+      Sanitary and Ship Canal, May 22, 1895. (Photo: Metropolitan Water
+      Reclamation District of Greater Chicago)"
   - img: /img/lock-at-romeoville.-photo_metropolitan-water-reclamation-district-of-greater-chicago-.jpg
-    caption: Lock at Romeoville. (Photo_Metropolitan Water Reclamation District of
-      Greater Chicago)
+    caption: "Lock at Romeoville. (Photo: Metropolitan Water Reclamation District of
+      Greater Chicago)"
   - img: /img/september-22-1904_-laborers-take-a-photo-break-during-the-construction-of-the-chicago-sanitary-and-ship-canal-extension.-photo_metropolitan-water-reclamation-district-of-greater-chicago-.jpg
-    caption: September 22, 1904_ Laborers take a photo break during the construction
-      of the Chicago Sanitary and Ship Canal extension. (Photo_Metropolitan
-      Water Reclamation District of Greater Chicago)
+    caption: "September 22, 1904: Laborers take a photo break during the
+      construction of the Chicago Sanitary and Ship Canal extension. (Photo:
+      Metropolitan Water Reclamation District of Greater Chicago)"
 images: []
 y: "55"
 lead: null
