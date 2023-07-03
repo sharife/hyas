@@ -9,6 +9,13 @@ intro: "### What if we rejected the very possibility of water as waste? How
   21st? What if, instead of flushing, we kept replenishing the tank? "
 audioList: []
 date: 2020-06-17T12:18:10+00:00
+gallery:
+  - img: /img/05-eclwrf-facility-aerial.jpg
+    caption: El Paso’s Water Purification Facility is under design to become the
+      first pipe to pipe system. It consists of a multi-barrier approach to
+      water treatment that will produce up to 12 mgd of purified, renewable,
+      drought proof water. (Photo/Carlos A. Briano, Lead Public Affairs
+      Coordinator, El Paso Water)
 images: []
 y: "42"
 lead: ""
