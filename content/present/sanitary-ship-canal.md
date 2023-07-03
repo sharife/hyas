@@ -39,6 +39,13 @@ credits: |-
   * Produced by Anish Tailor
   * Performed by Ross Compton
   * Story by Tristen Ortiz and Anish Tailor
+gallery:
+  - img: /img/the-billys-talking-drinking-some-beers-and-reminiscing-about-old-days-by-an-outfall-pipe-august-2020_crop.jpg
+    caption: "The Billys talking, drinking some beers and reminiscing about old days
+      by an outfall pipe, August 2020. (Photo: Citlalli Trujillo)"
+  - img: /img/the-billys-talking-drinking-some-beers-and-reminiscing-about-old-days-by-an-outfall-pipe-august-2020.-photo_citlalli-trujillo-.png
+    caption: "Dewey’s Welcome to the Channel, May 2, 1900, by Isham Randolph, Chief
+      Engineer. (Photo: Chicago Historical Society)"
 ---
 The Sanitary & Ship Canal fuses the Great Lakes and the Mississippi River basin. It is often considered an engineering marvel, enjoying its status as an emblem of the modernized world. We aren’t supposed to see the canal’s failures. Instead, private industries transferring freight on barges direct us to continue marveling at engineered solutions even as the canal bloats with pollution and its infrastructure crumbles.
 
