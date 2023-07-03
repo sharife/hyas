@@ -3,12 +3,19 @@ draft: false
 lastmod: 2020-04-17T12:18:10+00:00
 title: Why a Pipeline?
 x: "34"
-y: "29"
 intro: "### Why do we call a river, a waterbody known for turns and bends, a
   pipeline?"
 date: 2020-08-17T12:18:10+00:00
-gallery: []
+gallery:
+  - img: /img/skaters-on-ice-in-the-bottom-of-the-cssc-west-of-kedzie-avenue.-the-kedzie-avenue-bridge-is-in-the-background-and-behind-it-is-the-chicago-madison-and-northern-railroad-bridge.-photo_metropolitan-water-reclamation-district-of-greater-chicago-.jpg
+    caption: "Skaters on ice in the bottom of the CSSC west of Kedzie Avenue. The
+      Kedzie Avenue bridge is in the background and behind it is the Chicago,
+      Madison and Northern Railroad bridge. (Photo: Metropolitan Water
+      Reclamation District of Greater Chicago)"
+  - img: /img/img-0458.jpg
+    caption: Owned by University of Illinois Chicago
 images: []
+y: "29"
 lead: null
 description: null
 category: Past
