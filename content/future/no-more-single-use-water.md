@@ -6,6 +6,11 @@ x: "75"
 intro: "### No matter its levels of regulation or deregulation, treatment or
   neglect, we cannot afford to treat water as garbage."
 date: 2020-04-17T12:18:10+00:00
+gallery:
+  - img: /img/dualpipeline_crop.jpg
+    caption: "Proposed Dual-Pipeline Infrastructure Pathways Connecting Joliet to
+      Treated Lake Michigan Water (CDWM) and Recycled Water from Stickney WRP
+      (MWRD) (Adapted from figures from City of Joliet, 2020 & 2021) "
 images: []
 y: "15"
 lead: ""
