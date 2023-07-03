@@ -6,6 +6,10 @@ intro: "### We must stop using rivers to transport carbon. Why risk waters so
   important as sources of drinking water and sites of recreation for a dead
   industry?"
 date: 2023-03-08T17:36:55.105Z
+gallery:
+  - img: /img/fisk-generating-station-slip-july-9-2016.-photo_©-matthew-kaplan-photography-.jpg
+    caption: "Fisk generating station slip, July 9, 2016. (Photo: Matthew Kaplan
+      Photography©)"
 ---
 Survival on Planet Earth depends upon the essential act of decarbonization. **In every place and in every possible way, we must stop burning fossil fuels and replace them with renewable sources of energy**. Decarbonizing water, a crucial and dwindling element, must take priority.
 
