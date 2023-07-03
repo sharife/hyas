@@ -7,6 +7,19 @@ intro: "### Chicago’s Deep Tunnel is the world’s biggest water storage syste
   eyesight. Few people know how much water circulates beneath the city or
   settles in repurposed quarries."
 date: 2023-03-07T17:12:58.773Z
+gallery:
+  - img: /img/810428_tarp_tunnel_004-1024x673.jpg
+    caption: Owned by University of Illinois Chicago
+  - img: /img/801028_tarp_mains_024-1024x687.jpg
+    caption: Owned by University of Illinois Chicago
+  - img: /img/810305_tarp_ds55_006-1024x682.jpg
+    caption: Owned by University of Illinois Chicago
+  - img: /img/810501_tarp_mains_011-1024x696.jpg
+    caption: Owned by University of Illinois Chicago
+  - img: /img/811028_tarp_mains_020-1024x687.jpg
+    caption: Owned by University of Illinois Chicago
+  - img: /img/821210_tarp_wet_zone_009-1024x704.jpg
+    caption: Owned by University of Illinois Chicago
 ---
 The City of Big Infrastructure has a combined sewer of gargantuan scale called Deep Tunnel/ TARP (Tunnel and Reservoir Project) that includes 109 miles of underground caverns and three quarries turned reservoirs (with one more on the way). At a price tag of close to $4 billion, the world’s biggest Deep Tunnel holds water during rain events and staggers its arrival at treatment plants. When capacity becomes overloaded, a dangerous brew of sewage and runoff pours out through aqueducts into the Chicago River and spills into Lake Michigan. It can also back up to inundate city streets and residents’ homes.
 
