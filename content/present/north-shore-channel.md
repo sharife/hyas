@@ -31,6 +31,9 @@ audioList:
       **[Escucha en español](https://thebackwardriver.org/en-espa%C3%B1ol/stories/north-shore-channel/)**
     audio: Copy of North Shore Channel - Voiceover.wav
 date: 2020-06-17T12:18:10+00:00
+gallery:
+  - img: /img/northshore_brynmawr3.jpg
+    caption: North Shore Channel
 images: []
 y: "85"
 credits: |-
