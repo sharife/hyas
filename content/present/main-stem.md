@@ -40,6 +40,9 @@ credits: |-
   * Produced by Anish Tailor
   * Performed by Derek Nelson
   * Story by Tristen Ortiz and Anish Tailor
+gallery:
+  - img: /img/mainstem_boatsandbuildings.jpg
+    caption: Main Stem of Chicago River
 ---
 Lined by elegant buildings that epitomize changing tastes of modernity, the Main Stem is most recently defined by two United States presidents. Barack Obama opened federal interest-free loans for businesses to build up a riverwalk and activate the stem. Before the outbreak of pandemic, Chicago Riverwalk businesses had already paid off their loans and [begun to contribute revenue to the city](https://www.chicagotribune.com/politics/ct-met-rahm-emanuel-riverwalk-east-20180801-story.html). Opposite stands the [overleveraged Trump Tower](https://therealdeal.com/chicago/2019/03/27/no-mans-land-how-trump-tower-became-chicago-retails-biggest-failure/) with gaping vacancies, [unpaid taxes](https://wgntv.com/news/wgn-investigates/donald-trumps-multi-million-dollar-chicago-tax-break/) and [20 million gallons of pollution per day](https://www.chicagotribune.com/news/ct-met-trump-tower-chicago-river-madigan-lawsuit-20180814-story.html) poured into Main Stem waters.
 
