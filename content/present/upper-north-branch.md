@@ -30,6 +30,9 @@ audioList:
 
       **[Escucha en español](https://thebackwardriver.org/en-espa%C3%B1ol/stories/conoce-el-upper-north-branch/)**
 date: 2020-04-17T12:18:10+00:00
+gallery:
+  - img: /img/uppernorth_cicero1.jpg
+    caption: Upper North Branch
 images: []
 y: "78"
 credits: |-
