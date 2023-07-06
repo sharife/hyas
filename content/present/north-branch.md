@@ -34,7 +34,9 @@ audioList:
     audio: Copy of North Branch - Voiceover - Final.mp3
     intro: ""
 date: 2020-08-17T12:18:10+00:00
-gallery: []
+gallery:
+  - img: /img/north-branch_img_7741.jpg
+    caption: North Branch of Chicago River
 audio: test.mp3
 title: North Branch
 x: "60"
