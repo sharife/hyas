@@ -12,7 +12,7 @@ category: future
 ---
 ### The good news is that we are in the Great Lakes watershed that encompasses over 20% of the world’s freshwater. Due to our auspicious location and inheritance of stewardship, Great Lakes people have the chance to survive and thrive amidst accelerated climate change. The secret rests in honoring the water as a generous life giver whose existence we must also preserve.
 
-Great Lakes history includes mass migrations and outpouring of labor power. More recently, the region has been known as the Rust Belt where industry sputtered before the challenge of innovation and segregation turned our cities into battlegrounds. Not even the great waters can dissolve legacies of pollution and trauma. They must be commemorated and healed as we face the future.  
+Great Lakes history includes [mass migrations and outpouring of labor power](https://thebackwardriver.org/?time=past&story=Immigrations+Waves+and+Labor+Power). More recently, the region has been known as the Rust Belt where industry sputtered before the challenge of innovation and segregation turned our cities into battlegrounds. Not even the great waters can dissolve legacies of pollution and trauma. They must be commemorated and healed as we face the future.  
 
 Manifesting a blue future in the Great Lakes region requires imagination and adaptation. It also takes coordinated effort across urban, rural and suburban communities. Luckily, a love of the lakes is widely shared and the region has a long history of water-forward binational and bipartisan legislation. The outcomes of recent federal elections have pivoted on Great Lake states.
 
