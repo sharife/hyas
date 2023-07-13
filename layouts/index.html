@@ -11,6 +11,7 @@
                <h2 class ="story-title">
                   {{ .Title   }}
                </h2>
+               <img src="{{ .Params.image }}" />
                <div class="story-content">
                   {{ .Content | markdownify }}
                </div>

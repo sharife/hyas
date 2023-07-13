@@ -6,6 +6,7 @@ lastmod: 2020-04-17T12:18:10+00:00
 date: 2020-04-17T12:18:10+00:00
 title: Backward to the Future
 images: []
+image: /img/chicago-river-future.jpg
 lead: ""
 description: ""
 category: future

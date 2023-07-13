@@ -6,7 +6,7 @@ lastmod: 2020-04-17T12:18:10+00:00
 date: 2020-08-17T12:18:10+00:00
 title: Before the Canal
 images: []
-image: /img/copy-of-map-of-caws.jpg
+image: /img/chicago-1820.jpg
 lead: ""
 description: ""
 category: past
