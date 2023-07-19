@@ -6,6 +6,11 @@ intro: "### Increasingly, life giving water contains zones of death where
   nothing can live. Societal decisions about food production, landscaping and
   waste determine whether our water is vital or deadly."
 date: 2023-03-07T17:10:16.835Z
+gallery:
+  - img: /img/dead-zone-in-gulf-of-mexico.png
+    caption: The Dead Zone in the Gulf of Mexico. (Image/NOAA)
+  - img: /img/hypoxia-levels.jpg
+    caption: Map of measured Gulf hypoxia zone, July-Aug. 2020. (Image/LUMCON/NOAA)
 ---
 Flowing beyond Chicago, the Sanitary and Ship Canal feeds wastes into the Des Plaines and Illinois Rivers before reaching the Mighty Mississippi. All along, it mixes industrial and agricultural chemicals into the water. The blend of Chicago sewage, industrial byproducts and agricultural runoff meets its end in the watery grave of the Gulf of Mexico Hypoxic Zone, also known as the Dead Zone, which has reached the size of New Jersey.
 
