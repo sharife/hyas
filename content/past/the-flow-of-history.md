@@ -25,6 +25,13 @@ audioList:
     audio: Yana - Chi River history tied to power of labor.mp3
 date: 2023-04-17T17:36:40.059Z
 credits: ""
+gallery:
+  - img: /img/little-village.png
+    caption: The Little Village arch (Arco de la Villita) on 26th Street was
+      recently declared a landmark in 2022. (Ashlee Rezin/Sun-Times file)
+  - img: /img/stockyards.jpg
+    caption: In its time, the Union Stockyards Gate was the entryway to the center
+      of America’s meatpacking industry. (Melina Fries)
 ---
 Native travelers knew how to portage through the marshland that would become Chicago and shared this knowledge with early explorers and settlers. To colonial eyes, the swampy link between the river and the lake seemed the perfect place for a permanent cut. So, in 1848, the Chicago River was expanded as the Illinois-Michigan (I&M) Canal. 19th century engineering quickly proved insufficient for the burgeoning metropolis. The I&M Canal worked with the railroad system to draw resources and people into Chicago where they were transformed into commodities and labor.
 
