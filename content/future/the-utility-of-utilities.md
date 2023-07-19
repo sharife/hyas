@@ -6,6 +6,9 @@ intro: "### The necessary reorientation toward waste requires new water
   economics. Money extracted by private corporations can be reclaimed to build
   state of the art civic infrastructure for the 21st century and beyond."
 date: 2023-03-08T17:33:27.695Z
+gallery:
+  - img: /img/water-works-1.jpg
+    caption: Monopoly board (Pexels)
 ---
 As people began moving and building American cities like Chicago, they needed drinking water and sanitation services. Because industrialists drove early urbanization, they preferred that private companies provide for these needs. However, it turned out that water infrastructure is both expensive and integral to urban development. Privatized services failed to provide safe, reliable water across the country. In their place, municipal utilities arose to procure and distribute water. In the mid-twentieth century, federal funds supported the expansion and improvement of water infrastructure. Later in the century, funds were stripped from water utilities and redirected to private interests. This trend is known as water privatization.
 
