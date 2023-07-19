@@ -28,23 +28,37 @@
         {{ end }}
         {{ end }}
         {{ $title:= .Title}}
+        {{/* Get length of items in gallery */}}
+        {{ $piclen := len .Params.gallery }}
+        {{/* If greater than 1 photo, put in slider */}}
         {{ if .Params.gallery }}
-        <div class="splide-container">
-            <section id="image-carousel" class="splide" aria-label="Beautiful Images">
-                <div class="splide__track">
-                    <ul class="splide__list">
-                        {{ range .Params.gallery }}
-                        <li class="splide__slide">
-                            <img src="{{.img}}" alt="">
-                            <div style="padding-top:0.8rem; text-align: center;">
-                                {{.caption}}
-                            </div>
-                        </li>
-                        {{ end }}
-                    </ul>
+            {{ if eq $piclen 1 }}
+                <div class="image-container">
+                    {{ range .Params.gallery }}
+                    <img src="{{.img}}" alt="">
+                    <div style="padding-top:0.8rem; text-align: center;">
+                        {{.caption}}
+                    </div>
+                    {{ end }}
                 </div>
-            </section>
-        </div>
+            {{ else }}
+                <div class="splide-container">
+                    <section id="image-carousel" class="splide" aria-label="Beautiful Images">
+                        <div class="splide__track">
+                            <ul class="splide__list">
+                                {{ range .Params.gallery }}
+                                <li class="splide__slide">
+                                    <img src="{{.img}}" alt="">
+                                    <div style="padding-top:0.8rem; text-align: center;">
+                                        {{.caption}}
+                                    </div>
+                                </li>
+                                {{ end }}
+                            </ul>
+                        </div>
+                    </section>
+                </div>
+            {{ end }}
         {{ end }}
 
 
