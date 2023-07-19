@@ -9,7 +9,8 @@ intro: "### Just as little as 0.3 inches (0.762 cm) of rain is enough to
 date: 2023-03-07T17:17:33.225Z
 gallery:
   - img: /img/chicago-river-brown-1024x683.jpg
-    caption: "Credit: University of Illinois Chicago"
+    caption: In 2015, after a storm a mysterious brown substance appeared in the
+      main stem of the Chicago River. (Photo from Chicago Tribune)
   - img: /img/cso_sign.jpg
     caption: "A sign outside Combined Sewer Outfall #094 along the North Branch of
       the Chicago River (Eric Allix Rogers)  "
