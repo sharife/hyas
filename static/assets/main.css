@@ -846,6 +846,9 @@ textarea{
    padding: 20px;
    line-height: 2rem;
 }
+.accordion .ui-accordion-content ul {
+   padding-left: 40px;
+}
 
 .accordion .ui-accordion-header {
    /* background-color: #ccc; */
