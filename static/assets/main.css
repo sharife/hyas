@@ -885,6 +885,8 @@ textarea{
 
 .glossary-title{
    font-size:2.5rem;
+   margin-left: 1rem;
+   margin-right: 1rem;
 }
 
 .glossary-flex-container{
@@ -896,13 +898,13 @@ textarea{
 .glossary-container {
    width: 80%;
    /* height: 50vh; */
-   flex: 75%;
+   flex: 70%;
    margin-right: 2vh;
    margin-top: 2vh;
    margin-bottom: 2vh;
 }
 .glossary-definition{
-   flex: 20%;
+   flex: 30%;
 }
 .glossary {
    background-image: url("/img/fums.jpg");
@@ -918,6 +920,9 @@ textarea{
    text-align: left;
    margin: 1rem;
    font-size: 15px;
+}
+.hotspot-content p {
+   font-size: 1.2rem;
 }
 
 .glossary-hotspot {
@@ -953,8 +958,9 @@ textarea{
 }
 
 .teardrop:hover, .box-big:hover:hover, .box:hover{
-   background-color: #78aebf;
-   opacity: .5;
+   /* background-color: #78aebf;
+   opacity: .5; */
+   cursor: pointer;
 }
 
 
