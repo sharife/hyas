@@ -210,6 +210,15 @@ collections:
                 fields:
                   - { label: 'Link Label', name: 'label', widget: 'string'}
                   - { label: 'Link Url', name: 'url', widget: 'string'}
+          - label: 'Audio stories'
+            name: 'audioList'
+            widget: 'list'
+            allow_add: true
+            required: false
+            fields:
+              - { label: 'Audio Name', name: 'audio', widget: 'string'}
+              - { label: 'Intro', name: 'intro', widget: 'markdown', required: false}
+              - { label: 'Body', name: 'body', widget: 'markdown' }
       - name: 'en español'
         label: 'En Español'
         folder: 'content/en-español'
