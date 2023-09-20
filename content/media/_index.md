@@ -26,6 +26,10 @@ colleft:
         url: https://fb.me/e/M9aHz8gz
       - label: Watch on Youtube
         url: https://www.youtube.com/watch?v=0SOKj_E7_LU
+  - title: " Freshwater Radio"
+    description: Freshwater Radio is a show hosted by Anish Taylor about society’s
+      relationship to water in the Great Lakes watershed.
+    image: /img/freshwater_radio_logo.jpg
 colright:
   - title: The Water Chronicles
     description: A podcast hosted by [Becky
