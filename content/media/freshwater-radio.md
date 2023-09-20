@@ -12,8 +12,12 @@ On this inaugural episode, Anish delves into why the Chicago River looks the way
 
 <audio controls="" src="/audio/FWR%200101%20-%20Chicago%20Riverwalk.mp3" class="story-audio-display"></audio>
 
+[Episode 01 transcript](/pdf/FWR-0101_Chicago-Riverwalk_transcript.pdf)
+
 ### Episode 02: Santiago X
 
 Anish speaks with Santiago X, an Indigenous futurist architect turned artist based in Chicago about naturalistic, holistic ways of relating to each other and to nature. Go to [santiagox.com](http://santiagox.com) to see more of his artistic work.
 
 <audio controls="" src="/audio/FWR%200102%20-%20Santiago%20X.mp3" class="story-audio-display"></audio>
+
+[Episode 02 transcript](/pdf/FWR-0102_Santiago-X_transcript.pdf)
