@@ -23,4 +23,12 @@ books:
     link: https://nyupress.org/9781479861781/toxic-communities/
   - book: /img/toxic-debt.jpg
     link: https://uncpress.org/book/9781469665764/toxic-debt/
+  - book: /img/wendigo-slayers.png
+    link: http://cup.columbia.edu/book/to-be-a-water-protector/9781773632674
+  - book: /img/taylor_rise-of-conservation.jpg
+    link: https://www.dukeupress.edu/the-rise-of-the-american-conservation-movement
+  - book: /img/sustaining-lake-superior.png
+    link: http://www.sustaininglakesuperior.com/
+  - book: /img/something-new.jpg
+    link: https://www.penguinrandomhouse.com/books/608095/something-new-under-the-sun-by-alexandra-kleeman/
 ---
