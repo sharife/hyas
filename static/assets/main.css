@@ -207,6 +207,15 @@ a:visited{
    text-decoration: none;
 }
 
+/* some generic page styles */
+.default-page .subpage-content p {
+   font-size: 1.2rem;
+}
+
+
+
+
+
 .map-text {
    display: none;
    font-size: 1.75rem;

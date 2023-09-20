@@ -1,0 +1,18 @@
+{{define "main" }}
+
+<header class="about-spacer fade-2">
+	<div class="about-inner">
+		<h1 class="single-title">{{.Title}}</h1>
+	</div>
+</header>
+<div class="section-light default-page">
+    <div class="subpage-content fade-3">
+        <div class="light-text">
+            {{.Content | markdownify }}
+        </div>        
+    </div>
+</div>
+
+
+
+{{ end }}
