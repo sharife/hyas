@@ -47,11 +47,10 @@ audioList:
 
       Exactly. Yeah. And I feel like that's really what this question is about. It’s not for people, like, you and me, we just work there because what else is there? We're not trying to support kids and pay mortgages and shit. So it's really great for us in that regard because having actually actualized Amazon as a career for myself, it would be really tough. It's like, this is it for the next 30 years, is what I'm going to do. Like, watch my body fade away for fucking $20 an hour and nothing else. Like, as a full grown adult, all you have is, all you get is money. That's not enough. There's no satisfaction, like, psychologically, there's no benefits, there's no dental, there's no, like, everything you want to come out, like, you got to pay for it all. There’s no seeing your work do anything in the end. Yeah. You don't see somebody getting their package of socks and joy on their face when it happens or anything. There's no fulfillment after you stow that item. There's no fulfillment at the fulfillment center. Hashtag.
   - audio: Edith - EJ, Labor & Public Health in Little Village.mp3
-    intro: "### Edith Tovar, Senior Justice Transition Organizer with [Little
-      Village Environmental Justice Organization
-      (LVEJO)](http://www.lvejo.org/), speaking in spring 2022 about the
-      intersection of environmental justice, labor and public health in Little
-      Village and its industrial corridor."
+    intro: "### Edith Tovar, Senior Just Transition Organizer with [Little Village
+      Environmental Justice Organization (LVEJO)](http://www.lvejo.org/),
+      speaking in spring 2022 about the intersection of environmental justice,
+      labor and public health in Little Village and its industrial corridor."
     body: >-
       **Transcript of recording**
 
