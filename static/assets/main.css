@@ -1,11 +1,11 @@
 :root{
-   --index-button-default: #333;
-   --index-on-button-default: #ffffff;
+   --index-button-default: #212121;
+   --index-on-button-default: #dedede;
    --index-button-select: #d7e8f2;
    --index-on-button-select: #1c1f1f;
-   --index-story-display: #333;
+   --index-story-display: #212121;
 /*   --index-story-display: #d7e8f2;*/
-   --index-under-map-filler:#333;
+   --index-under-map-filler:#212121;
    --content-background-light: #d7e8f2;
    --on-content-background-light: #084141;
    --on-content-background-dark:#fbfbfb;
@@ -540,7 +540,7 @@ input, textarea {
    padding-right: 1rem;
    padding-left: 12px;
    background-color: var(--index-story-display);
-   color: white;
+   color: #ededed;
 /*   color: #1c1f1f;*/
 }
 
