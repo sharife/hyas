@@ -1108,13 +1108,13 @@ textarea { resize: vertical; }
       font-size: 1.2rem;
    }
    .time-button {
-      font-size: 1rem;
-      padding: .2rem;
-      width: 20vw;
+      font-size: 1.2rem;
+      padding: .1rem;
+      min-width: 18vw;
       /* overflow-wrap: break-word; */
    }
    .story-button {
-      font-size: 0.8rem;
+      font-size: 1rem;
       padding: 0.2rem;
    }
    .arrow-down{
@@ -1242,10 +1242,10 @@ textarea { resize: vertical; }
 
 @media screen and (max-width: 500px) {
    .story-button{
-      font-size: .9rem;
+      font-size: .8rem;
    }
    .time-button{
-      font-size: .9rem;
+      font-size: .8rem;
    }
    .mobile-link{
       font-size: 30px;
